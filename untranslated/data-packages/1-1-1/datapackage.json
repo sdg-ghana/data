@@ -12,7 +12,58 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "string"
+          },
+          {
+            "name": "SOURCE_DETAIL",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "GLSS6 (2012/13)",
+                "GLSS7 (2016/17)",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "REF_AREA",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "01_o",
+                "03_o",
+                "04_o",
+                "05_o",
+                "06_o",
+                "07_o",
+                "08_o",
+                "09_o",
+                "10_o",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "M",
+                "F",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "URBANISATION",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "R",
+                "U",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

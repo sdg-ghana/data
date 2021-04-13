@@ -12,8 +12,28 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "string",
             "title": "Year"
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "title": "SERIES"
+          },
+          {
+            "name": "COMPOSITE_BREAKDOWN",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_L_GH_VERB_ASS",
+                "_L_GH_CURSE",
+                "_L_GH_RAPE_SED",
+                "_L_GH_DEFILE",
+                "_L_GH_SEX_HER",
+                ""
+              ]
+            },
+            "title": "COMPOSITE_BREAKDOWN"
           },
           {
             "name": "Value",

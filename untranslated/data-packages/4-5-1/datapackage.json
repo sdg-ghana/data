@@ -12,7 +12,39 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "string"
+          },
+          {
+            "name": "REF_AREA",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "10_o",
+                "09_o",
+                "02_o",
+                "04_o",
+                "06_o",
+                "05_o",
+                "03_o",
+                "07_o",
+                "08_o",
+                "01_o",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "EDUCATION_LEV",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "ISCED11_02",
+                "ISCED11_1",
+                "ISCED11_2",
+                "ISCED11_3",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

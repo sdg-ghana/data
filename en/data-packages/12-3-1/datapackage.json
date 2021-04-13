@@ -11,13 +11,30 @@
       "schema": {
         "fields": [
           {
+            "name": "PRODUCT",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "CPC2_1_112",
+                "CPC2_1_113",
+                "CPC2_1_114",
+                "_L_GH_Cassava",
+                "_L_GH_Fish_Artisanal",
+                "_L_GH_Fish_Marine",
+                "_L_GH_Yam"
+              ]
+            },
+            "title": "PRODUCT"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "string",
             "title": "Year"
           }
         ]
