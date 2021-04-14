@@ -216,18 +216,6 @@
             "title": "Sex"
           },
           {
-            "name": "SOURCE_DETAIL",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "2018 Education Assessment Performance Report (table 4.6)",
-                "Source: EMIS 2020"
-              ]
-            },
-            "title": "Source details"
-          },
-          {
             "name": "UNIT_MEASURE",
             "type": "string",
             "title": "Unit of measure"
@@ -379,19 +367,6 @@
             "title": "Sex"
           },
           {
-            "name": "SOURCE_DETAIL",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "GDHS",
-                "MICS",
-                "MICS, GHDS"
-              ]
-            },
-            "title": "Source details"
-          },
-          {
             "name": "URBANISATION",
             "type": "string",
             "constraints": {
@@ -532,18 +507,6 @@
       "schema": {
         "fields": [
           {
-            "name": "SOURCE_DETAIL",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "MICS 2011",
-                "MICS 2017"
-              ]
-            },
-            "title": "Source details"
-          },
-          {
             "name": "URBANISATION",
             "type": "string",
             "constraints": {
@@ -611,18 +574,6 @@
             "title": "Sex"
           },
           {
-            "name": "SOURCE_DETAIL",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "GLSS6 (2012/13)",
-                "GLSS7 (2016/17)"
-              ]
-            },
-            "title": "Source details"
-          },
-          {
             "name": "URBANISATION",
             "type": "string",
             "constraints": {
@@ -669,18 +620,6 @@
               ]
             },
             "title": "Sex"
-          },
-          {
-            "name": "SOURCE_DETAIL",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "GLSS6 (2012/13)",
-                "GLSS7 (2016/17)"
-              ]
-            },
-            "title": "Source details"
           },
           {
             "name": "URBANISATION",

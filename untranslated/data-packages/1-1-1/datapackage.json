@@ -15,17 +15,6 @@
             "type": "string"
           },
           {
-            "name": "SOURCE_DETAIL",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "GLSS6 (2012/13)",
-                "GLSS7 (2016/17)",
-                ""
-              ]
-            }
-          },
-          {
             "name": "REF_AREA",
             "type": "string",
             "constraints": {

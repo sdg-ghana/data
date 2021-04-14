@@ -23,18 +23,6 @@
             "title": "Sex"
           },
           {
-            "name": "SOURCE_DETAIL",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "GLSS6 (2012/13)",
-                "GLSS7 (2016/17)"
-              ]
-            },
-            "title": "Source details"
-          },
-          {
             "name": "URBANISATION",
             "type": "string",
             "constraints": {

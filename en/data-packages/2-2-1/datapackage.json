@@ -34,19 +34,6 @@
             "title": "Sex"
           },
           {
-            "name": "SOURCE_DETAIL",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "GDHS",
-                "MICS",
-                "MICS, GHDS"
-              ]
-            },
-            "title": "Source details"
-          },
-          {
             "name": "URBANISATION",
             "type": "string",
             "constraints": {

@@ -155,17 +155,6 @@
             "type": "string"
           },
           {
-            "name": "SOURCE_DETAIL",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "2018 Education Assessment Performance Report (table 4.6)",
-                "Source: EMIS 2020",
-                ""
-              ]
-            }
-          },
-          {
             "name": "SERIES",
             "type": "string"
           },
@@ -331,18 +320,6 @@
             "type": "string"
           },
           {
-            "name": "SOURCE_DETAIL",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "MICS",
-                "GDHS",
-                "MICS, GHDS",
-                ""
-              ]
-            }
-          },
-          {
             "name": "SEX",
             "type": "string",
             "constraints": {
@@ -492,17 +469,6 @@
             "type": "string"
           },
           {
-            "name": "SOURCE_DETAIL",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "MICS 2011",
-                "MICS 2017",
-                ""
-              ]
-            }
-          },
-          {
             "name": "URBANISATION",
             "type": "string",
             "constraints": {
@@ -534,17 +500,6 @@
           {
             "name": "Year",
             "type": "string"
-          },
-          {
-            "name": "SOURCE_DETAIL",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "GLSS6 (2012/13)",
-                "GLSS7 (2016/17)",
-                ""
-              ]
-            }
           },
           {
             "name": "REF_AREA",
@@ -607,17 +562,6 @@
           {
             "name": "Year",
             "type": "string"
-          },
-          {
-            "name": "SOURCE_DETAIL",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "GLSS6 (2012/13)",
-                "GLSS7 (2016/17)",
-                ""
-              ]
-            }
           },
           {
             "name": "SEX",

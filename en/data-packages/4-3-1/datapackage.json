@@ -64,18 +64,6 @@
             "title": "Sex"
           },
           {
-            "name": "SOURCE_DETAIL",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "2018 Education Assessment Performance Report (table 4.6)",
-                "Source: EMIS 2020"
-              ]
-            },
-            "title": "Source details"
-          },
-          {
             "name": "UNIT_MEASURE",
             "type": "string",
             "title": "Unit of measure"

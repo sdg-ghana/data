@@ -1,11 +1,11 @@
-Year,Source details,Sex,Degree of urbanisation,Value
-2013,GLSS6 (2012/13),,,2.4
-2013,GLSS6 (2012/13),,Rural,3.7
-2013,GLSS6 (2012/13),,Urban,10.6
-2013,GLSS6 (2012/13),Male,,25.9
-2013,GLSS6 (2012/13),Female,,19.1
-2017,GLSS7 (2016/17),,,2.3
-2017,GLSS7 (2016/17),,Rural,3.9
-2017,GLSS7 (2016/17),,Urban,7.8
-2017,GLSS7 (2016/17),Male,,25.8
-2017,GLSS7 (2016/17),Female,,17.6
+Year,Sex,Degree of urbanisation,Value
+2013,,,2.4
+2013,,Rural,3.7
+2013,,Urban,10.6
+2013,Male,,25.9
+2013,Female,,19.1
+2017,,,2.3
+2017,,Rural,3.9
+2017,,Urban,7.8
+2017,Male,,25.8
+2017,Female,,17.6

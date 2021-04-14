@@ -11,18 +11,6 @@
       "schema": {
         "fields": [
           {
-            "name": "SOURCE_DETAIL",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "MICS 2011",
-                "MICS 2017"
-              ]
-            },
-            "title": "Source details"
-          },
-          {
             "name": "URBANISATION",
             "type": "string",
             "constraints": {

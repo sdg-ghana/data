@@ -15,17 +15,6 @@
             "type": "string"
           },
           {
-            "name": "SOURCE_DETAIL",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "2018 Education Assessment Performance Report (table 4.6)",
-                "Source: EMIS 2020",
-                ""
-              ]
-            }
-          },
-          {
             "name": "SERIES",
             "type": "string"
           },
