@@ -42,6 +42,8 @@ inputs:
     path_pattern: data/*.xml
     dimension_map:
       REF_AREA|GH: ''
+    drop_dimensions:
+      - SOURCE_DETAIL
     dsd: 'GSS_DSD_version_1.xml'
     import_translation_keys: true
   - class: InputWordMeta
