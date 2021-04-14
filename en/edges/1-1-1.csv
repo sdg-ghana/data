@@ -1,4 +1,4 @@
 From,To
-SOURCE_DETAIL,REF_AREA
-SOURCE_DETAIL,SEX
-SOURCE_DETAIL,URBANISATION
+Source details,Reference area
+Source details,Sex
+Source details,Degree of urbanisation

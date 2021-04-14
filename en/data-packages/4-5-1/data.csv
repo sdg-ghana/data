@@ -1,45 +1,45 @@
-Year,REF_AREA,EDUCATION_LEV,Value
-2019,10_o,ISCED11_02,1.0
-2019,09_o,ISCED11_02,0.98
-2019,02_o,ISCED11_02,1.04
-2019,04_o,ISCED11_02,0.99
-2019,06_o,ISCED11_02,0.98
-2019,05_o,ISCED11_02,0.96
-2019,03_o,ISCED11_02,1.04
-2019,07_o,ISCED11_02,1.07
-2019,08_o,ISCED11_02,1.02
-2019,01_o,ISCED11_02,0.96
-2019,,ISCED11_02,0.99
-2019,10_o,ISCED11_1,1.01
-2019,09_o,ISCED11_1,0.99
-2019,02_o,ISCED11_1,1.03
-2019,04_o,ISCED11_1,1.0
-2019,06_o,ISCED11_1,1.0
-2019,05_o,ISCED11_1,0.95
-2019,03_o,ISCED11_1,1.05
-2019,07_o,ISCED11_1,1.1
-2019,08_o,ISCED11_1,1.02
-2019,01_o,ISCED11_1,0.95
-2019,,ISCED11_1,1.0
-2019,10_o,ISCED11_2,1.01
-2019,09_o,ISCED11_2,0.97
-2019,02_o,ISCED11_2,1.06
-2019,04_o,ISCED11_2,1.03
-2019,06_o,ISCED11_2,1.0
-2019,05_o,ISCED11_2,0.95
-2019,03_o,ISCED11_2,1.19
-2019,07_o,ISCED11_2,1.14
-2019,08_o,ISCED11_2,1.03
-2019,01_o,ISCED11_2,0.95
-2019,,ISCED11_2,1.02
-2019,10_o,ISCED11_3,0.94
-2019,09_o,ISCED11_3,0.98
-2019,02_o,ISCED11_3,0.97
-2019,04_o,ISCED11_3,1.09
-2019,06_o,ISCED11_3,0.74
-2019,05_o,ISCED11_3,0.89
-2019,03_o,ISCED11_3,1.04
-2019,07_o,ISCED11_3,0.93
-2019,08_o,ISCED11_3,1.0
-2019,01_o,ISCED11_3,0.94
-2019,,ISCED11_3,0.95
+Year,Reference area,Education level,Value
+2019,Upper West,Pre-primary education,1.0
+2019,Upper East,Pre-primary education,0.98
+2019,Central,Pre-primary education,1.04
+2019,Volta,Pre-primary education,0.99
+2019,Ashanti,Pre-primary education,0.98
+2019,Eastern,Pre-primary education,0.96
+2019,Greater Accra,Pre-primary education,1.04
+2019,Brong Ahafo,Pre-primary education,1.07
+2019,Northern,Pre-primary education,1.02
+2019,Western,Pre-primary education,0.96
+2019,,Pre-primary education,0.99
+2019,Upper West,Primary education,1.01
+2019,Upper East,Primary education,0.99
+2019,Central,Primary education,1.03
+2019,Volta,Primary education,1.0
+2019,Ashanti,Primary education,1.0
+2019,Eastern,Primary education,0.95
+2019,Greater Accra,Primary education,1.05
+2019,Brong Ahafo,Primary education,1.1
+2019,Northern,Primary education,1.02
+2019,Western,Primary education,0.95
+2019,,Primary education,1.0
+2019,Upper West,Lower secondary education,1.01
+2019,Upper East,Lower secondary education,0.97
+2019,Central,Lower secondary education,1.06
+2019,Volta,Lower secondary education,1.03
+2019,Ashanti,Lower secondary education,1.0
+2019,Eastern,Lower secondary education,0.95
+2019,Greater Accra,Lower secondary education,1.19
+2019,Brong Ahafo,Lower secondary education,1.14
+2019,Northern,Lower secondary education,1.03
+2019,Western,Lower secondary education,0.95
+2019,,Lower secondary education,1.02
+2019,Upper West,Upper secondary education,0.94
+2019,Upper East,Upper secondary education,0.98
+2019,Central,Upper secondary education,0.97
+2019,Volta,Upper secondary education,1.09
+2019,Ashanti,Upper secondary education,0.74
+2019,Eastern,Upper secondary education,0.89
+2019,Greater Accra,Upper secondary education,1.04
+2019,Brong Ahafo,Upper secondary education,0.93
+2019,Northern,Upper secondary education,1.0
+2019,Western,Upper secondary education,0.94
+2019,,Upper secondary education,0.95

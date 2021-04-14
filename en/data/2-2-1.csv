@@ -1,21 +1,21 @@
-Year,SOURCE_DETAIL,SEX,URBANISATION,COMMENT_OBS,Value
+Year,Source details,Sex,Degree of urbanisation,Observation-level footnotes,Value
 2011,MICS,,,,22.7
-2011,MICS,,U,,18.1
-2011,MICS,,R,,2.6
-2011,MICS,M,,,25.3
-2011,MICS,F,,,20.3
+2011,MICS,,Urban,,18.1
+2011,MICS,,Rural,,2.6
+2011,MICS,Male,,,25.3
+2011,MICS,Female,,,20.3
 2014,GDHS,,,,18.8
-2014,GDHS,,U,,14.8
-2014,GDHS,,R,,22.1
-2014,GDHS,M,,,20.4
-2014,GDHS,F,,,17.0
+2014,GDHS,,Urban,,14.8
+2014,GDHS,,Rural,,22.1
+2014,GDHS,Male,,,20.4
+2014,GDHS,Female,,,17.0
 2017,MICS,,,,17.5
-2017,MICS,,U,,13.0
-2017,MICS,,R,,20.3
-2017,MICS,M,,,19.5
-2017,MICS,F,,,15.6
+2017,MICS,,Urban,,13.0
+2017,MICS,,Rural,,20.3
+2017,MICS,Male,,,19.5
+2017,MICS,Female,,,15.6
 2025,"MICS, GHDS",,,projection,10.1
-2025,"MICS, GHDS",,U,projection,7.9
-2025,"MICS, GHDS",,R,projection,11.9
-2025,"MICS, GHDS",M,,projection,11.1
-2025,"MICS, GHDS",F,,projection,9.0
+2025,"MICS, GHDS",,Urban,projection,7.9
+2025,"MICS, GHDS",,Rural,projection,11.9
+2025,"MICS, GHDS",Male,,projection,11.1
+2025,"MICS, GHDS",Female,,projection,9.0

@@ -16,19 +16,19 @@
             "constraints": {
               "enum": [
                 "",
-                "_L_GH_CURSE",
-                "_L_GH_DEFILE",
-                "_L_GH_RAPE_SED",
-                "_L_GH_SEX_HER",
-                "_L_GH_VERB_ASS"
+                "Curse",
+                "Defilement",
+                "Rape/Seduction",
+                "Sexual Harassment",
+                "Verbal assault"
               ]
             },
-            "title": "COMPOSITE_BREAKDOWN"
+            "title": "Composite breakdown"
           },
           {
             "name": "SERIES",
             "type": "string",
-            "title": "SERIES"
+            "title": "SDG Series"
           },
           {
             "name": "Value",

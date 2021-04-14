@@ -16,11 +16,11 @@
             "constraints": {
               "enum": [
                 "",
-                "_L_GH_PRIVATE",
-                "_L_GH_PUBLIC"
+                "Private",
+                "Public"
               ]
             },
-            "title": "COMPOSITE_BREAKDOWN"
+            "title": "Composite breakdown"
           },
           {
             "name": "CUST_BREAKDOWN",
@@ -29,10 +29,10 @@
               "enum": [
                 "",
                 "GES",
-                "OTHER_PUBLIC"
+                "Other public"
               ]
             },
-            "title": "CUST_BREAKDOWN"
+            "title": "Custom Breakdown"
           },
           {
             "name": "EDUCATION_LEV",
@@ -40,16 +40,16 @@
             "constraints": {
               "enum": [
                 "",
-                "ISCED11_25_35_45",
-                "ISCED11_35"
+                "Vocational secondary education",
+                "Upper secondary vocational education"
               ]
             },
-            "title": "EDUCATION_LEV"
+            "title": "Education level"
           },
           {
             "name": "SERIES",
             "type": "string",
-            "title": "SERIES"
+            "title": "SDG Series"
           },
           {
             "name": "SEX",
@@ -57,11 +57,11 @@
             "constraints": {
               "enum": [
                 "",
-                "F",
-                "M"
+                "Female",
+                "Male"
               ]
             },
-            "title": "SEX"
+            "title": "Sex"
           },
           {
             "name": "SOURCE_DETAIL",
@@ -73,12 +73,12 @@
                 "Source: EMIS 2020"
               ]
             },
-            "title": "SOURCE_DETAIL"
+            "title": "Source details"
           },
           {
             "name": "UNIT_MEASURE",
             "type": "string",
-            "title": "UNIT_MEASURE"
+            "title": "Unit of measure"
           },
           {
             "name": "Value",

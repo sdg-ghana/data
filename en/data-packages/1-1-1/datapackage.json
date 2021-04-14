@@ -16,18 +16,18 @@
             "constraints": {
               "enum": [
                 "",
-                "01_o",
-                "03_o",
-                "04_o",
-                "05_o",
-                "06_o",
-                "07_o",
-                "08_o",
-                "09_o",
-                "10_o"
+                "Western",
+                "Greater Accra",
+                "Volta",
+                "Eastern",
+                "Ashanti",
+                "Brong Ahafo",
+                "Northern",
+                "Upper East",
+                "Upper West"
               ]
             },
-            "title": "REF_AREA"
+            "title": "Reference area"
           },
           {
             "name": "SEX",
@@ -35,11 +35,11 @@
             "constraints": {
               "enum": [
                 "",
-                "F",
-                "M"
+                "Female",
+                "Male"
               ]
             },
-            "title": "SEX"
+            "title": "Sex"
           },
           {
             "name": "SOURCE_DETAIL",
@@ -51,7 +51,7 @@
                 "GLSS7 (2016/17)"
               ]
             },
-            "title": "SOURCE_DETAIL"
+            "title": "Source details"
           },
           {
             "name": "URBANISATION",
@@ -59,11 +59,11 @@
             "constraints": {
               "enum": [
                 "",
-                "R",
-                "U"
+                "Rural",
+                "Urban"
               ]
             },
-            "title": "URBANISATION"
+            "title": "Degree of urbanisation"
           },
           {
             "name": "Value",

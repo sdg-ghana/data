@@ -16,11 +16,11 @@
             "constraints": {
               "enum": [
                 "",
-                "_L_GH_PRIVATE",
-                "_L_GH_PUBLIC"
+                "Private",
+                "Public"
               ]
             },
-            "title": "COMPOSITE_BREAKDOWN"
+            "title": "Composite breakdown"
           },
           {
             "name": "EDUCATION_LEV",
@@ -28,14 +28,14 @@
             "constraints": {
               "enum": [
                 "",
-                "ISCED11_0",
-                "ISCED11_02",
-                "ISCED11_1",
-                "ISCED11_2",
-                "ISCED11_3"
+                "Early childhood education",
+                "Pre-primary education",
+                "Primary education",
+                "Lower secondary education",
+                "Upper secondary education"
               ]
             },
-            "title": "EDUCATION_LEV"
+            "title": "Education level"
           },
           {
             "name": "Value",

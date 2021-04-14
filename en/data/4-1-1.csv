@@ -1,13 +1,13 @@
-Year,SEX,EDUCATION_LEV,COMPOSITE_BREAKDOWN,Value
-2016,,_L_GH_Primary_4,SKILL_MATH,22.0
-2016,M,_L_GH_Primary_4,SKILL_MATH,22.0
-2016,F,_L_GH_Primary_4,SKILL_MATH,22.0
-2016,,_L_GH_Primary_4,SKILL_READ,37.2
-2016,M,_L_GH_Primary_4,SKILL_READ,35.0
-2016,F,_L_GH_Primary_4,SKILL_READ,40.0
-2016,,_L_GH_Primary_6,SKILL_MATH,24.9
-2016,M,_L_GH_Primary_6,SKILL_MATH,27.0
-2016,F,_L_GH_Primary_6,SKILL_MATH,23.0
-2016,,_L_GH_Primary_6,SKILL_READ,38.0
-2016,M,_L_GH_Primary_6,SKILL_READ,37.0
-2016,F,_L_GH_Primary_6,SKILL_READ,39.0
+Year,Sex,Education level,COMPOSITE_BREAKDOWN,Value
+2016,,Primary 4,Skill: Mathematics,22.0
+2016,Male,Primary 4,Skill: Mathematics,22.0
+2016,Female,Primary 4,Skill: Mathematics,22.0
+2016,,Primary 4,Skill: Reading,37.2
+2016,Male,Primary 4,Skill: Reading,35.0
+2016,Female,Primary 4,Skill: Reading,40.0
+2016,,Primary 6,Skill: Mathematics,24.9
+2016,Male,Primary 6,Skill: Mathematics,27.0
+2016,Female,Primary 6,Skill: Mathematics,23.0
+2016,,Primary 6,Skill: Reading,38.0
+2016,Male,Primary 6,Skill: Reading,37.0
+2016,Female,Primary 6,Skill: Reading,39.0

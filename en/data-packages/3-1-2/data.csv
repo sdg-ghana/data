@@ -1,23 +1,23 @@
-Year,REF_AREA,URBANISATION,Value
-2017,,U,11
-2017,08_o,U,18
-2017,04_o,U,22
-2017,05_o,U,9
-2017,02_o,U,16
-2017,01_o,U,11
-2017,07_o,U,9
-2017,06_o,U,6
-2017,10_o,U,6
-2017,03_o,U,8
-2017,09_o,U,4
-2017,,R,29
-2017,08_o,R,49
-2017,04_o,R,45
-2017,05_o,R,32
-2017,02_o,R,31
-2017,01_o,R,30
-2017,07_o,R,28
-2017,06_o,R,27
-2017,10_o,R,22
-2017,03_o,R,14
-2017,09_o,R,10
+Year,Reference area,Degree of urbanisation,Value
+2017,,Urban,11
+2017,Northern,Urban,18
+2017,Volta,Urban,22
+2017,Eastern,Urban,9
+2017,Central,Urban,16
+2017,Western,Urban,11
+2017,Brong Ahafo,Urban,9
+2017,Ashanti,Urban,6
+2017,Upper West,Urban,6
+2017,Greater Accra,Urban,8
+2017,Upper East,Urban,4
+2017,,Rural,29
+2017,Northern,Rural,49
+2017,Volta,Rural,45
+2017,Eastern,Rural,32
+2017,Central,Rural,31
+2017,Western,Rural,30
+2017,Brong Ahafo,Rural,28
+2017,Ashanti,Rural,27
+2017,Upper West,Rural,22
+2017,Greater Accra,Rural,14
+2017,Upper East,Rural,10

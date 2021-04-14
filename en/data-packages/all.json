@@ -18,16 +18,16 @@
             "constraints": {
               "enum": [
                 "",
-                "CPC2_1_112",
-                "CPC2_1_113",
-                "CPC2_1_114",
-                "_L_GH_Cassava",
-                "_L_GH_Fish_Artisanal",
-                "_L_GH_Fish_Marine",
-                "_L_GH_Yam"
+                "Maize",
+                "Rice",
+                "Sorghum",
+                "Cassava",
+                "Fish(Artisanal)",
+                "Fish(Marine)",
+                "Yam"
               ]
             },
-            "title": "PRODUCT"
+            "title": "Type of product"
           },
           {
             "name": "Value",
@@ -80,7 +80,7 @@
           {
             "name": "SERIES",
             "type": "string",
-            "title": "SERIES"
+            "title": "SDG Series"
           },
           {
             "name": "Value",
@@ -112,19 +112,19 @@
             "constraints": {
               "enum": [
                 "",
-                "01_o",
-                "02_o",
-                "03_o",
-                "04_o",
-                "05_o",
-                "06_o",
-                "07_o",
-                "08_o",
-                "09_o",
-                "10_o"
+                "Western",
+                "Central",
+                "Greater Accra",
+                "Volta",
+                "Eastern",
+                "Ashanti",
+                "Brong Ahafo",
+                "Northern",
+                "Upper East",
+                "Upper West"
               ]
             },
-            "title": "REF_AREA"
+            "title": "Reference area"
           },
           {
             "name": "URBANISATION",
@@ -132,11 +132,11 @@
             "constraints": {
               "enum": [
                 "",
-                "R",
-                "U"
+                "Rural",
+                "Urban"
               ]
             },
-            "title": "URBANISATION"
+            "title": "Degree of urbanisation"
           },
           {
             "name": "Value",
@@ -168,11 +168,11 @@
             "constraints": {
               "enum": [
                 "",
-                "_L_GH_PRIVATE",
-                "_L_GH_PUBLIC"
+                "Private",
+                "Public"
               ]
             },
-            "title": "COMPOSITE_BREAKDOWN"
+            "title": "Composite breakdown"
           },
           {
             "name": "CUST_BREAKDOWN",
@@ -181,10 +181,10 @@
               "enum": [
                 "",
                 "GES",
-                "OTHER_PUBLIC"
+                "Other public"
               ]
             },
-            "title": "CUST_BREAKDOWN"
+            "title": "Custom Breakdown"
           },
           {
             "name": "EDUCATION_LEV",
@@ -192,16 +192,16 @@
             "constraints": {
               "enum": [
                 "",
-                "ISCED11_25_35_45",
-                "ISCED11_35"
+                "Vocational secondary education",
+                "Upper secondary vocational education"
               ]
             },
-            "title": "EDUCATION_LEV"
+            "title": "Education level"
           },
           {
             "name": "SERIES",
             "type": "string",
-            "title": "SERIES"
+            "title": "SDG Series"
           },
           {
             "name": "SEX",
@@ -209,11 +209,11 @@
             "constraints": {
               "enum": [
                 "",
-                "F",
-                "M"
+                "Female",
+                "Male"
               ]
             },
-            "title": "SEX"
+            "title": "Sex"
           },
           {
             "name": "SOURCE_DETAIL",
@@ -225,12 +225,12 @@
                 "Source: EMIS 2020"
               ]
             },
-            "title": "SOURCE_DETAIL"
+            "title": "Source details"
           },
           {
             "name": "UNIT_MEASURE",
             "type": "string",
-            "title": "UNIT_MEASURE"
+            "title": "Unit of measure"
           },
           {
             "name": "Value",
@@ -262,13 +262,13 @@
             "constraints": {
               "enum": [
                 "",
-                "ISCED11_02",
-                "ISCED11_1",
-                "ISCED11_2",
-                "ISCED11_3"
+                "Pre-primary education",
+                "Primary education",
+                "Lower secondary education",
+                "Upper secondary education"
               ]
             },
-            "title": "EDUCATION_LEV"
+            "title": "Education level"
           },
           {
             "name": "REF_AREA",
@@ -276,19 +276,19 @@
             "constraints": {
               "enum": [
                 "",
-                "01_o",
-                "02_o",
-                "03_o",
-                "04_o",
-                "05_o",
-                "06_o",
-                "07_o",
-                "08_o",
-                "09_o",
-                "10_o"
+                "Western",
+                "Central",
+                "Greater Accra",
+                "Volta",
+                "Eastern",
+                "Ashanti",
+                "Brong Ahafo",
+                "Northern",
+                "Upper East",
+                "Upper West"
               ]
             },
-            "title": "REF_AREA"
+            "title": "Reference area"
           },
           {
             "name": "Value",
@@ -317,7 +317,7 @@
           {
             "name": "SERIES",
             "type": "string",
-            "title": "SERIES"
+            "title": "SDG Series"
           },
           {
             "name": "URBANISATION",
@@ -325,11 +325,11 @@
             "constraints": {
               "enum": [
                 "",
-                "R",
-                "U"
+                "Rural",
+                "Urban"
               ]
             },
-            "title": "URBANISATION"
+            "title": "Degree of urbanisation"
           },
           {
             "name": "Value",
@@ -364,7 +364,7 @@
                 "projection"
               ]
             },
-            "title": "COMMENT_OBS"
+            "title": "Observation-level footnotes"
           },
           {
             "name": "SEX",
@@ -372,11 +372,11 @@
             "constraints": {
               "enum": [
                 "",
-                "F",
-                "M"
+                "Female",
+                "Male"
               ]
             },
-            "title": "SEX"
+            "title": "Sex"
           },
           {
             "name": "SOURCE_DETAIL",
@@ -389,7 +389,7 @@
                 "MICS, GHDS"
               ]
             },
-            "title": "SOURCE_DETAIL"
+            "title": "Source details"
           },
           {
             "name": "URBANISATION",
@@ -397,11 +397,11 @@
             "constraints": {
               "enum": [
                 "",
-                "R",
-                "U"
+                "Rural",
+                "Urban"
               ]
             },
-            "title": "URBANISATION"
+            "title": "Degree of urbanisation"
           },
           {
             "name": "Value",
@@ -433,11 +433,11 @@
             "constraints": {
               "enum": [
                 "",
-                "SKILL_MATH",
-                "SKILL_READ"
+                "Skill: Mathematics",
+                "Skill: Reading"
               ]
             },
-            "title": "COMPOSITE_BREAKDOWN"
+            "title": "Composite breakdown"
           },
           {
             "name": "EDUCATION_LEV",
@@ -445,11 +445,11 @@
             "constraints": {
               "enum": [
                 "",
-                "_L_GH_Primary_4",
-                "_L_GH_Primary_6"
+                "Primary 4",
+                "Primary 6"
               ]
             },
-            "title": "EDUCATION_LEV"
+            "title": "Education level"
           },
           {
             "name": "SEX",
@@ -457,11 +457,11 @@
             "constraints": {
               "enum": [
                 "",
-                "F",
-                "M"
+                "Female",
+                "Male"
               ]
             },
-            "title": "SEX"
+            "title": "Sex"
           },
           {
             "name": "Value",
@@ -493,19 +493,19 @@
             "constraints": {
               "enum": [
                 "",
-                "_L_GH_CURSE",
-                "_L_GH_DEFILE",
-                "_L_GH_RAPE_SED",
-                "_L_GH_SEX_HER",
-                "_L_GH_VERB_ASS"
+                "Curse",
+                "Defilement",
+                "Rape/Seduction",
+                "Sexual Harassment",
+                "Verbal assault"
               ]
             },
-            "title": "COMPOSITE_BREAKDOWN"
+            "title": "Composite breakdown"
           },
           {
             "name": "SERIES",
             "type": "string",
-            "title": "SERIES"
+            "title": "SDG Series"
           },
           {
             "name": "Value",
@@ -541,7 +541,7 @@
                 "MICS 2017"
               ]
             },
-            "title": "SOURCE_DETAIL"
+            "title": "Source details"
           },
           {
             "name": "URBANISATION",
@@ -549,11 +549,11 @@
             "constraints": {
               "enum": [
                 "",
-                "R",
-                "U"
+                "Rural",
+                "Urban"
               ]
             },
-            "title": "URBANISATION"
+            "title": "Degree of urbanisation"
           },
           {
             "name": "Value",
@@ -585,18 +585,18 @@
             "constraints": {
               "enum": [
                 "",
-                "01_o",
-                "03_o",
-                "04_o",
-                "05_o",
-                "06_o",
-                "07_o",
-                "08_o",
-                "09_o",
-                "10_o"
+                "Western",
+                "Greater Accra",
+                "Volta",
+                "Eastern",
+                "Ashanti",
+                "Brong Ahafo",
+                "Northern",
+                "Upper East",
+                "Upper West"
               ]
             },
-            "title": "REF_AREA"
+            "title": "Reference area"
           },
           {
             "name": "SEX",
@@ -604,11 +604,11 @@
             "constraints": {
               "enum": [
                 "",
-                "F",
-                "M"
+                "Female",
+                "Male"
               ]
             },
-            "title": "SEX"
+            "title": "Sex"
           },
           {
             "name": "SOURCE_DETAIL",
@@ -620,7 +620,7 @@
                 "GLSS7 (2016/17)"
               ]
             },
-            "title": "SOURCE_DETAIL"
+            "title": "Source details"
           },
           {
             "name": "URBANISATION",
@@ -628,11 +628,11 @@
             "constraints": {
               "enum": [
                 "",
-                "R",
-                "U"
+                "Rural",
+                "Urban"
               ]
             },
-            "title": "URBANISATION"
+            "title": "Degree of urbanisation"
           },
           {
             "name": "Value",
@@ -664,11 +664,11 @@
             "constraints": {
               "enum": [
                 "",
-                "F",
-                "M"
+                "Female",
+                "Male"
               ]
             },
-            "title": "SEX"
+            "title": "Sex"
           },
           {
             "name": "SOURCE_DETAIL",
@@ -680,7 +680,7 @@
                 "GLSS7 (2016/17)"
               ]
             },
-            "title": "SOURCE_DETAIL"
+            "title": "Source details"
           },
           {
             "name": "URBANISATION",
@@ -688,11 +688,11 @@
             "constraints": {
               "enum": [
                 "",
-                "R",
-                "U"
+                "Rural",
+                "Urban"
               ]
             },
-            "title": "URBANISATION"
+            "title": "Degree of urbanisation"
           },
           {
             "name": "Value",
@@ -724,11 +724,11 @@
             "constraints": {
               "enum": [
                 "",
-                "_L_GH_PRIVATE",
-                "_L_GH_PUBLIC"
+                "Private",
+                "Public"
               ]
             },
-            "title": "COMPOSITE_BREAKDOWN"
+            "title": "Composite breakdown"
           },
           {
             "name": "EDUCATION_LEV",
@@ -736,14 +736,14 @@
             "constraints": {
               "enum": [
                 "",
-                "ISCED11_0",
-                "ISCED11_02",
-                "ISCED11_1",
-                "ISCED11_2",
-                "ISCED11_3"
+                "Early childhood education",
+                "Pre-primary education",
+                "Primary education",
+                "Lower secondary education",
+                "Upper secondary education"
               ]
             },
-            "title": "EDUCATION_LEV"
+            "title": "Education level"
           },
           {
             "name": "Value",
