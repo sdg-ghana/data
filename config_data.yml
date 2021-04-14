@@ -39,7 +39,7 @@ src_dir: ''
 # The defaults below show what is used when this is omitted.
 inputs:
   - class: InputSdmxMl_StructureSpecific
-    source: 'ghana-sdmx-data.xml'
+    source: 'data/ghana-sdmx-data.xml'
     dimension_map:
       REF_AREA|GH: ''
     drop_dimensions:
