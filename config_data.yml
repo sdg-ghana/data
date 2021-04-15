@@ -111,6 +111,8 @@ map_layers:
     filename_prefix: indicator_
     id_column: REF_AREA
 
+
+
 # Documentation settings
 # ----------------------
 # This controls the automatic documentation that is created for your build.
