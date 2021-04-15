@@ -39,12 +39,12 @@ src_dir: ''
 # The defaults below show what is used when this is omitted.
 inputs:
   - class: InputSdmxMl_StructureSpecific
-    source: 'data/ghana-sdmx-data.xml'
+    source: 'data/GSS_SDMX_DATA.xml'
     dimension_map:
       REF_AREA|GH: ''
     drop_dimensions:
       - SOURCE_DETAIL
-    dsd: 'GSS_DSD_v1.xml'
+    dsd: 'GSS_DSD.xml'
     import_translation_keys: true
   - class: InputWordMeta
     path_pattern: meta/*-*.docm
@@ -70,7 +70,7 @@ translations:
     source: translations
   # This pulls in translations from a DSD
   - class: TranslationInputSdmx
-    source: 'GSS_DSD_v1.xml'
+    source: 'GSS_DSD.xml'
 
 # Reporting status extra fields
 # -----------------------------
