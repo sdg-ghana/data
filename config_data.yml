@@ -44,6 +44,9 @@ inputs:
       REF_AREA|GH: ''
     drop_dimensions:
       - SOURCE_DETAIL
+      - NATURE
+      - FREQ
+      - REPORTING_TYPE
     drop_singleton_dimensions: false
     dsd: 'GSS_DSD.xml'
     import_translation_keys: true
