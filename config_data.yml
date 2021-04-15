@@ -44,7 +44,7 @@ inputs:
       REF_AREA|GH: ''
     drop_dimensions:
       - SOURCE_DETAIL
-    dsd: 'GSS_DSD_v1.xml'
+    dsd: 'GSS_DSD_version_1.xml'
     import_translation_keys: true
   - class: InputWordMeta
     path_pattern: meta/*-*.docm
@@ -70,7 +70,7 @@ translations:
     source: translations
   # This pulls in translations from a DSD
   - class: TranslationInputSdmx
-    source: 'GSS_DSD_v1.xml'
+    source: 'GSS_DSD_version_1.xml'
 
 # Reporting status extra fields
 # -----------------------------
