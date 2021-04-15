@@ -109,7 +109,6 @@ map_layers:
     id_property: REGIONID
     output_subfolder: regions_10
     filename_prefix: indicator_
-    id_column: REF_AREA
 
 
 
