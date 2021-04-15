@@ -109,11 +109,7 @@ map_layers:
     id_property: REGIONID
     output_subfolder: regions_10
     filename_prefix: indicator_
-  - geojson_file: geojsons/GHANA_16_REGIONS_simplified.json
-    name_property: REGION
-    id_property: REGIONID
-    output_subfolder: regions_16
-    filename_prefix: indicator_
+    id_column: REF_AREA
 
 # Documentation settings
 # ----------------------
