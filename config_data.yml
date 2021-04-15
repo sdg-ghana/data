@@ -55,6 +55,16 @@ inputs:
   - class: InputYamlMeta
     path_pattern: indicator-config/*-*.yml
 
+# Metadata Schema
+# This inputs multiple metadata schema to control which metadata tabs
+# the various fields appear in (eg, National, Global, Sources)
+schema:
+  - class: SchemaInputOpenSdg
+    schema_path: _prose.yml
+  - class: SchemaInputSdmxMsd
+    schema_path: SDG_MSD.xml
+    scope: national
+
 # Translations
 # ------------
 # The allows control over the imported translations. This can be omitted if you
@@ -75,6 +85,9 @@ translations:
   # This pulls in translations from a DSD
   - class: TranslationInputSdmx
     source: 'GSS_DSD.xml'
+  # This pulls in translations from an MSD
+  - class: TranslationInputSdmxMsd
+    source: SDG_MSD.xml
 
 # Reporting status extra fields
 # -----------------------------
