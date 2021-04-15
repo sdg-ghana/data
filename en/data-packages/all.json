@@ -13,6 +13,11 @@
       "schema": {
         "fields": [
           {
+            "name": "GeoCode",
+            "type": "number",
+            "title": "GeoCode"
+          },
+          {
             "name": "OBS_STATUS",
             "type": "string",
             "constraints": {
@@ -96,6 +101,11 @@
       "schema": {
         "fields": [
           {
+            "name": "GeoCode",
+            "type": "number",
+            "title": "GeoCode"
+          },
+          {
             "name": "OBS_STATUS",
             "type": "string",
             "constraints": {
@@ -162,6 +172,11 @@
       "schema": {
         "fields": [
           {
+            "name": "GeoCode",
+            "type": "number",
+            "title": "GeoCode"
+          },
+          {
             "name": "OBS_STATUS",
             "type": "string",
             "constraints": {
@@ -227,6 +242,11 @@
       "encoding": "utf-8",
       "schema": {
         "fields": [
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
           {
             "name": "OBS_STATUS",
             "type": "string",
@@ -352,6 +372,11 @@
             "title": "Education level"
           },
           {
+            "name": "GeoCode",
+            "type": "number",
+            "title": "GeoCode"
+          },
+          {
             "name": "OBS_STATUS",
             "type": "string",
             "constraints": {
@@ -444,6 +469,11 @@
             "title": "Education level"
           },
           {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
             "name": "OBS_STATUS",
             "type": "string",
             "constraints": {
@@ -519,6 +549,11 @@
       "encoding": "utf-8",
       "schema": {
         "fields": [
+          {
+            "name": "GeoCode",
+            "type": "number",
+            "title": "GeoCode"
+          },
           {
             "name": "OBS_STATUS",
             "type": "string",
@@ -607,6 +642,11 @@
               ]
             },
             "title": "Observation-level footnotes"
+          },
+          {
+            "name": "GeoCode",
+            "type": "number",
+            "title": "GeoCode"
           },
           {
             "name": "OBS_STATUS",
@@ -723,6 +763,11 @@
             "title": "Education level"
           },
           {
+            "name": "GeoCode",
+            "type": "number",
+            "title": "GeoCode"
+          },
+          {
             "name": "OBS_STATUS",
             "type": "string",
             "constraints": {
@@ -816,6 +861,11 @@
             "title": "Composite breakdown"
           },
           {
+            "name": "GeoCode",
+            "type": "number",
+            "title": "GeoCode"
+          },
+          {
             "name": "OBS_STATUS",
             "type": "string",
             "constraints": {
@@ -902,6 +952,11 @@
               ]
             },
             "title": "Age"
+          },
+          {
+            "name": "GeoCode",
+            "type": "number",
+            "title": "GeoCode"
           },
           {
             "name": "OBS_STATUS",
@@ -992,6 +1047,11 @@
       "encoding": "utf-8",
       "schema": {
         "fields": [
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
           {
             "name": "OBS_STATUS",
             "type": "string",
@@ -1091,6 +1151,11 @@
       "encoding": "utf-8",
       "schema": {
         "fields": [
+          {
+            "name": "GeoCode",
+            "type": "number",
+            "title": "GeoCode"
+          },
           {
             "name": "OBS_STATUS",
             "type": "string",
@@ -1207,6 +1272,11 @@
               ]
             },
             "title": "Education level"
+          },
+          {
+            "name": "GeoCode",
+            "type": "number",
+            "title": "GeoCode"
           },
           {
             "name": "OBS_STATUS",

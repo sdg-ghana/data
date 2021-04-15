@@ -22,6 +22,11 @@
             "title": "Observation-level footnotes"
           },
           {
+            "name": "GeoCode",
+            "type": "number",
+            "title": "GeoCode"
+          },
+          {
             "name": "OBS_STATUS",
             "type": "string",
             "constraints": {

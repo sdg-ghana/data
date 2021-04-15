@@ -25,6 +25,11 @@
             "title": "Education level"
           },
           {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
             "name": "OBS_STATUS",
             "type": "string",
             "constraints": {

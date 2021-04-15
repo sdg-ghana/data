@@ -11,6 +11,11 @@
       "schema": {
         "fields": [
           {
+            "name": "GeoCode",
+            "type": "number",
+            "title": "GeoCode"
+          },
+          {
             "name": "OBS_STATUS",
             "type": "string",
             "constraints": {
