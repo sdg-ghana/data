@@ -1,1 +1,1 @@
-{"From":["COMPOSITE_BREAKDOWN","Education level"],"To":["Sex","COMPOSITE_BREAKDOWN"]}
+{"From":["Nature of data points","Frequency of observation","Reporting type","COMPOSITE_BREAKDOWN","Education level"],"To":["Frequency of observation","Reporting type","Education level","Sex","COMPOSITE_BREAKDOWN"]}

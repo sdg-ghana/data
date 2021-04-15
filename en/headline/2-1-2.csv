@@ -1,3 +1,1 @@
-Year,Value,SERIES
-2017,0.495,Prevalence of moderate or severe food insecurity in the population [2.1.2]
-2017,0.078,Prevalence of severe food insecurity in the population [2.1.2]
+Year,Value,Observation status,Unit multiplier,UNIT_MEASURE,SERIES

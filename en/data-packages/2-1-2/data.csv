@@ -1,7 +1,7 @@
-Year,SERIES,Degree of urbanisation,Value
-2017,Prevalence of moderate or severe food insecurity in the population [2.1.2],,0.495
-2017,Prevalence of moderate or severe food insecurity in the population [2.1.2],Urban,0.63
-2017,Prevalence of moderate or severe food insecurity in the population [2.1.2],Rural,0.363
-2017,Prevalence of severe food insecurity in the population [2.1.2],,0.078
-2017,Prevalence of severe food insecurity in the population [2.1.2],Urban,0.114
-2017,Prevalence of severe food insecurity in the population [2.1.2],Rural,0.043
+Year,Observation status,Unit multiplier,Nature of data points,Frequency of observation,Reporting type,SERIES,Reference area,Degree of urbanisation,UNIT_MEASURE,Value
+2017,Normal value,Units,Not Available,Annual,National,Prevalence of moderate or severe food insecurity in the population [2.1.2],,,Percent,0.495
+2017,Normal value,Units,Not Available,Annual,National,Prevalence of moderate or severe food insecurity in the population [2.1.2],,Urban,Percent,0.63
+2017,Normal value,Units,Not Available,Annual,National,Prevalence of moderate or severe food insecurity in the population [2.1.2],,Rural,Percent,0.363
+2017,Normal value,Units,Not Available,Annual,National,Prevalence of severe food insecurity in the population [2.1.2],,,Percent,0.078
+2017,Normal value,Units,Not Available,Annual,National,Prevalence of severe food insecurity in the population [2.1.2],,Urban,Percent,0.114
+2017,Normal value,Units,Not Available,Annual,National,Prevalence of severe food insecurity in the population [2.1.2],,Rural,Percent,0.043

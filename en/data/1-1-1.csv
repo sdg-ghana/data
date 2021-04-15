@@ -1,29 +1,29 @@
-Year,Reference area,Sex,Degree of urbanisation,Value
-2013,Western,,,9.0
-2013,Greater Accra,,,2.9
-2013,Volta,,,17.2
-2013,Eastern,,,9.6
-2013,Ashanti,,,5.5
-2013,Brong Ahafo,,,13.3
-2013,Northern,,,36.0
-2013,Upper East,,,31.0
-2013,Upper West,,,57.6
-2017,Western,,,3.8
-2017,Greater Accra,,,0.0
-2017,Volta,,,16.5
-2017,Eastern,,,4.6
-2017,Ashanti,,,3.4
-2017,Brong Ahafo,,,13.8
-2017,Northern,,,39.3
-2017,Upper East,,,40.0
-2017,Upper West,,,55.6
-2013,,,,11.6
-2013,,,Rural,23.4
-2013,,,Urban,3.9
-2013,,Male,,9.7
-2013,,Female,,6.9
-2017,,,,11.9
-2017,,,Rural,22.1
-2017,,,Urban,1.9
-2017,,Male,,13.6
-2017,,Female,,7.6
+Year,Observation status,Unit multiplier,Nature of data points,Frequency of observation,Reporting type,SERIES,Reference area,Sex,Degree of urbanisation,UNIT_MEASURE,Value
+2013,Normal value,Units,Not Available,Annual,National,Proportion of population below international poverty line [1.1.1],Western,,,Percent,9.0
+2013,Normal value,Units,Not Available,Annual,National,Proportion of population below international poverty line [1.1.1],Greater Accra,,,Percent,2.9
+2013,Normal value,Units,Not Available,Annual,National,Proportion of population below international poverty line [1.1.1],Volta,,,Percent,17.2
+2013,Normal value,Units,Not Available,Annual,National,Proportion of population below international poverty line [1.1.1],Eastern,,,Percent,9.6
+2013,Normal value,Units,Not Available,Annual,National,Proportion of population below international poverty line [1.1.1],Ashanti,,,Percent,5.5
+2013,Normal value,Units,Not Available,Annual,National,Proportion of population below international poverty line [1.1.1],Brong Ahafo,,,Percent,13.3
+2013,Normal value,Units,Not Available,Annual,National,Proportion of population below international poverty line [1.1.1],Northern,,,Percent,36.0
+2013,Normal value,Units,Not Available,Annual,National,Proportion of population below international poverty line [1.1.1],Upper East,,,Percent,31.0
+2013,Normal value,Units,Not Available,Annual,National,Proportion of population below international poverty line [1.1.1],Upper West,,,Percent,57.6
+2017,Normal value,Units,Not Available,Annual,National,Proportion of population below international poverty line [1.1.1],Western,,,Percent,3.8
+2017,Normal value,Units,Not Available,Annual,National,Proportion of population below international poverty line [1.1.1],Greater Accra,,,Percent,0.0
+2017,Normal value,Units,Not Available,Annual,National,Proportion of population below international poverty line [1.1.1],Volta,,,Percent,16.5
+2017,Normal value,Units,Not Available,Annual,National,Proportion of population below international poverty line [1.1.1],Eastern,,,Percent,4.6
+2017,Normal value,Units,Not Available,Annual,National,Proportion of population below international poverty line [1.1.1],Ashanti,,,Percent,3.4
+2017,Normal value,Units,Not Available,Annual,National,Proportion of population below international poverty line [1.1.1],Brong Ahafo,,,Percent,13.8
+2017,Normal value,Units,Not Available,Annual,National,Proportion of population below international poverty line [1.1.1],Northern,,,Percent,39.3
+2017,Normal value,Units,Not Available,Annual,National,Proportion of population below international poverty line [1.1.1],Upper East,,,Percent,40.0
+2017,Normal value,Units,Not Available,Annual,National,Proportion of population below international poverty line [1.1.1],Upper West,,,Percent,55.6
+2013,Normal value,Units,Not Available,Annual,National,Proportion of population below international poverty line [1.1.1],,,,Percent,11.6
+2013,Normal value,Units,Not Available,Annual,National,Proportion of population below international poverty line [1.1.1],,,Rural,Percent,23.4
+2013,Normal value,Units,Not Available,Annual,National,Proportion of population below international poverty line [1.1.1],,,Urban,Percent,3.9
+2013,Normal value,Units,Not Available,Annual,National,Proportion of population below international poverty line [1.1.1],,Male,,Percent,9.7
+2013,Normal value,Units,Not Available,Annual,National,Proportion of population below international poverty line [1.1.1],,Female,,Percent,6.9
+2017,Normal value,Units,Not Available,Annual,National,Proportion of population below international poverty line [1.1.1],,,,Percent,11.9
+2017,Normal value,Units,Not Available,Annual,National,Proportion of population below international poverty line [1.1.1],,,Rural,Percent,22.1
+2017,Normal value,Units,Not Available,Annual,National,Proportion of population below international poverty line [1.1.1],,,Urban,Percent,1.9
+2017,Normal value,Units,Not Available,Annual,National,Proportion of population below international poverty line [1.1.1],,Male,,Percent,13.6
+2017,Normal value,Units,Not Available,Annual,National,Proportion of population below international poverty line [1.1.1],,Female,,Percent,7.6

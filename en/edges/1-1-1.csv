@@ -1,1 +1,6 @@
 From,To
+Nature of data points,Frequency of observation
+Frequency of observation,Reporting type
+Reporting type,Reference area
+Reporting type,Sex
+Reporting type,Degree of urbanisation
