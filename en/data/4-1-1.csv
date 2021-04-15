@@ -1,13 +1,13 @@
-Year,Observation status,Unit multiplier,Nature of data points,Frequency of observation,Reporting type,SERIES,Reference area,Sex,Education level,COMPOSITE_BREAKDOWN,UNIT_MEASURE,Value
-2016,Normal value,Units,Not Available,Annual,National,Proportion of children and young people achieving a minimum proficiency level in reading and mathematics [4.1.1],,,Primary 4,Skill: Mathematics,Percent,22.0
-2016,Normal value,Units,Not Available,Annual,National,Proportion of children and young people achieving a minimum proficiency level in reading and mathematics [4.1.1],,Male,Primary 4,Skill: Mathematics,Percent,22.0
-2016,Normal value,Units,Not Available,Annual,National,Proportion of children and young people achieving a minimum proficiency level in reading and mathematics [4.1.1],,Female,Primary 4,Skill: Mathematics,Percent,22.0
-2016,Normal value,Units,Not Available,Annual,National,Proportion of children and young people achieving a minimum proficiency level in reading and mathematics [4.1.1],,,Primary 4,Skill: Reading,Percent,37.2
-2016,Normal value,Units,Not Available,Annual,National,Proportion of children and young people achieving a minimum proficiency level in reading and mathematics [4.1.1],,Male,Primary 4,Skill: Reading,Percent,35.0
-2016,Normal value,Units,Not Available,Annual,National,Proportion of children and young people achieving a minimum proficiency level in reading and mathematics [4.1.1],,Female,Primary 4,Skill: Reading,Percent,40.0
-2016,Normal value,Units,Not Available,Annual,National,Proportion of children and young people achieving a minimum proficiency level in reading and mathematics [4.1.1],,,Primary 6,Skill: Mathematics,Percent,24.9
-2016,Normal value,Units,Not Available,Annual,National,Proportion of children and young people achieving a minimum proficiency level in reading and mathematics [4.1.1],,Male,Primary 6,Skill: Mathematics,Percent,27.0
-2016,Normal value,Units,Not Available,Annual,National,Proportion of children and young people achieving a minimum proficiency level in reading and mathematics [4.1.1],,Female,Primary 6,Skill: Mathematics,Percent,23.0
-2016,Normal value,Units,Not Available,Annual,National,Proportion of children and young people achieving a minimum proficiency level in reading and mathematics [4.1.1],,,Primary 6,Skill: Reading,Percent,38.0
-2016,Normal value,Units,Not Available,Annual,National,Proportion of children and young people achieving a minimum proficiency level in reading and mathematics [4.1.1],,Male,Primary 6,Skill: Reading,Percent,37.0
-2016,Normal value,Units,Not Available,Annual,National,Proportion of children and young people achieving a minimum proficiency level in reading and mathematics [4.1.1],,Female,Primary 6,Skill: Reading,Percent,39.0
+Year,Observation status,Unit multiplier,SERIES,Reference area,Sex,Education level,COMPOSITE_BREAKDOWN,UNIT_MEASURE,Value
+2016,Normal value,Units,Proportion of children and young people achieving a minimum proficiency level in reading and mathematics [4.1.1],,,Primary 4,Skill: Mathematics,Percent,22.0
+2016,Normal value,Units,Proportion of children and young people achieving a minimum proficiency level in reading and mathematics [4.1.1],,Male,Primary 4,Skill: Mathematics,Percent,22.0
+2016,Normal value,Units,Proportion of children and young people achieving a minimum proficiency level in reading and mathematics [4.1.1],,Female,Primary 4,Skill: Mathematics,Percent,22.0
+2016,Normal value,Units,Proportion of children and young people achieving a minimum proficiency level in reading and mathematics [4.1.1],,,Primary 4,Skill: Reading,Percent,37.2
+2016,Normal value,Units,Proportion of children and young people achieving a minimum proficiency level in reading and mathematics [4.1.1],,Male,Primary 4,Skill: Reading,Percent,35.0
+2016,Normal value,Units,Proportion of children and young people achieving a minimum proficiency level in reading and mathematics [4.1.1],,Female,Primary 4,Skill: Reading,Percent,40.0
+2016,Normal value,Units,Proportion of children and young people achieving a minimum proficiency level in reading and mathematics [4.1.1],,,Primary 6,Skill: Mathematics,Percent,24.9
+2016,Normal value,Units,Proportion of children and young people achieving a minimum proficiency level in reading and mathematics [4.1.1],,Male,Primary 6,Skill: Mathematics,Percent,27.0
+2016,Normal value,Units,Proportion of children and young people achieving a minimum proficiency level in reading and mathematics [4.1.1],,Female,Primary 6,Skill: Mathematics,Percent,23.0
+2016,Normal value,Units,Proportion of children and young people achieving a minimum proficiency level in reading and mathematics [4.1.1],,,Primary 6,Skill: Reading,Percent,38.0
+2016,Normal value,Units,Proportion of children and young people achieving a minimum proficiency level in reading and mathematics [4.1.1],,Male,Primary 6,Skill: Reading,Percent,37.0
+2016,Normal value,Units,Proportion of children and young people achieving a minimum proficiency level in reading and mathematics [4.1.1],,Female,Primary 6,Skill: Reading,Percent,39.0

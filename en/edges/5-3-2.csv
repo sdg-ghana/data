@@ -1,6 +1,3 @@
 From,To
-Nature of data points,Frequency of observation
-Frequency of observation,Reporting type
-Reporting type,Sex
 Sex,Age
 Age,Degree of urbanisation

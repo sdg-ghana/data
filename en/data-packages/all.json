@@ -13,28 +13,6 @@
       "schema": {
         "fields": [
           {
-            "name": "FREQ",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Annual"
-              ]
-            },
-            "title": "Frequency of observation"
-          },
-          {
-            "name": "NATURE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Not Available"
-              ]
-            },
-            "title": "Nature of data points"
-          },
-          {
             "name": "OBS_STATUS",
             "type": "string",
             "constraints": {
@@ -71,17 +49,6 @@
               ]
             },
             "title": "Reference area"
-          },
-          {
-            "name": "REPORTING_TYPE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "National"
-              ]
-            },
-            "title": "Reporting type"
           },
           {
             "name": "SERIES",
@@ -129,28 +96,6 @@
       "schema": {
         "fields": [
           {
-            "name": "FREQ",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Annual"
-              ]
-            },
-            "title": "Frequency of observation"
-          },
-          {
-            "name": "NATURE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Not Available"
-              ]
-            },
-            "title": "Nature of data points"
-          },
-          {
             "name": "OBS_STATUS",
             "type": "string",
             "constraints": {
@@ -170,17 +115,6 @@
               ]
             },
             "title": "Reference area"
-          },
-          {
-            "name": "REPORTING_TYPE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "National"
-              ]
-            },
-            "title": "Reporting type"
           },
           {
             "name": "SERIES",
@@ -228,28 +162,6 @@
       "schema": {
         "fields": [
           {
-            "name": "FREQ",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Annual"
-              ]
-            },
-            "title": "Frequency of observation"
-          },
-          {
-            "name": "NATURE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Not Available"
-              ]
-            },
-            "title": "Nature of data points"
-          },
-          {
             "name": "OBS_STATUS",
             "type": "string",
             "constraints": {
@@ -269,17 +181,6 @@
               ]
             },
             "title": "Reference area"
-          },
-          {
-            "name": "REPORTING_TYPE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "National"
-              ]
-            },
-            "title": "Reporting type"
           },
           {
             "name": "SERIES",
@@ -327,28 +228,6 @@
       "schema": {
         "fields": [
           {
-            "name": "FREQ",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Annual"
-              ]
-            },
-            "title": "Frequency of observation"
-          },
-          {
-            "name": "NATURE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Not Available"
-              ]
-            },
-            "title": "Nature of data points"
-          },
-          {
             "name": "OBS_STATUS",
             "type": "string",
             "constraints": {
@@ -378,17 +257,6 @@
               ]
             },
             "title": "Reference area"
-          },
-          {
-            "name": "REPORTING_TYPE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "National"
-              ]
-            },
-            "title": "Reporting type"
           },
           {
             "name": "SERIES",
@@ -484,28 +352,6 @@
             "title": "Education level"
           },
           {
-            "name": "FREQ",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Annual"
-              ]
-            },
-            "title": "Frequency of observation"
-          },
-          {
-            "name": "NATURE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Not Available"
-              ]
-            },
-            "title": "Nature of data points"
-          },
-          {
             "name": "OBS_STATUS",
             "type": "string",
             "constraints": {
@@ -525,17 +371,6 @@
               ]
             },
             "title": "Reference area"
-          },
-          {
-            "name": "REPORTING_TYPE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "National"
-              ]
-            },
-            "title": "Reporting type"
           },
           {
             "name": "SERIES",
@@ -609,28 +444,6 @@
             "title": "Education level"
           },
           {
-            "name": "FREQ",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Annual"
-              ]
-            },
-            "title": "Frequency of observation"
-          },
-          {
-            "name": "NATURE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Not Available"
-              ]
-            },
-            "title": "Nature of data points"
-          },
-          {
             "name": "OBS_STATUS",
             "type": "string",
             "constraints": {
@@ -660,17 +473,6 @@
               ]
             },
             "title": "Reference area"
-          },
-          {
-            "name": "REPORTING_TYPE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "National"
-              ]
-            },
-            "title": "Reporting type"
           },
           {
             "name": "SERIES",
@@ -718,28 +520,6 @@
       "schema": {
         "fields": [
           {
-            "name": "FREQ",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Annual"
-              ]
-            },
-            "title": "Frequency of observation"
-          },
-          {
-            "name": "NATURE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Not Available"
-              ]
-            },
-            "title": "Nature of data points"
-          },
-          {
             "name": "OBS_STATUS",
             "type": "string",
             "constraints": {
@@ -759,17 +539,6 @@
               ]
             },
             "title": "Reference area"
-          },
-          {
-            "name": "REPORTING_TYPE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "National"
-              ]
-            },
-            "title": "Reporting type"
           },
           {
             "name": "SERIES",
@@ -840,28 +609,6 @@
             "title": "Observation-level footnotes"
           },
           {
-            "name": "FREQ",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Annual"
-              ]
-            },
-            "title": "Frequency of observation"
-          },
-          {
-            "name": "NATURE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Not Available"
-              ]
-            },
-            "title": "Nature of data points"
-          },
-          {
             "name": "OBS_STATUS",
             "type": "string",
             "constraints": {
@@ -881,17 +628,6 @@
               ]
             },
             "title": "Reference area"
-          },
-          {
-            "name": "REPORTING_TYPE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "National"
-              ]
-            },
-            "title": "Reporting type"
           },
           {
             "name": "SERIES",
@@ -987,28 +723,6 @@
             "title": "Education level"
           },
           {
-            "name": "FREQ",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Annual"
-              ]
-            },
-            "title": "Frequency of observation"
-          },
-          {
-            "name": "NATURE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Not Available"
-              ]
-            },
-            "title": "Nature of data points"
-          },
-          {
             "name": "OBS_STATUS",
             "type": "string",
             "constraints": {
@@ -1028,17 +742,6 @@
               ]
             },
             "title": "Reference area"
-          },
-          {
-            "name": "REPORTING_TYPE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "National"
-              ]
-            },
-            "title": "Reporting type"
           },
           {
             "name": "SERIES",
@@ -1113,28 +816,6 @@
             "title": "Composite breakdown"
           },
           {
-            "name": "FREQ",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Annual"
-              ]
-            },
-            "title": "Frequency of observation"
-          },
-          {
-            "name": "NATURE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Not Available"
-              ]
-            },
-            "title": "Nature of data points"
-          },
-          {
             "name": "OBS_STATUS",
             "type": "string",
             "constraints": {
@@ -1154,17 +835,6 @@
               ]
             },
             "title": "Reference area"
-          },
-          {
-            "name": "REPORTING_TYPE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "National"
-              ]
-            },
-            "title": "Reporting type"
           },
           {
             "name": "SERIES",
@@ -1234,28 +904,6 @@
             "title": "Age"
           },
           {
-            "name": "FREQ",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Annual"
-              ]
-            },
-            "title": "Frequency of observation"
-          },
-          {
-            "name": "NATURE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Not Available"
-              ]
-            },
-            "title": "Nature of data points"
-          },
-          {
             "name": "OBS_STATUS",
             "type": "string",
             "constraints": {
@@ -1275,17 +923,6 @@
               ]
             },
             "title": "Reference area"
-          },
-          {
-            "name": "REPORTING_TYPE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "National"
-              ]
-            },
-            "title": "Reporting type"
           },
           {
             "name": "SERIES",
@@ -1356,28 +993,6 @@
       "schema": {
         "fields": [
           {
-            "name": "FREQ",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Annual"
-              ]
-            },
-            "title": "Frequency of observation"
-          },
-          {
-            "name": "NATURE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Not Available"
-              ]
-            },
-            "title": "Nature of data points"
-          },
-          {
             "name": "OBS_STATUS",
             "type": "string",
             "constraints": {
@@ -1406,17 +1021,6 @@
               ]
             },
             "title": "Reference area"
-          },
-          {
-            "name": "REPORTING_TYPE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "National"
-              ]
-            },
-            "title": "Reporting type"
           },
           {
             "name": "SERIES",
@@ -1488,28 +1092,6 @@
       "schema": {
         "fields": [
           {
-            "name": "FREQ",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Annual"
-              ]
-            },
-            "title": "Frequency of observation"
-          },
-          {
-            "name": "NATURE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Not Available"
-              ]
-            },
-            "title": "Nature of data points"
-          },
-          {
             "name": "OBS_STATUS",
             "type": "string",
             "constraints": {
@@ -1529,17 +1111,6 @@
               ]
             },
             "title": "Reference area"
-          },
-          {
-            "name": "REPORTING_TYPE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "National"
-              ]
-            },
-            "title": "Reporting type"
           },
           {
             "name": "SERIES",
@@ -1638,28 +1209,6 @@
             "title": "Education level"
           },
           {
-            "name": "FREQ",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Annual"
-              ]
-            },
-            "title": "Frequency of observation"
-          },
-          {
-            "name": "NATURE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Not Available"
-              ]
-            },
-            "title": "Nature of data points"
-          },
-          {
             "name": "OBS_STATUS",
             "type": "string",
             "constraints": {
@@ -1679,17 +1228,6 @@
               ]
             },
             "title": "Reference area"
-          },
-          {
-            "name": "REPORTING_TYPE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "National"
-              ]
-            },
-            "title": "Reporting type"
           },
           {
             "name": "SERIES",

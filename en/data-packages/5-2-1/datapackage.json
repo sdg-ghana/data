@@ -26,28 +26,6 @@
             "title": "Composite breakdown"
           },
           {
-            "name": "FREQ",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Annual"
-              ]
-            },
-            "title": "Frequency of observation"
-          },
-          {
-            "name": "NATURE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Not Available"
-              ]
-            },
-            "title": "Nature of data points"
-          },
-          {
             "name": "OBS_STATUS",
             "type": "string",
             "constraints": {
@@ -67,17 +45,6 @@
               ]
             },
             "title": "Reference area"
-          },
-          {
-            "name": "REPORTING_TYPE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "National"
-              ]
-            },
-            "title": "Reporting type"
           },
           {
             "name": "SERIES",
