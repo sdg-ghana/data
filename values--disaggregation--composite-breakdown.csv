@@ -1,10 +1,10 @@
-Value,Disaggregation combinations using this value,Number of indicators
-_L_GH_CURSE,1,1
-_L_GH_DEFILE,1,1
-_L_GH_PRIVATE,9,2
-_L_GH_PUBLIC,12,2
-_L_GH_RAPE_SED,1,1
-_L_GH_SEX_HER,1,1
-_L_GH_VERB_ASS,1,1
-SKILL_MATH,6,1
-SKILL_READ,6,1
+Value,en,Disaggregation combinations using this value,Number of indicators
+_L_GH_CURSE,Curse,1,1
+_L_GH_DEFILE,Defilement,1,1
+_L_GH_PRIVATE,Private,9,2
+_L_GH_PUBLIC,Public,12,2
+_L_GH_RAPE_SED,Rape/Seduction,1,1
+_L_GH_SEX_HER,Sexual Harassment,1,1
+_L_GH_VERB_ASS,Verbal assault,1,1
+SKILL_MATH,Skill: Mathematics,6,1
+SKILL_READ,Skill: Reading,6,1

@@ -1,10 +1,10 @@
-Value,Disaggregation combinations using this value,Number of indicators
-ISCED11_0,2,1
-ISCED11_02,13,2
-ISCED11_1,13,2
-ISCED11_2,13,2
-ISCED11_25_35_45,10,1
-ISCED11_3,13,2
-ISCED11_35,8,1
-_L_GH_Primary_4,6,1
-_L_GH_Primary_6,6,1
+Value,en,Disaggregation combinations using this value,Number of indicators
+ISCED11_0,Early childhood education,2,1
+ISCED11_02,Pre-primary education,13,2
+ISCED11_1,Primary education,13,2
+ISCED11_2,Lower secondary education,13,2
+ISCED11_25_35_45,Vocational secondary education,10,1
+ISCED11_3,Upper secondary education,13,2
+ISCED11_35,Upper secondary vocational education,8,1
+_L_GH_Primary_4,Primary 4,6,1
+_L_GH_Primary_6,Primary 6,6,1
