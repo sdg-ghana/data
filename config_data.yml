@@ -110,7 +110,12 @@ map_layers:
     output_subfolder: regions_10
     filename_prefix: indicator_
   
-
+  - geojson_file: geojsons/GHANA_272_DISTRICTS_simplified.geojson
+    name_property: Name_en
+    id_property: DISTRICTID
+    output_subfolder: district_272
+    filename_prefix: indicator_
+  
 
 
 # Documentation settings
