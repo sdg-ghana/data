@@ -1,1 +1,3 @@
-Year,Value
+Year,Observation status,Unit multiplier,SERIES,Reference area,UNIT_MEASURE,GeoCode,Value
+2013,Normal value,Units,Growth rates of household expenditure or income per capita [10.1.1],,Percent,,12.5
+2017,Normal value,Units,Growth rates of household expenditure or income per capita [10.1.1],,Percent,,22.0

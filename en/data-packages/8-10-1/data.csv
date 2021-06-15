@@ -1,1 +1,9 @@
-Year,Value
+Year,Observation status,Unit multiplier,SERIES,Reference area,UNIT_MEASURE,GeoCode,Value
+2016,Normal value,Units,"Number of automated teller machines (ATMs) per 100,000 adults [8.10.1]",,"Per 100,000 population",,12.1
+2017,Normal value,Units,"Number of automated teller machines (ATMs) per 100,000 adults [8.10.1]",,"Per 100,000 population",,12.5
+2018,Normal value,Units,"Number of automated teller machines (ATMs) per 100,000 adults [8.10.1]",,"Per 100,000 population",,12.8
+2019,Normal value,Units,"Number of automated teller machines (ATMs) per 100,000 adults [8.10.1]",,"Per 100,000 population",,11.3
+2016,Normal value,Units,"Number of commercial bank branches per 100,000 adults [8.10.1]",,"Per 100,000 population",,8.5
+2017,Normal value,Units,"Number of commercial bank branches per 100,000 adults [8.10.1]",,"Per 100,000 population",,9.2
+2018,Normal value,Units,"Number of commercial bank branches per 100,000 adults [8.10.1]",,"Per 100,000 population",,9.3
+2019,Normal value,Units,"Number of commercial bank branches per 100,000 adults [8.10.1]",,"Per 100,000 population",,6.3

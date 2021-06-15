@@ -1,1 +1,4 @@
-Year,Value
+Year,Observation status,Unit multiplier,SERIES,Reference area,UNIT_MEASURE,GeoCode,Value
+2013,Normal value,Units,Proportion of population with primary reliance on clean fuels and technology [7.1.2],,Percent,,22.3
+2017,Normal value,Units,Proportion of population with primary reliance on clean fuels and technology [7.1.2],,Percent,,26.7
+2018,Normal value,Units,Proportion of population with primary reliance on clean fuels and technology [7.1.2],,Percent,,28.0

@@ -1,1 +1,5 @@
-Year,Value
+Year,Observation status,Unit multiplier,SERIES,Reference area,UNIT_MEASURE,GeoCode,Value
+2016,Normal value,Units,Total government revenue as a proportion of GDP [17.1.1],,Percent,,20.0
+2017,Normal value,Units,Total government revenue as a proportion of GDP [17.1.1],,Percent,,20.2
+2018,Normal value,Units,Total government revenue as a proportion of GDP [17.1.1],,Percent,,15.9
+2019,Normal value,Units,Total government revenue as a proportion of GDP [17.1.1],,Percent,,15.3

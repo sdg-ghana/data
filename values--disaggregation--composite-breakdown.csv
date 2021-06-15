@@ -6,5 +6,7 @@ _L_GH_PUBLIC,Public,12,2
 _L_GH_RAPE_SED,Rape/Seduction,1,1
 _L_GH_SEX_HER,Sexual Harassment,1,1
 _L_GH_VERB_ASS,Verbal assault,1,1
+SKILL_LTRCY,Skill: Functional literacy,9,1
 SKILL_MATH,Skill: Mathematics,6,1
-SKILL_READ,Skill: Reading,6,1
+SKILL_NMRCY,Skill: Functional numeracy,18,1
+SKILL_READ,Skill: Reading,15,1

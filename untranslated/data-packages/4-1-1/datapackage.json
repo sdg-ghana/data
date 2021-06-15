@@ -59,12 +59,24 @@
             }
           },
           {
+            "name": "URBANISATION",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "U",
+                "R",
+                ""
+              ]
+            }
+          },
+          {
             "name": "EDUCATION_LEV",
             "type": "string",
             "constraints": {
               "enum": [
                 "_L_GH_Primary_4",
                 "_L_GH_Primary_6",
+                "ISCED11_2",
                 ""
               ]
             }
@@ -76,6 +88,8 @@
               "enum": [
                 "SKILL_MATH",
                 "SKILL_READ",
+                "SKILL_NMRCY",
+                "SKILL_LTRCY",
                 ""
               ]
             }

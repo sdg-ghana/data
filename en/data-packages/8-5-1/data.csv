@@ -1,1 +1,10 @@
-Year,Value
+Year,Observation status,Unit multiplier,SERIES,Reference area,Sex,UNIT_MEASURE,GeoCode,Value
+2014,Normal value,Units,Average hourly earnings [8.5.1],,,Local currency,,495.47
+2014,Normal value,Units,Average hourly earnings [8.5.1],,Male,Local currency,,592.64
+2014,Normal value,Units,Average hourly earnings [8.5.1],,Female,Local currency,,395.48
+2015,Normal value,Units,Average hourly earnings [8.5.1],,,Local currency,,898.65
+2015,Normal value,Units,Average hourly earnings [8.5.1],,Male,Local currency,,1011.13
+2015,Normal value,Units,Average hourly earnings [8.5.1],,Female,Local currency,,715.22
+2017,Normal value,Units,Average hourly earnings [8.5.1],,,Local currency,,972.0
+2017,Normal value,Units,Average hourly earnings [8.5.1],,Male,Local currency,,1106.0
+2017,Normal value,Units,Average hourly earnings [8.5.1],,Female,Local currency,,679.0

@@ -1,1 +1,4 @@
-Year,Value
+Year,Observation status,Unit multiplier,SERIES,Reference area,UNIT_MEASURE,GeoCode,Value
+1990,Normal value,Units,Maternal mortality ratio [3.1.1],,"Per 100,000 live births",,760
+2007,Normal value,Units,Maternal mortality ratio [3.1.1],,"Per 100,000 live births",,580
+2017,Normal value,Units,Maternal mortality ratio [3.1.1],,"Per 100,000 live births",,310

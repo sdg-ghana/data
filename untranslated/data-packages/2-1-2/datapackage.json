@@ -40,9 +40,19 @@
           },
           {
             "name": "REF_AREA",
-            "type": "number",
+            "type": "string",
             "constraints": {
               "enum": [
+                "03_o",
+                "06_o",
+                "07_o",
+                "04_o",
+                "05_o",
+                "01_o",
+                "02_o",
+                "10_o",
+                "08_o",
+                "09_o",
                 ""
               ]
             }
@@ -52,8 +62,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "U",
                 "R",
+                "U",
                 ""
               ]
             }
@@ -64,7 +74,7 @@
           },
           {
             "name": "GeoCode",
-            "type": "number"
+            "type": "string"
           },
           {
             "name": "Value",
