@@ -14,5 +14,9 @@ _L_GH_SANITATION,SANITATION,1,1
 _L_GH_SEX_HER,Sexual Harassment,1,1
 _L_GH_VERB_ASS,Verbal assault,1,1
 _L_GH_WATER,WATER,1,1
+MOT_AIR,Mode of Transport: Air,1,1
+MOT_IWW,Mode of transport: Inland waterway transport,2,1
+MOT_RAI,Mode of Transport: Rail,2,1
+MOT_SEA,Mode of Transport: Maritime,2,1
 SKILL_LTRCY,Skill: Functional literacy,18,1
 SKILL_NMRCY,Skill: Functional numeracy,18,1
