@@ -9,3 +9,6 @@ Value,en,Disaggregation combinations using this value,Number of indicators
 08_o,Northern,12,5
 09_o,Upper East,12,5
 10_o,Upper West,12,5
+_L_GH_Coastal,Coastal Zone,2,1
+_L_GH_Forest,Forest Zone,2,1
+_L_GH_Savannah,Savannah Zone,2,1

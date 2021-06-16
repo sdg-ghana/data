@@ -1,11 +1,19 @@
 Value,en,Disaggregation combinations using this value,Number of indicators
 _L_GH_CURSE,Curse,1,1
 _L_GH_DEFILE,Defilement,1,1
+_L_GH_DEVELOPMENT,DEVELOPMENT,1,1
+_L_GH_HEALTH,HEALTH,1,1
+_L_GH_HOUSING,HOUSING,1,1
+_L_GH_ICT,ICT,1,1
+_L_GH_NUTRITION,NUTRITION,1,1
 _L_GH_PRIVATE,Private,9,2
+_L_GH_PROTECTION,PROTECTION,1,1
 _L_GH_PUBLIC,Public,12,2
 _L_GH_RAPE_SED,Rape/Seduction,1,1
+_L_GH_SANITATION,SANITATION,1,1
 _L_GH_SEX_HER,Sexual Harassment,1,1
 _L_GH_VERB_ASS,Verbal assault,1,1
+_L_GH_WATER,WATER,1,1
 SKILL_LTRCY,Skill: Functional literacy,9,1
 SKILL_MATH,Skill: Mathematics,6,1
 SKILL_NMRCY,Skill: Functional numeracy,18,1
