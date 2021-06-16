@@ -3,7 +3,7 @@
   <message:Header>
     <message:ID>IDREF1</message:ID>
     <message:Test>false</message:Test>
-    <message:Prepared>2021-04-13T14:16:23.7376037+00:00</message:Prepared>
+    <message:Prepared>2021-06-15T14:05:44.3789779+00:00</message:Prepared>
     <message:Sender id="Unknown" />
     <message:Receiver id="Unknown" />
   </message:Header>
@@ -14,6 +14,18 @@
         <structure:Code id="GH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_AREA(1.0).GH">
           <common:Name xml:lang="en">Ghana</common:Name>
           <common:Description xml:lang="en">Ghana</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_Coastal" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_AREA(1.0)._L_GH_Coastal">
+          <common:Name xml:lang="en">Coastal Zone</common:Name>
+          <common:Description xml:lang="en">Coastal Zone</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_Forest" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_AREA(1.0)._L_GH_Forest">
+          <common:Name xml:lang="en">Forest Zone</common:Name>
+          <common:Description xml:lang="en">Forest Zone</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_Savannah" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_AREA(1.0)._L_GH_Savannah">
+          <common:Name xml:lang="en">Savannah Zone</common:Name>
+          <common:Description xml:lang="en">Savannah Zone</common:Description>
         </structure:Code>
         <structure:Code id="1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_AREA(1.0).1">
           <common:Name xml:lang="en">Western</common:Name>
@@ -2190,6 +2202,38 @@
           <common:Name xml:lang="en">No breakdown</common:Name>
           <common:Description xml:lang="en">No breakdown</common:Description>
         </structure:Code>
+        <structure:Code id="_L_GH_ICT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_COMP_BREAKDOWN(1.0)._L_GH_ICT">
+          <common:Name xml:lang="en">ICT</common:Name>
+          <common:Description xml:lang="en">Well-being measure: Information and Communications Technology</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_HOUSING" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_COMP_BREAKDOWN(1.0)._L_GH_HOUSING">
+          <common:Name xml:lang="en">HOUSING</common:Name>
+          <common:Description xml:lang="en">Well-being measure: Housing</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_SANITATION" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_COMP_BREAKDOWN(1.0)._L_GH_SANITATION">
+          <common:Name xml:lang="en">SANITATION</common:Name>
+          <common:Description xml:lang="en">Well-being measure: Sanitation</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_WATER" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_COMP_BREAKDOWN(1.0)._L_GH_WATER">
+          <common:Name xml:lang="en">WATER</common:Name>
+          <common:Description xml:lang="en">Well-being measure: Water</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_PROTECTION" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_COMP_BREAKDOWN(1.0)._L_GH_PROTECTION">
+          <common:Name xml:lang="en">PROTECTION</common:Name>
+          <common:Description xml:lang="en">Well-being measure: Protection</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_DEVELOPMENT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_COMP_BREAKDOWN(1.0)._L_GH_DEVELOPMENT">
+          <common:Name xml:lang="en">DEVELOPMENT</common:Name>
+          <common:Description xml:lang="en">Well-being measure: Development</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_HEALTH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_COMP_BREAKDOWN(1.0)._L_GH_HEALTH">
+          <common:Name xml:lang="en">HEALTH</common:Name>
+          <common:Description xml:lang="en">Well-being measure: Health</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_NUTRITION" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_COMP_BREAKDOWN(1.0)._L_GH_NUTRITION">
+          <common:Name xml:lang="en">NUTRITION</common:Name>
+          <common:Description xml:lang="en">Well-being measure: Nutrition</common:Description>
+        </structure:Code>
         <structure:Code id="_L_GH_PRIVATE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_COMP_BREAKDOWN(1.0)._L_GH_PRIVATE">
           <common:Name xml:lang="en">Private</common:Name>
           <common:Description xml:lang="en">type of school: Private</common:Description>
@@ -3317,6 +3361,168 @@
       </structure:Codelist>
       <structure:Codelist id="CL_SERIES" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=GSS:CL_SERIES(1.0)" agencyID="GSS" version="1.0" isFinal="true">
         <common:Name xml:lang="en">SDG Series Code List (GSS)</common:Name>
+        <structure:Code id="_L_GH_010202" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_010202">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1.2.2</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C010202</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Monetary Poverty Rate</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Monetary Poverty Rate</common:Name>
+          <common:Description xml:lang="en">Monetary Poverty Rate</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_110601" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_110601">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">11.6.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C110603</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Proportion of urban solid waste regularly collected</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Proportion of urban solid waste regularly collected</common:Name>
+          <common:Description xml:lang="en">Proportion of urban solid waste regularly collected</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_150301" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_150301">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">15.3.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C150301</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Percentage of degraded areas within forest areas under protection</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Percentage of degraded areas within forest areas under protection</common:Name>
+          <common:Description xml:lang="en">Percentage of degraded areas within forest areas under protection</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_170401" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_170401">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">17.4.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C170401</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Debt Service as a percentage of total domestic revenue</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Debt Service as a percentage of total domestic revenue</common:Name>
+          <common:Description xml:lang="en">Debt Service as a percentage of total domestic revenue</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_170601" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_170601">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">17.6.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C170602</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Households access to fixed internet service</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Households access to fixed internet service</common:Name>
+          <common:Description xml:lang="en">Households access to fixed internet service</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_170801" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_170801">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">17.8.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C170801</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Proportion of individuals using the internet</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Proportion of individuals using the internet</common:Name>
+          <common:Description xml:lang="en">Proportion of individuals using the internet</common:Description>
+        </structure:Code>
         <structure:Code id="_L_GH_120301" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_120301">
           <common:Annotations>
             <common:Annotation>
@@ -21725,9 +21931,9 @@
       </structure:Codelist>
     </structure:Codelists>
     <structure:Concepts>
-      <structure:ConceptScheme id="SDG_DSD" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.ConceptScheme=GSS:SDG_DSD(1.0)" agencyID="GSS" version="1.0" isFinal="true">
+      <structure:ConceptScheme id="SDG_DSD" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.ConceptScheme=GSS:SDG_DSD(1.1)" agencyID="GSS" version="1.1" isFinal="true">
         <common:Name xml:lang="en">Date of the most recent change of the series.</common:Name>
-        <structure:Concept id="FREQ" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.0).FREQ">
+        <structure:Concept id="FREQ" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.1).FREQ">
           <common:Name xml:lang="en">Frequency of observation</common:Name>
           <structure:CoreRepresentation>
             <structure:Enumeration>
@@ -21735,7 +21941,7 @@
             </structure:Enumeration>
           </structure:CoreRepresentation>
         </structure:Concept>
-        <structure:Concept id="REPORTING_TYPE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.0).REPORTING_TYPE">
+        <structure:Concept id="REPORTING_TYPE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.1).REPORTING_TYPE">
           <common:Name xml:lang="en">Reporting type</common:Name>
           <structure:CoreRepresentation>
             <structure:Enumeration>
@@ -21743,7 +21949,7 @@
             </structure:Enumeration>
           </structure:CoreRepresentation>
         </structure:Concept>
-        <structure:Concept id="SERIES" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.0).SERIES">
+        <structure:Concept id="SERIES" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.1).SERIES">
           <common:Name xml:lang="en">SDG Series</common:Name>
           <structure:CoreRepresentation>
             <structure:Enumeration>
@@ -21751,7 +21957,7 @@
             </structure:Enumeration>
           </structure:CoreRepresentation>
         </structure:Concept>
-        <structure:Concept id="REF_AREA" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.0).REF_AREA">
+        <structure:Concept id="REF_AREA" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.1).REF_AREA">
           <common:Name xml:lang="en">Reference area</common:Name>
           <structure:CoreRepresentation>
             <structure:Enumeration>
@@ -21759,7 +21965,7 @@
             </structure:Enumeration>
           </structure:CoreRepresentation>
         </structure:Concept>
-        <structure:Concept id="SEX" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.0).SEX">
+        <structure:Concept id="SEX" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.1).SEX">
           <common:Name xml:lang="en">Sex</common:Name>
           <structure:CoreRepresentation>
             <structure:Enumeration>
@@ -21767,7 +21973,7 @@
             </structure:Enumeration>
           </structure:CoreRepresentation>
         </structure:Concept>
-        <structure:Concept id="AGE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.0).AGE">
+        <structure:Concept id="AGE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.1).AGE">
           <common:Name xml:lang="en">Age</common:Name>
           <structure:CoreRepresentation>
             <structure:Enumeration>
@@ -21775,7 +21981,7 @@
             </structure:Enumeration>
           </structure:CoreRepresentation>
         </structure:Concept>
-        <structure:Concept id="URBANISATION" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.0).URBANISATION">
+        <structure:Concept id="URBANISATION" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.1).URBANISATION">
           <common:Name xml:lang="en">Degree of urbanisation</common:Name>
           <structure:CoreRepresentation>
             <structure:Enumeration>
@@ -21783,7 +21989,7 @@
             </structure:Enumeration>
           </structure:CoreRepresentation>
         </structure:Concept>
-        <structure:Concept id="INCOME_WEALTH_QUANTILE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.0).INCOME_WEALTH_QUANTILE">
+        <structure:Concept id="INCOME_WEALTH_QUANTILE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.1).INCOME_WEALTH_QUANTILE">
           <common:Name xml:lang="en">Income or wealth quantile</common:Name>
           <structure:CoreRepresentation>
             <structure:Enumeration>
@@ -21791,7 +21997,7 @@
             </structure:Enumeration>
           </structure:CoreRepresentation>
         </structure:Concept>
-        <structure:Concept id="EDUCATION_LEV" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.0).EDUCATION_LEV">
+        <structure:Concept id="EDUCATION_LEV" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.1).EDUCATION_LEV">
           <common:Name xml:lang="en">Education level</common:Name>
           <structure:CoreRepresentation>
             <structure:Enumeration>
@@ -21799,7 +22005,7 @@
             </structure:Enumeration>
           </structure:CoreRepresentation>
         </structure:Concept>
-        <structure:Concept id="OCCUPATION" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.0).OCCUPATION">
+        <structure:Concept id="OCCUPATION" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.1).OCCUPATION">
           <common:Name xml:lang="en">Occupation</common:Name>
           <structure:CoreRepresentation>
             <structure:Enumeration>
@@ -21807,7 +22013,7 @@
             </structure:Enumeration>
           </structure:CoreRepresentation>
         </structure:Concept>
-        <structure:Concept id="CUST_BREAKDOWN" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.0).CUST_BREAKDOWN">
+        <structure:Concept id="CUST_BREAKDOWN" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.1).CUST_BREAKDOWN">
           <common:Name xml:lang="en">Custom Breakdown</common:Name>
           <structure:CoreRepresentation>
             <structure:Enumeration>
@@ -21815,7 +22021,7 @@
             </structure:Enumeration>
           </structure:CoreRepresentation>
         </structure:Concept>
-        <structure:Concept id="COMPOSITE_BREAKDOWN" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.0).COMPOSITE_BREAKDOWN">
+        <structure:Concept id="COMPOSITE_BREAKDOWN" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.1).COMPOSITE_BREAKDOWN">
           <common:Name xml:lang="en">Composite breakdown</common:Name>
           <structure:CoreRepresentation>
             <structure:Enumeration>
@@ -21823,7 +22029,7 @@
             </structure:Enumeration>
           </structure:CoreRepresentation>
         </structure:Concept>
-        <structure:Concept id="DISABILITY_STATUS" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.0).DISABILITY_STATUS">
+        <structure:Concept id="DISABILITY_STATUS" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.1).DISABILITY_STATUS">
           <common:Name xml:lang="en">Disability status</common:Name>
           <structure:CoreRepresentation>
             <structure:Enumeration>
@@ -21831,7 +22037,7 @@
             </structure:Enumeration>
           </structure:CoreRepresentation>
         </structure:Concept>
-        <structure:Concept id="ACTIVITY" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.0).ACTIVITY">
+        <structure:Concept id="ACTIVITY" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.1).ACTIVITY">
           <common:Name xml:lang="en">Economic activity</common:Name>
           <structure:CoreRepresentation>
             <structure:Enumeration>
@@ -21839,7 +22045,7 @@
             </structure:Enumeration>
           </structure:CoreRepresentation>
         </structure:Concept>
-        <structure:Concept id="PRODUCT" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.0).PRODUCT">
+        <structure:Concept id="PRODUCT" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.1).PRODUCT">
           <common:Name xml:lang="en">Type of product</common:Name>
           <structure:CoreRepresentation>
             <structure:Enumeration>
@@ -21847,7 +22053,7 @@
             </structure:Enumeration>
           </structure:CoreRepresentation>
         </structure:Concept>
-        <structure:Concept id="UNIT_MEASURE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.0).UNIT_MEASURE">
+        <structure:Concept id="UNIT_MEASURE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.1).UNIT_MEASURE">
           <common:Name xml:lang="en">Unit of measure</common:Name>
           <structure:CoreRepresentation>
             <structure:Enumeration>
@@ -21855,13 +22061,13 @@
             </structure:Enumeration>
           </structure:CoreRepresentation>
         </structure:Concept>
-        <structure:Concept id="TIME_PERIOD" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.0).TIME_PERIOD">
+        <structure:Concept id="TIME_PERIOD" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.1).TIME_PERIOD">
           <common:Name xml:lang="en">Time period</common:Name>
         </structure:Concept>
-        <structure:Concept id="OBS_VALUE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.0).OBS_VALUE">
+        <structure:Concept id="OBS_VALUE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.1).OBS_VALUE">
           <common:Name xml:lang="en">Observation value</common:Name>
         </structure:Concept>
-        <structure:Concept id="OBS_STATUS" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.0).OBS_STATUS">
+        <structure:Concept id="OBS_STATUS" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.1).OBS_STATUS">
           <common:Name xml:lang="en">Observation status</common:Name>
           <structure:CoreRepresentation>
             <structure:Enumeration>
@@ -21869,7 +22075,7 @@
             </structure:Enumeration>
           </structure:CoreRepresentation>
         </structure:Concept>
-        <structure:Concept id="UNIT_MULT" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.0).UNIT_MULT">
+        <structure:Concept id="UNIT_MULT" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.1).UNIT_MULT">
           <common:Name xml:lang="en">Unit multiplier</common:Name>
           <structure:CoreRepresentation>
             <structure:Enumeration>
@@ -21877,10 +22083,10 @@
             </structure:Enumeration>
           </structure:CoreRepresentation>
         </structure:Concept>
-        <structure:Concept id="BASE_PER" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.0).BASE_PER">
+        <structure:Concept id="BASE_PER" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.1).BASE_PER">
           <common:Name xml:lang="en">Base period</common:Name>
         </structure:Concept>
-        <structure:Concept id="NATURE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.0).NATURE">
+        <structure:Concept id="NATURE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.1).NATURE">
           <common:Name xml:lang="en">Nature of data points</common:Name>
           <structure:CoreRepresentation>
             <structure:Enumeration>
@@ -21888,31 +22094,31 @@
             </structure:Enumeration>
           </structure:CoreRepresentation>
         </structure:Concept>
-        <structure:Concept id="TIME_DETAIL" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.0).TIME_DETAIL">
+        <structure:Concept id="TIME_DETAIL" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.1).TIME_DETAIL">
           <common:Name xml:lang="en">Time period details</common:Name>
         </structure:Concept>
-        <structure:Concept id="COMMENT_OBS" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.0).COMMENT_OBS">
+        <structure:Concept id="COMMENT_OBS" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.1).COMMENT_OBS">
           <common:Name xml:lang="en">Observation-level footnotes</common:Name>
         </structure:Concept>
-        <structure:Concept id="TIME_COVERAGE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.0).TIME_COVERAGE">
+        <structure:Concept id="TIME_COVERAGE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.1).TIME_COVERAGE">
           <common:Name xml:lang="en">Time period or range (ISO8601)</common:Name>
         </structure:Concept>
-        <structure:Concept id="UPPER_BOUND" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.0).UPPER_BOUND">
+        <structure:Concept id="UPPER_BOUND" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.1).UPPER_BOUND">
           <common:Name xml:lang="en">Upper bound value</common:Name>
         </structure:Concept>
-        <structure:Concept id="LOWER_BOUND" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.0).LOWER_BOUND">
+        <structure:Concept id="LOWER_BOUND" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.1).LOWER_BOUND">
           <common:Name xml:lang="en">Lower bound value</common:Name>
         </structure:Concept>
-        <structure:Concept id="SOURCE_DETAIL" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.0).SOURCE_DETAIL">
+        <structure:Concept id="SOURCE_DETAIL" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.1).SOURCE_DETAIL">
           <common:Name xml:lang="en">Source details</common:Name>
         </structure:Concept>
-        <structure:Concept id="COMMENT_TS" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.0).COMMENT_TS">
+        <structure:Concept id="COMMENT_TS" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.1).COMMENT_TS">
           <common:Name xml:lang="en">Time series-level footnotes</common:Name>
         </structure:Concept>
-        <structure:Concept id="GEO_INFO_URL" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.0).GEO_INFO_URL">
+        <structure:Concept id="GEO_INFO_URL" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.1).GEO_INFO_URL">
           <common:Name xml:lang="en">Geoinformation URL</common:Name>
         </structure:Concept>
-        <structure:Concept id="GEO_INFO_TYPE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.0).GEO_INFO_TYPE">
+        <structure:Concept id="GEO_INFO_TYPE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.1).GEO_INFO_TYPE">
           <common:Name xml:lang="en">Geoinformation type</common:Name>
           <structure:CoreRepresentation>
             <structure:Enumeration>
@@ -21920,22 +22126,22 @@
             </structure:Enumeration>
           </structure:CoreRepresentation>
         </structure:Concept>
-        <structure:Concept id="CUST_BREAKDOWN_LB" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.0).CUST_BREAKDOWN_LB">
+        <structure:Concept id="CUST_BREAKDOWN_LB" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.1).CUST_BREAKDOWN_LB">
           <common:Name xml:lang="en">Label for custom breakdown</common:Name>
         </structure:Concept>
-        <structure:Concept id="DATA_LAST_UPDATE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.0).DATA_LAST_UPDATE">
+        <structure:Concept id="DATA_LAST_UPDATE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=GSS:SDG_DSD(1.1).DATA_LAST_UPDATE">
           <common:Name xml:lang="en">Date of the most recent change of the series.</common:Name>
         </structure:Concept>
       </structure:ConceptScheme>
     </structure:Concepts>
     <structure:DataStructures>
-      <structure:DataStructure id="SDG" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=GSS:SDG(1.0)" agencyID="GSS" version="1.0" isFinal="false">
+      <structure:DataStructure id="SDG" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=GSS:SDG(1.1)" agencyID="GSS" version="1.1" isFinal="false">
         <common:Name xml:lang="en">GSS SDG DSD</common:Name>
         <structure:DataStructureComponents>
-          <structure:DimensionList id="DimensionDescriptor" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DimensionDescriptor=GSS:SDG(1.0).DimensionDescriptor">
-            <structure:Dimension id="FREQ" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.0).FREQ" position="1">
+          <structure:DimensionList id="DimensionDescriptor" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DimensionDescriptor=GSS:SDG(1.1).DimensionDescriptor">
+            <structure:Dimension id="FREQ" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.1).FREQ" position="1">
               <structure:ConceptIdentity>
-                <Ref id="FREQ" maintainableParentID="SDG_DSD" maintainableParentVersion="1.0" agencyID="GSS" package="conceptscheme" class="Concept" />
+                <Ref id="FREQ" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
               <structure:LocalRepresentation>
                 <structure:Enumeration>
@@ -21943,9 +22149,9 @@
                 </structure:Enumeration>
               </structure:LocalRepresentation>
             </structure:Dimension>
-            <structure:Dimension id="REPORTING_TYPE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.0).REPORTING_TYPE" position="2">
+            <structure:Dimension id="REPORTING_TYPE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.1).REPORTING_TYPE" position="2">
               <structure:ConceptIdentity>
-                <Ref id="REPORTING_TYPE" maintainableParentID="SDG_DSD" maintainableParentVersion="1.0" agencyID="GSS" package="conceptscheme" class="Concept" />
+                <Ref id="REPORTING_TYPE" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
               <structure:LocalRepresentation>
                 <structure:Enumeration>
@@ -21953,9 +22159,9 @@
                 </structure:Enumeration>
               </structure:LocalRepresentation>
             </structure:Dimension>
-            <structure:Dimension id="SERIES" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.0).SERIES" position="3">
+            <structure:Dimension id="SERIES" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.1).SERIES" position="3">
               <structure:ConceptIdentity>
-                <Ref id="SERIES" maintainableParentID="SDG_DSD" maintainableParentVersion="1.0" agencyID="GSS" package="conceptscheme" class="Concept" />
+                <Ref id="SERIES" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
               <structure:LocalRepresentation>
                 <structure:Enumeration>
@@ -21963,9 +22169,9 @@
                 </structure:Enumeration>
               </structure:LocalRepresentation>
             </structure:Dimension>
-            <structure:Dimension id="REF_AREA" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.0).REF_AREA" position="4">
+            <structure:Dimension id="REF_AREA" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.1).REF_AREA" position="4">
               <structure:ConceptIdentity>
-                <Ref id="REF_AREA" maintainableParentID="SDG_DSD" maintainableParentVersion="1.0" agencyID="GSS" package="conceptscheme" class="Concept" />
+                <Ref id="REF_AREA" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
               <structure:LocalRepresentation>
                 <structure:Enumeration>
@@ -21973,9 +22179,9 @@
                 </structure:Enumeration>
               </structure:LocalRepresentation>
             </structure:Dimension>
-            <structure:Dimension id="SEX" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.0).SEX" position="5">
+            <structure:Dimension id="SEX" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.1).SEX" position="5">
               <structure:ConceptIdentity>
-                <Ref id="SEX" maintainableParentID="SDG_DSD" maintainableParentVersion="1.0" agencyID="GSS" package="conceptscheme" class="Concept" />
+                <Ref id="SEX" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
               <structure:LocalRepresentation>
                 <structure:Enumeration>
@@ -21983,9 +22189,9 @@
                 </structure:Enumeration>
               </structure:LocalRepresentation>
             </structure:Dimension>
-            <structure:Dimension id="AGE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.0).AGE" position="6">
+            <structure:Dimension id="AGE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.1).AGE" position="6">
               <structure:ConceptIdentity>
-                <Ref id="AGE" maintainableParentID="SDG_DSD" maintainableParentVersion="1.0" agencyID="GSS" package="conceptscheme" class="Concept" />
+                <Ref id="AGE" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
               <structure:LocalRepresentation>
                 <structure:Enumeration>
@@ -21993,9 +22199,9 @@
                 </structure:Enumeration>
               </structure:LocalRepresentation>
             </structure:Dimension>
-            <structure:Dimension id="URBANISATION" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.0).URBANISATION" position="7">
+            <structure:Dimension id="URBANISATION" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.1).URBANISATION" position="7">
               <structure:ConceptIdentity>
-                <Ref id="URBANISATION" maintainableParentID="SDG_DSD" maintainableParentVersion="1.0" agencyID="GSS" package="conceptscheme" class="Concept" />
+                <Ref id="URBANISATION" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
               <structure:LocalRepresentation>
                 <structure:Enumeration>
@@ -22003,9 +22209,9 @@
                 </structure:Enumeration>
               </structure:LocalRepresentation>
             </structure:Dimension>
-            <structure:Dimension id="INCOME_WEALTH_QUANTILE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.0).INCOME_WEALTH_QUANTILE" position="8">
+            <structure:Dimension id="INCOME_WEALTH_QUANTILE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.1).INCOME_WEALTH_QUANTILE" position="8">
               <structure:ConceptIdentity>
-                <Ref id="INCOME_WEALTH_QUANTILE" maintainableParentID="SDG_DSD" maintainableParentVersion="1.0" agencyID="GSS" package="conceptscheme" class="Concept" />
+                <Ref id="INCOME_WEALTH_QUANTILE" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
               <structure:LocalRepresentation>
                 <structure:Enumeration>
@@ -22013,9 +22219,9 @@
                 </structure:Enumeration>
               </structure:LocalRepresentation>
             </structure:Dimension>
-            <structure:Dimension id="EDUCATION_LEV" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.0).EDUCATION_LEV" position="9">
+            <structure:Dimension id="EDUCATION_LEV" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.1).EDUCATION_LEV" position="9">
               <structure:ConceptIdentity>
-                <Ref id="EDUCATION_LEV" maintainableParentID="SDG_DSD" maintainableParentVersion="1.0" agencyID="GSS" package="conceptscheme" class="Concept" />
+                <Ref id="EDUCATION_LEV" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
               <structure:LocalRepresentation>
                 <structure:Enumeration>
@@ -22023,9 +22229,9 @@
                 </structure:Enumeration>
               </structure:LocalRepresentation>
             </structure:Dimension>
-            <structure:Dimension id="OCCUPATION" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.0).OCCUPATION" position="10">
+            <structure:Dimension id="OCCUPATION" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.1).OCCUPATION" position="10">
               <structure:ConceptIdentity>
-                <Ref id="OCCUPATION" maintainableParentID="SDG_DSD" maintainableParentVersion="1.0" agencyID="GSS" package="conceptscheme" class="Concept" />
+                <Ref id="OCCUPATION" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
               <structure:LocalRepresentation>
                 <structure:Enumeration>
@@ -22033,9 +22239,9 @@
                 </structure:Enumeration>
               </structure:LocalRepresentation>
             </structure:Dimension>
-            <structure:Dimension id="CUST_BREAKDOWN" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.0).CUST_BREAKDOWN" position="11">
+            <structure:Dimension id="CUST_BREAKDOWN" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.1).CUST_BREAKDOWN" position="11">
               <structure:ConceptIdentity>
-                <Ref id="CUST_BREAKDOWN" maintainableParentID="SDG_DSD" maintainableParentVersion="1.0" agencyID="GSS" package="conceptscheme" class="Concept" />
+                <Ref id="CUST_BREAKDOWN" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
               <structure:LocalRepresentation>
                 <structure:Enumeration>
@@ -22043,9 +22249,9 @@
                 </structure:Enumeration>
               </structure:LocalRepresentation>
             </structure:Dimension>
-            <structure:Dimension id="COMPOSITE_BREAKDOWN" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.0).COMPOSITE_BREAKDOWN" position="12">
+            <structure:Dimension id="COMPOSITE_BREAKDOWN" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.1).COMPOSITE_BREAKDOWN" position="12">
               <structure:ConceptIdentity>
-                <Ref id="COMPOSITE_BREAKDOWN" maintainableParentID="SDG_DSD" maintainableParentVersion="1.0" agencyID="GSS" package="conceptscheme" class="Concept" />
+                <Ref id="COMPOSITE_BREAKDOWN" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
               <structure:LocalRepresentation>
                 <structure:Enumeration>
@@ -22053,9 +22259,9 @@
                 </structure:Enumeration>
               </structure:LocalRepresentation>
             </structure:Dimension>
-            <structure:Dimension id="DISABILITY_STATUS" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.0).DISABILITY_STATUS" position="13">
+            <structure:Dimension id="DISABILITY_STATUS" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.1).DISABILITY_STATUS" position="13">
               <structure:ConceptIdentity>
-                <Ref id="DISABILITY_STATUS" maintainableParentID="SDG_DSD" maintainableParentVersion="1.0" agencyID="GSS" package="conceptscheme" class="Concept" />
+                <Ref id="DISABILITY_STATUS" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
               <structure:LocalRepresentation>
                 <structure:Enumeration>
@@ -22063,9 +22269,9 @@
                 </structure:Enumeration>
               </structure:LocalRepresentation>
             </structure:Dimension>
-            <structure:Dimension id="ACTIVITY" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.0).ACTIVITY" position="14">
+            <structure:Dimension id="ACTIVITY" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.1).ACTIVITY" position="14">
               <structure:ConceptIdentity>
-                <Ref id="ACTIVITY" maintainableParentID="SDG_DSD" maintainableParentVersion="1.0" agencyID="GSS" package="conceptscheme" class="Concept" />
+                <Ref id="ACTIVITY" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
               <structure:LocalRepresentation>
                 <structure:Enumeration>
@@ -22073,9 +22279,9 @@
                 </structure:Enumeration>
               </structure:LocalRepresentation>
             </structure:Dimension>
-            <structure:Dimension id="PRODUCT" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.0).PRODUCT" position="15">
+            <structure:Dimension id="PRODUCT" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.1).PRODUCT" position="15">
               <structure:ConceptIdentity>
-                <Ref id="PRODUCT" maintainableParentID="SDG_DSD" maintainableParentVersion="1.0" agencyID="GSS" package="conceptscheme" class="Concept" />
+                <Ref id="PRODUCT" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
               <structure:LocalRepresentation>
                 <structure:Enumeration>
@@ -22083,9 +22289,9 @@
                 </structure:Enumeration>
               </structure:LocalRepresentation>
             </structure:Dimension>
-            <structure:Dimension id="UNIT_MEASURE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.0).UNIT_MEASURE" position="16">
+            <structure:Dimension id="UNIT_MEASURE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.1).UNIT_MEASURE" position="16">
               <structure:ConceptIdentity>
-                <Ref id="UNIT_MEASURE" maintainableParentID="SDG_DSD" maintainableParentVersion="1.0" agencyID="GSS" package="conceptscheme" class="Concept" />
+                <Ref id="UNIT_MEASURE" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
               <structure:LocalRepresentation>
                 <structure:Enumeration>
@@ -22093,19 +22299,19 @@
                 </structure:Enumeration>
               </structure:LocalRepresentation>
             </structure:Dimension>
-            <structure:TimeDimension id="TIME_PERIOD" urn="urn:sdmx:org.sdmx.infomodel.datastructure.TimeDimension=GSS:SDG(1.0).TIME_PERIOD" position="17">
+            <structure:TimeDimension id="TIME_PERIOD" urn="urn:sdmx:org.sdmx.infomodel.datastructure.TimeDimension=GSS:SDG(1.1).TIME_PERIOD" position="17">
               <structure:ConceptIdentity>
-                <Ref id="TIME_PERIOD" maintainableParentID="SDG_DSD" maintainableParentVersion="1.0" agencyID="GSS" package="conceptscheme" class="Concept" />
+                <Ref id="TIME_PERIOD" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
               <structure:LocalRepresentation>
                 <structure:TextFormat textType="ObservationalTimePeriod" />
               </structure:LocalRepresentation>
             </structure:TimeDimension>
           </structure:DimensionList>
-          <structure:AttributeList id="AttributeDescriptor" urn="urn:sdmx:org.sdmx.infomodel.datastructure.AttributeDescriptor=GSS:SDG(1.0).AttributeDescriptor">
-            <structure:Attribute id="OBS_STATUS" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.0).OBS_STATUS" assignmentStatus="Mandatory">
+          <structure:AttributeList id="AttributeDescriptor" urn="urn:sdmx:org.sdmx.infomodel.datastructure.AttributeDescriptor=GSS:SDG(1.1).AttributeDescriptor">
+            <structure:Attribute id="OBS_STATUS" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.1).OBS_STATUS" assignmentStatus="Mandatory">
               <structure:ConceptIdentity>
-                <Ref id="OBS_STATUS" maintainableParentID="SDG_DSD" maintainableParentVersion="1.0" agencyID="GSS" package="conceptscheme" class="Concept" />
+                <Ref id="OBS_STATUS" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
               <structure:LocalRepresentation>
                 <structure:Enumeration>
@@ -22118,9 +22324,9 @@
                 </structure:PrimaryMeasure>
               </structure:AttributeRelationship>
             </structure:Attribute>
-            <structure:Attribute id="UNIT_MULT" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.0).UNIT_MULT" assignmentStatus="Mandatory">
+            <structure:Attribute id="UNIT_MULT" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.1).UNIT_MULT" assignmentStatus="Mandatory">
               <structure:ConceptIdentity>
-                <Ref id="UNIT_MULT" maintainableParentID="SDG_DSD" maintainableParentVersion="1.0" agencyID="GSS" package="conceptscheme" class="Concept" />
+                <Ref id="UNIT_MULT" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
               <structure:LocalRepresentation>
                 <structure:Enumeration>
@@ -22133,9 +22339,9 @@
                 </structure:PrimaryMeasure>
               </structure:AttributeRelationship>
             </structure:Attribute>
-            <structure:Attribute id="BASE_PER" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.0).BASE_PER" assignmentStatus="Conditional">
+            <structure:Attribute id="BASE_PER" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.1).BASE_PER" assignmentStatus="Conditional">
               <structure:ConceptIdentity>
-                <Ref id="BASE_PER" maintainableParentID="SDG_DSD" maintainableParentVersion="1.0" agencyID="GSS" package="conceptscheme" class="Concept" />
+                <Ref id="BASE_PER" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
               <structure:AttributeRelationship>
                 <structure:PrimaryMeasure>
@@ -22143,9 +22349,9 @@
                 </structure:PrimaryMeasure>
               </structure:AttributeRelationship>
             </structure:Attribute>
-            <structure:Attribute id="NATURE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.0).NATURE" assignmentStatus="Conditional">
+            <structure:Attribute id="NATURE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.1).NATURE" assignmentStatus="Conditional">
               <structure:ConceptIdentity>
-                <Ref id="NATURE" maintainableParentID="SDG_DSD" maintainableParentVersion="1.0" agencyID="GSS" package="conceptscheme" class="Concept" />
+                <Ref id="NATURE" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
               <structure:LocalRepresentation>
                 <structure:Enumeration>
@@ -22158,9 +22364,9 @@
                 </structure:PrimaryMeasure>
               </structure:AttributeRelationship>
             </structure:Attribute>
-            <structure:Attribute id="TIME_DETAIL" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.0).TIME_DETAIL" assignmentStatus="Conditional">
+            <structure:Attribute id="TIME_DETAIL" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.1).TIME_DETAIL" assignmentStatus="Conditional">
               <structure:ConceptIdentity>
-                <Ref id="TIME_DETAIL" maintainableParentID="SDG_DSD" maintainableParentVersion="1.0" agencyID="GSS" package="conceptscheme" class="Concept" />
+                <Ref id="TIME_DETAIL" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
               <structure:AttributeRelationship>
                 <structure:PrimaryMeasure>
@@ -22168,9 +22374,9 @@
                 </structure:PrimaryMeasure>
               </structure:AttributeRelationship>
             </structure:Attribute>
-            <structure:Attribute id="COMMENT_OBS" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.0).COMMENT_OBS" assignmentStatus="Conditional">
+            <structure:Attribute id="COMMENT_OBS" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.1).COMMENT_OBS" assignmentStatus="Conditional">
               <structure:ConceptIdentity>
-                <Ref id="COMMENT_OBS" maintainableParentID="SDG_DSD" maintainableParentVersion="1.0" agencyID="GSS" package="conceptscheme" class="Concept" />
+                <Ref id="COMMENT_OBS" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
               <structure:AttributeRelationship>
                 <structure:PrimaryMeasure>
@@ -22178,9 +22384,9 @@
                 </structure:PrimaryMeasure>
               </structure:AttributeRelationship>
             </structure:Attribute>
-            <structure:Attribute id="TIME_COVERAGE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.0).TIME_COVERAGE" assignmentStatus="Conditional">
+            <structure:Attribute id="TIME_COVERAGE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.1).TIME_COVERAGE" assignmentStatus="Conditional">
               <structure:ConceptIdentity>
-                <Ref id="TIME_COVERAGE" maintainableParentID="SDG_DSD" maintainableParentVersion="1.0" agencyID="GSS" package="conceptscheme" class="Concept" />
+                <Ref id="TIME_COVERAGE" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
               <structure:AttributeRelationship>
                 <structure:PrimaryMeasure>
@@ -22188,9 +22394,9 @@
                 </structure:PrimaryMeasure>
               </structure:AttributeRelationship>
             </structure:Attribute>
-            <structure:Attribute id="UPPER_BOUND" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.0).UPPER_BOUND" assignmentStatus="Conditional">
+            <structure:Attribute id="UPPER_BOUND" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.1).UPPER_BOUND" assignmentStatus="Conditional">
               <structure:ConceptIdentity>
-                <Ref id="UPPER_BOUND" maintainableParentID="SDG_DSD" maintainableParentVersion="1.0" agencyID="GSS" package="conceptscheme" class="Concept" />
+                <Ref id="UPPER_BOUND" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
               <structure:AttributeRelationship>
                 <structure:PrimaryMeasure>
@@ -22198,9 +22404,9 @@
                 </structure:PrimaryMeasure>
               </structure:AttributeRelationship>
             </structure:Attribute>
-            <structure:Attribute id="LOWER_BOUND" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.0).LOWER_BOUND" assignmentStatus="Conditional">
+            <structure:Attribute id="LOWER_BOUND" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.1).LOWER_BOUND" assignmentStatus="Conditional">
               <structure:ConceptIdentity>
-                <Ref id="LOWER_BOUND" maintainableParentID="SDG_DSD" maintainableParentVersion="1.0" agencyID="GSS" package="conceptscheme" class="Concept" />
+                <Ref id="LOWER_BOUND" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
               <structure:AttributeRelationship>
                 <structure:PrimaryMeasure>
@@ -22208,9 +22414,9 @@
                 </structure:PrimaryMeasure>
               </structure:AttributeRelationship>
             </structure:Attribute>
-            <structure:Attribute id="SOURCE_DETAIL" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.0).SOURCE_DETAIL" assignmentStatus="Conditional">
+            <structure:Attribute id="SOURCE_DETAIL" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.1).SOURCE_DETAIL" assignmentStatus="Conditional">
               <structure:ConceptIdentity>
-                <Ref id="SOURCE_DETAIL" maintainableParentID="SDG_DSD" maintainableParentVersion="1.0" agencyID="GSS" package="conceptscheme" class="Concept" />
+                <Ref id="SOURCE_DETAIL" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
               <structure:AttributeRelationship>
                 <structure:PrimaryMeasure>
@@ -22218,9 +22424,9 @@
                 </structure:PrimaryMeasure>
               </structure:AttributeRelationship>
             </structure:Attribute>
-            <structure:Attribute id="COMMENT_TS" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.0).COMMENT_TS" assignmentStatus="Conditional">
+            <structure:Attribute id="COMMENT_TS" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.1).COMMENT_TS" assignmentStatus="Conditional">
               <structure:ConceptIdentity>
-                <Ref id="COMMENT_TS" maintainableParentID="SDG_DSD" maintainableParentVersion="1.0" agencyID="GSS" package="conceptscheme" class="Concept" />
+                <Ref id="COMMENT_TS" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
               <structure:AttributeRelationship>
                 <structure:Dimension>
@@ -22270,9 +22476,9 @@
                 </structure:Dimension>
               </structure:AttributeRelationship>
             </structure:Attribute>
-            <structure:Attribute id="GEO_INFO_URL" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.0).GEO_INFO_URL" assignmentStatus="Conditional">
+            <structure:Attribute id="GEO_INFO_URL" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.1).GEO_INFO_URL" assignmentStatus="Conditional">
               <structure:ConceptIdentity>
-                <Ref id="GEO_INFO_URL" maintainableParentID="SDG_DSD" maintainableParentVersion="1.0" agencyID="GSS" package="conceptscheme" class="Concept" />
+                <Ref id="GEO_INFO_URL" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
               <structure:AttributeRelationship>
                 <structure:Dimension>
@@ -22322,9 +22528,9 @@
                 </structure:Dimension>
               </structure:AttributeRelationship>
             </structure:Attribute>
-            <structure:Attribute id="GEO_INFO_TYPE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.0).GEO_INFO_TYPE" assignmentStatus="Conditional">
+            <structure:Attribute id="GEO_INFO_TYPE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.1).GEO_INFO_TYPE" assignmentStatus="Conditional">
               <structure:ConceptIdentity>
-                <Ref id="GEO_INFO_TYPE" maintainableParentID="SDG_DSD" maintainableParentVersion="1.0" agencyID="GSS" package="conceptscheme" class="Concept" />
+                <Ref id="GEO_INFO_TYPE" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
               <structure:LocalRepresentation>
                 <structure:Enumeration>
@@ -22379,9 +22585,9 @@
                 </structure:Dimension>
               </structure:AttributeRelationship>
             </structure:Attribute>
-            <structure:Attribute id="CUST_BREAKDOWN_LB" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.0).CUST_BREAKDOWN_LB" assignmentStatus="Conditional">
+            <structure:Attribute id="CUST_BREAKDOWN_LB" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.1).CUST_BREAKDOWN_LB" assignmentStatus="Conditional">
               <structure:ConceptIdentity>
-                <Ref id="CUST_BREAKDOWN_LB" maintainableParentID="SDG_DSD" maintainableParentVersion="1.0" agencyID="GSS" package="conceptscheme" class="Concept" />
+                <Ref id="CUST_BREAKDOWN_LB" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
               <structure:AttributeRelationship>
                 <structure:Dimension>
@@ -22431,9 +22637,9 @@
                 </structure:Dimension>
               </structure:AttributeRelationship>
             </structure:Attribute>
-            <structure:Attribute id="DATA_LAST_UPDATE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.0).DATA_LAST_UPDATE" assignmentStatus="Conditional">
+            <structure:Attribute id="DATA_LAST_UPDATE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.1).DATA_LAST_UPDATE" assignmentStatus="Conditional">
               <structure:ConceptIdentity>
-                <Ref id="DATA_LAST_UPDATE" maintainableParentID="SDG_DSD" maintainableParentVersion="1.0" agencyID="GSS" package="conceptscheme" class="Concept" />
+                <Ref id="DATA_LAST_UPDATE" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
               <structure:AttributeRelationship>
                 <structure:Dimension>
@@ -22484,10 +22690,10 @@
               </structure:AttributeRelationship>
             </structure:Attribute>
           </structure:AttributeList>
-          <structure:MeasureList id="MeasureDescriptor" urn="urn:sdmx:org.sdmx.infomodel.datastructure.MeasureDescriptor=GSS:SDG(1.0).MeasureDescriptor">
-            <structure:PrimaryMeasure id="OBS_VALUE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.PrimaryMeasure=GSS:SDG(1.0).OBS_VALUE">
+          <structure:MeasureList id="MeasureDescriptor" urn="urn:sdmx:org.sdmx.infomodel.datastructure.MeasureDescriptor=GSS:SDG(1.1).MeasureDescriptor">
+            <structure:PrimaryMeasure id="OBS_VALUE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.PrimaryMeasure=GSS:SDG(1.1).OBS_VALUE">
               <structure:ConceptIdentity>
-                <Ref id="OBS_VALUE" maintainableParentID="SDG_DSD" maintainableParentVersion="1.0" agencyID="GSS" package="conceptscheme" class="Concept" />
+                <Ref id="OBS_VALUE" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
             </structure:PrimaryMeasure>
           </structure:MeasureList>
