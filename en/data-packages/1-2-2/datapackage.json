@@ -38,14 +38,14 @@
             "constraints": {
               "enum": [
                 "",
-                "_L_GH_DEVELOPMENT",
-                "_L_GH_HEALTH",
-                "_L_GH_HOUSING",
-                "_L_GH_ICT",
-                "_L_GH_NUTRITION",
-                "_L_GH_PROTECTION",
-                "_L_GH_SANITATION",
-                "_L_GH_WATER"
+                "DEVELOPMENT",
+                "HEALTH",
+                "HOUSING",
+                "ICT",
+                "NUTRITION",
+                "PROTECTION",
+                "SANITATION",
+                "WATER"
               ]
             },
             "title": "Composite breakdown"
@@ -72,9 +72,9 @@
             "constraints": {
               "enum": [
                 "",
-                "_L_GH_Coastal",
-                "_L_GH_Forest",
-                "_L_GH_Savannah"
+                "Coastal Zone",
+                "Forest Zone",
+                "Savannah Zone"
               ]
             },
             "title": "Reference area"
