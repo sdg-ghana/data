@@ -86,8 +86,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "SKILL_MATH",
-                "SKILL_READ",
                 "SKILL_NMRCY",
                 "SKILL_LTRCY",
                 ""

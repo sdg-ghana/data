@@ -1,7 +1,7 @@
 Disaggregation,en,Number of indicators,Number of values
 AGE,Age,2,2
 COMMENT_OBS,Observation-level footnotes,2,2
-COMPOSITE_BREAKDOWN,Composite breakdown,5,19
+COMPOSITE_BREAKDOWN,Composite breakdown,5,17
 CUST_BREAKDOWN,Custom Breakdown,1,2
 EDUCATION_LEV,Education level,4,9
 OBS_STATUS,Observation status,15,1
