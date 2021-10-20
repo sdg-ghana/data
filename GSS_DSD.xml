@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <message:Structure xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:structure="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
   <message:Header>
-    <message:ID>IDREF1</message:ID>
+    <message:ID>IDREF3</message:ID>
     <message:Test>false</message:Test>
-    <message:Prepared>2021-06-15T14:05:44.3789779+00:00</message:Prepared>
+    <message:Prepared>2021-10-20T05:48:54.4398099+00:00</message:Prepared>
     <message:Sender id="Unknown" />
     <message:Receiver id="Unknown" />
   </message:Header>
@@ -2236,11 +2236,11 @@
         </structure:Code>
         <structure:Code id="_L_GH_PRIVATE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_COMP_BREAKDOWN(1.0)._L_GH_PRIVATE">
           <common:Name xml:lang="en">Private</common:Name>
-          <common:Description xml:lang="en">type of school: Private</common:Description>
+          <common:Description xml:lang="en">Sector: Private</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_PUBLIC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_COMP_BREAKDOWN(1.0)._L_GH_PUBLIC">
           <common:Name xml:lang="en">Public</common:Name>
-          <common:Description xml:lang="en">type of school: Public</common:Description>
+          <common:Description xml:lang="en">Sector: Public</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_VERB_ASS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_COMP_BREAKDOWN(1.0)._L_GH_VERB_ASS">
           <common:Name xml:lang="en">Verbal assault</common:Name>
@@ -2261,6 +2261,38 @@
         <structure:Code id="_L_GH_SEX_HER" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_COMP_BREAKDOWN(1.0)._L_GH_SEX_HER">
           <common:Name xml:lang="en">Sexual Harassment</common:Name>
           <common:Description xml:lang="en">Type assault: Sexual Harassment</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_GOG" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_COMP_BREAKDOWN(1.0)._L_GH_GOG">
+          <common:Name xml:lang="en">Government of Ghana</common:Name>
+          <common:Description xml:lang="en">Source of funding: Government of Ghana</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_IGF" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_COMP_BREAKDOWN(1.0)._L_GH_IGF">
+          <common:Name xml:lang="en">Internally Generated Funds</common:Name>
+          <common:Description xml:lang="en">Source of funding: Internally Generated Funds</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_OTHER_FUNDS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_COMP_BREAKDOWN(1.0)._L_GH_OTHER_FUNDS">
+          <common:Name xml:lang="en">Other Fund</common:Name>
+          <common:Description xml:lang="en">Source of funding: Other Fund</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_STATUTORY" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_COMP_BREAKDOWN(1.0)._L_GH_STATUTORY">
+          <common:Name xml:lang="en">Statutory</common:Name>
+          <common:Description xml:lang="en">Source of funding: Statutory</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_DP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_COMP_BREAKDOWN(1.0)._L_GH_DP">
+          <common:Name xml:lang="en">Development Partner</common:Name>
+          <common:Description xml:lang="en">Source of funding: Development Partner</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_SKILLED_CARE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_COMP_BREAKDOWN(1.0)._L_GH_SKILLED_CARE">
+          <common:Name xml:lang="en">Skilled Care</common:Name>
+          <common:Description xml:lang="en">Type of care: Skilled care</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_UNSKILLED_CARE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_COMP_BREAKDOWN(1.0)._L_GH_UNSKILLED_CARE">
+          <common:Name xml:lang="en">Unskilled Care</common:Name>
+          <common:Description xml:lang="en">Type of care: Unskilled care</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_NO_CARE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_COMP_BREAKDOWN(1.0)._L_GH_NO_CARE">
+          <common:Name xml:lang="en">No Care</common:Name>
+          <common:Description xml:lang="en">Type of care: No care</common:Description>
         </structure:Code>
         <structure:Code id="SKILL_MATH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_COMP_BREAKDOWN(1.0).SKILL_MATH">
           <common:Name xml:lang="en">Skill: Mathematics</common:Name>
@@ -3793,33 +3825,6 @@
           <common:Name xml:lang="en">Number of Technical and Vocational Institutes (Enrolled students)</common:Name>
           <common:Description xml:lang="en">Number of Technical and Vocational Institutes (Enrolled students)</common:Description>
         </structure:Code>
-        <structure:Code id="_L_GH_030102" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_030102">
-          <common:Annotations>
-            <common:Annotation>
-              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
-              <common:AnnotationType>Indicator</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">3.1.2</common:AnnotationText>
-            </common:Annotation>
-            <common:Annotation>
-              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
-              <common:AnnotationType>IndicatorCode</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">c030102</common:AnnotationText>
-            </common:Annotation>
-            <common:Annotation>
-              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
-              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">Homes deliveries by region and locality type</common:AnnotationText>
-            </common:Annotation>
-            <common:Annotation>
-              <common:AnnotationType>ORDER</common:AnnotationType>
-            </common:Annotation>
-            <common:Annotation>
-              <common:AnnotationType>RetiredSeries</common:AnnotationType>
-            </common:Annotation>
-          </common:Annotations>
-          <common:Name xml:lang="en">Homes deliveries by region and locality type</common:Name>
-          <common:Description xml:lang="en">Homes deliveries by region and locality type</common:Description>
-        </structure:Code>
         <structure:Code id="_L_GH_140201_01" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_140201_01">
           <common:Annotations>
             <common:Annotation>
@@ -4363,6 +4368,7 @@
         <structure:Code id="_L_GH_160501_2" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_160501_2">
           <common:Annotations>
             <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
               <common:AnnotationType>Indicator</common:AnnotationType>
               <common:AnnotationText xml:lang="en">16.5.1</common:AnnotationText>
             </common:Annotation>
@@ -4385,6 +4391,735 @@
           </common:Annotations>
           <common:Name xml:lang="en">Corruption Perception Index Rank</common:Name>
           <common:Description xml:lang="en">Corruption Perception Index Rank</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_030101" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_030101">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3.1.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C030101</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Institutional maternal mortality ratio</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Institutional maternal mortality ratio</common:Name>
+          <common:Description xml:lang="en">Institutional maternal mortality ratio</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_030301" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_030301">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3.3.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C030301</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Number of new HIV infections [3.3.1]</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Number of new HIV infections [3.3.1]</common:Name>
+          <common:Description xml:lang="en">Number of new HIV infections [3.3.1]</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_020202" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_020202">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2.2.2</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C020202</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Proportion of children underweight</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Proportion of children underweight</common:Name>
+          <common:Description xml:lang="en">Proportion of children underweight</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_040201_01" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_040201_01">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">4.2.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C040201</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Proportion of children who are developmentally on track in literacy-numeracy</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Proportion of children who are developmentally on track in literacy-numeracy</common:Name>
+          <common:Description xml:lang="en">Proportion of children who are developmentally on track in literacy-numeracy</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_040201_02" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_040201_02">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">4.2.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C040201</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Proportion of children who are developmentally on track in physical development</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Proportion of children who are developmentally on track in physical development</common:Name>
+          <common:Description xml:lang="en">Proportion of children who are developmentally on track in physical development</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_040201_03" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_040201_03">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">4.2.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C040201</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Proportion of children who are developmentally on track in social-emotional development</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Proportion of children who are developmentally on track in social-emotional development</common:Name>
+          <common:Description xml:lang="en">Proportion of children who are developmentally on track in social-emotional development</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_040201_04" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_040201_04">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">4.2.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C040201</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Proportion of children who are developmentally on track in learning</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Proportion of children who are developmentally on track in learning</common:Name>
+          <common:Description xml:lang="en">Proportion of children who are developmentally on track in learning</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_030102_01" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_030102_01">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3.1.2</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C030102</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Homes deliveries by region and locality type</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Homes deliveries by region and locality type</common:Name>
+          <common:Description xml:lang="en">Homes deliveries by region and locality type</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_030102_02" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_030102_02">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3.1.2</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C030102</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Type of care received during Health facility delivery</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Type of care received during Health facility delivery</common:Name>
+          <common:Description xml:lang="en">Type of care received during Health facility delivery</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_030102_03" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_030102_03">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3.1.2</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C030102</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Type of care received during Home delivery</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Type of care received during Home delivery</common:Name>
+          <common:Description xml:lang="en">Type of care received during Home delivery</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_010a01_01" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_010a01_01">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1.a.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C010a04</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Total Budget Allocation towards SDG1 (No Poverty) for MDAs/MMDAs (in GH� million)</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Total Budget Allocation towards SDG1 (No Poverty) for MDAs/MMDAs (in GH� million)</common:Name>
+          <common:Description xml:lang="en">Total Budget Allocation towards SDG1 (No Poverty) for MDAs/MMDAs (in GH� million)</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_010a01_02" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_010a01_02">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1.a.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C010a04</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Percentage share of Budget Allocation towards SDG1 (No Poverty) for MDAs/MMDAs</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Percentage share of Budget Allocation towards SDG1 (No Poverty) for MDAs/MMDAs</common:Name>
+          <common:Description xml:lang="en">Percentage share of Budget Allocation towards SDG1 (No Poverty) for MDAs/MMDAs</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_010a01_03" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_010a01_03">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1.a.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C010a04</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Budget Allocation towards Extreme poverty (in GH� million)</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Budget Allocation towards Extreme poverty (in GH� million)</common:Name>
+          <common:Description xml:lang="en">Budget Allocation towards Extreme poverty (in GH� million)</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_010a01_04" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_010a01_04">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1.a.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C010a04</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Budget Allocation towards reducing poverty proportion of men, women and children by at least half (in GH� million)</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Budget Allocation towards reducing poverty proportion of men, women and children by at least half (in GH� million)</common:Name>
+          <common:Description xml:lang="en">Budget Allocation towards reducing poverty proportion of men, women and children by at least half (in GH� million)</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_010a01_05" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_010a01_05">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1.a.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C010a04</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Budget Allocation towards Social dimension (in GH� million)</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Budget Allocation towards Social dimension (in GH� million)</common:Name>
+          <common:Description xml:lang="en">Budget Allocation towards Social dimension (in GH� million)</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_010a01_06" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_010a01_06">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1.a.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C010a04</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Budget Allocation towards Equal rights to basic services (in GH� million)</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Budget Allocation towards Equal rights to basic services (in GH� million)</common:Name>
+          <common:Description xml:lang="en">Budget Allocation towards Equal rights to basic services (in GH� million)</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_010a01_07" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_010a01_07">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1.a.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C010a04</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Budget Allocation towards Building resilience of the poor and vulnerable (in GH� million)</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Budget Allocation towards Building resilience of the poor and vulnerable (in GH� million)</common:Name>
+          <common:Description xml:lang="en">Budget Allocation towards Building resilience of the poor and vulnerable (in GH� million)</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_010a01_08" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_010a01_08">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1.a.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C010a04</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Budget Allocation towards Mobilisation of resources (in GH� million)</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Budget Allocation towards Mobilisation of resources (in GH� million)</common:Name>
+          <common:Description xml:lang="en">Budget Allocation towards Mobilisation of resources (in GH� million)</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_010a01_09" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_010a01_09">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1.a.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C010a04</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Budget Allocation towards Pro-poor and Gender (in GH� million)</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Budget Allocation towards Pro-poor and Gender (in GH� million)</common:Name>
+          <common:Description xml:lang="en">Budget Allocation towards Pro-poor and Gender (in GH� million)</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_040c01_01" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_040c01_01">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">4.c.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C040c01</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Pupil-trained teacher ratio by academic year at the basic level</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Pupil-trained teacher ratio by academic year at the basic level</common:Name>
+          <common:Description xml:lang="en">Pupil-trained teacher ratio by academic year at the basic level</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_040c01_02" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_040c01_02">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">4.c.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C040c01</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Comparison of Pupil-trained teacher ratio by year at the basic level</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Comparison of Pupil-trained teacher ratio by year at the basic level</common:Name>
+          <common:Description xml:lang="en">Comparison of Pupil-trained teacher ratio by year at the basic level</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_050201" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_050201">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">5.2.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C050201</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Reported cases of domestic violence</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Reported cases of domestic violence</common:Name>
+          <common:Description xml:lang="en">Reported cases of domestic violence</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_040a01_01" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_040a01_01">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">4.a.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C040a01</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Proportion of schools with access to toilet facilities</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Proportion of schools with access to toilet facilities</common:Name>
+          <common:Description xml:lang="en">Proportion of schools with access to toilet facilities</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_040a01_02" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_040a01_02">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">4.a.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C040a01</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Proportion of schools with access to urinals</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Proportion of schools with access to urinals</common:Name>
+          <common:Description xml:lang="en">Proportion of schools with access to urinals</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_050b01_01" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_050b01_01">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">5.b.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C050b01</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Proportion of individuals who use a mobile telephone [5.b.1]</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Proportion of individuals who use a mobile telephone [5.b.1]</common:Name>
+          <common:Description xml:lang="en">Proportion of individuals who use a mobile telephone [5.b.1]</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_050501_01" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_050501_01">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">5.5.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C050501</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Proportion of women among Metropolitan, Municipal, and District Chief Executives (MMDCES)</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Proportion of women among Metropolitan, Municipal, and District Chief Executives (MMDCES)</common:Name>
+          <common:Description xml:lang="en">Proportion of women among Metropolitan, Municipal, and District Chief Executives (MMDCES)</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_010b01_01" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_010b01_01">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1.b.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C010b01</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Pro-Poor Share of Government Expenditure</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Pro-Poor Share of Government Expenditure</common:Name>
+          <common:Description xml:lang="en">Pro-Poor Share of Government Expenditure</common:Description>
         </structure:Code>
         <structure:Code id="SI_POV_DAY1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0).SI_POV_DAY1">
           <common:Annotations>
@@ -22135,11 +22870,11 @@
       </structure:ConceptScheme>
     </structure:Concepts>
     <structure:DataStructures>
-      <structure:DataStructure id="SDG" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=GSS:SDG(1.1)" agencyID="GSS" version="1.1" isFinal="false">
+      <structure:DataStructure id="SDG" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=GSS:SDG(1.2)" agencyID="GSS" version="1.2" isFinal="false">
         <common:Name xml:lang="en">GSS SDG DSD</common:Name>
         <structure:DataStructureComponents>
-          <structure:DimensionList id="DimensionDescriptor" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DimensionDescriptor=GSS:SDG(1.1).DimensionDescriptor">
-            <structure:Dimension id="FREQ" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.1).FREQ" position="1">
+          <structure:DimensionList id="DimensionDescriptor" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DimensionDescriptor=GSS:SDG(1.2).DimensionDescriptor">
+            <structure:Dimension id="FREQ" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.2).FREQ" position="1">
               <structure:ConceptIdentity>
                 <Ref id="FREQ" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
@@ -22149,7 +22884,7 @@
                 </structure:Enumeration>
               </structure:LocalRepresentation>
             </structure:Dimension>
-            <structure:Dimension id="REPORTING_TYPE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.1).REPORTING_TYPE" position="2">
+            <structure:Dimension id="REPORTING_TYPE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.2).REPORTING_TYPE" position="2">
               <structure:ConceptIdentity>
                 <Ref id="REPORTING_TYPE" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
@@ -22159,7 +22894,7 @@
                 </structure:Enumeration>
               </structure:LocalRepresentation>
             </structure:Dimension>
-            <structure:Dimension id="SERIES" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.1).SERIES" position="3">
+            <structure:Dimension id="SERIES" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.2).SERIES" position="3">
               <structure:ConceptIdentity>
                 <Ref id="SERIES" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
@@ -22169,7 +22904,7 @@
                 </structure:Enumeration>
               </structure:LocalRepresentation>
             </structure:Dimension>
-            <structure:Dimension id="REF_AREA" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.1).REF_AREA" position="4">
+            <structure:Dimension id="REF_AREA" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.2).REF_AREA" position="4">
               <structure:ConceptIdentity>
                 <Ref id="REF_AREA" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
@@ -22179,7 +22914,7 @@
                 </structure:Enumeration>
               </structure:LocalRepresentation>
             </structure:Dimension>
-            <structure:Dimension id="SEX" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.1).SEX" position="5">
+            <structure:Dimension id="SEX" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.2).SEX" position="5">
               <structure:ConceptIdentity>
                 <Ref id="SEX" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
@@ -22189,7 +22924,7 @@
                 </structure:Enumeration>
               </structure:LocalRepresentation>
             </structure:Dimension>
-            <structure:Dimension id="AGE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.1).AGE" position="6">
+            <structure:Dimension id="AGE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.2).AGE" position="6">
               <structure:ConceptIdentity>
                 <Ref id="AGE" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
@@ -22199,7 +22934,7 @@
                 </structure:Enumeration>
               </structure:LocalRepresentation>
             </structure:Dimension>
-            <structure:Dimension id="URBANISATION" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.1).URBANISATION" position="7">
+            <structure:Dimension id="URBANISATION" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.2).URBANISATION" position="7">
               <structure:ConceptIdentity>
                 <Ref id="URBANISATION" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
@@ -22209,7 +22944,7 @@
                 </structure:Enumeration>
               </structure:LocalRepresentation>
             </structure:Dimension>
-            <structure:Dimension id="INCOME_WEALTH_QUANTILE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.1).INCOME_WEALTH_QUANTILE" position="8">
+            <structure:Dimension id="INCOME_WEALTH_QUANTILE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.2).INCOME_WEALTH_QUANTILE" position="8">
               <structure:ConceptIdentity>
                 <Ref id="INCOME_WEALTH_QUANTILE" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
@@ -22219,7 +22954,7 @@
                 </structure:Enumeration>
               </structure:LocalRepresentation>
             </structure:Dimension>
-            <structure:Dimension id="EDUCATION_LEV" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.1).EDUCATION_LEV" position="9">
+            <structure:Dimension id="EDUCATION_LEV" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.2).EDUCATION_LEV" position="9">
               <structure:ConceptIdentity>
                 <Ref id="EDUCATION_LEV" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
@@ -22229,7 +22964,7 @@
                 </structure:Enumeration>
               </structure:LocalRepresentation>
             </structure:Dimension>
-            <structure:Dimension id="OCCUPATION" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.1).OCCUPATION" position="10">
+            <structure:Dimension id="OCCUPATION" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.2).OCCUPATION" position="10">
               <structure:ConceptIdentity>
                 <Ref id="OCCUPATION" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
@@ -22239,7 +22974,7 @@
                 </structure:Enumeration>
               </structure:LocalRepresentation>
             </structure:Dimension>
-            <structure:Dimension id="CUST_BREAKDOWN" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.1).CUST_BREAKDOWN" position="11">
+            <structure:Dimension id="CUST_BREAKDOWN" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.2).CUST_BREAKDOWN" position="11">
               <structure:ConceptIdentity>
                 <Ref id="CUST_BREAKDOWN" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
@@ -22249,7 +22984,7 @@
                 </structure:Enumeration>
               </structure:LocalRepresentation>
             </structure:Dimension>
-            <structure:Dimension id="COMPOSITE_BREAKDOWN" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.1).COMPOSITE_BREAKDOWN" position="12">
+            <structure:Dimension id="COMPOSITE_BREAKDOWN" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.2).COMPOSITE_BREAKDOWN" position="12">
               <structure:ConceptIdentity>
                 <Ref id="COMPOSITE_BREAKDOWN" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
@@ -22259,7 +22994,7 @@
                 </structure:Enumeration>
               </structure:LocalRepresentation>
             </structure:Dimension>
-            <structure:Dimension id="DISABILITY_STATUS" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.1).DISABILITY_STATUS" position="13">
+            <structure:Dimension id="DISABILITY_STATUS" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.2).DISABILITY_STATUS" position="13">
               <structure:ConceptIdentity>
                 <Ref id="DISABILITY_STATUS" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
@@ -22269,7 +23004,7 @@
                 </structure:Enumeration>
               </structure:LocalRepresentation>
             </structure:Dimension>
-            <structure:Dimension id="ACTIVITY" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.1).ACTIVITY" position="14">
+            <structure:Dimension id="ACTIVITY" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.2).ACTIVITY" position="14">
               <structure:ConceptIdentity>
                 <Ref id="ACTIVITY" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
@@ -22279,7 +23014,7 @@
                 </structure:Enumeration>
               </structure:LocalRepresentation>
             </structure:Dimension>
-            <structure:Dimension id="PRODUCT" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.1).PRODUCT" position="15">
+            <structure:Dimension id="PRODUCT" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.2).PRODUCT" position="15">
               <structure:ConceptIdentity>
                 <Ref id="PRODUCT" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
@@ -22289,7 +23024,7 @@
                 </structure:Enumeration>
               </structure:LocalRepresentation>
             </structure:Dimension>
-            <structure:Dimension id="UNIT_MEASURE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.1).UNIT_MEASURE" position="16">
+            <structure:Dimension id="UNIT_MEASURE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=GSS:SDG(1.2).UNIT_MEASURE" position="16">
               <structure:ConceptIdentity>
                 <Ref id="UNIT_MEASURE" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
@@ -22299,7 +23034,7 @@
                 </structure:Enumeration>
               </structure:LocalRepresentation>
             </structure:Dimension>
-            <structure:TimeDimension id="TIME_PERIOD" urn="urn:sdmx:org.sdmx.infomodel.datastructure.TimeDimension=GSS:SDG(1.1).TIME_PERIOD" position="17">
+            <structure:TimeDimension id="TIME_PERIOD" urn="urn:sdmx:org.sdmx.infomodel.datastructure.TimeDimension=GSS:SDG(1.2).TIME_PERIOD" position="17">
               <structure:ConceptIdentity>
                 <Ref id="TIME_PERIOD" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
@@ -22308,8 +23043,8 @@
               </structure:LocalRepresentation>
             </structure:TimeDimension>
           </structure:DimensionList>
-          <structure:AttributeList id="AttributeDescriptor" urn="urn:sdmx:org.sdmx.infomodel.datastructure.AttributeDescriptor=GSS:SDG(1.1).AttributeDescriptor">
-            <structure:Attribute id="OBS_STATUS" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.1).OBS_STATUS" assignmentStatus="Mandatory">
+          <structure:AttributeList id="AttributeDescriptor" urn="urn:sdmx:org.sdmx.infomodel.datastructure.AttributeDescriptor=GSS:SDG(1.2).AttributeDescriptor">
+            <structure:Attribute id="OBS_STATUS" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.2).OBS_STATUS" assignmentStatus="Mandatory">
               <structure:ConceptIdentity>
                 <Ref id="OBS_STATUS" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
@@ -22324,7 +23059,7 @@
                 </structure:PrimaryMeasure>
               </structure:AttributeRelationship>
             </structure:Attribute>
-            <structure:Attribute id="UNIT_MULT" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.1).UNIT_MULT" assignmentStatus="Mandatory">
+            <structure:Attribute id="UNIT_MULT" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.2).UNIT_MULT" assignmentStatus="Mandatory">
               <structure:ConceptIdentity>
                 <Ref id="UNIT_MULT" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
@@ -22339,7 +23074,7 @@
                 </structure:PrimaryMeasure>
               </structure:AttributeRelationship>
             </structure:Attribute>
-            <structure:Attribute id="BASE_PER" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.1).BASE_PER" assignmentStatus="Conditional">
+            <structure:Attribute id="BASE_PER" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.2).BASE_PER" assignmentStatus="Conditional">
               <structure:ConceptIdentity>
                 <Ref id="BASE_PER" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
@@ -22349,7 +23084,7 @@
                 </structure:PrimaryMeasure>
               </structure:AttributeRelationship>
             </structure:Attribute>
-            <structure:Attribute id="NATURE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.1).NATURE" assignmentStatus="Conditional">
+            <structure:Attribute id="NATURE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.2).NATURE" assignmentStatus="Conditional">
               <structure:ConceptIdentity>
                 <Ref id="NATURE" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
@@ -22364,7 +23099,7 @@
                 </structure:PrimaryMeasure>
               </structure:AttributeRelationship>
             </structure:Attribute>
-            <structure:Attribute id="TIME_DETAIL" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.1).TIME_DETAIL" assignmentStatus="Conditional">
+            <structure:Attribute id="TIME_DETAIL" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.2).TIME_DETAIL" assignmentStatus="Conditional">
               <structure:ConceptIdentity>
                 <Ref id="TIME_DETAIL" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
@@ -22374,7 +23109,7 @@
                 </structure:PrimaryMeasure>
               </structure:AttributeRelationship>
             </structure:Attribute>
-            <structure:Attribute id="COMMENT_OBS" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.1).COMMENT_OBS" assignmentStatus="Conditional">
+            <structure:Attribute id="COMMENT_OBS" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.2).COMMENT_OBS" assignmentStatus="Conditional">
               <structure:ConceptIdentity>
                 <Ref id="COMMENT_OBS" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
@@ -22384,7 +23119,7 @@
                 </structure:PrimaryMeasure>
               </structure:AttributeRelationship>
             </structure:Attribute>
-            <structure:Attribute id="TIME_COVERAGE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.1).TIME_COVERAGE" assignmentStatus="Conditional">
+            <structure:Attribute id="TIME_COVERAGE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.2).TIME_COVERAGE" assignmentStatus="Conditional">
               <structure:ConceptIdentity>
                 <Ref id="TIME_COVERAGE" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
@@ -22394,7 +23129,7 @@
                 </structure:PrimaryMeasure>
               </structure:AttributeRelationship>
             </structure:Attribute>
-            <structure:Attribute id="UPPER_BOUND" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.1).UPPER_BOUND" assignmentStatus="Conditional">
+            <structure:Attribute id="UPPER_BOUND" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.2).UPPER_BOUND" assignmentStatus="Conditional">
               <structure:ConceptIdentity>
                 <Ref id="UPPER_BOUND" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
@@ -22404,7 +23139,7 @@
                 </structure:PrimaryMeasure>
               </structure:AttributeRelationship>
             </structure:Attribute>
-            <structure:Attribute id="LOWER_BOUND" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.1).LOWER_BOUND" assignmentStatus="Conditional">
+            <structure:Attribute id="LOWER_BOUND" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.2).LOWER_BOUND" assignmentStatus="Conditional">
               <structure:ConceptIdentity>
                 <Ref id="LOWER_BOUND" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
@@ -22414,7 +23149,7 @@
                 </structure:PrimaryMeasure>
               </structure:AttributeRelationship>
             </structure:Attribute>
-            <structure:Attribute id="SOURCE_DETAIL" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.1).SOURCE_DETAIL" assignmentStatus="Conditional">
+            <structure:Attribute id="SOURCE_DETAIL" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.2).SOURCE_DETAIL" assignmentStatus="Conditional">
               <structure:ConceptIdentity>
                 <Ref id="SOURCE_DETAIL" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
@@ -22424,7 +23159,7 @@
                 </structure:PrimaryMeasure>
               </structure:AttributeRelationship>
             </structure:Attribute>
-            <structure:Attribute id="COMMENT_TS" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.1).COMMENT_TS" assignmentStatus="Conditional">
+            <structure:Attribute id="COMMENT_TS" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.2).COMMENT_TS" assignmentStatus="Conditional">
               <structure:ConceptIdentity>
                 <Ref id="COMMENT_TS" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
@@ -22476,7 +23211,7 @@
                 </structure:Dimension>
               </structure:AttributeRelationship>
             </structure:Attribute>
-            <structure:Attribute id="GEO_INFO_URL" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.1).GEO_INFO_URL" assignmentStatus="Conditional">
+            <structure:Attribute id="GEO_INFO_URL" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.2).GEO_INFO_URL" assignmentStatus="Conditional">
               <structure:ConceptIdentity>
                 <Ref id="GEO_INFO_URL" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
@@ -22528,7 +23263,7 @@
                 </structure:Dimension>
               </structure:AttributeRelationship>
             </structure:Attribute>
-            <structure:Attribute id="GEO_INFO_TYPE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.1).GEO_INFO_TYPE" assignmentStatus="Conditional">
+            <structure:Attribute id="GEO_INFO_TYPE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.2).GEO_INFO_TYPE" assignmentStatus="Conditional">
               <structure:ConceptIdentity>
                 <Ref id="GEO_INFO_TYPE" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
@@ -22585,7 +23320,7 @@
                 </structure:Dimension>
               </structure:AttributeRelationship>
             </structure:Attribute>
-            <structure:Attribute id="CUST_BREAKDOWN_LB" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.1).CUST_BREAKDOWN_LB" assignmentStatus="Conditional">
+            <structure:Attribute id="CUST_BREAKDOWN_LB" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.2).CUST_BREAKDOWN_LB" assignmentStatus="Conditional">
               <structure:ConceptIdentity>
                 <Ref id="CUST_BREAKDOWN_LB" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
@@ -22637,7 +23372,7 @@
                 </structure:Dimension>
               </structure:AttributeRelationship>
             </structure:Attribute>
-            <structure:Attribute id="DATA_LAST_UPDATE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.1).DATA_LAST_UPDATE" assignmentStatus="Conditional">
+            <structure:Attribute id="DATA_LAST_UPDATE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=GSS:SDG(1.2).DATA_LAST_UPDATE" assignmentStatus="Conditional">
               <structure:ConceptIdentity>
                 <Ref id="DATA_LAST_UPDATE" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
@@ -22690,8 +23425,8 @@
               </structure:AttributeRelationship>
             </structure:Attribute>
           </structure:AttributeList>
-          <structure:MeasureList id="MeasureDescriptor" urn="urn:sdmx:org.sdmx.infomodel.datastructure.MeasureDescriptor=GSS:SDG(1.1).MeasureDescriptor">
-            <structure:PrimaryMeasure id="OBS_VALUE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.PrimaryMeasure=GSS:SDG(1.1).OBS_VALUE">
+          <structure:MeasureList id="MeasureDescriptor" urn="urn:sdmx:org.sdmx.infomodel.datastructure.MeasureDescriptor=GSS:SDG(1.2).MeasureDescriptor">
+            <structure:PrimaryMeasure id="OBS_VALUE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.PrimaryMeasure=GSS:SDG(1.2).OBS_VALUE">
               <structure:ConceptIdentity>
                 <Ref id="OBS_VALUE" maintainableParentID="SDG_DSD" maintainableParentVersion="1.1" agencyID="GSS" package="conceptscheme" class="Concept" />
               </structure:ConceptIdentity>
