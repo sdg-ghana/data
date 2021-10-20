@@ -1,1 +1,5 @@
-Year,Value
+Year,Observation status,Unit multiplier,SERIES,Reference area,UNIT_MEASURE,GeoCode,Value
+2020,Normal value,Units,Beach litter per square kilometer (Number) [14.1.1],,Number,,152134672
+2019,Normal value,Units,Beach litter per square kilometer (Number) [14.1.1],,Number,,179760103
+2017,Normal value,Units,Beach litter per square kilometer (Number) [14.1.1],,Number,,56875108
+2016,Normal value,Units,Beach litter per square kilometer (Number) [14.1.1],,Number,,33579283

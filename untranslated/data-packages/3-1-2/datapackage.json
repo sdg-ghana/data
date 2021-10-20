@@ -69,6 +69,18 @@
             }
           },
           {
+            "name": "COMPOSITE_BREAKDOWN",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_L_GH_SKILLED_CARE",
+                "_L_GH_UNSKILLED_CARE",
+                "_L_GH_NO_CARE",
+                ""
+              ]
+            }
+          },
+          {
             "name": "UNIT_MEASURE",
             "type": "string"
           },

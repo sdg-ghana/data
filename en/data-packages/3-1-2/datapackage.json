@@ -11,6 +11,19 @@
       "schema": {
         "fields": [
           {
+            "name": "COMPOSITE_BREAKDOWN",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "No Care",
+                "Skilled Care",
+                "Unskilled Care"
+              ]
+            },
+            "title": "Composite breakdown"
+          },
+          {
             "name": "GeoCode",
             "type": "string",
             "title": "GeoCode"

@@ -1,14 +1,14 @@
 Value,en,Disaggregation combinations using this value,Number of indicators
-01_o,Western,10,5
-02_o,Central,9,4
-03_o,Greater Accra,10,5
-04_o,Volta,10,5
-05_o,Eastern,10,5
-06_o,Ashanti,10,5
-07_o,Brong Ahafo,10,5
-08_o,Northern,10,5
-09_o,Upper East,10,5
-10_o,Upper West,10,5
+01_o,Western,13,6
+02_o,Central,12,5
+03_o,Greater Accra,13,6
+04_o,Volta,13,6
+05_o,Eastern,13,6
+06_o,Ashanti,13,6
+07_o,Brong Ahafo,13,6
+08_o,Northern,13,6
+09_o,Upper East,13,6
+10_o,Upper West,13,6
 _L_GH_Coastal,Coastal Zone,2,1
 _L_GH_Forest,Forest Zone,2,1
 _L_GH_Savannah,Savannah Zone,2,1

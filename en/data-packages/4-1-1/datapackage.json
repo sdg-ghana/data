@@ -17,7 +17,9 @@
               "enum": [
                 "",
                 "Skill: Functional literacy",
-                "Skill: Functional numeracy"
+                "Skill: Mathematics",
+                "Skill: Functional numeracy",
+                "Skill: Reading"
               ]
             },
             "title": "Composite breakdown"

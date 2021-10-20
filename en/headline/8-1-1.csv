@@ -1,1 +1,5 @@
-Year,Value
+Year,Value,GeoCode,Observation status,Unit multiplier,UNIT_MEASURE,SERIES
+2016,1.1,,Normal value,Units,Percent,Annual growth rate of real GDP per capita [8.1.1]
+2017,5.7,,Normal value,Units,Percent,Annual growth rate of real GDP per capita [8.1.1]
+2018,3.9,,Normal value,Units,Percent,Annual growth rate of real GDP per capita [8.1.1]
+2019,4.1,,Normal value,Units,Percent,Annual growth rate of real GDP per capita [8.1.1]

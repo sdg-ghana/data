@@ -1,1 +1,2 @@
-Year,Value
+Year,Value,GeoCode,Observation status,Unit multiplier,UNIT_MEASURE,SERIES
+2017,19,,Normal value,Units,Percent,Proportion of population using safely managed drinking water services [6.1.1]

@@ -1,1 +1,1 @@
-{"data":[],"edges":[]}
+{"data":{"Year":["2017","2017","2017"],"OBS_STATUS":["A","A","A"],"UNIT_MULT":["0","0","0"],"SERIES":["SH_H2O_SAFE","SH_H2O_SAFE","SH_H2O_SAFE"],"REF_AREA":[null,null,null],"URBANISATION":[null,"U","R"],"UNIT_MEASURE":["PT","PT","PT"],"GeoCode":[null,null,null],"Value":[19,33,7]},"edges":{"From":["OBS_STATUS","UNIT_MULT"],"To":["UNIT_MULT","URBANISATION"]}}

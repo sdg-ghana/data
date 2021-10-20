@@ -1,1 +1,4 @@
-Year,Value
+Year,Observation status,Unit multiplier,SERIES,Reference area,Degree of urbanisation,UNIT_MEASURE,GeoCode,Value
+2017,Normal value,Units,Proportion of population using safely managed drinking water services [6.1.1],,,Percent,,19
+2017,Normal value,Units,Proportion of population using safely managed drinking water services [6.1.1],,Urban,Percent,,33
+2017,Normal value,Units,Proportion of population using safely managed drinking water services [6.1.1],,Rural,Percent,,7

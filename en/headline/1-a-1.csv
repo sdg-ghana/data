@@ -1,1 +1,10 @@
-Year,Value
+Year,Value,GeoCode,Observation status,Unit multiplier,UNIT_MEASURE,SERIES
+2019,145.52,,Normal value,Units,Local currency,Budget Allocation towards Extreme poverty (in GH� million)
+2019,1.75,,Normal value,Units,Local currency,"Budget Allocation towards reducing poverty proportion of men, women and children by at least half (in GH� million)"
+2019,194.21,,Normal value,Units,Local currency,Budget Allocation towards Social dimension (in GH� million)
+2019,1.89,,Normal value,Units,Local currency,Budget Allocation towards Equal rights to basic services (in GH� million)
+2019,26.35,,Normal value,Units,Local currency,Budget Allocation towards Building resilience of the poor and vulnerable (in GH� million)
+2019,1.14,,Normal value,Units,Local currency,Budget Allocation towards Mobilisation of resources (in GH� million)
+2019,12.75,,Normal value,Units,Local currency,Budget Allocation towards Pro-poor and Gender (in GH� million)
+2019,383.61,,Normal value,Units,Local currency,Total Budget Allocation towards SDG1 (No Poverty) for MDAs/MMDAs (in GH� million)
+2019,100.0,,Normal value,Units,Percent,Percentage share of Budget Allocation towards SDG1 (No Poverty) for MDAs/MMDAs
