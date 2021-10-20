@@ -208,90 +208,6 @@
       "title": "global_indicators.14-2-1-title"
     },
     {
-      "path": "3-1-2/data.csv",
-      "name": "3-1-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "string"
-          },
-          {
-            "name": "OBS_STATUS",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "A",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "UNIT_MULT",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "SERIES",
-            "type": "string"
-          },
-          {
-            "name": "REF_AREA",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "08_o",
-                "04_o",
-                "05_o",
-                "02_o",
-                "01_o",
-                "07_o",
-                "06_o",
-                "10_o",
-                "03_o",
-                "09_o",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "URBANISATION",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "U",
-                "R",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "GeoCode",
-            "type": "string"
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "global_indicators.3-1-2-title"
-    },
-    {
       "path": "4-3-1/data.csv",
       "name": "4-3-1",
       "profile": "tabular-data-resource",
@@ -2312,6 +2228,90 @@
         ]
       },
       "title": "global_indicators.17-6-1-title"
+    },
+    {
+      "path": "3-1-2/data.csv",
+      "name": "3-1-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "OBS_STATUS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "UNIT_MULT",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "SERIES",
+            "type": "string"
+          },
+          {
+            "name": "REF_AREA",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "08_o",
+                "04_o",
+                "05_o",
+                "02_o",
+                "01_o",
+                "07_o",
+                "06_o",
+                "10_o",
+                "03_o",
+                "09_o",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "URBANISATION",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "U",
+                "R",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "global_indicators.3-1-2-title"
     },
     {
       "path": "2-a-1/data.csv",
