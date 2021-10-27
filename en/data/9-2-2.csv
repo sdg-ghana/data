@@ -1,1 +1,10 @@
-Year,Value
+Year,Observation status,Unit multiplier,SERIES,Reference area,Sex,UNIT_MEASURE,GeoCode,Value
+2010,Normal value,Units,Manufacturing employment as a proportion of total employment [9.2.2],,Male,Percent,,8.9
+2010,Normal value,Units,Manufacturing employment as a proportion of total employment [9.2.2],,Female,Percent,,12.7
+2010,Normal value,Units,Manufacturing employment as a proportion of total employment [9.2.2],,,Percent,,10.8
+2013,Normal value,Units,Manufacturing employment as a proportion of total employment [9.2.2],,Male,Percent,,7.7
+2013,Normal value,Units,Manufacturing employment as a proportion of total employment [9.2.2],,Female,Percent,,10.3
+2013,Normal value,Units,Manufacturing employment as a proportion of total employment [9.2.2],,,Percent,,9.1
+2015,Normal value,Units,Manufacturing employment as a proportion of total employment [9.2.2],,Male,Percent,,8.6
+2015,Normal value,Units,Manufacturing employment as a proportion of total employment [9.2.2],,Female,Percent,,17.8
+2015,Normal value,Units,Manufacturing employment as a proportion of total employment [9.2.2],,,Percent,,13.5

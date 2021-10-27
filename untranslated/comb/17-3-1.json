@@ -1,1 +1,1 @@
-{"data":[],"edges":[]}
+{"data":{"Year":["2015","2016","2017","2018","2015","2016","2017"],"OBS_STATUS":["A","A","A","A","A","A","A"],"UNIT_MULT":["0","0","0","0","0","0","0"],"SERIES":["GF_FRN_FDI","GF_FRN_FDI","GF_FRN_FDI","GF_FRN_FDI","_L_GH_170301","_L_GH_170301","_L_GH_170301"],"REF_AREA":[null,null,null,null,null,null,null],"UNIT_MEASURE":["PT","PT","PT","PT","PT","PT","PT"],"GeoCode":[null,null,null,null,null,null,null],"Value":[20.0,26.0,32.0,24.0,18.9,12.2,10.2]},"edges":{"From":["OBS_STATUS"],"To":["UNIT_MULT"]}}

@@ -1,1 +1,8 @@
-Year,Value
+Year,Observation status,Unit multiplier,SERIES,Reference area,UNIT_MEASURE,GeoCode,Value
+2015,Normal value,Units,Foreign direct investment (FDI) inflows [17.3.1],,Percent,,20.0
+2016,Normal value,Units,Foreign direct investment (FDI) inflows [17.3.1],,Percent,,26.0
+2017,Normal value,Units,Foreign direct investment (FDI) inflows [17.3.1],,Percent,,32.0
+2018,Normal value,Units,Foreign direct investment (FDI) inflows [17.3.1],,Percent,,24.0
+2015,Normal value,Units,Official Development Assistance (ODA) inflows,,Percent,,18.9
+2016,Normal value,Units,Official Development Assistance (ODA) inflows,,Percent,,12.2
+2017,Normal value,Units,Official Development Assistance (ODA) inflows,,Percent,,10.2

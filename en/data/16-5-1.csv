@@ -6,6 +6,7 @@ Year,Observation status,Unit multiplier,SERIES,Reference area,UNIT_MEASURE,GeoCo
 2017,Normal value,Units,Corruption Perception Index score,,Index,,40
 2018,Normal value,Units,Corruption Perception Index score,,Index,,41
 2019,Normal value,Units,Corruption Perception Index score,,Index,,41
+2020,Normal value,Units,Corruption Perception Index score,,Index,,43
 2013,Normal value,Units,Corruption Perception Index Rank,,Rank,,63
 2014,Normal value,Units,Corruption Perception Index Rank,,Rank,,61
 2015,Normal value,Units,Corruption Perception Index Rank,,Rank,,56
@@ -13,3 +14,4 @@ Year,Observation status,Unit multiplier,SERIES,Reference area,UNIT_MEASURE,GeoCo
 2017,Normal value,Units,Corruption Perception Index Rank,,Rank,,81
 2018,Normal value,Units,Corruption Perception Index Rank,,Rank,,78
 2019,Normal value,Units,Corruption Perception Index Rank,,Rank,,80
+2020,Normal value,Units,Corruption Perception Index Rank,,Rank,,75
