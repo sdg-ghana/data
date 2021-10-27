@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <message:Structure xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:structure="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
   <message:Header>
-    <message:ID>IDREF3</message:ID>
+    <message:ID>IDREF2</message:ID>
     <message:Test>false</message:Test>
-    <message:Prepared>2021-10-20T05:48:54.4398099+00:00</message:Prepared>
+    <message:Prepared>2021-10-26T11:22:46.384835+00:00</message:Prepared>
     <message:Sender id="Unknown" />
     <message:Receiver id="Unknown" />
   </message:Header>
@@ -2236,11 +2236,11 @@
         </structure:Code>
         <structure:Code id="_L_GH_PRIVATE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_COMP_BREAKDOWN(1.0)._L_GH_PRIVATE">
           <common:Name xml:lang="en">Private</common:Name>
-          <common:Description xml:lang="en">Sector: Private</common:Description>
+          <common:Description xml:lang="en">type of school: Private</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_PUBLIC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_COMP_BREAKDOWN(1.0)._L_GH_PUBLIC">
           <common:Name xml:lang="en">Public</common:Name>
-          <common:Description xml:lang="en">Sector: Public</common:Description>
+          <common:Description xml:lang="en">type of school: Public</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_VERB_ASS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_COMP_BREAKDOWN(1.0)._L_GH_VERB_ASS">
           <common:Name xml:lang="en">Verbal assault</common:Name>
@@ -3882,7 +3882,7 @@
         <structure:Code id="_L_GH_140201_03" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_140201_03">
           <common:Annotations>
             <common:Annotation>
-              <common:AnnotationTitle>Enrolment for National Functional Literacy Programme, 2006/2008 t0 2014/2050</common:AnnotationTitle>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
               <common:AnnotationType>Indicator</common:AnnotationType>
               <common:AnnotationText xml:lang="en">14.2.1</common:AnnotationText>
             </common:Annotation>
@@ -5120,6 +5120,168 @@
           </common:Annotations>
           <common:Name xml:lang="en">Pro-Poor Share of Government Expenditure</common:Name>
           <common:Description xml:lang="en">Pro-Poor Share of Government Expenditure</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_170301" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_170301">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">17.3.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C170301</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Official Development Assistance (ODA) inflows</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Official Development Assistance (ODA) inflows</common:Name>
+          <common:Description xml:lang="en">Official Development Assistance (ODA) inflows</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_080701_01" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_080701_01">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">8.7.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C080701</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Percentage of children engaged in child labour</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Percentage of children engaged in child labour</common:Name>
+          <common:Description xml:lang="en">Percentage of children engaged in child labour</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_080701_02" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_080701_02">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">8.7.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C080701</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Percentage of children engaged in hazardous forms of child labour</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Percentage of children engaged in hazardous forms of child labour</common:Name>
+          <common:Description xml:lang="en">Percentage of children engaged in hazardous forms of child labour</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_160103_01" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_160103_01">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">16.1.3</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C160103</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Proportion of population subjected to psycological violence in the previous 12 months [16.1.3]</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Proportion of population subjected to psycological violence in the previous 12 months [16.1.3]</common:Name>
+          <common:Description xml:lang="en">Proportion of population subjected to psycological violence in the previous 12 months [16.1.3]</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_160103_02" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_160103_02">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">16.1.3</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C160103</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Proportion of population subjected to social violence in the previous 12 months [16.1.3]</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Proportion of population subjected to social violence in the previous 12 months [16.1.3]</common:Name>
+          <common:Description xml:lang="en">Proportion of population subjected to social violence in the previous 12 months [16.1.3]</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_160103_03" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_160103_03">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">16.1.3</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C160103</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Proportion of population subjected to economic violence in the previous 12 months [16.1.3]</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Proportion of population subjected to economic violence in the previous 12 months [16.1.3]</common:Name>
+          <common:Description xml:lang="en">Proportion of population subjected to economic violence in the previous 12 months [16.1.3]</common:Description>
         </structure:Code>
         <structure:Code id="SI_POV_DAY1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0).SI_POV_DAY1">
           <common:Annotations>
@@ -21439,6 +21601,10 @@
         <structure:Code id="_L_GH_RANK" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_UNIT_MEASURE(1.3)._L_GH_RANK">
           <common:Name xml:lang="en">Rank</common:Name>
           <common:Description xml:lang="en">Rank on index</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_MINUTE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_UNIT_MEASURE(1.3)._L_GH_MINUTE">
+          <common:Name xml:lang="en">Minute</common:Name>
+          <common:Description xml:lang="en">Minute</common:Description>
         </structure:Code>
       </structure:Codelist>
       <structure:Codelist id="CL_ACTIVITY" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IAEG-SDGs:CL_ACTIVITY(1.1)" agencyID="IAEG-SDGs" version="1.1" isFinal="true">
