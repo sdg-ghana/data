@@ -2,18 +2,23 @@ Value,en,Disaggregation combinations using this value,Number of indicators
 _L_GH_CURSE,Curse,1,1
 _L_GH_DEFILE,Defilement,1,1
 _L_GH_DEVELOPMENT,DEVELOPMENT,1,1
+_L_GH_DP,Development Partner,9,1
+_L_GH_GOG,Government of Ghana,9,1
 _L_GH_HEALTH,HEALTH,1,1
 _L_GH_HOUSING,HOUSING,1,1
 _L_GH_ICT,ICT,1,1
+_L_GH_IGF,Internally Generated Funds,9,1
 _L_GH_NO_CARE,No Care,2,1
 _L_GH_NUTRITION,NUTRITION,1,1
-_L_GH_PRIVATE,Private,15,2
+_L_GH_OTHER_FUNDS,Other Fund,9,1
+_L_GH_PRIVATE,Private,19,3
 _L_GH_PROTECTION,PROTECTION,1,1
-_L_GH_PUBLIC,Public,18,2
+_L_GH_PUBLIC,Public,22,3
 _L_GH_RAPE_SED,Rape/Seduction,1,1
 _L_GH_SANITATION,SANITATION,1,1
 _L_GH_SEX_HER,Sexual Harassment,1,1
 _L_GH_SKILLED_CARE,Skilled Care,2,1
+_L_GH_STATUTORY,Statutory,9,1
 _L_GH_UNSKILLED_CARE,Unskilled Care,2,1
 _L_GH_VERB_ASS,Verbal assault,1,1
 _L_GH_WATER,WATER,1,1
