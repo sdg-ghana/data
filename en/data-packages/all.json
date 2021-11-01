@@ -391,6 +391,22 @@
             "title": "Age"
           },
           {
+            "name": "DISABILITY_STATUS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Persons with emotional disability",
+                "Persons with hearing disability",
+                "Persons with intellectual disability",
+                "Persons with physical disability",
+                "Persons with sight disability",
+                "Persons with speech disability"
+              ]
+            },
+            "title": "Disability status"
+          },
+          {
             "name": "GeoCode",
             "type": "number",
             "title": "GeoCode"
