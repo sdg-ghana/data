@@ -11,6 +11,27 @@
       "schema": {
         "fields": [
           {
+            "name": "COMPOSITE_BREAKDOWN",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Basic Service",
+                "Bottled Water",
+                "Limited Service",
+                "Pipe-borne",
+                "Satchet Water",
+                "Safely Managed",
+                "Surface Water",
+                "Tanker/Vendor",
+                "Unimproved",
+                "Well",
+                "Natural Source"
+              ]
+            },
+            "title": "Composite breakdown"
+          },
+          {
             "name": "GeoCode",
             "type": "number",
             "title": "GeoCode"
@@ -71,7 +92,7 @@
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           },
           {
