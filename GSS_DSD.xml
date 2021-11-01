@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <message:Structure xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:structure="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
   <message:Header>
-    <message:ID>IDREF2</message:ID>
+    <message:ID>IDREF1</message:ID>
     <message:Test>false</message:Test>
-    <message:Prepared>2021-10-26T11:22:46.384835+00:00</message:Prepared>
+    <message:Prepared>2021-11-01T14:39:22.3333551+00:00</message:Prepared>
     <message:Sender id="Unknown" />
     <message:Receiver id="Unknown" />
   </message:Header>
@@ -2236,11 +2236,11 @@
         </structure:Code>
         <structure:Code id="_L_GH_PRIVATE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_COMP_BREAKDOWN(1.0)._L_GH_PRIVATE">
           <common:Name xml:lang="en">Private</common:Name>
-          <common:Description xml:lang="en">type of school: Private</common:Description>
+          <common:Description xml:lang="en">Sector: Private</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_PUBLIC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_COMP_BREAKDOWN(1.0)._L_GH_PUBLIC">
           <common:Name xml:lang="en">Public</common:Name>
-          <common:Description xml:lang="en">type of school: Public</common:Description>
+          <common:Description xml:lang="en">Sector: Public</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_VERB_ASS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_COMP_BREAKDOWN(1.0)._L_GH_VERB_ASS">
           <common:Name xml:lang="en">Verbal assault</common:Name>
@@ -2293,6 +2293,82 @@
         <structure:Code id="_L_GH_NO_CARE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_COMP_BREAKDOWN(1.0)._L_GH_NO_CARE">
           <common:Name xml:lang="en">No Care</common:Name>
           <common:Description xml:lang="en">Type of care: No care</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_TANKER" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_COMP_BREAKDOWN(1.0)._L_GH_TANKER">
+          <common:Name xml:lang="en">Tanker/Vendor</common:Name>
+          <common:Description xml:lang="en">Source of drinking water: Tanker/Vendor</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_SACHET_WATER" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_COMP_BREAKDOWN(1.0)._L_GH_SACHET_WATER">
+          <common:Name xml:lang="en">Satchet Water</common:Name>
+          <common:Description xml:lang="en">Source of drinking water: Satchet Water</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_BOTTLED_WATER" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_COMP_BREAKDOWN(1.0)._L_GH_BOTTLED_WATER">
+          <common:Name xml:lang="en">Bottled Water</common:Name>
+          <common:Description xml:lang="en">Source of drinking water: Bottled Water</common:Description>
+        </structure:Code>
+        <structure:Code id="_NATURAL_SOURCE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_COMP_BREAKDOWN(1.0)._NATURAL_SOURCE">
+          <common:Name xml:lang="en">Natural Source</common:Name>
+          <common:Description xml:lang="en">Source of drinking water: Natural Source</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_WELL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_COMP_BREAKDOWN(1.0)._L_GH_WELL">
+          <common:Name xml:lang="en">Well</common:Name>
+          <common:Description xml:lang="en">Source of drinking water: Well</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_PIPE_BORNE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_COMP_BREAKDOWN(1.0)._L_GH_PIPE_BORNE">
+          <common:Name xml:lang="en">Pipe-borne</common:Name>
+          <common:Description xml:lang="en">Source of drinking water: Pipe-borne</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_SAFELY_MANAGED" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_COMP_BREAKDOWN(1.0)._L_GH_SAFELY_MANAGED">
+          <common:Name xml:lang="en">Safely Managed</common:Name>
+          <common:Description xml:lang="en">Quality of drinking water: Safely Managed</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_BASIC_SERVICE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_COMP_BREAKDOWN(1.0)._L_GH_BASIC_SERVICE">
+          <common:Name xml:lang="en">Basic Service</common:Name>
+          <common:Description xml:lang="en">Quality of drinking water: Basic Service</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_LIMITED_SERVICE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_COMP_BREAKDOWN(1.0)._L_GH_LIMITED_SERVICE">
+          <common:Name xml:lang="en">Limited Service</common:Name>
+          <common:Description xml:lang="en">Quality of drinking water: Limited Service</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_UNIMPROVED" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_COMP_BREAKDOWN(1.0)._L_GH_UNIMPROVED">
+          <common:Name xml:lang="en">Unimproved</common:Name>
+          <common:Description xml:lang="en">Quality of drinking water: Unimproved</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_SURFACE_WATER" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_COMP_BREAKDOWN(1.0)._L_GH_SURFACE_WATER">
+          <common:Name xml:lang="en">Surface Water</common:Name>
+          <common:Description xml:lang="en">Quality of drinking water: Surface Water</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_NO_FACILITY" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_COMP_BREAKDOWN(1.0)._L_GH_NO_FACILITY">
+          <common:Name xml:lang="en">No facility (bush/beach/field)</common:Name>
+          <common:Description xml:lang="en">Type of toilet: No facility (bush/beach/field)</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_WC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_COMP_BREAKDOWN(1.0)._L_GH_WC">
+          <common:Name xml:lang="en">Water Closet (WC)</common:Name>
+          <common:Description xml:lang="en">Type of toilet: Water Closet (WC)</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_PIT_LATRINE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_COMP_BREAKDOWN(1.0)._L_GH_PIT_LATRINE">
+          <common:Name xml:lang="en">Pit Latrine</common:Name>
+          <common:Description xml:lang="en">Type of toilet: Pit Latrine</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_KVIP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_COMP_BREAKDOWN(1.0)._L_GH_KVIP">
+          <common:Name xml:lang="en">Kumasi Ventilated Improved Pit (KVIP)</common:Name>
+          <common:Description xml:lang="en">Type of toilet: Kumasi Ventilated Improved Pit (KVIP)</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_BUCKET" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_COMP_BREAKDOWN(1.0)._L_GH_BUCKET">
+          <common:Name xml:lang="en">Bucket/Pan</common:Name>
+          <common:Description xml:lang="en">Type of toilet: Bucket/Pan</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_PUBLIC_TOILET" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_COMP_BREAKDOWN(1.0)._L_GH_PUBLIC_TOILET">
+          <common:Name xml:lang="en">Public Toilet</common:Name>
+          <common:Description xml:lang="en">Type of toilet: Public Toilet</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_DISCRIMINATED" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_COMP_BREAKDOWN(1.0)._L_GH_DISCRIMINATED">
+          <common:Name xml:lang="en">Discriminated against</common:Name>
+          <common:Description xml:lang="en">Discrimination status: Discriminated against</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_NOT_DISCRIMINATED" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_COMP_BREAKDOWN(1.0)._L_GH_NOT_DISCRIMINATED">
+          <common:Name xml:lang="en">Not Discriminated against</common:Name>
+          <common:Description xml:lang="en">Discrimination status: Not Discriminated against</common:Description>
         </structure:Code>
         <structure:Code id="SKILL_MATH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_COMP_BREAKDOWN(1.0).SKILL_MATH">
           <common:Name xml:lang="en">Skill: Mathematics</common:Name>
@@ -3125,6 +3201,45 @@
           <common:Description xml:lang="en">Other public institutions</common:Description>
         </structure:Code>
       </structure:Codelist>
+      <structure:Codelist id="CL_DISABILITY" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=GSS:CL_DISABILITY(1.0)" agencyID="GSS" version="1.0" isFinal="true">
+        <common:Name xml:lang="en">Disability status code list</common:Name>
+        <structure:Code id="_T" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_DISABILITY(1.0)._T">
+          <common:Name xml:lang="en">No breakdown</common:Name>
+          <common:Description xml:lang="en">No breakdown</common:Description>
+        </structure:Code>
+        <structure:Code id="PD" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_DISABILITY(1.0).PD">
+          <common:Name xml:lang="en">Persons with disability</common:Name>
+          <common:Description xml:lang="en">Persons with disability</common:Description>
+        </structure:Code>
+        <structure:Code id="PWD" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_DISABILITY(1.0).PWD">
+          <common:Name xml:lang="en">Persons without disability</common:Name>
+          <common:Description xml:lang="en">Persons without disability</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_SPEECH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_DISABILITY(1.0)._L_GH_SPEECH">
+          <common:Name xml:lang="en">Persons with speech disability</common:Name>
+          <common:Description xml:lang="en">Persons with speech disability</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_SIGHT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_DISABILITY(1.0)._L_GH_SIGHT">
+          <common:Name xml:lang="en">Persons with sight disability</common:Name>
+          <common:Description xml:lang="en">Persons with sight disability</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_PHYSICAL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_DISABILITY(1.0)._L_GH_PHYSICAL">
+          <common:Name xml:lang="en">Persons with physical disability</common:Name>
+          <common:Description xml:lang="en">Persons with physical disability</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_INTELLECTUAL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_DISABILITY(1.0)._L_GH_INTELLECTUAL">
+          <common:Name xml:lang="en">Persons with intellectual disability</common:Name>
+          <common:Description xml:lang="en">Persons with intellectual disability</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_HEARING" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_DISABILITY(1.0)._L_GH_HEARING">
+          <common:Name xml:lang="en">Persons with hearing disability</common:Name>
+          <common:Description xml:lang="en">Persons with hearing disability</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_EMOTIONAL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_DISABILITY(1.0)._L_GH_EMOTIONAL">
+          <common:Name xml:lang="en">Persons with emotional disability</common:Name>
+          <common:Description xml:lang="en">Persons with emotional disability</common:Description>
+        </structure:Code>
+      </structure:Codelist>
       <structure:Codelist id="CL_EDUCATION_LEV" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=GSS:CL_EDUCATION_LEV(1.0)" agencyID="GSS" version="1.0" isFinal="true">
         <common:Name xml:lang="en">GSS SDG Education Level code list</common:Name>
         <structure:Code id="_T" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_EDUCATION_LEV(1.0)._T">
@@ -3393,6 +3508,114 @@
       </structure:Codelist>
       <structure:Codelist id="CL_SERIES" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=GSS:CL_SERIES(1.0)" agencyID="GSS" version="1.0" isFinal="true">
         <common:Name xml:lang="en">SDG Series Code List (GSS)</common:Name>
+        <structure:Code id="_L_GH_060101_01" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_060101_01">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">6.1.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C060101</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Sources of drinking water</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Sources of drinking water</common:Name>
+          <common:Description xml:lang="en">Sources of drinking water</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_060101_02" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_060101_02">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">6.1.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C060101</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Coverage of Drinking Water Services by Levels</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Coverage of Drinking Water Services by Levels</common:Name>
+          <common:Description xml:lang="en">Coverage of Drinking Water Services by Levels</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_060201_01" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_060201_01">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">6.2.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C060201</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Type of toilet facility used by households by locality type</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Type of toilet facility used by households by locality type</common:Name>
+          <common:Description xml:lang="en">Type of toilet facility used by households by locality type</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_060402_01" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_060402_01">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">6.4.2</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C060402</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Per capita share of raw water (m3/per person/year)</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Per capita share of raw water (m3/per person/year)</common:Name>
+          <common:Description xml:lang="en">Per capita share of raw water (m3/per person/year)</common:Description>
+        </structure:Code>
         <structure:Code id="_L_GH_010202" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_010202">
           <common:Annotations>
             <common:Annotation>
@@ -21606,6 +21829,10 @@
           <common:Name xml:lang="en">Minute</common:Name>
           <common:Description xml:lang="en">Minute</common:Description>
         </structure:Code>
+        <structure:Code id="_L_GH_M3PPY" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_UNIT_MEASURE(1.3)._L_GH_M3PPY">
+          <common:Name xml:lang="en">m3/per person/year</common:Name>
+          <common:Description xml:lang="en">m3/per person/year</common:Description>
+        </structure:Code>
       </structure:Codelist>
       <structure:Codelist id="CL_ACTIVITY" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IAEG-SDGs:CL_ACTIVITY(1.1)" agencyID="IAEG-SDGs" version="1.1" isFinal="true">
         <common:Name xml:lang="en">Economic activity code list</common:Name>
@@ -22239,21 +22466,6 @@
         <structure:Code id="Y75T84" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IAEG-SDGs:CL_AGE(1.1).Y75T84">
           <common:Name xml:lang="en">75 to 84 years old</common:Name>
           <common:Description xml:lang="en">75 to 84 years old</common:Description>
-        </structure:Code>
-      </structure:Codelist>
-      <structure:Codelist id="CL_DISABILITY" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IAEG-SDGs:CL_DISABILITY(1.0)" agencyID="IAEG-SDGs" version="1.0" isFinal="true">
-        <common:Name xml:lang="en">Disability status code list</common:Name>
-        <structure:Code id="_T" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IAEG-SDGs:CL_DISABILITY(1.0)._T">
-          <common:Name xml:lang="en">No breakdown</common:Name>
-          <common:Description xml:lang="en">No breakdown</common:Description>
-        </structure:Code>
-        <structure:Code id="PD" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IAEG-SDGs:CL_DISABILITY(1.0).PD">
-          <common:Name xml:lang="en">Persons with disability</common:Name>
-          <common:Description xml:lang="en">Persons with disability</common:Description>
-        </structure:Code>
-        <structure:Code id="PWD" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IAEG-SDGs:CL_DISABILITY(1.0).PWD">
-          <common:Name xml:lang="en">Persons without disability</common:Name>
-          <common:Description xml:lang="en">Persons without disability</common:Description>
         </structure:Code>
       </structure:Codelist>
       <structure:Codelist id="CL_GEO_INFO_TYPE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IAEG-SDGs:CL_GEO_INFO_TYPE(1.0)" agencyID="IAEG-SDGs" version="1.0" isFinal="true">
@@ -22934,7 +23146,7 @@
           <common:Name xml:lang="en">Disability status</common:Name>
           <structure:CoreRepresentation>
             <structure:Enumeration>
-              <Ref id="CL_DISABILITY" version="1.0" agencyID="IAEG-SDGs" package="codelist" class="Codelist" />
+              <Ref id="CL_DISABILITY" version="1.0" agencyID="GSS" package="codelist" class="Codelist" />
             </structure:Enumeration>
           </structure:CoreRepresentation>
         </structure:Concept>
@@ -23166,7 +23378,7 @@
               </structure:ConceptIdentity>
               <structure:LocalRepresentation>
                 <structure:Enumeration>
-                  <Ref id="CL_DISABILITY" version="1.0" agencyID="IAEG-SDGs" package="codelist" class="Codelist" />
+                  <Ref id="CL_DISABILITY" version="1.0" agencyID="GSS" package="codelist" class="Codelist" />
                 </structure:Enumeration>
               </structure:LocalRepresentation>
             </structure:Dimension>
