@@ -2,9 +2,9 @@
 <!--Created with SDMX Converter v7.7.2-->
 <message:StructureSpecificData xmlns:ss="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/structurespecific" xmlns:footer="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message/footer" xmlns:ns1="urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=GSS:SDG(1.2):ObsLevelDim:TIME_PERIOD" xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <message:Header>
-    <message:ID>IREF1635852648032</message:ID>
+    <message:ID>IREF1635855656883</message:ID>
     <message:Test>false</message:Test>
-    <message:Prepared>2021-11-02T11:30:48Z</message:Prepared>
+    <message:Prepared>2021-11-02T12:20:56Z</message:Prepared>
     <message:Sender id="GSS">
       <message:Contact></message:Contact>
     </message:Sender>
@@ -2500,7 +2500,7 @@
     <Obs TIME_PERIOD="2014" OBS_VALUE="60" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2014" SOURCE_DETAIL="GSS, GDHS (2003, 2008, 2014"></Obs>
     <Obs TIME_PERIOD="2017" OBS_VALUE="56" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2017" SOURCE_DETAIL="MICS 2017"></Obs>
   </Series>
-  <Series FREQ="A" REPORTING_TYPE="N" SERIES="SH_STA_TRAF" REF_AREA="GH" SEX="_T" AGE="_T" URBANISATION="_T" INCOME_WEALTH_QUANTILE="_T" EDUCATION_LEV="_T" OCCUPATION="_T" CUST_BREAKDOWN="_T" COMPOSITE_BREAKDOWN="_T" DISABILITY_STATUS="_T" ACTIVITY="_T" PRODUCT="_T" UNIT_MEASURE="PER_100000_LIVE_BIRTHS">
+  <Series FREQ="A" REPORTING_TYPE="N" SERIES="SH_STA_TRAF" REF_AREA="GH" SEX="_T" AGE="_T" URBANISATION="_T" INCOME_WEALTH_QUANTILE="_T" EDUCATION_LEV="_T" OCCUPATION="_T" CUST_BREAKDOWN="_T" COMPOSITE_BREAKDOWN="_T" DISABILITY_STATUS="_T" ACTIVITY="_T" PRODUCT="_T" UNIT_MEASURE="PER_100000_POP">
     <Obs TIME_PERIOD="2012" OBS_VALUE="10.54" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2012" SOURCE_DETAIL="MOH, Holistic Assessment of Health Sector Programme of Work, 2018"></Obs>
     <Obs TIME_PERIOD="2013" OBS_VALUE="11.24" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2013" SOURCE_DETAIL="MOH, Holistic Assessment of Health Sector Programme of Work, 2018"></Obs>
     <Obs TIME_PERIOD="2014" OBS_VALUE="8.08" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2014" SOURCE_DETAIL="MOH, Holistic Assessment of Health Sector Programme of Work, 2018"></Obs>
