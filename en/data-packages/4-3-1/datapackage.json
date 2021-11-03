@@ -11,42 +11,6 @@
       "schema": {
         "fields": [
           {
-            "name": "COMPOSITE_BREAKDOWN",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Private",
-                "Public"
-              ]
-            },
-            "title": "Composite breakdown"
-          },
-          {
-            "name": "CUST_BREAKDOWN",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "GES",
-                "Other public"
-              ]
-            },
-            "title": "Custom Breakdown"
-          },
-          {
-            "name": "EDUCATION_LEV",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Vocational secondary education",
-                "Upper secondary vocational education"
-              ]
-            },
-            "title": "Education level"
-          },
-          {
             "name": "GeoCode",
             "type": "number",
             "title": "GeoCode"
@@ -107,7 +71,7 @@
           },
           {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           },
           {
