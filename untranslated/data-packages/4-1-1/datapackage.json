@@ -87,6 +87,7 @@
             "constraints": {
               "enum": [
                 "SKILL_MATH",
+                "_L_GH_ENGLISH",
                 "SKILL_READ",
                 "SKILL_NMRCY",
                 "SKILL_LTRCY",

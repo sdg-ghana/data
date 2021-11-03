@@ -6,6 +6,7 @@ _L_GH_CURSE,Curse,1,1
 _L_GH_DEFILE,Defilement,1,1
 _L_GH_DEVELOPMENT,DEVELOPMENT,1,1
 _L_GH_DP,Development Partner,9,1
+_L_GH_ENGLISH,English,9,1
 _L_GH_GOG,Government of Ghana,9,1
 _L_GH_HEALTH,HEALTH,1,1
 _L_GH_HOUSING,HOUSING,1,1
@@ -19,9 +20,9 @@ _L_GH_NUTRITION,NUTRITION,1,1
 _L_GH_OTHER_FUNDS,Other Fund,9,1
 _L_GH_PIPE_BORNE,Pipe-borne,1,1
 _L_GH_PIT_LATRINE,Pit Latrine,2,1
-_L_GH_PRIVATE,Private,15,2
+_L_GH_PRIVATE,Private,19,3
 _L_GH_PROTECTION,PROTECTION,1,1
-_L_GH_PUBLIC,Public,15,2
+_L_GH_PUBLIC,Public,22,3
 _L_GH_PUBLIC_TOILET,Public Toilet,2,1
 _L_GH_RAPE_SED,Rape/Seduction,1,1
 _L_GH_SACHET_WATER,Satchet Water,1,1
@@ -44,6 +45,6 @@ MOT_IWW,Mode of transport: Inland waterway transport,2,1
 MOT_RAI,Mode of Transport: Rail,2,1
 MOT_SEA,Mode of Transport: Maritime,2,1
 SKILL_LTRCY,Skill: Functional literacy,9,1
-SKILL_MATH,Skill: Mathematics,6,1
+SKILL_MATH,Skill: Mathematics,9,1
 SKILL_NMRCY,Skill: Functional numeracy,18,1
-SKILL_READ,Skill: Reading,15,1
+SKILL_READ,Skill: Reading,9,1
