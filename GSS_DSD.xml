@@ -3,7 +3,7 @@
   <message:Header>
     <message:ID>IDREF1</message:ID>
     <message:Test>false</message:Test>
-    <message:Prepared>2021-11-01T14:39:22.3333551+00:00</message:Prepared>
+    <message:Prepared>2021-11-03T12:01:45.291317+00:00</message:Prepared>
     <message:Sender id="Unknown" />
     <message:Receiver id="Unknown" />
   </message:Header>
@@ -2202,6 +2202,10 @@
           <common:Name xml:lang="en">No breakdown</common:Name>
           <common:Description xml:lang="en">No breakdown</common:Description>
         </structure:Code>
+        <structure:Code id="_L_GH_ENGLISH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_COMP_BREAKDOWN(1.0)._L_GH_ENGLISH">
+          <common:Name xml:lang="en">English</common:Name>
+          <common:Description xml:lang="en">Subject: English</common:Description>
+        </structure:Code>
         <structure:Code id="_L_GH_ICT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_COMP_BREAKDOWN(1.0)._L_GH_ICT">
           <common:Name xml:lang="en">ICT</common:Name>
           <common:Description xml:lang="en">Well-being measure: Information and Communications Technology</common:Description>
@@ -3508,6 +3512,114 @@
       </structure:Codelist>
       <structure:Codelist id="CL_SERIES" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=GSS:CL_SERIES(1.0)" agencyID="GSS" version="1.0" isFinal="true">
         <common:Name xml:lang="en">SDG Series Code List (GSS)</common:Name>
+        <structure:Code id="_L_GH_040101_01" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_040101_01">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">4.1.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C040101</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Proportion of pupils in primary 4 and primary 6 that achieved minimum proficiency in Mathematics and English (Percent)</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Proportion of pupils in primary 4 and primary 6 that achieved minimum proficiency in Mathematics and English (Percent)</common:Name>
+          <common:Description xml:lang="en">Proportion of pupils in primary 4 and primary 6 that achieved minimum proficiency in Mathematics and English (Percent)</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_040101_02" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_040101_02">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">4.1.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C040101</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Children who demonstrated foundational literacy and numeracy by locality type (Percent)</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Children who demonstrated foundational literacy and numeracy by locality type (Percent)</common:Name>
+          <common:Description xml:lang="en">Children who demonstrated foundational literacy and numeracy by locality type (Percent)</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_040101_03" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_040101_03">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">4.1.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C040101</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Foundational literacy and numeracy skills of students in P4, P6 and JHS by sex, (Percent)</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Foundational literacy and numeracy skills of students in P4, P6 and JHS by sex, (Percent)</common:Name>
+          <common:Description xml:lang="en">Foundational literacy and numeracy skills of students in P4, P6 and JHS by sex, (Percent)</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_040101_04" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_040101_04">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">4.1.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C040101</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Proportion of pupils in JHS that passed Mathematics and English (Percent)</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Proportion of pupils in JHS that passed Mathematics and English (Percent)</common:Name>
+          <common:Description xml:lang="en">Proportion of pupils in JHS that passed Mathematics and English (Percent)</common:Description>
+        </structure:Code>
         <structure:Code id="_L_GH_060101_01" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_060101_01">
           <common:Annotations>
             <common:Annotation>
@@ -3886,7 +3998,7 @@
           <common:Name xml:lang="en">Enrolment for National Functional Literacy Programme (percentage girls)</common:Name>
           <common:Description xml:lang="en">Enrolment for National Functional Literacy Programme (percentage girls)</common:Description>
         </structure:Code>
-        <structure:Code id="_L_GH_040301_2" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_040301_2">
+        <structure:Code id="_L_GH_040301_2a" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_040301_2a">
           <common:Annotations>
             <common:Annotation>
               <common:AnnotationTitle>Indicator</common:AnnotationTitle>
@@ -3913,7 +4025,7 @@
           <common:Name xml:lang="en">Enrolment in TVET Programmes in Senior High Technical Schools (number of schools)</common:Name>
           <common:Description xml:lang="en">Enrolment in TVET Programmes in Senior High Technical Schools (number of schools)</common:Description>
         </structure:Code>
-        <structure:Code id="_L_GH_040301_3" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_040301_3">
+        <structure:Code id="_L_GH_040301_2b" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_040301_2b">
           <common:Annotations>
             <common:Annotation>
               <common:AnnotationTitle>Indicator</common:AnnotationTitle>
@@ -3940,7 +4052,7 @@
           <common:Name xml:lang="en">Enrolment in TVET Programmes in Senior High Technical Schools (Private Schools as share (%) of total enrolment)</common:Name>
           <common:Description xml:lang="en">Enrolment in TVET Programmes in Senior High Technical Schools (Private Schools as share (%) of total enrolment)</common:Description>
         </structure:Code>
-        <structure:Code id="_L_GH_040301_4" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_040301_4">
+        <structure:Code id="_L_GH_040301_2c" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_040301_2c">
           <common:Annotations>
             <common:Annotation>
               <common:AnnotationTitle>Indicator</common:AnnotationTitle>
@@ -3967,7 +4079,7 @@
           <common:Name xml:lang="en">Enrolment in TVET Programmes in Senior High Technical Schools (number of students)</common:Name>
           <common:Description xml:lang="en">Enrolment in TVET Programmes in Senior High Technical Schools (number of students)</common:Description>
         </structure:Code>
-        <structure:Code id="_L_GH_040301_5" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_040301_5">
+        <structure:Code id="_L_GH_040301_2d" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_040301_2d">
           <common:Annotations>
             <common:Annotation>
               <common:AnnotationTitle>Indicator</common:AnnotationTitle>
@@ -3994,7 +4106,7 @@
           <common:Name xml:lang="en">Enrolment in TVET Programmes in Senior High Technical Schools (Girls� share in enrolment)</common:Name>
           <common:Description xml:lang="en">Enrolment in TVET Programmes in Senior High Technical Schools (Girls� share in enrolment)</common:Description>
         </structure:Code>
-        <structure:Code id="_L_GH_040301_6" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_040301_6">
+        <structure:Code id="_L_GH_040301_3a" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_040301_3a">
           <common:Annotations>
             <common:Annotation>
               <common:AnnotationTitle>Indicator</common:AnnotationTitle>
@@ -4021,7 +4133,7 @@
           <common:Name xml:lang="en">Number of Technical and Vocational Institutes (number of institutions)</common:Name>
           <common:Description xml:lang="en">Number of Technical and Vocational Institutes (number of institutions)</common:Description>
         </structure:Code>
-        <structure:Code id="_L_GH_040301_7" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_040301_7">
+        <structure:Code id="_L_GH_040301_3b" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_040301_3b">
           <common:Annotations>
             <common:Annotation>
               <common:AnnotationTitle>Indicator</common:AnnotationTitle>
