@@ -1,1 +1,4 @@
-Year,Value
+Year,Observation status,Unit multiplier,SERIES,Reference area,UNIT_MEASURE,GeoCode,Value
+2015,Normal value,Units,Proportion of bodies of water with good ambient water quality [6.3.2],,Percent,,61.0
+2017,Normal value,Units,Proportion of bodies of water with good ambient water quality [6.3.2],,Percent,,52.0
+2018,Normal value,Units,Proportion of bodies of water with good ambient water quality [6.3.2],,Percent,,55.9

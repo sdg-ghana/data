@@ -40,7 +40,7 @@ _L_GH_WATER,WATER,1,1
 _L_GH_WC,Water Closet (WC),2,1
 _L_GH_WELL,Well,1,1
 _NATURAL_SOURCE,Natural Source,1,1
-MOT_AIR,Mode of Transport: Air,1,1
+MOT_AIR,Mode of Transport: Air,3,1
 MOT_IWW,Mode of transport: Inland waterway transport,2,1
 MOT_RAI,Mode of Transport: Rail,2,1
 MOT_SEA,Mode of Transport: Maritime,2,1

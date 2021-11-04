@@ -162,6 +162,77 @@
       "title": "Proportion of persons who had at least one contact with a public official and who paid a bribe to a public official, or were asked for a bribe by those public officials, during the previous 12 months"
     },
     {
+      "path": "14-5-1/data.csv",
+      "name": "14-5-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "GeoCode",
+            "type": "number",
+            "title": "GeoCode"
+          },
+          {
+            "name": "OBS_STATUS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Normal value"
+              ]
+            },
+            "title": "Observation status"
+          },
+          {
+            "name": "REF_AREA",
+            "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            },
+            "title": "Reference area"
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "title": "SDG Series"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Unit of measure"
+          },
+          {
+            "name": "UNIT_MULT",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Units"
+              ]
+            },
+            "title": "Unit multiplier"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Year"
+          }
+        ]
+      },
+      "title": "Coverage of protected areas in relation to marine areas"
+    },
+    {
       "path": "4-3-1/data.csv",
       "name": "4-3-1",
       "profile": "tabular-data-resource",
@@ -5664,6 +5735,99 @@
       "title": "Proportion of children and young people (a) in grades 2/3; (b) at the end of primary; and (c) at the end of lower secondary achieving at least a minimum proficiency level in (i) reading and (ii) mathematics, by sex"
     },
     {
+      "path": "16-b-1/data.csv",
+      "name": "16-b-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "COMPOSITE_BREAKDOWN",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Discriminated against",
+                "Not Discriminated against"
+              ]
+            },
+            "title": "Composite breakdown"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "OBS_STATUS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Normal value"
+              ]
+            },
+            "title": "Observation status"
+          },
+          {
+            "name": "REF_AREA",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Western",
+                "Central",
+                "Greater Accra",
+                "Volta",
+                "Eastern",
+                "Ashanti",
+                "Brong Ahafo",
+                "Northern",
+                "Upper East",
+                "Upper West"
+              ]
+            },
+            "title": "Reference area"
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "title": "SDG Series"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Unit of measure"
+          },
+          {
+            "name": "UNIT_MULT",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Units"
+              ]
+            },
+            "title": "Unit multiplier"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Year"
+          }
+        ]
+      },
+      "title": "Proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law"
+    },
+    {
       "path": "8-5-2/data.csv",
       "name": "8-5-2",
       "profile": "tabular-data-resource",
@@ -6060,8 +6224,8 @@
       "title": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
     },
     {
-      "path": "16-b-1/data.csv",
-      "name": "16-b-1",
+      "path": "6-3-2/data.csv",
+      "name": "6-3-2",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -6070,20 +6234,8 @@
       "schema": {
         "fields": [
           {
-            "name": "COMPOSITE_BREAKDOWN",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Discriminated against",
-                "Not Discriminated against"
-              ]
-            },
-            "title": "Composite breakdown"
-          },
-          {
             "name": "GeoCode",
-            "type": "string",
+            "type": "number",
             "title": "GeoCode"
           },
           {
@@ -6099,20 +6251,10 @@
           },
           {
             "name": "REF_AREA",
-            "type": "string",
+            "type": "number",
             "constraints": {
               "enum": [
-                "",
-                "Western",
-                "Central",
-                "Greater Accra",
-                "Volta",
-                "Eastern",
-                "Ashanti",
-                "Brong Ahafo",
-                "Northern",
-                "Upper East",
-                "Upper West"
+                ""
               ]
             },
             "title": "Reference area"
@@ -6150,7 +6292,7 @@
           }
         ]
       },
-      "title": "Proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law"
+      "title": "Proportion of bodies of water with good ambient water quality"
     },
     {
       "path": "6-5-1/data.csv",
@@ -8457,30 +8599,6 @@
       "title": "Number of countries with mechanisms in place to enhance policy coherence of sustainable development"
     },
     {
-      "path": "6-3-2/data.csv",
-      "name": "6-3-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          }
-        ]
-      },
-      "title": "Proportion of bodies of water with good ambient water quality"
-    },
-    {
       "path": "3-9-3/data.csv",
       "name": "3-9-3",
       "profile": "tabular-data-resource",
@@ -10231,30 +10349,6 @@
         ]
       },
       "title": "Proportions of positions in national and local institutions, including (a) the legislatures; (b) the public service; and (c) the judiciary, compared to national distributions, by sex, age, persons with disabilities and population groups"
-    },
-    {
-      "path": "14-5-1/data.csv",
-      "name": "14-5-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          }
-        ]
-      },
-      "title": "Coverage of protected areas in relation to marine areas"
     },
     {
       "path": "2-5-1/data.csv",

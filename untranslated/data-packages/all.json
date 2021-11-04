@@ -145,6 +145,69 @@
       "title": "global_indicators.16-5-1-title"
     },
     {
+      "path": "14-5-1/data.csv",
+      "name": "14-5-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "OBS_STATUS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "UNIT_MULT",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "SERIES",
+            "type": "string"
+          },
+          {
+            "name": "REF_AREA",
+            "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            }
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "GeoCode",
+            "type": "number"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.14-5-1-title"
+    },
+    {
       "path": "4-3-1/data.csv",
       "name": "4-3-1",
       "profile": "tabular-data-resource",
@@ -5055,6 +5118,90 @@
       "title": "global_indicators.4-1-1-title"
     },
     {
+      "path": "16-b-1/data.csv",
+      "name": "16-b-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "OBS_STATUS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "UNIT_MULT",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "SERIES",
+            "type": "string"
+          },
+          {
+            "name": "REF_AREA",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "01_o",
+                "02_o",
+                "03_o",
+                "04_o",
+                "05_o",
+                "06_o",
+                "07_o",
+                "08_o",
+                "09_o",
+                "10_o",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "COMPOSITE_BREAKDOWN",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_L_GH_DISCRIMINATED",
+                "_L_GH_NOT_DISCRIMINATED",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.16-b-1-title"
+    },
+    {
       "path": "8-5-2/data.csv",
       "name": "8-5-2",
       "profile": "tabular-data-resource",
@@ -5411,8 +5558,8 @@
       "title": "global_indicators.6-4-2-title"
     },
     {
-      "path": "16-b-1/data.csv",
-      "name": "16-b-1",
+      "path": "6-3-2/data.csv",
+      "name": "6-3-2",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -5450,30 +5597,9 @@
           },
           {
             "name": "REF_AREA",
-            "type": "string",
+            "type": "number",
             "constraints": {
               "enum": [
-                "01_o",
-                "02_o",
-                "03_o",
-                "04_o",
-                "05_o",
-                "06_o",
-                "07_o",
-                "08_o",
-                "09_o",
-                "10_o",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "COMPOSITE_BREAKDOWN",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_L_GH_DISCRIMINATED",
-                "_L_GH_NOT_DISCRIMINATED",
                 ""
               ]
             }
@@ -5484,7 +5610,7 @@
           },
           {
             "name": "GeoCode",
-            "type": "string"
+            "type": "number"
           },
           {
             "name": "Value",
@@ -5492,7 +5618,7 @@
           }
         ]
       },
-      "title": "global_indicators.16-b-1-title"
+      "title": "global_indicators.6-3-2-title"
     },
     {
       "path": "6-5-1/data.csv",
@@ -7607,28 +7733,6 @@
       "title": "global_indicators.17-14-1-title"
     },
     {
-      "path": "6-3-2/data.csv",
-      "name": "6-3-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.6-3-2-title"
-    },
-    {
       "path": "3-9-3/data.csv",
       "name": "3-9-3",
       "profile": "tabular-data-resource",
@@ -9233,28 +9337,6 @@
         ]
       },
       "title": "global_indicators.16-7-1-title"
-    },
-    {
-      "path": "14-5-1/data.csv",
-      "name": "14-5-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.14-5-1-title"
     },
     {
       "path": "2-5-1/data.csv",
