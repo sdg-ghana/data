@@ -3,7 +3,7 @@
   <message:Header>
     <message:ID>IDREF1</message:ID>
     <message:Test>false</message:Test>
-    <message:Prepared>2021-11-03T12:01:45.291317+00:00</message:Prepared>
+    <message:Prepared>2021-11-04T15:05:56.3187841+00:00</message:Prepared>
     <message:Sender id="Unknown" />
     <message:Receiver id="Unknown" />
   </message:Header>
@@ -3512,6 +3512,60 @@
       </structure:Codelist>
       <structure:Codelist id="CL_SERIES" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=GSS:CL_SERIES(1.0)" agencyID="GSS" version="1.0" isFinal="true">
         <common:Name xml:lang="en">SDG Series Code List (GSS)</common:Name>
+        <structure:Code id="_L_GH_090102_01" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_090102_01">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">9.1.2</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C090102</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Domestic passengers</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Domestic passengers</common:Name>
+          <common:Description xml:lang="en">Domestic passengers</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_090102_02" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_090102_02">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">9.1.2</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C090102</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">International passengers</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">International passengers</common:Name>
+          <common:Description xml:lang="en">International passengers</common:Description>
+        </structure:Code>
         <structure:Code id="_L_GH_040101_01" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_040101_01">
           <common:Annotations>
             <common:Annotation>
@@ -4160,17 +4214,17 @@
           <common:Name xml:lang="en">Number of Technical and Vocational Institutes (Enrolled students)</common:Name>
           <common:Description xml:lang="en">Number of Technical and Vocational Institutes (Enrolled students)</common:Description>
         </structure:Code>
-        <structure:Code id="_L_GH_140201_01" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_140201_01">
+        <structure:Code id="_L_GH_140501_01" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_140501_01">
           <common:Annotations>
             <common:Annotation>
               <common:AnnotationTitle>Indicator</common:AnnotationTitle>
               <common:AnnotationType>Indicator</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">14.2.1</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">14.5.1</common:AnnotationText>
             </common:Annotation>
             <common:Annotation>
               <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
               <common:AnnotationType>IndicatorCode</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">C140201</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">C140501</common:AnnotationText>
             </common:Annotation>
             <common:Annotation>
               <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
@@ -4187,17 +4241,17 @@
           <common:Name xml:lang="en">Coverage of protected areas in relation to marine areas-Index</common:Name>
           <common:Description xml:lang="en">Coverage of protected areas in relation to marine areas-Index</common:Description>
         </structure:Code>
-        <structure:Code id="_L_GH_140201_02" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_140201_02">
+        <structure:Code id="_L_GH_140501_02" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_140501_02">
           <common:Annotations>
             <common:Annotation>
               <common:AnnotationTitle>Indicator</common:AnnotationTitle>
               <common:AnnotationType>Indicator</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">14.2.1</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">14.5.1</common:AnnotationText>
             </common:Annotation>
             <common:Annotation>
               <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
               <common:AnnotationType>IndicatorCode</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">C140202</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">C140501</common:AnnotationText>
             </common:Annotation>
             <common:Annotation>
               <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
@@ -4214,17 +4268,17 @@
           <common:Name xml:lang="en">Coverage of protected areas in relation to marine areas-Food provision</common:Name>
           <common:Description xml:lang="en">Coverage of protected areas in relation to marine areas-Food provision</common:Description>
         </structure:Code>
-        <structure:Code id="_L_GH_140201_03" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_140201_03">
+        <structure:Code id="_L_GH_140501_03" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_140501_03">
           <common:Annotations>
             <common:Annotation>
               <common:AnnotationTitle>Indicator</common:AnnotationTitle>
               <common:AnnotationType>Indicator</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">14.2.1</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">14.5.1</common:AnnotationText>
             </common:Annotation>
             <common:Annotation>
               <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
               <common:AnnotationType>IndicatorCode</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">C140203</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">C140501</common:AnnotationText>
             </common:Annotation>
             <common:Annotation>
               <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
@@ -4241,17 +4295,17 @@
           <common:Name xml:lang="en">Coverage of protected areas in relation to marine areas-Wild caught Fisheries(sub-goal)</common:Name>
           <common:Description xml:lang="en">Coverage of protected areas in relation to marine areas-Wild caught Fisheries(sub-goal)</common:Description>
         </structure:Code>
-        <structure:Code id="_L_GH_140201_04" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_140201_04">
+        <structure:Code id="_L_GH_140501_04" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_140501_04">
           <common:Annotations>
             <common:Annotation>
               <common:AnnotationTitle>Indicator</common:AnnotationTitle>
               <common:AnnotationType>Indicator</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">14.2.1</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">14.5.1</common:AnnotationText>
             </common:Annotation>
             <common:Annotation>
               <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
               <common:AnnotationType>IndicatorCode</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">C140204</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">C140501</common:AnnotationText>
             </common:Annotation>
             <common:Annotation>
               <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
@@ -4268,17 +4322,17 @@
           <common:Name xml:lang="en">Coverage of protected areas in relation to marine areas-Mariculture (sub-goal)</common:Name>
           <common:Description xml:lang="en">Coverage of protected areas in relation to marine areas-Mariculture (sub-goal)</common:Description>
         </structure:Code>
-        <structure:Code id="_L_GH_140201_05" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_140201_05">
+        <structure:Code id="_L_GH_140501_05" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_140501_05">
           <common:Annotations>
             <common:Annotation>
               <common:AnnotationTitle>Indicator</common:AnnotationTitle>
               <common:AnnotationType>Indicator</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">14.2.1</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">14.5.1</common:AnnotationText>
             </common:Annotation>
             <common:Annotation>
               <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
               <common:AnnotationType>IndicatorCode</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">C140205</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">C140501</common:AnnotationText>
             </common:Annotation>
             <common:Annotation>
               <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
@@ -4295,17 +4349,17 @@
           <common:Name xml:lang="en">Coverage of protected areas in relation to marine areas-Artisanal fishing opportunities</common:Name>
           <common:Description xml:lang="en">Coverage of protected areas in relation to marine areas-Artisanal fishing opportunities</common:Description>
         </structure:Code>
-        <structure:Code id="_L_GH_140201_06" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_140201_06">
+        <structure:Code id="_L_GH_140501_06" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_140501_06">
           <common:Annotations>
             <common:Annotation>
               <common:AnnotationTitle>Indicator</common:AnnotationTitle>
               <common:AnnotationType>Indicator</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">14.2.1</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">14.5.1</common:AnnotationText>
             </common:Annotation>
             <common:Annotation>
               <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
               <common:AnnotationType>IndicatorCode</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">C140206</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">C140501</common:AnnotationText>
             </common:Annotation>
             <common:Annotation>
               <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
@@ -4322,17 +4376,17 @@
           <common:Name xml:lang="en">Coverage of protected areas in relation to marine areas-Natural products</common:Name>
           <common:Description xml:lang="en">Coverage of protected areas in relation to marine areas-Natural products</common:Description>
         </structure:Code>
-        <structure:Code id="_L_GH_140201_07" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_140201_07">
+        <structure:Code id="_L_GH_140501_07" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_140501_07">
           <common:Annotations>
             <common:Annotation>
               <common:AnnotationTitle>Indicator</common:AnnotationTitle>
               <common:AnnotationType>Indicator</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">14.2.1</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">14.5.1</common:AnnotationText>
             </common:Annotation>
             <common:Annotation>
               <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
               <common:AnnotationType>IndicatorCode</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">C140207</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">C140501</common:AnnotationText>
             </common:Annotation>
             <common:Annotation>
               <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
@@ -4349,17 +4403,17 @@
           <common:Name xml:lang="en">Coverage of protected areas in relation to marine areas-Carbon storage</common:Name>
           <common:Description xml:lang="en">Coverage of protected areas in relation to marine areas-Carbon storage</common:Description>
         </structure:Code>
-        <structure:Code id="_L_GH_140201_08" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_140201_08">
+        <structure:Code id="_L_GH_140501_08" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_140501_08">
           <common:Annotations>
             <common:Annotation>
               <common:AnnotationTitle>Indicator</common:AnnotationTitle>
               <common:AnnotationType>Indicator</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">14.2.1</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">14.5.1</common:AnnotationText>
             </common:Annotation>
             <common:Annotation>
               <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
               <common:AnnotationType>IndicatorCode</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">C140208</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">C140501</common:AnnotationText>
             </common:Annotation>
             <common:Annotation>
               <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
@@ -4376,17 +4430,17 @@
           <common:Name xml:lang="en">Coverage of protected areas in relation to marine areas-Coastal protection</common:Name>
           <common:Description xml:lang="en">Coverage of protected areas in relation to marine areas-Coastal protection</common:Description>
         </structure:Code>
-        <structure:Code id="_L_GH_140201_09" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_140201_09">
+        <structure:Code id="_L_GH_140501_09" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_140501_09">
           <common:Annotations>
             <common:Annotation>
               <common:AnnotationTitle>Indicator</common:AnnotationTitle>
               <common:AnnotationType>Indicator</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">14.2.1</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">14.5.1</common:AnnotationText>
             </common:Annotation>
             <common:Annotation>
               <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
               <common:AnnotationType>IndicatorCode</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">C140209</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">C140501</common:AnnotationText>
             </common:Annotation>
             <common:Annotation>
               <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
@@ -4403,17 +4457,17 @@
           <common:Name xml:lang="en">Coverage of protected areas in relation to marine areas-Livelihoods &amp; economies (sub-goals)</common:Name>
           <common:Description xml:lang="en">Coverage of protected areas in relation to marine areas-Livelihoods &amp; economies (sub-goals)</common:Description>
         </structure:Code>
-        <structure:Code id="_L_GH_140201_10" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_140201_10">
+        <structure:Code id="_L_GH_140501_10" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_140501_10">
           <common:Annotations>
             <common:Annotation>
               <common:AnnotationTitle>Indicator</common:AnnotationTitle>
               <common:AnnotationType>Indicator</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">14.2.1</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">14.5.1</common:AnnotationText>
             </common:Annotation>
             <common:Annotation>
               <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
               <common:AnnotationType>IndicatorCode</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">C140210</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">C140501</common:AnnotationText>
             </common:Annotation>
             <common:Annotation>
               <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
@@ -4430,17 +4484,17 @@
           <common:Name xml:lang="en">Coverage of protected areas in relation to marine areas-Livelihoods (sub-goals)</common:Name>
           <common:Description xml:lang="en">Coverage of protected areas in relation to marine areas-Livelihoods (sub-goals)</common:Description>
         </structure:Code>
-        <structure:Code id="_L_GH_140201_11" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_140201_11">
+        <structure:Code id="_L_GH_140501_11" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_140501_11">
           <common:Annotations>
             <common:Annotation>
               <common:AnnotationTitle>Indicator</common:AnnotationTitle>
               <common:AnnotationType>Indicator</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">14.2.1</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">14.5.1</common:AnnotationText>
             </common:Annotation>
             <common:Annotation>
               <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
               <common:AnnotationType>IndicatorCode</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">C140211</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">C140501</common:AnnotationText>
             </common:Annotation>
             <common:Annotation>
               <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
@@ -4457,17 +4511,17 @@
           <common:Name xml:lang="en">Coverage of protected areas in relation to marine areas-Economies (sub-goals)</common:Name>
           <common:Description xml:lang="en">Coverage of protected areas in relation to marine areas-Economies (sub-goals)</common:Description>
         </structure:Code>
-        <structure:Code id="_L_GH_140201_12" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_140201_12">
+        <structure:Code id="_L_GH_140501_12" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_140501_12">
           <common:Annotations>
             <common:Annotation>
               <common:AnnotationTitle>Indicator</common:AnnotationTitle>
               <common:AnnotationType>Indicator</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">14.2.1</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">14.5.1</common:AnnotationText>
             </common:Annotation>
             <common:Annotation>
               <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
               <common:AnnotationType>IndicatorCode</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">C140212</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">C140501</common:AnnotationText>
             </common:Annotation>
             <common:Annotation>
               <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
@@ -4484,17 +4538,17 @@
           <common:Name xml:lang="en">Coverage of protected areas in relation to marine areas-Tourism &amp; recreation</common:Name>
           <common:Description xml:lang="en">Coverage of protected areas in relation to marine areas-Tourism &amp; recreation</common:Description>
         </structure:Code>
-        <structure:Code id="_L_GH_140201_13" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_140201_13">
+        <structure:Code id="_L_GH_140501_13" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_140501_13">
           <common:Annotations>
             <common:Annotation>
               <common:AnnotationTitle>Indicator</common:AnnotationTitle>
               <common:AnnotationType>Indicator</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">14.2.1</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">14.5.1</common:AnnotationText>
             </common:Annotation>
             <common:Annotation>
               <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
               <common:AnnotationType>IndicatorCode</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">C140213</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">C140501</common:AnnotationText>
             </common:Annotation>
             <common:Annotation>
               <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
@@ -4511,17 +4565,17 @@
           <common:Name xml:lang="en">Coverage of protected areas in relation to marine areas-Sense of place</common:Name>
           <common:Description xml:lang="en">Coverage of protected areas in relation to marine areas-Sense of place</common:Description>
         </structure:Code>
-        <structure:Code id="_L_GH_140201_14" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_140201_14">
+        <structure:Code id="_L_GH_140501_14" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_140501_14">
           <common:Annotations>
             <common:Annotation>
               <common:AnnotationTitle>Indicator</common:AnnotationTitle>
               <common:AnnotationType>Indicator</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">14.2.1</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">14.5.1</common:AnnotationText>
             </common:Annotation>
             <common:Annotation>
               <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
               <common:AnnotationType>IndicatorCode</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">C140214</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">C140501</common:AnnotationText>
             </common:Annotation>
             <common:Annotation>
               <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
@@ -4538,17 +4592,17 @@
           <common:Name xml:lang="en">Coverage of protected areas in relation to marine areas-Iconic species (sub-goal)</common:Name>
           <common:Description xml:lang="en">Coverage of protected areas in relation to marine areas-Iconic species (sub-goal)</common:Description>
         </structure:Code>
-        <structure:Code id="_L_GH_140201_15" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_140201_15">
+        <structure:Code id="_L_GH_140501_15" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_140501_15">
           <common:Annotations>
             <common:Annotation>
               <common:AnnotationTitle>Indicator</common:AnnotationTitle>
               <common:AnnotationType>Indicator</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">14.2.1</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">14.5.1</common:AnnotationText>
             </common:Annotation>
             <common:Annotation>
               <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
               <common:AnnotationType>IndicatorCode</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">C140215</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">C140501</common:AnnotationText>
             </common:Annotation>
             <common:Annotation>
               <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
@@ -4565,17 +4619,17 @@
           <common:Name xml:lang="en">Coverage of protected areas in relation to marine areas-Lasting special places (sub-goal)</common:Name>
           <common:Description xml:lang="en">Coverage of protected areas in relation to marine areas-Lasting special places (sub-goal)</common:Description>
         </structure:Code>
-        <structure:Code id="_L_GH_140201_16" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_140201_16">
+        <structure:Code id="_L_GH_140501_16" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_140501_16">
           <common:Annotations>
             <common:Annotation>
               <common:AnnotationTitle>Indicator</common:AnnotationTitle>
               <common:AnnotationType>Indicator</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">14.2.1</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">14.5.1</common:AnnotationText>
             </common:Annotation>
             <common:Annotation>
               <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
               <common:AnnotationType>IndicatorCode</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">C140216</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">C140501</common:AnnotationText>
             </common:Annotation>
             <common:Annotation>
               <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
@@ -4592,17 +4646,17 @@
           <common:Name xml:lang="en">Coverage of protected areas in relation to marine areas-Clean water</common:Name>
           <common:Description xml:lang="en">Coverage of protected areas in relation to marine areas-Clean water</common:Description>
         </structure:Code>
-        <structure:Code id="_L_GH_140201_17" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_140201_17">
+        <structure:Code id="_L_GH_140501_17" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_140501_17">
           <common:Annotations>
             <common:Annotation>
               <common:AnnotationTitle>Indicator</common:AnnotationTitle>
               <common:AnnotationType>Indicator</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">14.2.1</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">14.5.1</common:AnnotationText>
             </common:Annotation>
             <common:Annotation>
               <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
               <common:AnnotationType>IndicatorCode</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">C140217</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">C140501</common:AnnotationText>
             </common:Annotation>
             <common:Annotation>
               <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
@@ -4619,17 +4673,17 @@
           <common:Name xml:lang="en">Coverage of protected areas in relation to marine areas-Biodiversity</common:Name>
           <common:Description xml:lang="en">Coverage of protected areas in relation to marine areas-Biodiversity</common:Description>
         </structure:Code>
-        <structure:Code id="_L_GH_140201_18" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_140201_18">
+        <structure:Code id="_L_GH_140501_18" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_140501_18">
           <common:Annotations>
             <common:Annotation>
               <common:AnnotationTitle>Indicator</common:AnnotationTitle>
               <common:AnnotationType>Indicator</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">14.2.1</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">14.5.1</common:AnnotationText>
             </common:Annotation>
             <common:Annotation>
               <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
               <common:AnnotationType>IndicatorCode</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">C140218</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">C140501</common:AnnotationText>
             </common:Annotation>
             <common:Annotation>
               <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
@@ -4646,17 +4700,17 @@
           <common:Name xml:lang="en">Coverage of protected areas in relation to marine areas-Habitat (sub-goal)</common:Name>
           <common:Description xml:lang="en">Coverage of protected areas in relation to marine areas-Habitat (sub-goal)</common:Description>
         </structure:Code>
-        <structure:Code id="_L_GH_140201_19" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_140201_19">
+        <structure:Code id="_L_GH_140501_19" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_140501_19">
           <common:Annotations>
             <common:Annotation>
               <common:AnnotationTitle>Indicator</common:AnnotationTitle>
               <common:AnnotationType>Indicator</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">14.2.1</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">14.5.1</common:AnnotationText>
             </common:Annotation>
             <common:Annotation>
               <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
               <common:AnnotationType>IndicatorCode</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">C140219</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">C140501</common:AnnotationText>
             </common:Annotation>
             <common:Annotation>
               <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
@@ -5012,7 +5066,7 @@
             <common:Annotation>
               <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
               <common:AnnotationType>IndicatorTitle</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">Total Budget Allocation towards SDG1 (No Poverty) for MDAs/MMDAs (in GH� million)</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">Total Budget Allocation towards SDG1 (No Poverty) for MDAs/MMDAs (in million Ghana Cedi)</common:AnnotationText>
             </common:Annotation>
             <common:Annotation>
               <common:AnnotationType>ORDER</common:AnnotationType>
@@ -5066,7 +5120,7 @@
             <common:Annotation>
               <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
               <common:AnnotationType>IndicatorTitle</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">Budget Allocation towards Extreme poverty (in GH� million)</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">Budget Allocation towards Extreme poverty (in million Ghana Cedi)</common:AnnotationText>
             </common:Annotation>
             <common:Annotation>
               <common:AnnotationType>ORDER</common:AnnotationType>
@@ -5093,7 +5147,7 @@
             <common:Annotation>
               <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
               <common:AnnotationType>IndicatorTitle</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">Budget Allocation towards reducing poverty proportion of men, women and children by at least half (in GH� million)</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">Budget Allocation towards reducing poverty proportion of men, women and children by at least half (in million Ghana Cedi)</common:AnnotationText>
             </common:Annotation>
             <common:Annotation>
               <common:AnnotationType>ORDER</common:AnnotationType>
@@ -5120,7 +5174,7 @@
             <common:Annotation>
               <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
               <common:AnnotationType>IndicatorTitle</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">Budget Allocation towards Social dimension (in GH� million)</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">Budget Allocation towards Social dimension (in million Ghana Cedi)</common:AnnotationText>
             </common:Annotation>
             <common:Annotation>
               <common:AnnotationType>ORDER</common:AnnotationType>
@@ -5147,7 +5201,7 @@
             <common:Annotation>
               <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
               <common:AnnotationType>IndicatorTitle</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">Budget Allocation towards Equal rights to basic services (in GH� million)</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">Budget Allocation towards Equal rights to basic services (in million Ghana Cedi)</common:AnnotationText>
             </common:Annotation>
             <common:Annotation>
               <common:AnnotationType>ORDER</common:AnnotationType>
@@ -5174,7 +5228,7 @@
             <common:Annotation>
               <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
               <common:AnnotationType>IndicatorTitle</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">Budget Allocation towards Building resilience of the poor and vulnerable (in GH� million)</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">Budget Allocation towards Building resilience of the poor and vulnerable (in million Ghana Cedi)</common:AnnotationText>
             </common:Annotation>
             <common:Annotation>
               <common:AnnotationType>ORDER</common:AnnotationType>
@@ -5201,7 +5255,7 @@
             <common:Annotation>
               <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
               <common:AnnotationType>IndicatorTitle</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">Budget Allocation towards Mobilisation of resources (in GH� million)</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">Budget Allocation towards Mobilisation of resources (in million Ghana Cedi)</common:AnnotationText>
             </common:Annotation>
             <common:Annotation>
               <common:AnnotationType>ORDER</common:AnnotationType>
@@ -5228,7 +5282,7 @@
             <common:Annotation>
               <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
               <common:AnnotationType>IndicatorTitle</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">Budget Allocation towards Pro-poor and Gender (in GH� million)</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">Budget Allocation towards Pro-poor and Gender (in million Ghana Cedi)</common:AnnotationText>
             </common:Annotation>
             <common:Annotation>
               <common:AnnotationType>ORDER</common:AnnotationType>
