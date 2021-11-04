@@ -162,77 +162,6 @@
       "title": "Proportion of persons who had at least one contact with a public official and who paid a bribe to a public official, or were asked for a bribe by those public officials, during the previous 12 months"
     },
     {
-      "path": "14-2-1/data.csv",
-      "name": "14-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "GeoCode",
-            "type": "number",
-            "title": "GeoCode"
-          },
-          {
-            "name": "OBS_STATUS",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Normal value"
-              ]
-            },
-            "title": "Observation status"
-          },
-          {
-            "name": "REF_AREA",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            },
-            "title": "Reference area"
-          },
-          {
-            "name": "SERIES",
-            "type": "string",
-            "title": "SDG Series"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Unit of measure"
-          },
-          {
-            "name": "UNIT_MULT",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Units"
-              ]
-            },
-            "title": "Unit multiplier"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "string",
-            "title": "Year"
-          }
-        ]
-      },
-      "title": "Number of countries using ecosystem-based approaches to managing marine areas"
-    },
-    {
       "path": "4-3-1/data.csv",
       "name": "4-3-1",
       "profile": "tabular-data-resource",
@@ -9486,6 +9415,30 @@
         ]
       },
       "title": "Researchers (in full-time equivalent) per million inhabitants"
+    },
+    {
+      "path": "14-2-1/data.csv",
+      "name": "14-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          }
+        ]
+      },
+      "title": "Number of countries using ecosystem-based approaches to managing marine areas"
     },
     {
       "path": "10-2-1/data.csv",
