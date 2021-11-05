@@ -1,4 +1,4 @@
-﻿composite_breakdown_label: ''
+﻿composite_breakdown_label: Source of Funds
 computation_units: ''
 copyright: ''
 data_footnote: ''
@@ -29,4 +29,5 @@ precision: []
 reporting_status: complete
 sort: ''
 standalone: false
-tags: []
+tags:
+  - Proxy
