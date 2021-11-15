@@ -3,7 +3,7 @@
   <message:Header>
     <message:ID>IDREF1</message:ID>
     <message:Test>false</message:Test>
-    <message:Prepared>2021-11-09T11:06:03.6526844+00:00</message:Prepared>
+    <message:Prepared>2021-11-15T11:38:35.2139106+00:00</message:Prepared>
     <message:Sender id="Unknown" />
     <message:Receiver id="Unknown" />
   </message:Header>
@@ -6373,6 +6373,33 @@
           </common:Annotations>
           <common:Name xml:lang="en">Number destroyed dwellings attributed to disasters, by hazard type [1.5.1, 11.5.1, 13.1.1]</common:Name>
           <common:Description xml:lang="en">Number destroyed dwellings attributed to disasters, by hazard type [1.5.1, 11.5.1, 13.1.1]</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_100101_01" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_100101_01">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">10.1.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C100101</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Expenditure share of the bottom 40 percent of the population</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Expenditure share of the bottom 40 percent of the population</common:Name>
+          <common:Description xml:lang="en">Expenditure share of the bottom 40 percent of the population</common:Description>
         </structure:Code>
         <structure:Code id="SI_POV_DAY1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0).SI_POV_DAY1">
           <common:Annotations>
