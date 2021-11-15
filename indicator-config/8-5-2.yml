@@ -15,7 +15,6 @@ embedded_feature_title: ''
 embedded_feature_url: ''
 expected_disaggregations:
   - SEX
-  - DISABILITY_STATUS
   - AGE
 graph_annotations: []
 graph_limits: []
