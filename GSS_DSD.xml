@@ -3,7 +3,7 @@
   <message:Header>
     <message:ID>IDREF1</message:ID>
     <message:Test>false</message:Test>
-    <message:Prepared>2021-11-15T12:32:16.2588166+00:00</message:Prepared>
+    <message:Prepared>2021-11-29T13:19:58.1500945+00:00</message:Prepared>
     <message:Sender id="Unknown" />
     <message:Receiver id="Unknown" />
   </message:Header>
@@ -5510,7 +5510,7 @@
           <common:Name xml:lang="en">Pro-Poor Share of Government Expenditure</common:Name>
           <common:Description xml:lang="en">Pro-Poor Share of Government Expenditure</common:Description>
         </structure:Code>
-        <structure:Code id="_L_GH_170301" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_170301">
+        <structure:Code id="_L_GH_170301_01" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_170301_01">
           <common:Annotations>
             <common:Annotation>
               <common:AnnotationTitle>Indicator</common:AnnotationTitle>
@@ -5525,7 +5525,7 @@
             <common:Annotation>
               <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
               <common:AnnotationType>IndicatorTitle</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">Official Development Assistance (ODA) inflows</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">Foreign direct investment (FDI) inflows as a proportion of Gross National Income [17.3.1]</common:AnnotationText>
             </common:Annotation>
             <common:Annotation>
               <common:AnnotationType>ORDER</common:AnnotationType>
@@ -5534,8 +5534,35 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Official Development Assistance (ODA) inflows</common:Name>
-          <common:Description xml:lang="en">Official Development Assistance (ODA) inflows</common:Description>
+          <common:Name xml:lang="en">Foreign direct investment (FDI) inflows as a proportion of Gross National Income [17.3.1]</common:Name>
+          <common:Description xml:lang="en">Foreign direct investment (FDI) inflows as a proportion of Gross National Income [17.3.1]</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_170301_02" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_170301_02">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">17.3.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C170301</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Official Development Assistance (ODA) inflows as a percentage of national budget</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Official Development Assistance (ODA) inflows as a percentage of national budget</common:Name>
+          <common:Description xml:lang="en">Official Development Assistance (ODA) inflows as a percentage of national budget</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_080701_01" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_080701_01">
           <common:Annotations>
@@ -6400,6 +6427,33 @@
           </common:Annotations>
           <common:Name xml:lang="en">Expenditure share of the bottom 40 percent of the population</common:Name>
           <common:Description xml:lang="en">Expenditure share of the bottom 40 percent of the population</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_100301_01" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0)._L_GH_100301_01">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">10.3.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C100301</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Proportion of population reporting having felt discriminated against [10.3.1, 16.b.1]</common:Name>
+          <common:Description xml:lang="en">Proportion of population reporting having felt discriminated against [10.3.1, 16.b.1]</common:Description>
         </structure:Code>
         <structure:Code id="SI_POV_DAY1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_SERIES(1.0).SI_POV_DAY1">
           <common:Annotations>
@@ -22727,6 +22781,10 @@
         <structure:Code id="_L_GH_M3PPY" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_UNIT_MEASURE(1.3)._L_GH_M3PPY">
           <common:Name xml:lang="en">m3/per person/year</common:Name>
           <common:Description xml:lang="en">m3/per person/year</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_CEDI" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=GSS:CL_UNIT_MEASURE(1.3)._L_GH_CEDI">
+          <common:Name xml:lang="en">Ghana Cedi</common:Name>
+          <common:Description xml:lang="en">Ghana Cedi</common:Description>
         </structure:Code>
       </structure:Codelist>
       <structure:Codelist id="CL_ACTIVITY" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IAEG-SDGs:CL_ACTIVITY(1.1)" agencyID="IAEG-SDGs" version="1.1" isFinal="true">
