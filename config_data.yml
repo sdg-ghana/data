@@ -78,7 +78,7 @@ translations:
   # This pulls in translations from a Git repository.
   - class: TranslationInputSdgTranslations
     source: https://github.com/open-sdg/sdg-translations.git
-    branch: 2020-review
+    branch: 1.8.0
   # This pulls in translations from a local 'translations' folder.
   - class: TranslationInputYaml
     source: translations
@@ -142,3 +142,4 @@ docs_translate_disaggregations: true
 # This is mainly intended to show units of measurement and series, which are not
 # normally considered "disaggregation".
 # docs_extra_disaggregations: ['Units', 'Series']
+
