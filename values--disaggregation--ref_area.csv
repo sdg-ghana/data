@@ -8,7 +8,23 @@ Value,en,Disaggregation combinations using this value,Number of indicators
 07_o,Brong Ahafo,13,7
 08_o,Northern,13,7
 09_o,Upper East,13,7
+1,Western,5,1
+10,Bono East,5,1
 10_o,Upper West,13,7
+11,Oti,5,1
+12,Northern,5,1
+13,Savannah,5,1
+14,North East,5,1
+15,Upper East,5,1
+16,Upper West,5,1
+2,Central,5,1
+3,Greater Accra,5,1
+4,Volta,5,1
+5,Eastern,5,1
+6,Ashanti,5,1
+7,Western North,5,1
+8,Ahafo,5,1
+9,Bono,5,1
 _L_GH_Coastal,Coastal Zone,2,1
 _L_GH_Forest,Forest Zone,2,1
 _L_GH_Savannah,Savannah Zone,2,1
