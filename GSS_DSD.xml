@@ -3,7 +3,7 @@
   <message:Header>
     <message:ID>IDREF1</message:ID>
     <message:Test>false</message:Test>
-    <message:Prepared>2022-09-20T10:01:58.4352624+00:00</message:Prepared>
+    <message:Prepared>2022-09-20T23:25:36.8663669+00:00</message:Prepared>
     <message:Sender id="Unknown" />
     <message:Receiver id="Unknown" />
   </message:Header>
@@ -3652,6 +3652,33 @@
       </structure:Codelist>
       <structure:Codelist id="CL_SERIES" agencyID="GSS" version="1.0" isFinal="true">
         <common:Name xml:lang="en">SDG Series Code List (GSS)</common:Name>
+        <structure:Code id="_L_GH_140101_01">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">14.1.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C140101</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">(a) Index of coastal eutrophication; and (b) plastic debris densityi</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Plastic debris density [14.1.1(b)]</common:Name>
+          <common:Description xml:lang="en">Plastic debris density [14.1.1(b)]</common:Description>
+        </structure:Code>
         <structure:Code id="_L_GH_030402_01">
           <common:Annotations>
             <common:Annotation>
@@ -4299,33 +4326,6 @@
           </common:Annotations>
           <common:Name xml:lang="en">Per capita share of raw water (m3/per person/year)</common:Name>
           <common:Description xml:lang="en">Per capita share of raw water (m3/per person/year)</common:Description>
-        </structure:Code>
-        <structure:Code id="_L_GH_010202">
-          <common:Annotations>
-            <common:Annotation>
-              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
-              <common:AnnotationType>Indicator</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">1.2.2</common:AnnotationText>
-            </common:Annotation>
-            <common:Annotation>
-              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
-              <common:AnnotationType>IndicatorCode</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">C010202</common:AnnotationText>
-            </common:Annotation>
-            <common:Annotation>
-              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
-              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">Monetary Poverty Rate</common:AnnotationText>
-            </common:Annotation>
-            <common:Annotation id="@SDMX">
-              <common:AnnotationType>ORDER</common:AnnotationType>
-            </common:Annotation>
-            <common:Annotation>
-              <common:AnnotationType>RetiredSeries</common:AnnotationType>
-            </common:Annotation>
-          </common:Annotations>
-          <common:Name xml:lang="en">Monetary Poverty Rate</common:Name>
-          <common:Description xml:lang="en">Monetary Poverty Rate</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_110601">
           <common:Annotations>
@@ -5299,7 +5299,61 @@
           <common:Name xml:lang="en">Corruption Perception Index Rank</common:Name>
           <common:Description xml:lang="en">Corruption Perception Index Rank</common:Description>
         </structure:Code>
-        <structure:Code id="_L_GH_030101">
+        <structure:Code id="_L_GH_030101_01">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3.1.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C030101</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Survey-based Maternal mortality ratio [3.1.1]</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Survey-based Maternal mortality ratio [3.1.1]</common:Name>
+          <common:Description xml:lang="en">Survey-based Maternal mortality ratio [3.1.1]</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_030101_02">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3.1.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C030101</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Census-based Maternal mortality ratio [3.1.1]</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Census-based Maternal mortality ratio [3.1.1]</common:Name>
+          <common:Description xml:lang="en">Census-based Maternal mortality ratio [3.1.1]</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_030101_03">
           <common:Annotations>
             <common:Annotation>
               <common:AnnotationTitle>Indicator</common:AnnotationTitle>
