@@ -25,6 +25,6 @@ Value,en,Disaggregation combinations using this value,Number of indicators
 7,Western North,32,5
 8,Ahafo,32,5
 9,Bono,32,5
-_L_GH_Coastal,Coastal Zone,2,1
-_L_GH_Forest,Forest Zone,2,1
-_L_GH_Savannah,Savannah Zone,2,1
+_L_GH_Coastal,Coastal Zone,1,1
+_L_GH_Forest,Forest Zone,1,1
+_L_GH_Savannah,Savannah Zone,1,1
