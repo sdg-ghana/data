@@ -1801,19 +1801,9 @@
           },
           {
             "name": "REF_AREA",
-            "type": "string",
+            "type": "number",
             "constraints": {
               "enum": [
-                "06_o",
-                "07_o",
-                "02_o",
-                "05_o",
-                "03_o",
-                "08_o",
-                "09_o",
-                "10_o",
-                "04_o",
-                "01_o",
                 ""
               ]
             }
@@ -1824,11 +1814,11 @@
           },
           {
             "name": "GeoCode",
-            "type": "string"
+            "type": "number"
           },
           {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       },
@@ -3823,6 +3813,69 @@
         ]
       },
       "title": "global_indicators.2-a-2-title"
+    },
+    {
+      "path": "14-1-1/data.csv",
+      "name": "14-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "OBS_STATUS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "UNIT_MULT",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "SERIES",
+            "type": "string"
+          },
+          {
+            "name": "REF_AREA",
+            "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            }
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "GeoCode",
+            "type": "number"
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "global_indicators.14-1-1-title"
     },
     {
       "path": "14-4-1/data.csv",
@@ -7404,28 +7457,6 @@
         ]
       },
       "title": "global_indicators.2-5-2-title"
-    },
-    {
-      "path": "14-1-1/data.csv",
-      "name": "14-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.14-1-1-title"
     },
     {
       "path": "3-9-z1/data.csv",
