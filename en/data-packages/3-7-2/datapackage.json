@@ -11,6 +11,17 @@
       "schema": {
         "fields": [
           {
+            "name": "AGE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "15 to 19 years old"
+              ]
+            },
+            "title": "Age"
+          },
+          {
             "name": "GeoCode",
             "type": "number",
             "title": "GeoCode"
