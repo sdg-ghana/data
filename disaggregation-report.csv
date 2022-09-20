@@ -7,7 +7,7 @@ DISABILITY_STATUS,Disability status,1,6
 EDUCATION_LEV,Education level,4,9
 OBS_STATUS,Observation status,80,1
 PRODUCT,Type of product,1,7
-REF_AREA,Reference area,11,29
+REF_AREA,Reference area,10,13
 SEX,Sex,19,2
 UNIT_MULT,Unit multiplier,80,1
-URBANISATION,Degree of urbanisation,20,2
+URBANISATION,Degree of urbanisation,19,2
