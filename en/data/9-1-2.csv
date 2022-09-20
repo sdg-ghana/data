@@ -30,13 +30,13 @@ Year,Observation status,Unit multiplier,SERIES,Reference area,COMPOSITE_BREAKDOW
 2018,Normal value,Units,Freight volume (tonne kilometres) [9.1.2],,Mode of transport: Inland waterway transport,Metric Tons,,147000.0
 2019,Normal value,Units,Freight volume (tonne kilometres) [9.1.2],,Mode of transport: Inland waterway transport,Metric Tons,,96000.0
 2020,Normal value,Units,Freight volume (tonne kilometres) [9.1.2],,Mode of transport: Inland waterway transport,Metric Tons,,105045.0
-2016,Normal value,Units,Domestic passengers,,Mode of Transport: Air,Number,,421986.0
-2017,Normal value,Units,Domestic passengers,,Mode of Transport: Air,Number,,483261.0
-2018,Normal value,Units,Domestic passengers,,Mode of Transport: Air,Number,,418610.0
-2019,Normal value,Units,Domestic passengers,,Mode of Transport: Air,Number,,690314.0
-2020,Normal value,Units,Domestic passengers,,Mode of Transport: Air,Number,,423748.0
-2016,Normal value,Units,International passengers,,Mode of Transport: Air,Number,,1746699.0
-2017,Normal value,Units,International passengers,,Mode of Transport: Air,Number,,1811428.0
-2018,Normal value,Units,International passengers,,Mode of Transport: Air,Number,,1975803.0
-2019,Normal value,Units,International passengers,,Mode of Transport: Air,Number,,2110593.0
-2020,Normal value,Units,International passengers,,Mode of Transport: Air,Number,,702651.0
+2016,Normal value,Units,"Air transport, domestic passengers carried",,Mode of Transport: Air,Number,,421986.0
+2017,Normal value,Units,"Air transport, domestic passengers carried",,Mode of Transport: Air,Number,,483261.0
+2018,Normal value,Units,"Air transport, domestic passengers carried",,Mode of Transport: Air,Number,,418610.0
+2019,Normal value,Units,"Air transport, domestic passengers carried",,Mode of Transport: Air,Number,,690314.0
+2020,Normal value,Units,"Air transport, domestic passengers carried",,Mode of Transport: Air,Number,,423748.0
+2016,Normal value,Units,"Air transport, international passengers carried",,Mode of Transport: Air,Number,,1746699.0
+2017,Normal value,Units,"Air transport, international passengers carried",,Mode of Transport: Air,Number,,1811428.0
+2018,Normal value,Units,"Air transport, international passengers carried",,Mode of Transport: Air,Number,,1975803.0
+2019,Normal value,Units,"Air transport, international passengers carried",,Mode of Transport: Air,Number,,2110593.0
+2020,Normal value,Units,"Air transport, international passengers carried",,Mode of Transport: Air,Number,,702651.0

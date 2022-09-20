@@ -11,6 +11,19 @@
       "schema": {
         "fields": [
           {
+            "name": "COMPOSITE_BREAKDOWN",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Government Officials",
+                "Judges ad Magistrates",
+                "Police"
+              ]
+            },
+            "title": "Composite breakdown"
+          },
+          {
             "name": "GeoCode",
             "type": "number",
             "title": "GeoCode"

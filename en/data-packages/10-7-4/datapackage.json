@@ -16,9 +16,9 @@
             "constraints": {
               "enum": [
                 "",
-                "CI",
-                "LR",
-                "TG"
+                "COTE D'IVOIRE",
+                "LIBERIA",
+                "TOGO"
               ]
             },
             "title": "Composite breakdown"

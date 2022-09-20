@@ -16,9 +16,9 @@
             "constraints": {
               "enum": [
                 "",
-                "_L_GH_AGRIC",
-                "_L_GH_INDUSTRY",
-                "_L_GH_SERVICES"
+                "Agriculture",
+                "Industry",
+                "Services"
               ]
             },
             "title": "Composite breakdown"

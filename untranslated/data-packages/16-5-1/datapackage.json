@@ -48,6 +48,18 @@
             }
           },
           {
+            "name": "COMPOSITE_BREAKDOWN",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_L_GH_POLICE",
+                "_L_GH_GOVOFF",
+                "_L_GH_JUGMAG",
+                ""
+              ]
+            }
+          },
+          {
             "name": "UNIT_MEASURE",
             "type": "string"
           },
