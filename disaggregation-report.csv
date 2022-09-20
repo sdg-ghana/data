@@ -5,9 +5,9 @@ COMPOSITE_BREAKDOWN,Composite breakdown,13,54
 CUST_BREAKDOWN,Custom Breakdown,1,2
 DISABILITY_STATUS,Disability status,1,6
 EDUCATION_LEV,Education level,4,9
-OBS_STATUS,Observation status,80,1
+OBS_STATUS,Observation status,81,1
 PRODUCT,Type of product,1,7
 REF_AREA,Reference area,13,29
 SEX,Sex,19,2
-UNIT_MULT,Unit multiplier,80,1
+UNIT_MULT,Unit multiplier,81,1
 URBANISATION,Degree of urbanisation,22,2
