@@ -1801,9 +1801,19 @@
           },
           {
             "name": "REF_AREA",
-            "type": "number",
+            "type": "string",
             "constraints": {
               "enum": [
+                "06_o",
+                "07_o",
+                "02_o",
+                "05_o",
+                "03_o",
+                "08_o",
+                "09_o",
+                "10_o",
+                "04_o",
+                "01_o",
                 ""
               ]
             }
@@ -1814,11 +1824,11 @@
           },
           {
             "name": "GeoCode",
-            "type": "number"
+            "type": "string"
           },
           {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       },
