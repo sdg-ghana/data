@@ -2,9 +2,9 @@
 <!--Created with SDMX Converter v7.7.2-->
 <message:StructureSpecificData xmlns:ss="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/structurespecific" xmlns:footer="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message/footer" xmlns:ns1="urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=GSS:SDG(1.2):ObsLevelDim:TIME_PERIOD" xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <message:Header>
-    <message:ID>IREF1663668398336</message:ID>
+    <message:ID>IREF1663719473922</message:ID>
     <message:Test>false</message:Test>
-    <message:Prepared>2022-09-20T10:06:38Z</message:Prepared>
+    <message:Prepared>2022-09-21T00:17:53Z</message:Prepared>
     <message:Sender id="BIS">
       <message:Contact></message:Contact>
     </message:Sender>
@@ -263,6 +263,11 @@
     <Obs TIME_PERIOD="2018" OBS_VALUE="1922" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2018" SOURCE_DETAIL="WRC Annual Report, 2020"></Obs>
     <Obs TIME_PERIOD="2019" OBS_VALUE="1918" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2019" SOURCE_DETAIL="WRC Annual Report, 2020"></Obs>
     <Obs TIME_PERIOD="2020" OBS_VALUE="1916" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2020" SOURCE_DETAIL="WRC Annual Report, 2020"></Obs>
+  </Series>
+  <Series FREQ="A" REPORTING_TYPE="N" SERIES="ER_H2O_IWRMD" REF_AREA="GH" SEX="_T" AGE="_T" URBANISATION="_T" INCOME_WEALTH_QUANTILE="_T" EDUCATION_LEV="_T" OCCUPATION="_T" CUST_BREAKDOWN="_T" COMPOSITE_BREAKDOWN="_T" DISABILITY_STATUS="_T" ACTIVITY="_T" PRODUCT="_T" UNIT_MEASURE="PT">
+    <Obs TIME_PERIOD="2017" OBS_VALUE="49" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2017" SOURCE_DETAIL="integrated water resource management (IWRM)"></Obs>
+    <Obs TIME_PERIOD="2019" OBS_VALUE="51" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2019" SOURCE_DETAIL="integrated water resource management (IWRM)"></Obs>
+    <Obs TIME_PERIOD="2021" OBS_VALUE="57" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2021" SOURCE_DETAIL="integrated water resource management (IWRM)"></Obs>
   </Series>
 </message:DataSet>
 </message:StructureSpecificData>
