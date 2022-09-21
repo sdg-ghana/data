@@ -93,16 +93,6 @@
             "type": "string"
           },
           {
-            "name": "COMMENT_OBS",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Multidimensional Poverty Index (MPI)",
-                ""
-              ]
-            }
-          },
-          {
             "name": "GeoCode",
             "type": "string"
           },
