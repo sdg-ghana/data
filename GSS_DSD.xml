@@ -3,7 +3,7 @@
   <message:Header>
     <message:ID>IDREF1</message:ID>
     <message:Test>false</message:Test>
-    <message:Prepared>2022-09-20T23:25:36.8663669+00:00</message:Prepared>
+    <message:Prepared>2022-09-21T00:16:49.4502665+00:00</message:Prepared>
     <message:Sender id="Unknown" />
     <message:Receiver id="Unknown" />
   </message:Header>
@@ -23361,6 +23361,10 @@
         <structure:Code id="CM">
           <common:Name xml:lang="en">Centimeters</common:Name>
           <common:Description xml:lang="en">Centimeters</common:Description>
+        </structure:Code>
+        <structure:Code id="BAND">
+          <common:Name xml:lang="en">BAND</common:Name>
+          <common:Description xml:lang="en">BAND</common:Description>
         </structure:Code>
       </structure:Codelist>
       <structure:Codelist id="CL_ACTIVITY" agencyID="IAEG-SDGs" version="1.1" isFinal="true">
