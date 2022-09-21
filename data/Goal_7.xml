@@ -2,9 +2,9 @@
 <!--Created with SDMX Converter v7.7.2-->
 <message:StructureSpecificData xmlns:ss="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/structurespecific" xmlns:footer="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message/footer" xmlns:ns1="urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=GSS:SDG(1.2):ObsLevelDim:TIME_PERIOD" xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <message:Header>
-    <message:ID>IREF1663668412714</message:ID>
+    <message:ID>IREF1663761294363</message:ID>
     <message:Test>false</message:Test>
-    <message:Prepared>2022-09-20T10:06:52Z</message:Prepared>
+    <message:Prepared>2022-09-21T11:54:54Z</message:Prepared>
     <message:Sender id="BIS">
       <message:Contact></message:Contact>
     </message:Sender>
@@ -338,6 +338,22 @@
     <Obs TIME_PERIOD="2017" OBS_VALUE="47.3" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2017" SOURCE_DETAIL="National Energy Statistics 2000-2019"></Obs>
     <Obs TIME_PERIOD="2018" OBS_VALUE="44.3" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2018" SOURCE_DETAIL="National Energy Statistics 2000-2019"></Obs>
     <Obs TIME_PERIOD="2019" OBS_VALUE="43.4" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2019" SOURCE_DETAIL="National Energy Statistics 2000-2019"></Obs>
+  </Series>
+  <Series FREQ="A" REPORTING_TYPE="N" SERIES="_L_GH_070b01_01" REF_AREA="GH" SEX="_T" AGE="_T" URBANISATION="_T" INCOME_WEALTH_QUANTILE="_T" EDUCATION_LEV="_T" OCCUPATION="_T" CUST_BREAKDOWN="_T" COMPOSITE_BREAKDOWN="_T" DISABILITY_STATUS="_T" ACTIVITY="_T" PRODUCT="_T" UNIT_MEASURE="PT">
+    <Obs TIME_PERIOD="2017" OBS_VALUE="0.79" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2017" SOURCE_DETAIL="National Energy Statistics, 2022"></Obs>
+    <Obs TIME_PERIOD="2018" OBS_VALUE="1.45" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2018" SOURCE_DETAIL="National Energy Statistics, 2022"></Obs>
+    <Obs TIME_PERIOD="2019" OBS_VALUE="1.42" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2019" SOURCE_DETAIL="National Energy Statistics, 2022"></Obs>
+    <Obs TIME_PERIOD="2020" OBS_VALUE="1.91" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2020" SOURCE_DETAIL="National Energy Statistics, 2022"></Obs>
+    <Obs TIME_PERIOD="2021" OBS_VALUE="3.64" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2021" SOURCE_DETAIL="National Energy Statistics, 2022"></Obs>
+  </Series>
+  <Series FREQ="A" REPORTING_TYPE="N" SERIES="_L_GH_070b01_02" REF_AREA="GH" SEX="_T" AGE="_T" URBANISATION="_T" INCOME_WEALTH_QUANTILE="_T" EDUCATION_LEV="_T" OCCUPATION="_T" CUST_BREAKDOWN="_T" COMPOSITE_BREAKDOWN="TRT_HYDROPOWER" DISABILITY_STATUS="_T" ACTIVITY="_T" PRODUCT="_T" UNIT_MEASURE="PT">
+    <Obs TIME_PERIOD="2021" OBS_VALUE="65.3" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2021" SOURCE_DETAIL="National Energy Statistics, 2022"></Obs>
+  </Series>
+  <Series FREQ="A" REPORTING_TYPE="N" SERIES="_L_GH_070b01_02" REF_AREA="GH" SEX="_T" AGE="_T" URBANISATION="_T" INCOME_WEALTH_QUANTILE="_T" EDUCATION_LEV="_T" OCCUPATION="_T" CUST_BREAKDOWN="_T" COMPOSITE_BREAKDOWN="TRT_GEOTHERMAL" DISABILITY_STATUS="_T" ACTIVITY="_T" PRODUCT="_T" UNIT_MEASURE="PT">
+    <Obs TIME_PERIOD="2021" OBS_VALUE="0.6" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2021" SOURCE_DETAIL="National Energy Statistics, 2022"></Obs>
+  </Series>
+  <Series FREQ="A" REPORTING_TYPE="N" SERIES="_L_GH_070b01_02" REF_AREA="GH" SEX="_T" AGE="_T" URBANISATION="_T" INCOME_WEALTH_QUANTILE="_T" EDUCATION_LEV="_T" OCCUPATION="_T" CUST_BREAKDOWN="_T" COMPOSITE_BREAKDOWN="TRT_MULTIPLE" DISABILITY_STATUS="_T" ACTIVITY="_T" PRODUCT="_T" UNIT_MEASURE="PT">
+    <Obs TIME_PERIOD="2021" OBS_VALUE="34.1" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2021" SOURCE_DETAIL="National Energy Statistics, 2022"></Obs>
   </Series>
 </message:DataSet>
 </message:StructureSpecificData>

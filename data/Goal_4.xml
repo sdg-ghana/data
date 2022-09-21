@@ -2,9 +2,9 @@
 <!--Created with SDMX Converter v7.7.2-->
 <message:StructureSpecificData xmlns:ss="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/structurespecific" xmlns:footer="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message/footer" xmlns:ns1="urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=GSS:SDG(1.2):ObsLevelDim:TIME_PERIOD" xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <message:Header>
-    <message:ID>IREF1663668367178</message:ID>
+    <message:ID>IREF1663760761532</message:ID>
     <message:Test>false</message:Test>
-    <message:Prepared>2022-09-20T10:06:07Z</message:Prepared>
+    <message:Prepared>2022-09-21T11:46:01Z</message:Prepared>
     <message:Sender id="BIS">
       <message:Contact></message:Contact>
     </message:Sender>
@@ -302,6 +302,10 @@
   </Series>
   <Series FREQ="A" REPORTING_TYPE="N" SERIES="_L_GH_040201_04" REF_AREA="GH" SEX="_T" AGE="_T" URBANISATION="_T" INCOME_WEALTH_QUANTILE="_T" EDUCATION_LEV="_T" OCCUPATION="_T" CUST_BREAKDOWN="_T" COMPOSITE_BREAKDOWN="_T" DISABILITY_STATUS="_T" ACTIVITY="_T" PRODUCT="_T" UNIT_MEASURE="PT">
     <Obs TIME_PERIOD="2011" OBS_VALUE="89" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2011/12" SOURCE_DETAIL="2011 Ghana MICS"></Obs>
+  </Series>
+  <Series FREQ="A" REPORTING_TYPE="N" SERIES="SE_PRE_PARTN" REF_AREA="GH" SEX="_T" AGE="_T" URBANISATION="_T" INCOME_WEALTH_QUANTILE="_T" EDUCATION_LEV="_T" OCCUPATION="_T" CUST_BREAKDOWN="_T" COMPOSITE_BREAKDOWN="_T" DISABILITY_STATUS="_T" ACTIVITY="_T" PRODUCT="_T" UNIT_MEASURE="PT">
+    <Obs TIME_PERIOD="2011" OBS_VALUE="80.3" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2011" SOURCE_DETAIL="MICS 2011"></Obs>
+    <Obs TIME_PERIOD="2017" OBS_VALUE="88.1" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2017" SOURCE_DETAIL="MICS 2017"></Obs>
   </Series>
   <Series FREQ="A" REPORTING_TYPE="N" SERIES="_L_GH_040301_1a" REF_AREA="GH" SEX="_T" AGE="_T" URBANISATION="_T" INCOME_WEALTH_QUANTILE="_T" EDUCATION_LEV="_T" OCCUPATION="_T" CUST_BREAKDOWN="_T" COMPOSITE_BREAKDOWN="_T" DISABILITY_STATUS="_T" ACTIVITY="_T" PRODUCT="_T" UNIT_MEASURE="NUMBER">
     <Obs TIME_PERIOD="2007" OBS_VALUE="8500" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2006/08" SOURCE_DETAIL="2018 Education Assessment Performance Report (table 4.6)"></Obs>
