@@ -1,1 +1,9 @@
-Year,Value
+Year,Observation status,Unit multiplier,SERIES,Reference area,COMPOSITE_BREAKDOWN,UNIT_MEASURE,GeoCode,Value
+2017,Normal value,Units,"Installed renewable�electricity-generating capacity (watts per capita) [7.b.1, 12.a.1]",,,Percent,,0.79
+2018,Normal value,Units,"Installed renewable�electricity-generating capacity (watts per capita) [7.b.1, 12.a.1]",,,Percent,,1.45
+2019,Normal value,Units,"Installed renewable�electricity-generating capacity (watts per capita) [7.b.1, 12.a.1]",,,Percent,,1.42
+2020,Normal value,Units,"Installed renewable�electricity-generating capacity (watts per capita) [7.b.1, 12.a.1]",,,Percent,,1.91
+2021,Normal value,Units,"Installed renewable�electricity-generating capacity (watts per capita) [7.b.1, 12.a.1]",,,Percent,,3.64
+2021,Normal value,Units,Grid electricity supply by generation type,,Type of renewable technology: Hydropower,Percent,,65.3
+2021,Normal value,Units,Grid electricity supply by generation type,,Type of renewable technology: Geothermal energy,Percent,,0.6
+2021,Normal value,Units,Grid electricity supply by generation type,,Type of renewable technology: Multiple renewables,Percent,,34.1
