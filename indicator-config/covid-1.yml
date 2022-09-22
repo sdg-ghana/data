@@ -21,7 +21,7 @@ graph_title: global_indicators.1-2-2-title
 graph_titles: []
 graph_type: line
 indicator_name: Covid 1
-indicator_number: ''
+indicator_number: 'covid-1'
 national_geographical_coverage: ''
 page_content: ''
 permalink: /covid-indicator-1
