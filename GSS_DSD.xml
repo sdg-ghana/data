@@ -3,7 +3,7 @@
   <message:Header>
     <message:ID>IDREF1</message:ID>
     <message:Test>false</message:Test>
-    <message:Prepared>2022-09-21T00:16:49.4502665+00:00</message:Prepared>
+    <message:Prepared>2022-09-21T21:52:30.8574766+00:00</message:Prepared>
     <message:Sender id="Unknown" />
     <message:Receiver id="Unknown" />
   </message:Header>
@@ -3293,6 +3293,34 @@
           <common:Name xml:lang="en">LIBERIA</common:Name>
           <common:Description xml:lang="en">LIBERIA</common:Description>
         </structure:Code>
+        <structure:Code id="TRT_BIOENERGY">
+          <common:Name xml:lang="en">Type of renewable technology: Bioenergy</common:Name>
+          <common:Description xml:lang="en">Type of renewable technology: Bioenergy</common:Description>
+        </structure:Code>
+        <structure:Code id="TRT_GEOTHERMAL">
+          <common:Name xml:lang="en">Type of renewable technology: Geothermal energy</common:Name>
+          <common:Description xml:lang="en">Type of renewable technology: Geothermal energy</common:Description>
+        </structure:Code>
+        <structure:Code id="TRT_MARINE">
+          <common:Name xml:lang="en">Type of renewable technology: Marine energy</common:Name>
+          <common:Description xml:lang="en">Type of renewable technology: Marine energy</common:Description>
+        </structure:Code>
+        <structure:Code id="TRT_MULTIPLE">
+          <common:Name xml:lang="en">Type of renewable technology: Multiple renewables</common:Name>
+          <common:Description xml:lang="en">Type of renewable technology: Multiple renewables</common:Description>
+        </structure:Code>
+        <structure:Code id="TRT_HYDROPOWER">
+          <common:Name xml:lang="en">Type of renewable technology: Hydropower</common:Name>
+          <common:Description xml:lang="en">Type of renewable technology: Hydropower</common:Description>
+        </structure:Code>
+        <structure:Code id="TRT_SOLAR">
+          <common:Name xml:lang="en">Type of renewable technology: Solar energy</common:Name>
+          <common:Description xml:lang="en">Type of renewable technology: Solar energy</common:Description>
+        </structure:Code>
+        <structure:Code id="TRT_WIND">
+          <common:Name xml:lang="en">Type of renewable technology: Wind energy</common:Name>
+          <common:Description xml:lang="en">Type of renewable technology: Wind energy</common:Description>
+        </structure:Code>
       </structure:Codelist>
       <structure:Codelist id="CL_CUST_BREAKDOWN" agencyID="GSS" version="1.0" isFinal="true">
         <common:Name xml:lang="en">GSS SDG custom breakdown code list</common:Name>
@@ -3652,6 +3680,114 @@
       </structure:Codelist>
       <structure:Codelist id="CL_SERIES" agencyID="GSS" version="1.0" isFinal="true">
         <common:Name xml:lang="en">SDG Series Code List (GSS)</common:Name>
+        <structure:Code id="_L_GH_covid">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">covid-1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">covid-1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Grid electricity supply by generation type</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Grid electricity supply by generation type</common:Name>
+          <common:Description xml:lang="en">Grid electricity supply by generation type</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_120a01_01">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">12.a.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C120a01</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Grid electricity supply by generation type</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Grid electricity supply by generation type</common:Name>
+          <common:Description xml:lang="en">Grid electricity supply by generation type</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_070b01_02">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">7.b.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C070b01</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Grid electricity supply by generation type</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Grid electricity supply by generation type</common:Name>
+          <common:Description xml:lang="en">Grid electricity supply by generation type</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_070b01_01">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">7.b.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C070b01</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Installed renewable energy-generating capacity in developing countries (in watts per capita)</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Installed renewable�electricity-generating capacity (watts per capita) [7.b.1, 12.a.1]</common:Name>
+          <common:Description xml:lang="en">Installed renewable�electricity-generating capacity (watts per capita) [7.b.1, 12.a.1]</common:Description>
+        </structure:Code>
         <structure:Code id="_L_GH_140101_01">
           <common:Annotations>
             <common:Annotation>
@@ -14824,8 +14960,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Installed renewable electricity-generating capacity (watts per capita) [7.b.1, 12.a.1]</common:Name>
-          <common:Description xml:lang="en">Installed renewable electricity-generating capacity (watts per capita) [7.b.1, 12.a.1]</common:Description>
+          <common:Name xml:lang="en">Installed renewable�electricity-generating capacity (watts per capita) [7.b.1, 12.a.1]</common:Name>
+          <common:Description xml:lang="en">Installed renewable�electricity-generating capacity (watts per capita) [7.b.1, 12.a.1]</common:Description>
         </structure:Code>
         <structure:Code id="NY_GDP_PCAP">
           <common:Annotations>
