@@ -1,4 +1,3 @@
----
 composite_breakdown_label: ''
 computation_units: ''
 copyright: ''
@@ -31,7 +30,6 @@ reporting_status: complete
 sort: ''
 standalone: false
 tags: []
----
-**Standalone Indicator**
+page_content: **Standalone Indicator**
 
 My explanation of why this is reported 
