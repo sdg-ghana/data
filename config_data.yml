@@ -52,7 +52,7 @@ inputs:
     import_translation_keys: true
   - class: InputCsvData
     # This describes the data files, relative to the "src_dir" indicated above.
-    path_pattern: data/*-*.csv    
+    path_pattern: 'data/*.csv'    
   - class: InputWordMeta
     path_pattern: meta/*-*.docm
   - class: InputYamlMeta
