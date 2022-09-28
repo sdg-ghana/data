@@ -3,7 +3,7 @@
   <message:Header>
     <message:ID>IDREF1</message:ID>
     <message:Test>false</message:Test>
-    <message:Prepared>2022-09-21T21:52:30.8574766+00:00</message:Prepared>
+    <message:Prepared>2022-09-28T22:30:21.6704431+00:00</message:Prepared>
     <message:Sender id="Unknown" />
     <message:Receiver id="Unknown" />
   </message:Header>
@@ -3321,6 +3321,58 @@
           <common:Name xml:lang="en">Type of renewable technology: Wind energy</common:Name>
           <common:Description xml:lang="en">Type of renewable technology: Wind energy</common:Description>
         </structure:Code>
+        <structure:Code id="_L_GH_ECOWAS">
+          <common:Name xml:lang="en">ECOWAS countries</common:Name>
+          <common:Description xml:lang="en">ECOWAS countries</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_OTHER_AFRICA">
+          <common:Name xml:lang="en">Other African Countries</common:Name>
+          <common:Description xml:lang="en">Other African Countries</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_EUROPE">
+          <common:Name xml:lang="en">Europe</common:Name>
+          <common:Description xml:lang="en">Europe</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_MIDDLEEAST">
+          <common:Name xml:lang="en">Middle East/Gulf Cooperation Council countries</common:Name>
+          <common:Description xml:lang="en">Middle East/Gulf Cooperation Council countries</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_ASIA">
+          <common:Name xml:lang="en">Asia</common:Name>
+          <common:Description xml:lang="en">Asia</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_AMERICA">
+          <common:Name xml:lang="en">America</common:Name>
+          <common:Description xml:lang="en">America</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_OCEANIA">
+          <common:Name xml:lang="en">Oceania</common:Name>
+          <common:Description xml:lang="en">Oceania</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_NODOC">
+          <common:Name xml:lang="en">No Document</common:Name>
+          <common:Description xml:lang="en">Status of Documentaion: No Document</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_COMPDOC">
+          <common:Name xml:lang="en">Complete Document</common:Name>
+          <common:Description xml:lang="en">Status of Documentaion: Complete Document</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_PARTIAL">
+          <common:Name xml:lang="en">Partial</common:Name>
+          <common:Description xml:lang="en">Status of Documentaion: Partial</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_PROCESS">
+          <common:Name xml:lang="en">Now Processing</common:Name>
+          <common:Description xml:lang="en">Status of Documentaion: Now Processing</common:Description>
+        </structure:Code>
+        <structure:Code id="GES">
+          <common:Name xml:lang="en">Ghana Education Service</common:Name>
+          <common:Description xml:lang="en">Ghana Education Service</common:Description>
+        </structure:Code>
+        <structure:Code id="OTHER_PUBLIC">
+          <common:Name xml:lang="en">Other Public Institutions</common:Name>
+          <common:Description xml:lang="en">Other Public Institutions</common:Description>
+        </structure:Code>
       </structure:Codelist>
       <structure:Codelist id="CL_CUST_BREAKDOWN" agencyID="GSS" version="1.0" isFinal="true">
         <common:Name xml:lang="en">GSS SDG custom breakdown code list</common:Name>
@@ -3680,22 +3732,22 @@
       </structure:Codelist>
       <structure:Codelist id="CL_SERIES" agencyID="GSS" version="1.0" isFinal="true">
         <common:Name xml:lang="en">SDG Series Code List (GSS)</common:Name>
-        <structure:Code id="_L_GH_covid">
+        <structure:Code id="_L_GH_160402_01">
           <common:Annotations>
             <common:Annotation>
               <common:AnnotationTitle>Indicator</common:AnnotationTitle>
               <common:AnnotationType>Indicator</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">covid-1</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">16.4.2</common:AnnotationText>
             </common:Annotation>
             <common:Annotation>
               <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
               <common:AnnotationType>IndicatorCode</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">covid-1</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">C160402</common:AnnotationText>
             </common:Annotation>
             <common:Annotation>
               <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
               <common:AnnotationType>IndicatorTitle</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">Grid electricity supply by generation type</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">Proportion of seized, found or surrendered arms whose illicit origin or context has been traced or established by a competent authority in line with international instruments</common:AnnotationText>
             </common:Annotation>
             <common:Annotation id="@SDMX">
               <common:AnnotationType>ORDER</common:AnnotationType>
@@ -3704,8 +3756,116 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Grid electricity supply by generation type</common:Name>
-          <common:Description xml:lang="en">Grid electricity supply by generation type</common:Description>
+          <common:Name xml:lang="en">Number of illicit arms collected and destroyed [16.4.2]</common:Name>
+          <common:Description xml:lang="en">Number of illicit arms collected and destroyed [16.4.2]</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_050a01_01">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">5.a.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C050a01</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Land parcels for agriculture by type of tenure arrangement and sex of holder, and by status of documentation</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Land parcels for agriculture by type of tenure arrangement and sex of holder, and by status of documentation</common:Name>
+          <common:Description xml:lang="en">Land parcels for agriculture by type of tenure arrangement and sex of holder, and by status of documentation</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_080901_01">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">8.9.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C080901</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Tourism direct GDP as a proportion of total GDP and in growth rate</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Contribution of hotel and restaurant sub-sector to GDP</common:Name>
+          <common:Description xml:lang="en">Contribution of hotel and restaurant sub-sector to GDP</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_080901_02">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">8.9.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C080901</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Tourism direct GDP as a proportion of total GDP and in growth rate</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Growth rate of hotel and restaurant sub-sector</common:Name>
+          <common:Description xml:lang="en">Growth rate of hotel and restaurant sub-sector</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_020a02_01">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2.a.2</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C020a02</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Total official flows (official development assistance plus other official flows) to the agriculture sector</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Percentage of total foreign direct investment that flows into agriculture sector</common:Name>
+          <common:Description xml:lang="en">Percentage of total foreign direct investment that flows into agriculture sector</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_120a01_01">
           <common:Annotations>
@@ -4640,7 +4800,7 @@
             <common:Annotation>
               <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
               <common:AnnotationType>IndicatorTitle</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">Enrolment for National Functional Literacy Programme (number of classes)</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">Number of Technical and Vocational Institutions</common:AnnotationText>
             </common:Annotation>
             <common:Annotation id="@SDMX">
               <common:AnnotationType>ORDER</common:AnnotationType>
@@ -4649,8 +4809,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Enrolment for National Functional Literacy Programme (number of classes)</common:Name>
-          <common:Description xml:lang="en">Enrolment for National Functional Literacy Programme (number of classes)</common:Description>
+          <common:Name xml:lang="en">Number of Technical and Vocational Institutions</common:Name>
+          <common:Description xml:lang="en">Number of Technical and Vocational Institutions</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_040301_1b">
           <common:Annotations>
@@ -4667,7 +4827,7 @@
             <common:Annotation>
               <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
               <common:AnnotationType>IndicatorTitle</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">Enrolment for National Functional Literacy Programme (number of students)</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">Number of Public Technical and Vocational Institutions</common:AnnotationText>
             </common:Annotation>
             <common:Annotation id="@SDMX">
               <common:AnnotationType>ORDER</common:AnnotationType>
@@ -4676,8 +4836,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Enrolment for National Functional Literacy Programme (number of students)</common:Name>
-          <common:Description xml:lang="en">Enrolment for National Functional Literacy Programme (number of students)</common:Description>
+          <common:Name xml:lang="en">Number of Public Technical and Vocational Institutions</common:Name>
+          <common:Description xml:lang="en">Number of Public Technical and Vocational Institutions</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_040301_1c">
           <common:Annotations>
@@ -4694,7 +4854,7 @@
             <common:Annotation>
               <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
               <common:AnnotationType>IndicatorTitle</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">Enrolment for National Functional Literacy Programme (percentage girls)</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">Number of Private Technical and Vocational Institutions</common:AnnotationText>
             </common:Annotation>
             <common:Annotation id="@SDMX">
               <common:AnnotationType>ORDER</common:AnnotationType>
@@ -4703,8 +4863,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Enrolment for National Functional Literacy Programme (percentage girls)</common:Name>
-          <common:Description xml:lang="en">Enrolment for National Functional Literacy Programme (percentage girls)</common:Description>
+          <common:Name xml:lang="en">Number of Private Technical and Vocational Institutions</common:Name>
+          <common:Description xml:lang="en">Number of Private Technical and Vocational Institutions</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_040301_2a">
           <common:Annotations>
@@ -4721,7 +4881,7 @@
             <common:Annotation>
               <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
               <common:AnnotationType>IndicatorTitle</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">Enrolment in TVET Programmes in Senior High Technical Schools (number of schools)</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">Enrolment in Technical and Vocational Institutions</common:AnnotationText>
             </common:Annotation>
             <common:Annotation id="@SDMX">
               <common:AnnotationType>ORDER</common:AnnotationType>
@@ -4730,8 +4890,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Enrolment in TVET Programmes in Senior High Technical Schools (number of schools)</common:Name>
-          <common:Description xml:lang="en">Enrolment in TVET Programmes in Senior High Technical Schools (number of schools)</common:Description>
+          <common:Name xml:lang="en">Enrolment in Technical and Vocational Institutions</common:Name>
+          <common:Description xml:lang="en">Enrolment in Technical and Vocational Institutions</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_040301_2b">
           <common:Annotations>
@@ -4748,7 +4908,7 @@
             <common:Annotation>
               <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
               <common:AnnotationType>IndicatorTitle</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">Enrolment in TVET Programmes in Senior High Technical Schools (Private Schools as share (%) of total enrolment)</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">Enrolment in Public Technical and Vocational Institutions</common:AnnotationText>
             </common:Annotation>
             <common:Annotation id="@SDMX">
               <common:AnnotationType>ORDER</common:AnnotationType>
@@ -4757,8 +4917,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Enrolment in TVET Programmes in Senior High Technical Schools (Private Schools as share (%) of total enrolment)</common:Name>
-          <common:Description xml:lang="en">Enrolment in TVET Programmes in Senior High Technical Schools (Private Schools as share (%) of total enrolment)</common:Description>
+          <common:Name xml:lang="en">Enrolment in Public Technical and Vocational Institutions</common:Name>
+          <common:Description xml:lang="en">Enrolment in Public Technical and Vocational Institutions</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_040301_2c">
           <common:Annotations>
@@ -4775,7 +4935,7 @@
             <common:Annotation>
               <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
               <common:AnnotationType>IndicatorTitle</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">Enrolment in TVET Programmes in Senior High Technical Schools (number of students)</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">Enrolment in Private Technical and Vocational Institutions</common:AnnotationText>
             </common:Annotation>
             <common:Annotation id="@SDMX">
               <common:AnnotationType>ORDER</common:AnnotationType>
@@ -4784,35 +4944,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Enrolment in TVET Programmes in Senior High Technical Schools (number of students)</common:Name>
-          <common:Description xml:lang="en">Enrolment in TVET Programmes in Senior High Technical Schools (number of students)</common:Description>
-        </structure:Code>
-        <structure:Code id="_L_GH_040301_2d">
-          <common:Annotations>
-            <common:Annotation>
-              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
-              <common:AnnotationType>Indicator</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">4.3.1</common:AnnotationText>
-            </common:Annotation>
-            <common:Annotation>
-              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
-              <common:AnnotationType>IndicatorCode</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">C040301</common:AnnotationText>
-            </common:Annotation>
-            <common:Annotation>
-              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
-              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">Enrolment in TVET Programmes in Senior High Technical Schools (Girls' share in enrolment)</common:AnnotationText>
-            </common:Annotation>
-            <common:Annotation id="@SDMX">
-              <common:AnnotationType>ORDER</common:AnnotationType>
-            </common:Annotation>
-            <common:Annotation>
-              <common:AnnotationType>RetiredSeries</common:AnnotationType>
-            </common:Annotation>
-          </common:Annotations>
-          <common:Name xml:lang="en">Enrolment in TVET Programmes in Senior High Technical Schools (Girls' share in enrolment)</common:Name>
-          <common:Description xml:lang="en">Enrolment in TVET Programmes in Senior High Technical Schools (Girls' share in enrolment)</common:Description>
+          <common:Name xml:lang="en">Enrolment in Private Technical and Vocational Institutions</common:Name>
+          <common:Description xml:lang="en">Enrolment in Private Technical and Vocational Institutions</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_040301_3a">
           <common:Annotations>
@@ -4829,7 +4962,7 @@
             <common:Annotation>
               <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
               <common:AnnotationType>IndicatorTitle</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">Number of Technical and Vocational Institutes (number of institutions)</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">Number of Senior High Technical Schools with TVET Programmes</common:AnnotationText>
             </common:Annotation>
             <common:Annotation id="@SDMX">
               <common:AnnotationType>ORDER</common:AnnotationType>
@@ -4838,8 +4971,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Number of Technical and Vocational Institutes (number of institutions)</common:Name>
-          <common:Description xml:lang="en">Number of Technical and Vocational Institutes (number of institutions)</common:Description>
+          <common:Name xml:lang="en">Number of Senior High Technical Schools with TVET Programmes</common:Name>
+          <common:Description xml:lang="en">Number of Senior High Technical Schools with TVET Programmes</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_040301_3b">
           <common:Annotations>
@@ -4856,7 +4989,7 @@
             <common:Annotation>
               <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
               <common:AnnotationType>IndicatorTitle</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">Number of Technical and Vocational Institutes (Enrolled students)</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">Enrolment in TVET Programmes in Private Senior High Technical Schools as a share of total enrolment</common:AnnotationText>
             </common:Annotation>
             <common:Annotation id="@SDMX">
               <common:AnnotationType>ORDER</common:AnnotationType>
@@ -4865,8 +4998,194 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Number of Technical and Vocational Institutes (Enrolled students)</common:Name>
-          <common:Description xml:lang="en">Number of Technical and Vocational Institutes (Enrolled students)</common:Description>
+          <common:Name xml:lang="en">Enrolment in TVET Programmes in Private Senior High Technical Schools as a share of total enrolment</common:Name>
+          <common:Description xml:lang="en">Enrolment in TVET Programmes in Private Senior High Technical Schools as a share of total enrolment</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_040301_3c">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">4.3.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C040301</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Enrolment in TVET Programmes in Senior High Technical Schools</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Enrolment in TVET Programmes in Senior High Technical Schools</common:Name>
+          <common:Description xml:lang="en">Enrolment in TVET Programmes in Senior High Technical Schools</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_040301_4a">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">4.3.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C040301</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Number of Classes for National Functional Literacy Programme</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Number of Classes for National Functional Literacy Programme</common:Name>
+          <common:Description xml:lang="en">Number of Classes for National Functional Literacy Programme</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_040301_4b">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">4.3.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C040301</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Enrolment for National Functional Literacy Programme</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Enrolment for National Functional Literacy Programme</common:Name>
+          <common:Description xml:lang="en">Enrolment for National Functional Literacy Programme</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_040301_4c">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">4.3.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C040301</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Percentage of Female share in Enrolment for National Functional Literacy Programme</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Percentage of Female share in Enrolment for National Functional Literacy Programme</common:Name>
+          <common:Description xml:lang="en">Percentage of Female share in Enrolment for National Functional Literacy Programme</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_040301_5a">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">4.3.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C040301</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Number of Classes for Basic English Literacy</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Number of Classes for Basic English Literacy</common:Name>
+          <common:Description xml:lang="en">Number of Classes for Basic English Literacy</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_040301_5b">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">4.3.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C040301</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Enrolment for Basic English Literacy</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Enrolment for Basic English Literacy</common:Name>
+          <common:Description xml:lang="en">Enrolment for Basic English Literacy</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_040301_5c">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">4.3.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C040301</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Percentage of Female share in Enrolment for Basic English Literacy</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Percentage of Female share in Enrolment for Basic English Literacy</common:Name>
+          <common:Description xml:lang="en">Percentage of Female share in Enrolment for Basic English Literacy</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_140501_01">
           <common:Annotations>
@@ -16454,7 +16773,7 @@
             <common:Annotation>
               <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
               <common:AnnotationType>IndicatorTitle</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">Proportion of people living below 50 per cent of median income, by sex, age and persons with disabilities</common:AnnotationText>
+              <common:AnnotationText xml:lang="en">Proportion of people living below 50�percent of median income, by sex, age and persons with disabilities</common:AnnotationText>
             </common:Annotation>
             <common:Annotation id="@SDMX">
               <common:AnnotationType>ORDER</common:AnnotationType>
@@ -16464,8 +16783,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Proportion of people living below 50 percent of median income [10.2.1]</common:Name>
-          <common:Description xml:lang="en">Proportion of people living below 50 percent of median income [10.2.1]</common:Description>
+          <common:Name xml:lang="en">Proportion of people living below 50�percent of median income [10.2.1]</common:Name>
+          <common:Description xml:lang="en">Proportion of people living below 50�percent of median income [10.2.1]</common:Description>
         </structure:Code>
         <structure:Code id="VC_VOV_DCMN">
           <common:Annotations>
