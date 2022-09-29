@@ -2,9 +2,9 @@
 <!--Created with SDMX Converter v7.7.2-->
 <message:StructureSpecificData xmlns:ss="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/structurespecific" xmlns:footer="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message/footer" xmlns:ns1="urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=GSS:SDG(1.2):ObsLevelDim:TIME_PERIOD" xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <message:Header>
-    <message:ID>IREF1663668426897</message:ID>
+    <message:ID>IREF1664404464562</message:ID>
     <message:Test>false</message:Test>
-    <message:Prepared>2022-09-20T10:07:06Z</message:Prepared>
+    <message:Prepared>2022-09-28T22:34:24Z</message:Prepared>
     <message:Sender id="BIS">
       <message:Contact></message:Contact>
     </message:Sender>
@@ -32,6 +32,7 @@
     <Obs TIME_PERIOD="2018" OBS_VALUE="3.9" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2018" SOURCE_DETAIL="Ghana Statistical Service, National Accounts, 2020"></Obs>
     <Obs TIME_PERIOD="2019" OBS_VALUE="4.1" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2019" SOURCE_DETAIL="Ghana Statistical Service, National Accounts, 2020"></Obs>
     <Obs TIME_PERIOD="2020" OBS_VALUE="-1.3" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2020" SOURCE_DETAIL="Ghana Statistical Service, National Accounts, 2020"></Obs>
+    <Obs TIME_PERIOD="2021" OBS_VALUE="5.3" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2021" SOURCE_DETAIL="Ghana Statistical Service, National Accounts, 2021"></Obs>
   </Series>
   <Series FREQ="A" REPORTING_TYPE="N" SERIES="SL_ISV_IFEM" REF_AREA="GH" SEX="M" AGE="_T" URBANISATION="_T" INCOME_WEALTH_QUANTILE="_T" EDUCATION_LEV="_T" OCCUPATION="_T" CUST_BREAKDOWN="_T" COMPOSITE_BREAKDOWN="_T" DISABILITY_STATUS="_T" ACTIVITY="_T" PRODUCT="_T" UNIT_MEASURE="PT">
     <Obs TIME_PERIOD="2015" OBS_VALUE="6.35" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2015" SOURCE_DETAIL="Computed from Labour Force Report and GLSS 7, 2016 and 2019"></Obs>
@@ -200,6 +201,24 @@
   </Series>
   <Series FREQ="A" REPORTING_TYPE="N" SERIES="_L_GH_080701_02" REF_AREA="GH" SEX="_T" AGE="Y5T17" URBANISATION="_T" INCOME_WEALTH_QUANTILE="_T" EDUCATION_LEV="_T" OCCUPATION="_T" CUST_BREAKDOWN="_T" COMPOSITE_BREAKDOWN="_T" DISABILITY_STATUS="_T" ACTIVITY="_T" PRODUCT="_T" UNIT_MEASURE="PT">
     <Obs TIME_PERIOD="2013" OBS_VALUE="14.2" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2013" SOURCE_DETAIL="GLSS 6 (2012/13)"></Obs>
+  </Series>
+  <Series FREQ="A" REPORTING_TYPE="N" SERIES="_L_GH_080901_01" REF_AREA="GH" SEX="_T" AGE="_T" URBANISATION="_T" INCOME_WEALTH_QUANTILE="_T" EDUCATION_LEV="_T" OCCUPATION="_T" CUST_BREAKDOWN="_T" COMPOSITE_BREAKDOWN="_T" DISABILITY_STATUS="_T" ACTIVITY="_T" PRODUCT="_T" UNIT_MEASURE="PT">
+    <Obs TIME_PERIOD="2015" OBS_VALUE="3.5" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2015" SOURCE_DETAIL="Ghana Statistical Service, National Accounts, 2022"></Obs>
+    <Obs TIME_PERIOD="2016" OBS_VALUE="3.7" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2016" SOURCE_DETAIL="Ghana Statistical Service, National Accounts, 2022"></Obs>
+    <Obs TIME_PERIOD="2017" OBS_VALUE="3.9" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2017" SOURCE_DETAIL="Ghana Statistical Service, National Accounts, 2022"></Obs>
+    <Obs TIME_PERIOD="2018" OBS_VALUE="3.8" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2018" SOURCE_DETAIL="Ghana Statistical Service, National Accounts, 2022"></Obs>
+    <Obs TIME_PERIOD="2019" OBS_VALUE="3.7" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2019" SOURCE_DETAIL="Ghana Statistical Service, National Accounts, 2022"></Obs>
+    <Obs TIME_PERIOD="2020" OBS_VALUE="2.4" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2020" SOURCE_DETAIL="Ghana Statistical Service, National Accounts, 2022"></Obs>
+    <Obs TIME_PERIOD="2021" OBS_VALUE="2.2" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2021" SOURCE_DETAIL="Ghana Statistical Service, National Accounts, 2022"></Obs>
+  </Series>
+  <Series FREQ="A" REPORTING_TYPE="N" SERIES="_L_GH_080901_02" REF_AREA="GH" SEX="_T" AGE="_T" URBANISATION="_T" INCOME_WEALTH_QUANTILE="_T" EDUCATION_LEV="_T" OCCUPATION="_T" CUST_BREAKDOWN="_T" COMPOSITE_BREAKDOWN="_T" DISABILITY_STATUS="_T" ACTIVITY="_T" PRODUCT="_T" UNIT_MEASURE="PT">
+    <Obs TIME_PERIOD="2015" OBS_VALUE="4.1" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2015" SOURCE_DETAIL="Ghana Statistical Service, National Accounts, 2022"></Obs>
+    <Obs TIME_PERIOD="2016" OBS_VALUE="2.3" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2016" SOURCE_DETAIL="Ghana Statistical Service, National Accounts, 2022"></Obs>
+    <Obs TIME_PERIOD="2017" OBS_VALUE="7.6" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2017" SOURCE_DETAIL="Ghana Statistical Service, National Accounts, 2022"></Obs>
+    <Obs TIME_PERIOD="2018" OBS_VALUE="3.2" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2018" SOURCE_DETAIL="Ghana Statistical Service, National Accounts, 2022"></Obs>
+    <Obs TIME_PERIOD="2019" OBS_VALUE="6" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2019" SOURCE_DETAIL="Ghana Statistical Service, National Accounts, 2022"></Obs>
+    <Obs TIME_PERIOD="2020" OBS_VALUE="-37" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2020" SOURCE_DETAIL="Ghana Statistical Service, National Accounts, 2022"></Obs>
+    <Obs TIME_PERIOD="2021" OBS_VALUE="4.3" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2021" SOURCE_DETAIL="Ghana Statistical Service, National Accounts, 2022"></Obs>
   </Series>
   <Series FREQ="A" REPORTING_TYPE="N" SERIES="FB_ATM_TOTL" REF_AREA="GH" SEX="_T" AGE="_T" URBANISATION="_T" INCOME_WEALTH_QUANTILE="_T" EDUCATION_LEV="_T" OCCUPATION="_T" CUST_BREAKDOWN="_T" COMPOSITE_BREAKDOWN="_T" DISABILITY_STATUS="_T" ACTIVITY="_T" PRODUCT="_T" UNIT_MEASURE="PER_100000_POP">
     <Obs TIME_PERIOD="2010" OBS_VALUE="4.3" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2010" SOURCE_DETAIL="Data compiled from BOG, Annual Report 2019"></Obs>

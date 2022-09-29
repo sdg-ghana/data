@@ -2,9 +2,9 @@
 <!--Created with SDMX Converter v7.7.2-->
 <message:StructureSpecificData xmlns:ss="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/structurespecific" xmlns:footer="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message/footer" xmlns:ns1="urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=GSS:SDG(1.2):ObsLevelDim:TIME_PERIOD" xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <message:Header>
-    <message:ID>IREF1663716634454</message:ID>
+    <message:ID>IREF1664404346085</message:ID>
     <message:Test>false</message:Test>
-    <message:Prepared>2022-09-20T23:30:34Z</message:Prepared>
+    <message:Prepared>2022-09-28T22:32:26Z</message:Prepared>
     <message:Sender id="BIS">
       <message:Contact></message:Contact>
     </message:Sender>
@@ -187,7 +187,7 @@
     <Obs TIME_PERIOD="2017" OBS_VALUE="21.15" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2017" SOURCE_DETAIL="Computed based on data from GSS and MoF"></Obs>
     <Obs TIME_PERIOD="2018" OBS_VALUE="19.65" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2018" SOURCE_DETAIL="Computed based on data from GSS and MoF"></Obs>
   </Series>
-  <Series FREQ="A" REPORTING_TYPE="N" SERIES="DC_TOF_AGRL" REF_AREA="GH" SEX="_T" AGE="_T" URBANISATION="_T" INCOME_WEALTH_QUANTILE="_T" EDUCATION_LEV="_T" OCCUPATION="_T" CUST_BREAKDOWN="_T" COMPOSITE_BREAKDOWN="_T" DISABILITY_STATUS="_T" ACTIVITY="_T" PRODUCT="_T" UNIT_MEASURE="PT">
+  <Series FREQ="A" REPORTING_TYPE="N" SERIES="_L_GH_020a02_01" REF_AREA="GH" SEX="_T" AGE="_T" URBANISATION="_T" INCOME_WEALTH_QUANTILE="_T" EDUCATION_LEV="_T" OCCUPATION="_T" CUST_BREAKDOWN="_T" COMPOSITE_BREAKDOWN="_T" DISABILITY_STATUS="_T" ACTIVITY="_T" PRODUCT="_T" UNIT_MEASURE="PT">
     <Obs TIME_PERIOD="2016" OBS_VALUE="0.25" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2016" SOURCE_DETAIL="2019 GIPC Annual Report"></Obs>
     <Obs TIME_PERIOD="2017" OBS_VALUE="0.08" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2017" SOURCE_DETAIL="2019 GIPC Annual Report"></Obs>
     <Obs TIME_PERIOD="2018" OBS_VALUE="2.57" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2018" SOURCE_DETAIL="2019 GIPC Annual Report"></Obs>
