@@ -451,6 +451,56 @@
       "title": "Proportion of seats held by women in (a) national parliaments and (b) local governments"
     },
     {
+      "path": "5-a-1/data.csv",
+      "name": "5-a-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "COMPOSITE_BREAKDOWN",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Complete Document",
+                "No Document",
+                "Partial",
+                "Now Processing"
+              ]
+            },
+            "title": "Composite breakdown"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Female",
+                "Male"
+              ]
+            },
+            "title": "Sex"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Year"
+          }
+        ]
+      },
+      "title": "(a) Proportion of total agricultural population with ownership or secure rights over agricultural land, by sex; and (b) share of women among owners or rights-bearers of agricultural land, by type of tenure"
+    },
+    {
       "path": "5-b-1/data.csv",
       "name": "5-b-1",
       "profile": "tabular-data-resource",
@@ -1777,6 +1827,17 @@
       "schema": {
         "fields": [
           {
+            "name": "COMMENT_OBS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "World Bank Estimate"
+              ]
+            },
+            "title": "Observation-level footnotes"
+          },
+          {
             "name": "GeoCode",
             "type": "string",
             "title": "GeoCode"
@@ -2369,23 +2430,13 @@
             "constraints": {
               "enum": [
                 "",
+                "Ghana Education Service",
+                "Other Public Institutions",
                 "Private",
                 "Public"
               ]
             },
             "title": "Composite breakdown"
-          },
-          {
-            "name": "CUST_BREAKDOWN",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "GES",
-                "Other public"
-              ]
-            },
-            "title": "Custom Breakdown"
           },
           {
             "name": "EDUCATION_LEV",
@@ -3094,6 +3145,59 @@
       "title": "Labour share of GDP"
     },
     {
+      "path": "10-7-1/data.csv",
+      "name": "10-7-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "COMPOSITE_BREAKDOWN",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "America",
+                "Asia",
+                "ECOWAS countries",
+                "Europe",
+                "Middle East/Gulf Cooperation Council countries",
+                "Oceania",
+                "Other African Countries"
+              ]
+            },
+            "title": "Composite breakdown"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Female",
+                "Male"
+              ]
+            },
+            "title": "Sex"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Year"
+          }
+        ]
+      },
+      "title": "Recruitment cost borne by employee as a proportion of monthly income earned in country of destination"
+    },
+    {
       "path": "10-7-4/data.csv",
       "name": "10-7-4",
       "profile": "tabular-data-resource",
@@ -3181,24 +3285,6 @@
       "encoding": "utf-8",
       "schema": {
         "fields": [
-          {
-            "name": "COMPOSITE_BREAKDOWN",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Type of renewable technology: Geothermal energy",
-                "Type of renewable technology: Hydropower",
-                "Type of renewable technology: Multiple renewables"
-              ]
-            },
-            "title": "Composite breakdown"
-          },
-          {
-            "name": "SERIES",
-            "type": "string",
-            "title": "SDG Series"
-          },
           {
             "name": "Value",
             "type": "number",
@@ -3381,24 +3467,6 @@
       "encoding": "utf-8",
       "schema": {
         "fields": [
-          {
-            "name": "COMPOSITE_BREAKDOWN",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Type of renewable technology: Geothermal energy",
-                "Type of renewable technology: Hydropower",
-                "Type of renewable technology: Multiple renewables"
-              ]
-            },
-            "title": "Composite breakdown"
-          },
-          {
-            "name": "SERIES",
-            "type": "string",
-            "title": "SDG Series"
-          },
           {
             "name": "Value",
             "type": "number",
@@ -3677,6 +3745,35 @@
         ]
       },
       "title": "Proportion and number of children aged 5–17 years engaged in child labour, by sex and age"
+    },
+    {
+      "path": "8-9-1/data.csv",
+      "name": "8-9-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "SERIES",
+            "type": "string",
+            "title": "SDG Series"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Year"
+          }
+        ]
+      },
+      "title": "Tourism direct GDP as a proportion of total GDP and in growth rate"
     },
     {
       "path": "8-10-1/data.csv",
@@ -4254,30 +4351,6 @@
         ]
       },
       "title": "Proportion of youth and adults with information and communications technology (ICT) skills, by type of skill"
-    },
-    {
-      "path": "10-7-1/data.csv",
-      "name": "10-7-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          }
-        ]
-      },
-      "title": "Recruitment cost borne by employee as a proportion of monthly income earned in country of destination"
     },
     {
       "path": "15-1-2/data.csv",
@@ -5046,30 +5119,6 @@
         ]
       },
       "title": "Total value of inward and outward illicit financial flows (in current United States dollars)"
-    },
-    {
-      "path": "5-a-1/data.csv",
-      "name": "5-a-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          }
-        ]
-      },
-      "title": "(a) Proportion of total agricultural population with ownership or secure rights over agricultural land, by sex; and (b) share of women among owners or rights-bearers of agricultural land, by type of tenure"
     },
     {
       "path": "11-a-1/data.csv",
@@ -5982,30 +6031,6 @@
         ]
       },
       "title": "Proportion of countries that (a) have conducted at least one population and housing census in the last 10 years; and (b) have achieved 100 per cent birth registration and 80 per cent death registration"
-    },
-    {
-      "path": "8-9-1/data.csv",
-      "name": "8-9-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          }
-        ]
-      },
-      "title": "Tourism direct GDP as a proportion of total GDP and in growth rate"
     },
     {
       "path": "11-3-1/data.csv",
