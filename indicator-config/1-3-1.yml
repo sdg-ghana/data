@@ -31,18 +31,38 @@ sort: ''
 standalone: false
 tags: []
 source_active_1: true
-source_organisation_1: World Bank
+source_organisation_1: Ministry of Gender, Children and Social Protection
 source_periodicity_1: Annual
-source_earliest_available_1: 2004
+source_earliest_available_1: ''
 source_geographical_coverage_1: Ghana
-source_url_1: https://data.worldbank.org/indicator/SI.POV.DDAY?locations=GB
-source_url_text_1: Poverty headcount ratio at $1.90 a day (2011 PPP) (% of population)
-source_release_date_1: 28/05/2020
+source_url_1: https://www.mogcsp.gov.gh/projects/livelyhood-empowerment-against-poverty-leap/
+source_url_text_1: Livelihood Empowerment Against Poverty (LEAP)
+source_release_date_1: ''
 source_next_release_1: TBA
-source_statistical_classification_1: Non-official
-source_contact_1: Research@WorldBank.org
-source_active_2: false
-source_active_3: false
+source_statistical_classification_1: Official
+source_contact_1: info@mogcsp.gov.gh
+source_active_2: true
+source_organisation_2: Ministry of Education
+source_periodicity_2: Annual
+source_earliest_available_2: ''
+source_geographical_coverage_2: Ghana
+source_url_2: https://moe.gov.gh/index.php/free-shs-policy/
+source_url_text_2: Free SHS Policy
+source_release_date_2: ''
+source_next_release_2: TBA
+source_statistical_classification_2: Official
+source_contact_2: pro@moe.gov.gh
+source_active_3: true
+source_organisation_3: Ministry of Health
+source_periodicity_3: Annual
+source_earliest_available_3: ''
+source_geographical_coverage_3: Ghana
+source_url_3: https://www.moh.gov.gh/national-health-insurance-authority/
+source_url_text_3: National Health Insurance Authority
+source_release_date_3: ''
+source_next_release_3: TBA
+source_statistical_classification_3: Official
+source_contact_3: info@moh.gov.gh
 source_active_4: false
 source_active_5: false
 source_active_6: false
