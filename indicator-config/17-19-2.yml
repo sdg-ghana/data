@@ -28,7 +28,7 @@ permalink: ''
 precision: []
 reporting_status: complete
 sort: ''
-standalone: true
+standalone: false
 tags: []
 source_active_1: true
 source_organisation_1: Ghana Statistical Service
