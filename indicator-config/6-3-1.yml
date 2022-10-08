@@ -1,5 +1,5 @@
-﻿composite_breakdown_label: ''
-computation_units: ''
+﻿composite_breakdown_label: Disposal Method
+computation_units: Percent
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -18,7 +18,9 @@ graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
 graph_title: global_indicators.6-3-1-title
-graph_titles: []
+graph_titles:
+  - series: Household wastewater disposal by method and locality
+    title: Household wastewater disposal by method and locality
 graph_type: line
 indicator_name: global_indicators.6-3-1-title
 indicator_number: '6.3.1'

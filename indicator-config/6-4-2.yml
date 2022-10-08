@@ -1,5 +1,5 @@
 ﻿composite_breakdown_label: ''
-computation_units: ''
+computation_units: m3/per person/year
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -18,7 +18,9 @@ graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
 graph_title: global_indicators.6-4-2-title
-graph_titles: []
+graph_titles:
+  - series:  Per capita share of raw water (m3/per person/year)
+    title:  Per capita share of raw water (m3/per person/year)
 graph_type: line
 indicator_name: global_indicators.6-4-2-title
 indicator_number: 6.4.2
