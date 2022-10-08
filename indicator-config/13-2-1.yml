@@ -2,7 +2,7 @@
 computation_units: ''
 copyright: ''
 data_footnote: ''
-data_non_statistical: false
+data_non_statistical: true
 data_notice_class: ''
 data_notice_heading: ''
 data_notice_text: ''
@@ -26,7 +26,17 @@ national_geographical_coverage: ''
 page_content: ''
 permalink: ''
 precision: []
-reporting_status: notstarted
+reporting_status: complete
 sort: ''
 standalone: false
 tags: []
+page_content: >- 
+  ## Relevant Ghanaian policies on nationally determined contributions, long-term strategies, national adaptation plans, strategies as reported in adaptation communications and national communications
+
+ 
+  - <a href="https://mesti.gov.gh/documents/ghanas-updated-nationally-determined-contribution-unfccc_2021/">Ghana’s Updated Nationally Determined Contribution to the UNFCCC_2021</a> - identifies emission reduction and adaptation actions to be undertaken between 2020 and 2030 in the energy, transportation, agriculture, forestry and land use, waste, and industry sectors.
+
+
+  - <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiT3PbqxNH6AhURKuwKHaQXCQIQFnoECDQQAQ&url=https%3A%2F%2Fwww.climate-laws.org%2Fgeographies%2Fghana%2Fpolicies%2Fnational-climate-change-policy-nccp&usg=AOvVaw1hoeSORW6g_vNtcIEEgWkL">National Climate Change Policy (NCCP)</a> - seeks to enhance climate resilience and adaptation across all sectors.
+
+
