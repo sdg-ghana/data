@@ -3713,6 +3713,10 @@
             "type": "string"
           },
           {
+            "name": "SERIES",
+            "type": "string"
+          },
+          {
             "name": "URBANISATION",
             "type": "string",
             "constraints": {
@@ -3722,6 +3726,10 @@
                 ""
               ]
             }
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
           },
           {
             "name": "Value",
