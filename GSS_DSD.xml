@@ -3,7 +3,7 @@
   <message:Header>
     <message:ID>IDREF1</message:ID>
     <message:Test>false</message:Test>
-    <message:Prepared>2022-09-28T22:30:21.6704431+00:00</message:Prepared>
+    <message:Prepared>2022-10-08T00:19:44.7848439+00:00</message:Prepared>
     <message:Sender id="Unknown" />
     <message:Receiver id="Unknown" />
   </message:Header>
@@ -2299,12 +2299,12 @@
           <common:Description xml:lang="en">Well-being measure: Water</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_PROTECTION">
-          <common:Name xml:lang="en">PROTECTION</common:Name>
-          <common:Description xml:lang="en">Well-being measure: Protection</common:Description>
+          <common:Name xml:lang="en">SOCIAL PROTECTION</common:Name>
+          <common:Description xml:lang="en">Well-being measure: Social Protection</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_DEVELOPMENT">
-          <common:Name xml:lang="en">DEVELOPMENT</common:Name>
-          <common:Description xml:lang="en">Well-being measure: Development</common:Description>
+          <common:Name xml:lang="en">LEARNING AND DEVELOPMENT</common:Name>
+          <common:Description xml:lang="en">Well-being measure: Learning and Development</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_HEALTH">
           <common:Name xml:lang="en">HEALTH</common:Name>
@@ -3732,6 +3732,197 @@
       </structure:Codelist>
       <structure:Codelist id="CL_SERIES" agencyID="GSS" version="1.0" isFinal="true">
         <common:Name xml:lang="en">SDG Series Code List (GSS)</common:Name>
+        <structure:Code id="_L_GH_081002_01">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">8.10.2</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C081002</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Proportion of adults (15 years and older) with an account at a bank or other financial institution or with a mobile-money-service provider</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3050</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Number of registered mobile money accounts</common:Name>
+          <common:Description xml:lang="en">Number of registered mobile money accounts</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_081002_02">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">8.10.2</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C081002</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Proportion of adults (15 years and older) with an account at a bank or other financial institution or with a mobile-money-service provider</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3050</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Number of active mobile money accounts</common:Name>
+          <common:Description xml:lang="en">Number of active mobile money accounts</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_080501_01">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">8.5.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C080501</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Average hourly earnings of employees, by sex, age, occupation and persons with disabilities</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Average monthly earnings [8.5.1]</common:Name>
+          <common:Description xml:lang="en">Average monthly earnings [8.5.1]</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_070301_02">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">7.3.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C070301</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Energy intensity measured in terms of primary energy and GDP</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Energy intensity measured in terms of final energy consumption and GDP, PPP (constant 2017 international $)</common:Name>
+          <common:Description xml:lang="en">Energy intensity measured in terms of final energy consumption and GDP, PPP (constant 2017 international $)</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_070301_01">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">7.3.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C070301</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Energy intensity measured in terms of primary energy and GDP</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Energy intensity measured in terms of total energy supply and GDP, PPP (constant 2017 international $)</common:Name>
+          <common:Description xml:lang="en">Energy intensity measured in terms of total energy supply and GDP, PPP (constant 2017 international $)</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_070101_01">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">7.1.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C070101</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Proportion of population with access to electricity</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Proportion of household with access to electricity [7.1.1]</common:Name>
+          <common:Description xml:lang="en">Proportion of household with access to electricity [7.1.1]</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_010202_01">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1.2.2</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C010202</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Proportion of population living below the national poverty line, by sex and age</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Proportion of children 0-17 years who are deprived in various poverty dimension [1.2.2]</common:Name>
+          <common:Description xml:lang="en">Proportion of children 0-17 years who are deprived in various poverty dimension [1.2.2]</common:Description>
+        </structure:Code>
         <structure:Code id="_L_GH_160402_01">
           <common:Annotations>
             <common:Annotation>
@@ -5211,8 +5402,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Coverage of protected areas in relation to marine areas-Index</common:Name>
-          <common:Description xml:lang="en">Coverage of protected areas in relation to marine areas-Index</common:Description>
+          <common:Name xml:lang="en">Ocean Health Index</common:Name>
+          <common:Description xml:lang="en">Ocean Health Index</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_140501_02">
           <common:Annotations>
@@ -5238,8 +5429,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Coverage of protected areas in relation to marine areas-Food provision</common:Name>
-          <common:Description xml:lang="en">Coverage of protected areas in relation to marine areas-Food provision</common:Description>
+          <common:Name xml:lang="en">Food provision (OHI goal)</common:Name>
+          <common:Description xml:lang="en">Food provision (OHI goal)</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_140501_03">
           <common:Annotations>
@@ -5265,8 +5456,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Coverage of protected areas in relation to marine areas-Wild caught Fisheries(sub-goal)</common:Name>
-          <common:Description xml:lang="en">Coverage of protected areas in relation to marine areas-Wild caught Fisheries(sub-goal)</common:Description>
+          <common:Name xml:lang="en">Wild caught Fisheries(OHI sub-goal)</common:Name>
+          <common:Description xml:lang="en">Wild caught Fisheries(OHI sub-goal)</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_140501_04">
           <common:Annotations>
@@ -5292,8 +5483,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Coverage of protected areas in relation to marine areas-Mariculture (sub-goal)</common:Name>
-          <common:Description xml:lang="en">Coverage of protected areas in relation to marine areas-Mariculture (sub-goal)</common:Description>
+          <common:Name xml:lang="en">Mariculture (OHI sub-goal)</common:Name>
+          <common:Description xml:lang="en">Mariculture (OHI sub-goal)</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_140501_05">
           <common:Annotations>
@@ -5319,8 +5510,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Coverage of protected areas in relation to marine areas-Artisanal fishing opportunities</common:Name>
-          <common:Description xml:lang="en">Coverage of protected areas in relation to marine areas-Artisanal fishing opportunities</common:Description>
+          <common:Name xml:lang="en">Artisanal fishing opportunities (OHI goal)</common:Name>
+          <common:Description xml:lang="en">Artisanal fishing opportunities (OHI goal)</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_140501_06">
           <common:Annotations>
@@ -5346,8 +5537,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Coverage of protected areas in relation to marine areas-Natural products</common:Name>
-          <common:Description xml:lang="en">Coverage of protected areas in relation to marine areas-Natural products</common:Description>
+          <common:Name xml:lang="en">Natural products (OHI goal)</common:Name>
+          <common:Description xml:lang="en">Natural products (OHI goal)</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_140501_07">
           <common:Annotations>
@@ -5373,8 +5564,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Coverage of protected areas in relation to marine areas-Carbon storage</common:Name>
-          <common:Description xml:lang="en">Coverage of protected areas in relation to marine areas-Carbon storage</common:Description>
+          <common:Name xml:lang="en">Carbon storage (OHI goal)</common:Name>
+          <common:Description xml:lang="en">Carbon storage (OHI goal)</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_140501_08">
           <common:Annotations>
@@ -5400,8 +5591,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Coverage of protected areas in relation to marine areas-Coastal protection</common:Name>
-          <common:Description xml:lang="en">Coverage of protected areas in relation to marine areas-Coastal protection</common:Description>
+          <common:Name xml:lang="en">Coastal protection (OHI goal)</common:Name>
+          <common:Description xml:lang="en">Coastal protection (OHI goal)</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_140501_09">
           <common:Annotations>
@@ -5427,8 +5618,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Coverage of protected areas in relation to marine areas-Livelihoods &amp; economies (sub-goals)</common:Name>
-          <common:Description xml:lang="en">Coverage of protected areas in relation to marine areas-Livelihoods &amp; economies (sub-goals)</common:Description>
+          <common:Name xml:lang="en">Livelihoods &amp; economies (OHI goal)</common:Name>
+          <common:Description xml:lang="en">Livelihoods &amp; economies (OHI goal)</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_140501_10">
           <common:Annotations>
@@ -5454,8 +5645,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Coverage of protected areas in relation to marine areas-Livelihoods (sub-goals)</common:Name>
-          <common:Description xml:lang="en">Coverage of protected areas in relation to marine areas-Livelihoods (sub-goals)</common:Description>
+          <common:Name xml:lang="en">Livelihoods (OHI sub-goal)</common:Name>
+          <common:Description xml:lang="en">Livelihoods (OHI sub-goal)</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_140501_11">
           <common:Annotations>
@@ -5481,8 +5672,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Coverage of protected areas in relation to marine areas-Economies (sub-goals)</common:Name>
-          <common:Description xml:lang="en">Coverage of protected areas in relation to marine areas-Economies (sub-goals)</common:Description>
+          <common:Name xml:lang="en">Economies (OHI sub-goal)</common:Name>
+          <common:Description xml:lang="en">Economies (OHI sub-goal)</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_140501_12">
           <common:Annotations>
@@ -5508,8 +5699,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Coverage of protected areas in relation to marine areas-Tourism &amp; recreation</common:Name>
-          <common:Description xml:lang="en">Coverage of protected areas in relation to marine areas-Tourism &amp; recreation</common:Description>
+          <common:Name xml:lang="en">Tourism &amp; recreation (OHI goal)</common:Name>
+          <common:Description xml:lang="en">Tourism &amp; recreation (OHI goal)</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_140501_13">
           <common:Annotations>
@@ -5535,8 +5726,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Coverage of protected areas in relation to marine areas-Sense of place</common:Name>
-          <common:Description xml:lang="en">Coverage of protected areas in relation to marine areas-Sense of place</common:Description>
+          <common:Name xml:lang="en">Sense of place (OHI goal)</common:Name>
+          <common:Description xml:lang="en">Sense of place (OHI goal)</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_140501_14">
           <common:Annotations>
@@ -5562,8 +5753,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Coverage of protected areas in relation to marine areas-Iconic species (sub-goal)</common:Name>
-          <common:Description xml:lang="en">Coverage of protected areas in relation to marine areas-Iconic species (sub-goal)</common:Description>
+          <common:Name xml:lang="en">Iconic species (OHI sub-goal)</common:Name>
+          <common:Description xml:lang="en">Iconic species (OHI sub-goal)</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_140501_15">
           <common:Annotations>
@@ -5589,8 +5780,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Coverage of protected areas in relation to marine areas-Lasting special places (sub-goal)</common:Name>
-          <common:Description xml:lang="en">Coverage of protected areas in relation to marine areas-Lasting special places (sub-goal)</common:Description>
+          <common:Name xml:lang="en">Lasting special places (OHI sub-goal)</common:Name>
+          <common:Description xml:lang="en">Lasting special places (OHI sub-goal)</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_140501_16">
           <common:Annotations>
@@ -5616,8 +5807,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Coverage of protected areas in relation to marine areas-Clean water</common:Name>
-          <common:Description xml:lang="en">Coverage of protected areas in relation to marine areas-Clean water</common:Description>
+          <common:Name xml:lang="en">Clean water (OHI goal)</common:Name>
+          <common:Description xml:lang="en">Clean water (OHI goal)</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_140501_17">
           <common:Annotations>
@@ -5643,8 +5834,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Coverage of protected areas in relation to marine areas-Biodiversity</common:Name>
-          <common:Description xml:lang="en">Coverage of protected areas in relation to marine areas-Biodiversity</common:Description>
+          <common:Name xml:lang="en">Biodiversity (OHI goal)</common:Name>
+          <common:Description xml:lang="en">Biodiversity (OHI goal)</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_140501_18">
           <common:Annotations>
@@ -5670,8 +5861,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Coverage of protected areas in relation to marine areas-Habitat (sub-goal)</common:Name>
-          <common:Description xml:lang="en">Coverage of protected areas in relation to marine areas-Habitat (sub-goal)</common:Description>
+          <common:Name xml:lang="en">Habitat (OHI sub-goal)</common:Name>
+          <common:Description xml:lang="en">Habitat (OHI sub-goal)</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_140501_19">
           <common:Annotations>
@@ -5697,8 +5888,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Coverage of protected areas in relation to marine areas-Species condition (sub-goal)</common:Name>
-          <common:Description xml:lang="en">Coverage of protected areas in relation to marine areas-Species condition (sub-goal)</common:Description>
+          <common:Name xml:lang="en">Species condition (OHI sub-goal)</common:Name>
+          <common:Description xml:lang="en">Species condition (OHI sub-goal)</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_160502_01">
           <common:Annotations>
@@ -23820,6 +24011,14 @@
         <structure:Code id="BAND">
           <common:Name xml:lang="en">BAND</common:Name>
           <common:Description xml:lang="en">BAND</common:Description>
+        </structure:Code>
+        <structure:Code id="MIL">
+          <common:Name xml:lang="en">Million</common:Name>
+          <common:Description xml:lang="en">Million</common:Description>
+        </structure:Code>
+        <structure:Code id="TOEM">
+          <common:Name xml:lang="en">tonne of oil equivalent per million dollars</common:Name>
+          <common:Description xml:lang="en">tonne of oil equivalent per million dollars</common:Description>
         </structure:Code>
       </structure:Codelist>
       <structure:Codelist id="CL_ACTIVITY" agencyID="IAEG-SDGs" version="1.1" isFinal="true">
