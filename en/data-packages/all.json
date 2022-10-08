@@ -1444,7 +1444,7 @@
         "fields": [
           {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           },
           {
@@ -2748,7 +2748,7 @@
         "fields": [
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           },
           {
@@ -3310,37 +3310,6 @@
       "schema": {
         "fields": [
           {
-            "name": "GeoCode",
-            "type": "string",
-            "title": "GeoCode"
-          },
-          {
-            "name": "REF_AREA",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Western",
-                "Bono East",
-                "Oti",
-                "Northern",
-                "Savannah",
-                "North East",
-                "Upper East",
-                "Upper West",
-                "Central",
-                "Greater Accra",
-                "Volta",
-                "Eastern",
-                "Ashanti",
-                "Western North",
-                "Ahafo",
-                "Bono"
-              ]
-            },
-            "title": "Reference area"
-          },
-          {
             "name": "URBANISATION",
             "type": "string",
             "constraints": {
@@ -3458,6 +3427,35 @@
       "title": "Renewable energy share in the total final energy consumption"
     },
     {
+      "path": "7-3-1/data.csv",
+      "name": "7-3-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "SERIES",
+            "type": "string",
+            "title": "SDG Series"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Year"
+          }
+        ]
+      },
+      "title": "Energy intensity measured in terms of primary energy and GDP"
+    },
+    {
       "path": "7-b-1/data.csv",
       "name": "7-b-1",
       "profile": "tabular-data-resource",
@@ -3516,6 +3514,37 @@
       "schema": {
         "fields": [
           {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "REF_AREA",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Western",
+                "Bono East",
+                "Oti",
+                "Northern",
+                "Savannah",
+                "North East",
+                "Upper East",
+                "Upper West",
+                "Central",
+                "Greater Accra",
+                "Volta",
+                "Eastern",
+                "Ashanti",
+                "Western North",
+                "Ahafo",
+                "Bono"
+              ]
+            },
+            "title": "Reference area"
+          },
+          {
             "name": "SEX",
             "type": "string",
             "constraints": {
@@ -3551,6 +3580,11 @@
       "encoding": "utf-8",
       "schema": {
         "fields": [
+          {
+            "name": "SERIES",
+            "type": "string",
+            "title": "SDG Series"
+          },
           {
             "name": "SEX",
             "type": "string",
@@ -3814,6 +3848,11 @@
       "encoding": "utf-8",
       "schema": {
         "fields": [
+          {
+            "name": "SERIES",
+            "type": "string",
+            "title": "SDG Series"
+          },
           {
             "name": "Value",
             "type": "number",
@@ -7663,30 +7702,6 @@
         ]
       },
       "title": "Number of countries that have national statistical legislation that complies with the Fundamental Principles of Official Statistics"
-    },
-    {
-      "path": "7-3-1/data.csv",
-      "name": "7-3-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          }
-        ]
-      },
-      "title": "Energy intensity measured in terms of primary energy and GDP"
     },
     {
       "path": "3-5-1/data.csv",
