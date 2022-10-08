@@ -2,7 +2,7 @@
 computation_units: ''
 copyright: ''
 data_footnote: ''
-data_non_statistical: false
+data_non_statistical: true
 data_notice_class: ''
 data_notice_heading: ''
 data_notice_text: ''
@@ -26,7 +26,34 @@ national_geographical_coverage: ''
 page_content: ''
 permalink: ''
 precision: []
-reporting_status: notstarted
+reporting_status: complete
 sort: ''
 standalone: false
 tags: []
+source_active_1: true
+source_organisation_1: Ghana Statistical Service
+source_periodicity_1: Annual
+source_earliest_available_1: 1891
+source_geographical_coverage_1: Ghana
+source_url_1: https://www.statsghana.gov.gh/
+source_url_text_1: National Statistical Office of Ghana
+source_release_date_1: ''
+source_next_release_1: TBA
+source_statistical_classification_1: Official
+source_contact_1: info@statsghana.gov.gh
+source_active_2: false
+source_active_3: false
+source_active_4: false
+source_active_5: false
+source_active_6: false
+page_content: >- 
+  ## **Relevant Ghanaian policies on the integration of mitigation, adaptation, impact reduction and early warning into primary, secondary and tertiary curricula**
+
+ 
+	- <a href="https://www.climate-laws.org/geographies/ghana/policies/national-climate-change-policy-nccp#:~:text=The%20NCCP%27s%20emphasis%20is%20on,dedicated%20climate%20change%20research%20centre.">National Climate Change Policy (NCCP)</a> -  has been developed to provide a clear pathway to deal with emerging climate change-related challenges.
+
+
+	- <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi-xozM89D6AhUH_7sIHSiKCaIQFnoECA0QAQ&url=https%3A%2F%2Fwww.weadapt.org%2Fsystem%2Ffiles_force%2F2017%2Fghana_national_climate_change_master_plan_2015_2020.pdf%3Fdownload%3D1&usg=AOvVaw13Fq8iJI6IK3tqjKohJc7f">Climate Change Master Plan</a> - developed to deal with the sectoral implementation of climate actions.
+
+
+	- <a href="https://www.uncclearn.org/country-projects/ghana/"> National Climate change and Green Economy Learning Strategy</a> -  has also been developed to operationalise the capacity building component of the Master Plan.
