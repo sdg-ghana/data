@@ -2,9 +2,9 @@
 <!--Created with SDMX Converter v7.7.2-->
 <message:StructureSpecificData xmlns:ss="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/structurespecific" xmlns:footer="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message/footer" xmlns:ns1="urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=GSS:SDG(1.2):ObsLevelDim:TIME_PERIOD" xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <message:Header>
-    <message:ID>IREF1665189465992</message:ID>
+    <message:ID>IREF1665216753382</message:ID>
     <message:Test>false</message:Test>
-    <message:Prepared>2022-10-08T00:37:45Z</message:Prepared>
+    <message:Prepared>2022-10-08T08:12:33Z</message:Prepared>
     <message:Sender id="BIS">
       <message:Contact></message:Contact>
     </message:Sender>
@@ -66,6 +66,12 @@
   </Series>
   <Series FREQ="A" REPORTING_TYPE="N" SERIES="_L_GH_170601" REF_AREA="GH" SEX="_T" AGE="_T" URBANISATION="R" INCOME_WEALTH_QUANTILE="_T" EDUCATION_LEV="_T" OCCUPATION="_T" CUST_BREAKDOWN="_T" COMPOSITE_BREAKDOWN="_T" DISABILITY_STATUS="_T" ACTIVITY="_T" PRODUCT="_T" UNIT_MEASURE="PT">
     <Obs TIME_PERIOD="2019" OBS_VALUE="12.8" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2019" SOURCE_DETAIL="Household Survey on ICT in Ghana, 2020"></Obs>
+  </Series>
+  <Series FREQ="A" REPORTING_TYPE="N" SERIES="IT_NET_BBND" REF_AREA="GH" SEX="_T" AGE="_T" URBANISATION="_T" INCOME_WEALTH_QUANTILE="_T" EDUCATION_LEV="_T" OCCUPATION="_T" CUST_BREAKDOWN="_T" COMPOSITE_BREAKDOWN="_T" DISABILITY_STATUS="_T" ACTIVITY="_T" PRODUCT="_T" UNIT_MEASURE="PER_100_POP">
+    <Obs TIME_PERIOD="2016" OBS_VALUE="0.31" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2016" SOURCE_DETAIL="World Bank Development Indicators, 2021"></Obs>
+    <Obs TIME_PERIOD="2018" OBS_VALUE="0.2" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2018" SOURCE_DETAIL="World Bank Development Indicators, 2021"></Obs>
+    <Obs TIME_PERIOD="2019" OBS_VALUE="0.19" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2019" SOURCE_DETAIL="World Bank Development Indicators, 2021"></Obs>
+    <Obs TIME_PERIOD="2020" OBS_VALUE="0.25" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2020" SOURCE_DETAIL="World Bank Development Indicators, 2021"></Obs>
   </Series>
   <Series FREQ="A" REPORTING_TYPE="N" SERIES="_L_GH_170801" REF_AREA="GH" SEX="_T" AGE="_T" URBANISATION="_T" INCOME_WEALTH_QUANTILE="_T" EDUCATION_LEV="_T" OCCUPATION="_T" CUST_BREAKDOWN="_T" COMPOSITE_BREAKDOWN="_T" DISABILITY_STATUS="_T" ACTIVITY="_T" PRODUCT="_T" UNIT_MEASURE="PT">
     <Obs TIME_PERIOD="2006" OBS_VALUE="1.5" OBS_STATUS="A" UNIT_MULT="0" NATURE="_X" TIME_DETAIL="2006" SOURCE_DETAIL="GLSS Rounds 5 (2005/06)"></Obs>
