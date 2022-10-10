@@ -21,7 +21,12 @@ graph_title: global_indicators.8-3-1-title
 graph_titles: []
 graph_type: line
 indicator_name: global_indicators.8-3-1-title
+target_name: global_targets.8-3-title
 indicator_number: '8.3.1'
+un_designated_tier: Tier II
+un_custodian_agency: International Labour Organization (ILO)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-08-03-01.pdf
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 191 KB)
 national_geographical_coverage: ''
 page_content: ''
 permalink: ''
