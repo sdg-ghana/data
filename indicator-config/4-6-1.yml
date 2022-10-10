@@ -23,7 +23,12 @@ graph_titles:
     title:  Literacy rate by age category, sex and locality
 graph_type: line
 indicator_name: global_indicators.4-6-1-title
+target_name: global_targets.4-6-title
 indicator_number: '4.6.1'
+un_designated_tier: Tier II
+un_custodian_agency: United Nations Education and Scientific Cultural Organisation - Institute of Statistics (UNESCO-UIS)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-04-06-01.pdf
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 57.8 KB)
 national_geographical_coverage: ''
 page_content: ''
 permalink: ''
