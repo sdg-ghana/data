@@ -46,8 +46,15 @@ source_active_3: false
 source_active_4: false
 source_active_5: false
 source_active_6: false
+indicator_name: global_indicators.17-19-2-title
+target_name: global_targets.17-19-title
+indicator_number: 17.19.2
+un_designated_tier: Tier I
+un_custodian_agency: United Nations Statistics Division (UNSD), Department of Economic and Social Affairs, United Nations
+goal_meta_link: https://unstats.un.org/sdgs/metadata/?Text=&Goal=17&Target=17.19
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 469 KB)
 page_content: >- 
-  ## Census taking in Ghana
+  **Census taking in Ghana**
 
   
   Population Censuses have been conducted in Ghana at approximately ten-year intervals since 1891.
@@ -59,5 +66,4 @@ page_content: >-
   The last three Censuses (2000, 2010 and 2021) combined Population and Housing in one operation. 
 
 
-  The last Census conducted in 2021 recorded a total population of 30.8 million. <a href="https://statsghana.gov.gh/censusurvey.php?category=MTcxNTQ0MjMyNC40NzI1/webstats/0pn45p0sp4">read
-      more...</a>
+  The last Census conducted in 2021 recorded a total population of 30.8 million. [read more...](https://statsghana.gov.gh/censusurvey.php?category=MTcxNTQ0MjMyNC40NzI1/webstats/0pn45p0sp4)

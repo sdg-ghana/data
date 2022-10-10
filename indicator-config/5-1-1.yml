@@ -2,7 +2,7 @@
 computation_units: ''
 copyright: ''
 data_footnote: ''
-data_non_statistical: false
+data_non_statistical: true
 data_notice_class: ''
 data_notice_heading: ''
 data_notice_text: ''
@@ -21,12 +21,43 @@ graph_title: global_indicators.5-1-1-title
 graph_titles: []
 graph_type: line
 indicator_name: global_indicators.5-1-1-title
+target_name: global_targets.5-1-title
 indicator_number: '5.1.1'
+un_designated_tier: Tier II
+un_custodian_agency: UN Women, World Bank (WB), Organisation for Economic Co-operation and Development (OECD)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-05-01-01.pdf
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 4.0 MB)
 national_geographical_coverage: ''
 page_content: ''
 permalink: ''
 precision: []
-reporting_status: notstarted
+reporting_status: complete
 sort: ''
 standalone: false
 tags: []
+page_content: >- 
+  **Gender Related Laws and Policies in Ghana**
+
+
+  - Commission on Human Rights and Administrative Justice Act, 1993 (Act 456)
+
+
+  - Children’s Amendment Act, 2016 (Act 937)
+
+
+  - Domestic Violence Act, 2007 (Act 732)
+
+
+  - Intestate Succession Law, 1985 (PNDC III)
+
+
+  - Labour Act, 2003 (Act 651)
+
+
+  - National Gender Policy, 2015
+
+
+  - National Housing Policy, 2015
+
+
+  -  Rent Control Act, 1986 (PNDC Law 138) 
