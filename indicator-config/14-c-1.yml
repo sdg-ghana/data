@@ -21,7 +21,12 @@ graph_title: global_indicators.14-c-1-title
 graph_titles: []
 graph_type: line
 indicator_name: global_indicators.14-c-1-title
+target_name: global_targets.14-c-title
 indicator_number: '14.c.1'
+un_designated_tier: Tier II
+un_custodian_agency: Division for Ocean Affairs and the Law of the Sea (UN-DOALOS), Food and Agriculture Organization (FAO), UN Environment (UNEP), International Labour Organization (ILO), other UN-Oceans agencies
+goal_meta_link: https://unstats.un.org/sdgs/tierIII-indicators/files/Tier3-14-c-01.pdf
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 4.0 MB)
 national_geographical_coverage: ''
 page_content: ''
 permalink: ''
@@ -31,7 +36,9 @@ sort: ''
 standalone: false
 tags: []
 page_content: >- 
-  ### Ghana has made significant progress in the ratification of international treaties and agreements in relation to the conservation and sustainable use of the oceans and their resources. Some of which include: 
+  #### **Ghana has made significant progress in the ratification of international treaties and agreements in relation to the conservation and sustainable use of the oceans and their resources.** 
+   
+   Some of which include: 
 
 
   - Agreement on Port State Measures to Deter IUU Fishing and Communication on Ghana Ratification of Agreement on Port State Measures on IUU Ghana – Ratified on 29 November 2016

@@ -21,7 +21,12 @@ graph_title: global_indicators.13-3-1-title
 graph_titles: []
 graph_type: line
 indicator_name: global_indicators.13-3-1-title
+target_name: global_targets.13-3-title
 indicator_number: '13.3.1'
+un_designated_tier: Tier III
+un_custodian_agency: United Nations Framework Convention on Climate Change (UNFCCC), United Nations Educational, Scientific and Cultural Organization - Institute for Statistics (UNESCO-UIS)
+goal_meta_link: https://unstats.un.org/sdgs/tierIII-indicators/files/Tier3-13-03-01.pdf
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 4.0 MB)
 national_geographical_coverage: ''
 page_content: ''
 permalink: ''
@@ -31,13 +36,13 @@ sort: ''
 standalone: false
 tags: []
 page_content: >- 
-  ### **Relevant Ghanaian policies on the integration of mitigation, adaptation, impact reduction and early warning into primary, secondary and tertiary curricula**
+  **Relevant Ghanaian policies on the integration of mitigation, adaptation, impact reduction and early warning into primary, secondary and tertiary curricula**
 
  
-  - <a href="https://www.climate-laws.org/geographies/ghana/policies/national-climate-change-policy-nccp#:~:text=The%20NCCP%27s%20emphasis%20is%20on,dedicated%20climate%20change%20research%20centre.">National Climate Change Policy (NCCP)</a> -  has been developed to provide a clear pathway to deal with emerging climate change-related challenges.
+  - [National Climate Change Policy (NCCP)](https://www.climate-laws.org/geographies/ghana/policies/national-climate-change-policy-nccp#:~:text=The%20NCCP%27s%20emphasis%20is%20on,dedicated%20climate%20change%20research%20centre.) -  has been developed to provide a clear pathway to deal with emerging climate change-related challenges.
 
 
-  - <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi-xozM89D6AhUH_7sIHSiKCaIQFnoECA0QAQ&url=https%3A%2F%2Fwww.weadapt.org%2Fsystem%2Ffiles_force%2F2017%2Fghana_national_climate_change_master_plan_2015_2020.pdf%3Fdownload%3D1&usg=AOvVaw13Fq8iJI6IK3tqjKohJc7f">Climate Change Master Plan</a> - developed to deal with the sectoral implementation of climate actions.
+  - [Climate Change Master Plan](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi-xozM89D6AhUH_7sIHSiKCaIQFnoECA0QAQ&url=https%3A%2F%2Fwww.weadapt.org%2Fsystem%2Ffiles_force%2F2017%2Fghana_national_climate_change_master_plan_2015_2020.pdf%3Fdownload%3D1&usg=AOvVaw13Fq8iJI6IK3tqjKohJc7f) - developed to deal with the sectoral implementation of climate actions.
 
 
-  - <a href="https://www.uncclearn.org/country-projects/ghana/"> National Climate change and Green Economy Learning Strategy</a> -  has also been developed to operationalise the capacity building component of the Master Plan.
+  - [National Climate change and Green Economy Learning Strategy](https://www.uncclearn.org/country-projects/ghana/) -  has also been developed to operationalise the capacity building component of the Master Plan.
