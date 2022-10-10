@@ -23,7 +23,12 @@ graph_titles:
     title: Household wastewater disposal by method and locality
 graph_type: line
 indicator_name: global_indicators.6-3-1-title
+target_name: global_targets.6-3-title
 indicator_number: '6.3.1'
+un_designated_tier: Tier II
+un_custodian_agency: World Health Organisation (WHO), United Nations Human Settlements Programme (UN-Habitat), United Nations Statistics Division (UNSD)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-06-03-01.pdf
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF)
 national_geographical_coverage: ''
 page_content: ''
 permalink: ''

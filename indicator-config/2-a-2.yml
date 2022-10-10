@@ -23,7 +23,12 @@ graph_titles:
     title: Percentage of total foreign direct investment that flows into agriculture sector
 graph_type: line
 indicator_name: global_indicators.2-a-2-title
+target_name: global_targets.2-a-title
 indicator_number: 2.a.2
+un_designated_tier: Tier I
+un_custodian_agency: Organisation for Economic Co-operation and Development (OECD)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-02-0A-02.pdf 
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 210 KB)
 national_geographical_coverage: ''
 page_content: ''
 permalink: ''
