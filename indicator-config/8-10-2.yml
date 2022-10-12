@@ -1,7 +1,7 @@
 ﻿composite_breakdown_label: ''
 computation_units: Million accounts
 copyright: ''
-data_footnote: ''
+data_footnote: A mobile money account is considered active if there was at least one transaction on the account once in the 90 days prior to reporting
 data_non_statistical: false
 data_notice_class: ''
 data_notice_heading: ''

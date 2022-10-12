@@ -1,12 +1,12 @@
 ﻿composite_breakdown_label: ''
-computation_units: Percent
+computation_units: Per 100,000 population
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
 data_notice_class: ''
 data_notice_heading: ''
 data_notice_text: ''
-data_show_map: false
+data_show_map: true
 data_start_values: []
 embedded_feature_footer: ''
 embedded_feature_html: ''
@@ -18,8 +18,10 @@ graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
 graph_title: global_indicators.3-4-2-title
-graph_titles: []
-graph_type: line
+graph_titles:
+  - series: Death rate due to an accident, violence, homicide, or suicide
+    title: Death rate due to an accident, violence, homicide, or suicide
+graph_type: bar
 indicator_name: global_indicators.3-4-2-title
 target_name: global_targets.3-4-title
 indicator_number: '3.4.2'
