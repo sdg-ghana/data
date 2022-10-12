@@ -19,7 +19,9 @@ graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
 graph_title: global_indicators.7-1-1-title
-graph_titles: []
+graph_titles:
+  - series: Proportion of household with access to electricity [7.1.1]
+    title: Proportion of household with access to electricity [7.1.1]
 graph_type: line
 indicator_name: global_indicators.7-1-1-title
 target_name: global_targets.7-1-title
