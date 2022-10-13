@@ -73,13 +73,13 @@ prose:
             scope: global
       - name: "goal_meta_link"
         field:
-            element: text
+            element: hidden
             label: "Link to UN metadata"
             translation_key: metadata_fields.goal_meta_link
             scope: global
       - name: "goal_meta_link_text"
         field:
-            element: text
+            element: hidden
             label: "Link to UN metadata text"
             translation_key: metadata_fields.goal_meta_link_text
             value: "UN metadata"
