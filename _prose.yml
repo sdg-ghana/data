@@ -47,12 +47,12 @@ prose:
             label: "Target name"
             translation_key: metadata_fields.target
             scope: global
-      - name: "target_id"
-        field:
-            element: text
-            label: "Target number"
-            translation_key: metadata_fields.target_id
-            scope: global
+#      - name: "target_id"
+#        field:
+#            element: text
+#            label: "Target number"
+#            translation_key: metadata_fields.target_id
+#            scope: global
       - name: "indicator_definition"
         field:
             element: textarea
