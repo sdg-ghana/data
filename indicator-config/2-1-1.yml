@@ -21,7 +21,13 @@ graph_title: global_indicators.2-1-1-title
 graph_titles: []
 graph_type: line
 indicator_name: global_indicators.2-1-1-title
+target_name: global_targets.2-1-title
 indicator_number: '2.1.1'
+indicator_available: Total energy intake per day (kcal/day)
+un_designated_tier: Tier I
+un_custodian_agency: Food and Agriculture Organization (FAO)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-02-01-01.pdf
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 270 KB)
 national_geographical_coverage: ''
 page_content: ''
 permalink: ''
