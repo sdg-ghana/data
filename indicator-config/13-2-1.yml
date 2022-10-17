@@ -2,7 +2,7 @@
 computation_units: ''
 copyright: ''
 data_footnote: ''
-data_non_statistical: false
+data_non_statistical: true
 data_notice_class: ''
 data_notice_heading: ''
 data_notice_text: ''
@@ -21,12 +21,28 @@ graph_title: global_indicators.13-2-1-title
 graph_titles: []
 graph_type: line
 indicator_name: global_indicators.13-2-1-title
+target_name: global_targets.13-2-title
 indicator_number: '13.2.1'
+un_designated_tier: Tier II
+un_custodian_agency: UN Climate Change (UNFCCC Secretariat)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/?Text=&Goal=13&Target=13.2
+goal_meta_link_text: United Nations Sustainable Development Goals metadata for target 13.2
 national_geographical_coverage: ''
 page_content: ''
 permalink: ''
 precision: []
-reporting_status: notstarted
+reporting_status: complete
 sort: ''
 standalone: false
 tags: []
+page_content: >- 
+  **Relevant Ghanaian policies on nationally determined contributions, long-term strategies, national adaptation plans, strategies as reported in adaptation communications and national communications.**
+
+ 
+  - [Ghana’s Updated Nationally Determined Contribution to the UNFCCC_2021](https://mesti.gov.gh/documents/ghanas-updated-nationally-determined-contribution-unfccc_2021/) - identifies emission reduction and adaptation actions to be undertaken between 2020 and 2030 in the energy, transportation, agriculture, forestry and land use, waste, and industry sectors.
+
+
+  - [National Climate Change Policy (NCCP)](https://www.climate-laws.org/geographies/ghana/policies/national-climate-change-policy-nccp) - seeks to enhance climate resilience and adaptation across all sectors.
+
+
+  - [Ghana's Adaptation Communication to the United Nations Framework Convention on Climate Change Nov. 2021](https://unfccc.int/sites/default/files/resource/Ghana_AdCom%20to%20the%20UNFCCC_November%202021_Final%20with%20foreword.pdf) - takes stock of what has been done and what has been achieved; it also looks at existing gaps and what else needs to be accomplished to consolidate Ghana’s adaptation gains going forward.

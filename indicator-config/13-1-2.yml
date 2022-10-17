@@ -2,7 +2,7 @@
 computation_units: ''
 copyright: ''
 data_footnote: ''
-data_non_statistical: false
+data_non_statistical: true
 data_notice_class: ''
 data_notice_heading: ''
 data_notice_text: ''
@@ -21,12 +21,27 @@ graph_title: global_indicators.13-1-2-title
 graph_titles: []
 graph_type: line
 indicator_name: global_indicators.13-1-2-title
+target_name: global_targets.13-1-title
 indicator_number: '13.1.2'
+un_designated_tier: Tier II
+un_custodian_agency: United Nations International Strategy for Disaster Reduction (UNISDR)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-13-01-02.pdf
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 217 KB)
 national_geographical_coverage: ''
 page_content: ''
 permalink: ''
 precision: []
-reporting_status: notstarted
+reporting_status: complete
 sort: ''
 standalone: false
 tags: []
+page_content: >- 
+  **Relevant Ghanaian policies on national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015-2030**
+
+ 
+  - [Medium-term National Development Policy Framework, 2022-2025](https://ndpc.gov.gh/media/AGENDA_FOR_JOB_II.pdf) - Included in the policy framework are focused areas and strategies with the aim to build and enhance resilience to climate, environmental and man-made threats.
+
+
+  - [Coordinated Programmes of Economic and Social Development Policies, 2017-2024](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiEsN2Bu9H6AhWTHOwKHePkDukQFnoECAoQAw&url=https%3A%2F%2Fleap.unep.org%2Fcountries%2Fgh%2Fnational-legislation%2Fcoordinated-programme-economic-and-social-development-policies%23%3A~%3Atext%3DThe%2520overall%2520objectives%2520of%2520the%2Ca%2520stable%252C%2520united%2520and%2520safe&usg=AOvVaw1vFaiQKzHGsrM9BpRWro3Y) - Disaster risk management is one of the focus areas of this policy document.
+
+

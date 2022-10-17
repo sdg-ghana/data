@@ -1,5 +1,5 @@
 ﻿composite_breakdown_label: ''
-computation_units: ''
+computation_units: Percent
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -13,15 +13,22 @@ embedded_feature_html: ''
 embedded_feature_tab_title: ''
 embedded_feature_title: ''
 embedded_feature_url: ''
-expected_disaggregations: []
+expected_disaggregations:
+  - SEX
+  - URBANISATION
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
 graph_title: global_indicators.1-4-2-title
 graph_titles: []
-graph_type: line
+graph_type: bar
 indicator_name: global_indicators.1-4-2-title
+target_name: global_targets.1-4-title
 indicator_number: '1.4.2'
+un_designated_tier: Tier II
+un_custodian_agency: World Bank (WB)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-01-04-02.pdf
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 4.0 MB)
 national_geographical_coverage: ''
 page_content: ''
 permalink: ''
@@ -30,3 +37,19 @@ reporting_status: complete
 sort: ''
 standalone: false
 tags: []
+source_active_1: true
+source_organisation_1: Ghana Statistical Service
+source_periodicity_1: Annual
+source_earliest_available_1: 2018
+source_geographical_coverage_1: Ghana
+source_url_1: https://www.statsghana.gov.gh/gssmain/fileUpload/pressrelease/Final%20Report%2011%2011%202020%20printed%20version.pdf
+source_url_text_1: Ghana Census of Agriculture (GCA), 2017/18
+source_release_date_1: 2018
+source_next_release_1: TBA
+source_statistical_classification_1: Non-official
+source_contact_1: info@statsghana.gov.gh
+source_active_2: false
+source_active_3: false
+source_active_4: false
+source_active_5: false
+source_active_6: false

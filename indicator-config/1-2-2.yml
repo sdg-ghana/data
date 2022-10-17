@@ -1,5 +1,5 @@
-﻿composite_breakdown_label: ''
-computation_units: ''
+﻿composite_breakdown_label: Development Dimensions
+computation_units: Percent
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -13,7 +13,9 @@ embedded_feature_html: ''
 embedded_feature_tab_title: ''
 embedded_feature_title: ''
 embedded_feature_url: ''
-expected_disaggregations: []
+expected_disaggregations:
+  - URBANISATION
+  - AGE
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
@@ -21,7 +23,12 @@ graph_title: global_indicators.1-2-2-title
 graph_titles: []
 graph_type: bar
 indicator_name: global_indicators.1-2-2-title
+target_name: global_targets.1-2-title
 indicator_number: '1.2.2'
+un_designated_tier: Tier II
+un_custodian_agency: United Nations Children's Fund (UNICEFF), World Bank (WB), United Nations Development Programme (UNDP)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-01-02-02.pdf
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 894 KB)
 national_geographical_coverage: ''
 page_content: ''
 permalink: ''
@@ -31,16 +38,16 @@ sort: ''
 standalone: false
 tags: []
 source_active_1: true
-source_organisation_1: World Bank
+source_organisation_1: Ghana Statistical Service
 source_periodicity_1: Annual
-source_earliest_available_1: 2004
-source_geographical_coverage_1: United Kingdom
-source_url_1: https://data.worldbank.org/indicator/SI.POV.DDAY?locations=GB
-source_url_text_1: Poverty headcount ratio at $1.90 a day (2011 PPP) (% of population)
-source_release_date_1: 28/05/2020
+source_earliest_available_1: 2020
+source_geographical_coverage_1: Ghana
+source_url_1: https://www.statsghana.gov.gh/gssmain/fileUpload/pressrelease/Multidimensional%20Poverty%20Ghana_Report.pdf
+source_url_text_1: Multidimensional Poverty Report, Ghana 2020
+source_release_date_1: May 2020
 source_next_release_1: TBA
-source_statistical_classification_1: Non-official
-source_contact_1: Research@WorldBank.org
+source_statistical_classification_1: Official
+source_contact_1: info@statsghana.gov.gh
 source_active_2: false
 source_active_3: false
 source_active_4: false

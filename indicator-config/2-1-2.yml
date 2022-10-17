@@ -1,19 +1,20 @@
 ﻿composite_breakdown_label: ''
-computation_units: ''
+computation_units: Percent
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
 data_notice_class: ''
 data_notice_heading: ''
 data_notice_text: ''
-data_show_map: false
+data_show_map: true
 data_start_values: []
 embedded_feature_footer: ''
 embedded_feature_html: ''
 embedded_feature_tab_title: ''
 embedded_feature_title: ''
 embedded_feature_url: ''
-expected_disaggregations: []
+expected_disaggregations:
+  - URBANISATION
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
@@ -21,7 +22,12 @@ graph_title: global_indicators.2-1-2-title
 graph_titles: []
 graph_type: bar
 indicator_name: global_indicators.2-1-2-title
+target_name: global_targets.2-1-title
 indicator_number: 2.1.2
+un_designated_tier: 2.0
+un_custodian_agency: Food and Agriculture Organization (FAO)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-02-01-02.pdf
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 426 KB)
 national_geographical_coverage: ''
 page_content: ''
 permalink: ''
@@ -30,3 +36,19 @@ reporting_status: complete
 sort: ''
 standalone: false
 tags: []
+source_active_1: true
+source_organisation_1: Ghana Statistical Service
+source_periodicity_1: 
+source_earliest_available_1: 2017
+source_geographical_coverage_1: Ghana
+source_url_1: https://www2.statsghana.gov.gh/nada/index.php/catalog#_r=1664470556419&collection=&country=&dtype=&from=1960&page=1&ps=&sid=&sk=glss&sort_by=rank&sort_order=desc&to=2015&topic=&view=s&vk=
+source_url_text_1: Ghana Living Standard Survey
+source_release_date_1: 02/10/2018
+source_next_release_1: TBA
+source_statistical_classification_1: Official
+source_contact_1: info@statsghana.gov.gh
+source_active_2: false
+source_active_3: false
+source_active_4: false
+source_active_5: false
+source_active_6: false

@@ -1,5 +1,5 @@
 ﻿composite_breakdown_label: Skill
-computation_units: Percentage (%)
+computation_units: Percent
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -20,9 +20,14 @@ graph_limits: []
 graph_stacked_disaggregation: ''
 graph_title: global_indicators.4-1-1-title
 graph_titles: []
-graph_type: bar
+graph_type: line
 indicator_name: global_indicators.4-1-1-title
+target_name: global_targets.4-1-title
 indicator_number: 4.1.1
+un_designated_tier: Tier I
+un_custodian_agency: UNESCO Institute for Statistics 
+goal_meta_link: https://unstats.un.org/sdgs/metadata/?Text=&Goal=4&Target=4.1
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 4.0 MB)
 national_geographical_coverage: Ghana
 page_content: ''
 permalink: ''
@@ -32,3 +37,19 @@ sort: ''
 standalone: false
 tags:
   - Proxy
+source_active_1: true
+source_organisation_1: Ghana Education Service (GES)
+source_periodicity_1: Biennial
+source_earliest_available_1: ''
+source_geographical_coverage_1: Ghana
+source_url_1: https://sapghana.com/data/documents/2016-NEA-Findings-Report_17Nov2016_Public-FINAL.pdf
+source_url_text_1: Ghana 2016 National Education Assessment. Report of Findings
+source_release_date_1: ''
+source_next_release_1: TBA
+source_statistical_classification_1: Official
+source_contact_1: info@ges.gov.gh
+source_active_2: false
+source_active_3: false
+source_active_4: false
+source_active_5: false
+source_active_6: false

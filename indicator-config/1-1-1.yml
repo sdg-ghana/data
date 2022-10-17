@@ -1,7 +1,7 @@
 ﻿composite_breakdown_label: ''
 computation_units: Percent
 copyright: GSS
-data_footnote: ''
+data_footnote: As differences in the cost of living across the world evolve, the international poverty line has to be periodically updated using new PPP price data to reflect these changes. The last change was in October 2015, when the World Bank adopted $1.90 as the international poverty line using the 2011 PPP. Prior to that, the 2008 update set the international poverty line at $1.25 using the 2005 PPP.
 data_non_statistical: false
 data_notice_class: ''
 data_notice_heading: ''
@@ -24,7 +24,12 @@ graph_title: global_indicators.1-1-1-title
 graph_titles: []
 graph_type: bar
 indicator_name: global_indicators.1-1-1-title
+target_name: global_targets.1-1-title
 indicator_number: 1.1.1
+un_designated_tier: Tier I
+un_custodian_agency: World Bank (WB), International Labour Organisation (ILO)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/?Text=&Goal=1&Target=1.1
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 894 KB)
 national_geographical_coverage: ''
 page_content: ''
 permalink: ''
@@ -34,16 +39,16 @@ sort: ''
 standalone: false
 tags: []
 source_active_1: true
-source_organisation_1: World Bank
-source_periodicity_1: Annual
-source_earliest_available_1: 2004
-source_geographical_coverage_1: United Kingdom
-source_url_1: https://data.worldbank.org/indicator/SI.POV.DDAY?locations=GB
-source_url_text_1: Poverty headcount ratio at $1.90 a day (2011 PPP) (% of population)
-source_release_date_1: 28/05/2020
+source_organisation_1: Ghana Statistical Service
+source_periodicity_1: 
+source_earliest_available_1: 2013
+source_geographical_coverage_1: Ghana
+source_url_1: https://www2.statsghana.gov.gh/nada/index.php/catalog#_r=1664470556419&collection=&country=&dtype=&from=1960&page=1&ps=&sid=&sk=glss&sort_by=rank&sort_order=desc&to=2015&topic=&view=s&vk=
+source_url_text_1: Ghana Living Standard Survey
+source_release_date_1: 02/10/2018
 source_next_release_1: TBA
-source_statistical_classification_1: Non-official
-source_contact_1: Research@WorldBank.org
+source_statistical_classification_1: Official
+source_contact_1: info@statsghana.gov.gh
 source_active_2: false
 source_active_3: false
 source_active_4: false

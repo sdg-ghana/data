@@ -1,12 +1,12 @@
 ﻿composite_breakdown_label: ''
-computation_units: ''
+computation_units: Per 100,000 population
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
 data_notice_class: ''
 data_notice_heading: ''
 data_notice_text: ''
-data_show_map: false
+data_show_map: true
 data_start_values: []
 embedded_feature_footer: ''
 embedded_feature_html: ''
@@ -18,10 +18,17 @@ graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
 graph_title: global_indicators.3-4-2-title
-graph_titles: []
-graph_type: line
+graph_titles:
+  - series: Death rate due to an accident, violence, homicide, or suicide
+    title: Death rate due to an accident, violence, homicide, or suicide
+graph_type: bar
 indicator_name: global_indicators.3-4-2-title
+target_name: global_targets.3-4-title
 indicator_number: '3.4.2'
+un_designated_tier: Tier I
+un_custodian_agency: World Health Organisation (WHO)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-04-02.pdf
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 65.1 KB)
 national_geographical_coverage: ''
 page_content: ''
 permalink: ''
@@ -30,3 +37,19 @@ reporting_status: complete
 sort: ''
 standalone: false
 tags: []
+source_active_1: true
+source_organisation_1: Ghana Statistical Service
+source_periodicity_1: Annual
+source_earliest_available_1: 2021
+source_geographical_coverage_1: Ghana
+source_url_1: https://www.statsghana.gov.gh/gssmain/fileUpload/pressrelease/Volume%203H_Fertility%20and%20Mortality_240222a.pdf
+source_url_text_1: 2021 PHC General Report Vol 3H
+source_release_date_1: 2021
+source_next_release_1: TBA
+source_statistical_classification_1: Official
+source_contact_1: info@statsghana.gov.gh
+source_active_2: false
+source_active_3: false
+source_active_4: false
+source_active_5: false
+source_active_6: false

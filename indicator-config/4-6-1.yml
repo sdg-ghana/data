@@ -1,5 +1,5 @@
 ﻿composite_breakdown_label: ''
-computation_units: ''
+computation_units: Percent
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -18,10 +18,17 @@ graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
 graph_title: global_indicators.4-6-1-title
-graph_titles: []
+graph_titles:
+  - series:  Literacy rate by age category, sex and locality
+    title:  Literacy rate by age category, sex and locality
 graph_type: line
 indicator_name: global_indicators.4-6-1-title
+target_name: global_targets.4-6-title
 indicator_number: '4.6.1'
+un_designated_tier: Tier II
+un_custodian_agency: United Nations Education and Scientific Cultural Organisation - Institute of Statistics (UNESCO-UIS)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-04-06-01.pdf
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 57.8 KB)
 national_geographical_coverage: ''
 page_content: ''
 permalink: ''
@@ -30,3 +37,19 @@ reporting_status: complete
 sort: ''
 standalone: false
 tags: []
+source_active_1: true
+source_organisation_1: Ghana Statistical Service
+source_periodicity_1: 10 years
+source_earliest_available_1: ''
+source_geographical_coverage_1: Ghana
+source_url_1: http://www.statsghana.gov.gh/gssmain/fileUpload/pressrelease/2021%20PHC%20General%20Report%20Vol%203D_Literacy%20and%20Education.pdf
+source_url_text_1: 2021 PHC General Report Vol 3D
+source_release_date_1: ''
+source_next_release_1: TBA
+source_statistical_classification_1: Official
+source_contact_1: info@statsghana.gov.gh
+source_active_2: false
+source_active_3: false
+source_active_4: false
+source_active_5: false
+source_active_6: false

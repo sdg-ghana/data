@@ -1,5 +1,5 @@
 ﻿composite_breakdown_label: ''
-computation_units: ''
+computation_units: Percent
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -21,7 +21,12 @@ graph_title: global_indicators.4-1-2-title
 graph_titles: []
 graph_type: line
 indicator_name: global_indicators.4-1-2-title
+target_name: global_targets.4-1-title
 indicator_number: '4.1.2'
+un_designated_tier: Tier I
+un_custodian_agency: UNESCO Institute for Statistics
+goal_meta_link: Metadata-04-01-02.pdf (un.org)
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata 4.1.2
 national_geographical_coverage: ''
 page_content: ''
 permalink: ''
@@ -30,3 +35,19 @@ reporting_status: complete
 sort: ''
 standalone: false
 tags: []
+source_active_1: true
+source_organisation_1: Ministry of Education
+source_periodicity_1: Annual
+source_earliest_available_1: ''
+source_geographical_coverage_1: Ghana
+source_url_1: https://moe.gov.gh/emis/
+source_url_text_1: EMIS Data Centre, Ministry of Education
+source_release_date_1: ''
+source_next_release_1: TBA
+source_statistical_classification_1: Official
+source_contact_1: pro@moe.gov.gh
+source_active_2: false
+source_active_3: false
+source_active_4: false
+source_active_5: false
+source_active_6: false

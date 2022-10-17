@@ -1,5 +1,5 @@
-﻿composite_breakdown_label: ''
-computation_units: ''
+﻿composite_breakdown_label: Emission source/sink
+computation_units: Metric Tonnes of CO2-equivalent
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -21,7 +21,12 @@ graph_title: global_indicators.13-2-2-title
 graph_titles: []
 graph_type: line
 indicator_name: global_indicators.13-2-2-title
+target_name: global_targets.13-2-title
 indicator_number: '13.2.2'
+un_designated_tier: Tier I
+un_custodian_agency: UN Climate Change (UNFCCC Secretariat)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/?Text=&Goal=13&Target=13.2
+goal_meta_link_text: United Nations Sustainable Development Goals metadata for target 13.2
 national_geographical_coverage: ''
 page_content: ''
 permalink: ''
@@ -30,3 +35,19 @@ reporting_status: complete
 sort: ''
 standalone: false
 tags: []
+source_active_1: true
+source_organisation_1: World Bank
+source_periodicity_1: Annual
+source_earliest_available_1: 2004
+source_geographical_coverage_1: Ghana
+source_url_1: https://data.worldbank.org/indicator/SI.POV.DDAY?locations=GB
+source_url_text_1: Poverty headcount ratio at $1.90 a day (2011 PPP) (% of population)
+source_release_date_1: 28/05/2020
+source_next_release_1: TBA
+source_statistical_classification_1: Non-official
+source_contact_1: Research@WorldBank.org
+source_active_2: false
+source_active_3: false
+source_active_4: false
+source_active_5: false
+source_active_6: false
