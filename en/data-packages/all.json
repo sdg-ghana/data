@@ -13,32 +13,6 @@
       "schema": {
         "fields": [
           {
-            "name": "COMPOSITE_BREAKDOWN",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Basic Service",
-                "Bottled Water",
-                "Limited Service",
-                "Pipe-borne",
-                "Satchet Water",
-                "Safely Managed",
-                "Surface Water",
-                "Tanker/Vendor",
-                "Unimproved",
-                "Well",
-                "Natural Source"
-              ]
-            },
-            "title": "Composite breakdown"
-          },
-          {
-            "name": "SERIES",
-            "type": "string",
-            "title": "SDG Series"
-          },
-          {
             "name": "URBANISATION",
             "type": "string",
             "constraints": {
@@ -89,6 +63,11 @@
               ]
             },
             "title": "Composite breakdown"
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "title": "SDG Series"
           },
           {
             "name": "URBANISATION",
@@ -2263,7 +2242,7 @@
             "constraints": {
               "enum": [
                 "",
-                "Lower secondary education",
+                "Junior High School (JHS)",
                 "Primary 4",
                 "Primary 6"
               ]
@@ -2330,7 +2309,7 @@
               "enum": [
                 "",
                 "Primary education",
-                "Lower secondary education"
+                "Junior High School (JHS)"
               ]
             },
             "title": "Education level"
@@ -2401,6 +2380,55 @@
       "schema": {
         "fields": [
           {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "REF_AREA",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Western",
+                "Central",
+                "Greater Accra",
+                "Volta",
+                "Eastern",
+                "Ashanti",
+                "Brong Ahafo",
+                "Northern",
+                "Upper East",
+                "Upper West"
+              ]
+            },
+            "title": "Reference area"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Female",
+                "Male"
+              ]
+            },
+            "title": "Sex"
+          },
+          {
+            "name": "URBANISATION",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Rural",
+                "Urban"
+              ]
+            },
+            "title": "Degree of urbanisation"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
@@ -2445,7 +2473,7 @@
               "enum": [
                 "",
                 "Vocational secondary education",
-                "Upper secondary vocational education"
+                "Senior High Technical School"
               ]
             },
             "title": "Education level"
@@ -2504,8 +2532,8 @@
                 "",
                 "Pre-primary education",
                 "Primary education",
-                "Lower secondary education",
-                "Upper secondary education"
+                "Junior High School (JHS)",
+                "Senior High School (SHS)"
               ]
             },
             "title": "Education level"
@@ -2682,8 +2710,8 @@
                 "Early childhood education",
                 "Pre-primary education",
                 "Primary education",
-                "Lower secondary education",
-                "Upper secondary education"
+                "Junior High School (JHS)",
+                "Senior High School (SHS)"
               ]
             },
             "title": "Education level"
