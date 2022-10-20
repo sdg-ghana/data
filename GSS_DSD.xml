@@ -3,7 +3,7 @@
   <message:Header>
     <message:ID>IDREF1</message:ID>
     <message:Test>false</message:Test>
-    <message:Prepared>2022-10-08T00:19:44.7848439+00:00</message:Prepared>
+    <message:Prepared>2022-10-20T08:13:25.8394923+00:00</message:Prepared>
     <message:Sender id="Unknown" />
     <message:Receiver id="Unknown" />
   </message:Header>
@@ -3650,6 +3650,16 @@
           <common:Name xml:lang="en">Primary 6</common:Name>
           <common:Description xml:lang="en">Class 6 of primary school</common:Description>
         </structure:Code>
+        <structure:Code id="_L_GH_JHS">
+          <common:Name xml:lang="en">Junior High School (JHS)</common:Name>
+          <common:Description xml:lang="en">Junior High School</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_SHS">
+          <common:Name xml:lang="en">Senior High School (SHS)</common:Name>
+        </structure:Code>
+        <structure:Code id="_L_GH_SecTech">
+          <common:Name xml:lang="en">Senior High Technical School</common:Name>
+        </structure:Code>
       </structure:Codelist>
       <structure:Codelist id="CL_PRODUCT" agencyID="GSS" version="1.0" isFinal="true">
         <common:Name xml:lang="en">GSS SDG Type of product code list</common:Name>
@@ -3732,6 +3742,33 @@
       </structure:Codelist>
       <structure:Codelist id="CL_SERIES" agencyID="GSS" version="1.0" isFinal="true">
         <common:Name xml:lang="en">SDG Series Code List (GSS)</common:Name>
+        <structure:Code id="_L_GH_060201_02">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">6.2.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C060201</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Proportion of population using (a) safely managed sanitation services and (b) a hand-washing facility with soap and water</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Proportion of population using handwashing facility with soap and water</common:Name>
+          <common:Description xml:lang="en">Proportion of population using handwashing facility with soap and water</common:Description>
+        </structure:Code>
         <structure:Code id="_L_GH_081002_01">
           <common:Annotations>
             <common:Annotation>
@@ -3751,7 +3788,6 @@
             </common:Annotation>
             <common:Annotation id="@SDMX">
               <common:AnnotationType>ORDER</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">3050</common:AnnotationText>
             </common:Annotation>
             <common:Annotation>
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
@@ -3779,7 +3815,6 @@
             </common:Annotation>
             <common:Annotation id="@SDMX">
               <common:AnnotationType>ORDER</common:AnnotationType>
-              <common:AnnotationText xml:lang="en">3050</common:AnnotationText>
             </common:Annotation>
             <common:Annotation>
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
@@ -6284,6 +6319,33 @@
             <common:Annotation>
               <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
               <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Total official development assistance grants from all donors that focus on poverty reduction as a share of the recipient country’s gross national income</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Official development assistance grants as percentage of GNI [1.a.1]</common:Name>
+          <common:Description xml:lang="en">Official development assistance grants as percentage of GNI [1.a.1]</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_010a01_02">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1.a.1</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C010a04</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
               <common:AnnotationText xml:lang="en">Total Budget Allocation towards SDG1 (No Poverty) for MDAs/MMDAs (in million Ghana Cedi)</common:AnnotationText>
             </common:Annotation>
             <common:Annotation id="@SDMX">
@@ -6296,7 +6358,7 @@
           <common:Name xml:lang="en">Total Budget Allocation towards SDG1 (No Poverty) for MDAs/MMDAs (in million Ghana Cedi)</common:Name>
           <common:Description xml:lang="en">Total Budget Allocation towards SDG1 (No Poverty) for MDAs/MMDAs (in million Ghana Cedi)</common:Description>
         </structure:Code>
-        <structure:Code id="_L_GH_010a01_02">
+        <structure:Code id="_L_GH_010a01_03">
           <common:Annotations>
             <common:Annotation>
               <common:AnnotationTitle>Indicator</common:AnnotationTitle>
@@ -6323,7 +6385,7 @@
           <common:Name xml:lang="en">Percentage share of Budget Allocation towards SDG1 (No Poverty) for MDAs/MMDAs</common:Name>
           <common:Description xml:lang="en">Percentage share of Budget Allocation towards SDG1 (No Poverty) for MDAs/MMDAs</common:Description>
         </structure:Code>
-        <structure:Code id="_L_GH_010a01_03">
+        <structure:Code id="_L_GH_010a01_04">
           <common:Annotations>
             <common:Annotation>
               <common:AnnotationTitle>Indicator</common:AnnotationTitle>
@@ -6350,7 +6412,7 @@
           <common:Name xml:lang="en">Budget Allocation towards Extreme poverty (in million Ghana Cedi)</common:Name>
           <common:Description xml:lang="en">Budget Allocation towards Extreme poverty (in million Ghana Cedi)</common:Description>
         </structure:Code>
-        <structure:Code id="_L_GH_010a01_04">
+        <structure:Code id="_L_GH_010a01_05">
           <common:Annotations>
             <common:Annotation>
               <common:AnnotationTitle>Indicator</common:AnnotationTitle>
@@ -6377,7 +6439,7 @@
           <common:Name xml:lang="en">Budget Allocation towards reducing poverty proportion of men, women and children by at least half (in million Ghana Cedi)</common:Name>
           <common:Description xml:lang="en">Budget Allocation towards reducing poverty proportion of men, women and children by at least half (in million Ghana Cedi)</common:Description>
         </structure:Code>
-        <structure:Code id="_L_GH_010a01_05">
+        <structure:Code id="_L_GH_010a01_06">
           <common:Annotations>
             <common:Annotation>
               <common:AnnotationTitle>Indicator</common:AnnotationTitle>
@@ -6404,7 +6466,7 @@
           <common:Name xml:lang="en">Budget Allocation towards Social dimension (in million Ghana Cedi)</common:Name>
           <common:Description xml:lang="en">Budget Allocation towards Social dimension (in million Ghana Cedi)</common:Description>
         </structure:Code>
-        <structure:Code id="_L_GH_010a01_06">
+        <structure:Code id="_L_GH_010a01_07">
           <common:Annotations>
             <common:Annotation>
               <common:AnnotationTitle>Indicator</common:AnnotationTitle>
@@ -6431,7 +6493,7 @@
           <common:Name xml:lang="en">Budget Allocation towards Equal rights to basic services (in million Ghana Cedi)</common:Name>
           <common:Description xml:lang="en">Budget Allocation towards Equal rights to basic services (in million Ghana Cedi)</common:Description>
         </structure:Code>
-        <structure:Code id="_L_GH_010a01_07">
+        <structure:Code id="_L_GH_010a01_08">
           <common:Annotations>
             <common:Annotation>
               <common:AnnotationTitle>Indicator</common:AnnotationTitle>
@@ -6458,7 +6520,7 @@
           <common:Name xml:lang="en">Budget Allocation towards Building resilience of the poor and vulnerable (in million Ghana Cedi)</common:Name>
           <common:Description xml:lang="en">Budget Allocation towards Building resilience of the poor and vulnerable (in million Ghana Cedi)</common:Description>
         </structure:Code>
-        <structure:Code id="_L_GH_010a01_08">
+        <structure:Code id="_L_GH_010a01_09">
           <common:Annotations>
             <common:Annotation>
               <common:AnnotationTitle>Indicator</common:AnnotationTitle>
@@ -6485,7 +6547,7 @@
           <common:Name xml:lang="en">Budget Allocation towards Mobilisation of resources (in million Ghana Cedi)</common:Name>
           <common:Description xml:lang="en">Budget Allocation towards Mobilisation of resources (in million Ghana Cedi)</common:Description>
         </structure:Code>
-        <structure:Code id="_L_GH_010a01_09">
+        <structure:Code id="_L_GH_010a01_10">
           <common:Annotations>
             <common:Annotation>
               <common:AnnotationTitle>Indicator</common:AnnotationTitle>
