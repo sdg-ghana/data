@@ -2,7 +2,7 @@
 computation_units: ''
 copyright: ''
 data_footnote: ''
-data_non_statistical: false
+data_non_statistical: true
 data_notice_class: ''
 data_notice_heading: ''
 data_notice_text: ''
@@ -31,7 +31,12 @@ national_geographical_coverage: ''
 page_content: ''
 permalink: ''
 precision: []
-reporting_status: notstarted
+reporting_status: complete
 sort: ''
 standalone: false
 tags: []
+page_content: >- 
+  **Relevant Ghanaian policies that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education**
+
+
+  - [National Reproductive Health Service Policy and Standards](https://platform.who.int/docs/default-source/mca-documents/policy-documents/policy/gha-cc-10-01-policy-2014-eng-national-reproductive-health-service-policy-and-standards.pdf)
