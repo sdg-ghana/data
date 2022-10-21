@@ -178,7 +178,7 @@ Indicator,Reporting status,UN designated tier,UN custodian agency,Non-statistica
 #4-1-1,complete,Tier I,UNESCO Institute for Statistics,,,Ghana,Percent,bar
 #4-1-2,complete,Tier I,UNESCO Institute for Statistics,,,,Percent,line
 #4-2-1,complete,Tier II,United Nations Children's Fund (UNICEF),,,,Percent,bar
-#4-2-2,complete,Tier I,United Nations Education and Scientific Cultural Organisation - Institute of Statistics (UNESCO-UIS),,True,,Percent,line
+#4-2-2,complete,Tier I,United Nations Education and Scientific Cultural Organisation - Institute of Statistics (UNESCO-UIS),,True,,Percent,bar
 #4-3-1,complete,Tier II,United Nations Education and Scientific Cultural Organisation - Institute of Statistics (UNESCO-UIS),,,,,line
 #4-4-1,notstarted,Tier II,United Nations Education and Scientific Cultural Organisation - Institute of Statistics (UNESCO-UIS),,,,,line
 #4-5-1,complete,Tier I/II depending on indice,"United Nations Educational, Scientific and Cultural Organization (UNESCO)",,,,Index,line
