@@ -3,7 +3,7 @@
   <message:Header>
     <message:ID>IDREF1</message:ID>
     <message:Test>false</message:Test>
-    <message:Prepared>2022-10-20T08:13:25.8394923+00:00</message:Prepared>
+    <message:Prepared>2022-10-21T15:39:16.0615161+00:00</message:Prepared>
     <message:Sender id="Unknown" />
     <message:Receiver id="Unknown" />
   </message:Header>
@@ -24081,6 +24081,10 @@
         <structure:Code id="TOEM">
           <common:Name xml:lang="en">tonne of oil equivalent per million dollars</common:Name>
           <common:Description xml:lang="en">tonne of oil equivalent per million dollars</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_MCEDI">
+          <common:Name xml:lang="en">Million Ghana Cedis</common:Name>
+          <common:Description xml:lang="en">Million Ghana Cedis</common:Description>
         </structure:Code>
       </structure:Codelist>
       <structure:Codelist id="CL_ACTIVITY" agencyID="IAEG-SDGs" version="1.1" isFinal="true">
