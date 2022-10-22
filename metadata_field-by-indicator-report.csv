@@ -80,8 +80,8 @@ Indicator,Reporting status,UN designated tier,UN custodian agency,Non-statistica
 #15-5-1,complete,Tier I,"International Union for Conservation of Nature (IUCN), BirdLife International (BLI)",,,,Index,line
 #15-6-1,notstarted,Tier I,Convention on Biological Diversity (CBD) Secretariat,,,,,line
 #15-7-1,notstarted,Tier II,United Nations Office on Drugs and Crime (UNODC),,,,,line
-#15-8-1,notstarted,Tier II,International Union for Conservation of Nature (IUCN),,,,,line
-#15-9-1,notstarted,Tier I (a)/Tier II (b),"United Nations Environment Programme (UN Environment), Convention on Biological Diversity (CBD), United Nations Statistics Division (UNSD) and UNEP-WCMC",,,,,line
+#15-8-1,complete,Tier II,International Union for Conservation of Nature (IUCN),True,,,,line
+#15-9-1,complete,Tier I (a)/Tier II (b),"United Nations Environment Programme (UN Environment), Convention on Biological Diversity (CBD), United Nations Statistics Division (UNSD) and UNEP-WCMC",True,,,,line
 #15-a-1,notstarted,Tier I,Organisation for Economic Cooperation and Development (OECD),,,,,line
 #15-b-1,notstarted,Tier I,Organisation for Economic Cooperation and Development (OECD),,,,,line
 #15-c-1,notstarted,Tier II,United Nations Office on Drugs and Crime (UNODC),,,,,line
@@ -196,11 +196,11 @@ Indicator,Reporting status,UN designated tier,UN custodian agency,Non-statistica
 #5-5-1,complete,Tier I,"Inter-Parliamentary Union (IPU), UN Women",,,,Percent,line
 #5-5-2,notstarted,Tier I,International Labour Organization (ILO),,,,,line
 #5-6-1,notstarted,Tier II,United Nations Population Fund UNFPA,,,,,line
-#5-6-2,notstarted,Tier II,United Nations Population Fund UNFPA,,,,,line
+#5-6-2,complete,Tier II,United Nations Population Fund UNFPA,True,,,,line
 #5-a-1,complete,Tier II,"United Nations Entity for Gender Equality and the Empowerment of Women (UN Women), United Nations Statistics Division (UNSD), Food and Agriculture Organization of the United Nations (FAO)",,,,Percent,bar
 #5-a-2,notstarted,Tier II,Food and Agriculture Organization (FAO),,,,,line
 #5-b-1,complete,Tier II,International Telecommunication Union (ITU),,,,Percent,bar
-#5-c-1,notstarted,Tier II,"UN Women, Organisation for Economic Co-operation and Development (OECD)",,,,,line
+#5-c-1,complete,Tier II,"UN Women, Organisation for Economic Co-operation and Development (OECD)",True,,,,line
 #6-1-1,complete,Tier II,"World Health Organisation (WHO), United Nations Children's Fund (UNICEFF)",,,,Percent,line
 #6-2-1,complete,Tier II,"World Health Organisation (WHO), United Nations Children's Fund (UNICEFF)",,,,Percent,bar
 #6-3-1,complete,Tier II,"World Health Organisation (WHO), United Nations Human Settlements Programme (UN-Habitat), United Nations Statistics Division (UNSD)",,,,Percent,line
@@ -208,7 +208,7 @@ Indicator,Reporting status,UN designated tier,UN custodian agency,Non-statistica
 #6-4-1,notstarted,Tier I,Food and Agriculture Organization (FAO),,,,,line
 #6-4-2,complete,Tier I,Food and Agriculture Organization of the United Nations (FAO),,,,m3/per person/year,line
 #6-5-1,complete,Tier I,United Nations Environment Programme (UNEP),,,,Percent,line
-#6-5-2,notstarted,Tier I,"United Nations Education and Scientific Cultural Organisation - Institute for Statistics (UNESCO-UIS), United Nations Economic Commission for Europe (UNECE)",,,,,line
+#6-5-2,complete,Tier I,"United Nations Education and Scientific Cultural Organisation - Institute for Statistics (UNESCO-UIS), United Nations Economic Commission for Europe (UNECE)",True,,,,line
 #6-6-1,notstarted,Tier I,"UN Environment (UNEP), Ramsar",,,,,line
 #6-a-1,notstarted,Tier I,"World Health Organization (WHO), United Nations Environment Programme (UNEP), Organisation for Economic Co-operation and Development (OECD)",,,,,line
 #6-b-1,notstarted,Tier I,"World Health Organisation (WHO), UN Environment (UNEP), Organisation for Economic Co-operation and Development (OECD)",,,,,line
@@ -230,7 +230,7 @@ Indicator,Reporting status,UN designated tier,UN custodian agency,Non-statistica
 #8-6-1,complete,Tier I,International Labour Organization (ILO),,,,Percent,line
 #8-7-1,complete,Tier II,"International Labour Organization (ILO), United Nations Children's Fund (UNICEFF)",,,,Percent,line
 #8-8-1,notstarted,Tier II,International Labour Organization (ILO),,,,,line
-#8-8-2,notstarted,Tier II,International Labour Organization (ILO),,,,,line
+#8-8-2,complete,Tier II,International Labour Organization (ILO),True,,,,line
 #8-9-1,complete,Tier II,World Tourism Organization (UNTWO),,,,Percent,line
 #8-a-1,notstarted,Tier I,Organisation for Economic Co-operation and Development (OECD),,,,,line
 #8-b-1,complete,Tier II,International Labour Organization (ILO),True,,,,line
