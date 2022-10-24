@@ -17,14 +17,14 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: COVID-19 impact on work and income of households in Ghana
+graph_title: Indications of recovery relating to SDG Goal 2
 graph_titles: []
 graph_type: bar
-indicator_name: COVID-19 impact on work and income of households in Ghana
-indicator_number: covid-1
+indicator_name: Indications of recovery relating to SDG Goal 2
+indicator_number: covid-2
 national_geographical_coverage: ''
 page_content: ''
-permalink: /covid-indicator-1
+permalink: /covid-indicator-2
 precision: []
 reporting_status: complete
 sort: ''
