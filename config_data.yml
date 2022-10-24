@@ -54,6 +54,9 @@ inputs:
     path_pattern: meta/*-*.docm
   - class: InputYamlMeta
     path_pattern: indicator-config/*-*.yml
+  - class: InputCsvData
+    # This describes the data files, relative to the "src_dir" indicated above.
+    path_pattern: data/*-*.csv    
 
 # Metadata Schema
 # This inputs multiple metadata schema to control which metadata tabs
