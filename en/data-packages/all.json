@@ -5318,6 +5318,53 @@
       "title": "Proportion of important sites for terrestrial and freshwater biodiversity that are covered by protected areas, by ecosystem type"
     },
     {
+      "path": "covid-2/data.csv",
+      "name": "covid-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Proportion of Household not able to buy at least one staple food - rice, maize, yam and casava",
+                "Proportion of Households with children under 15 years eating fewer meals than usual"
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Percent"
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Year"
+          }
+        ]
+      },
+      "title": "Indications of recovery relating to SDG Goal 2"
+    },
+    {
       "path": "3-8-2/data.csv",
       "name": "3-8-2",
       "profile": "tabular-data-resource",
@@ -5482,7 +5529,7 @@
           }
         ]
       },
-      "title": "Covid 1"
+      "title": "COVID-19 impact on work and income of households in Ghana"
     },
     {
       "path": "gdp-1/data.csv",
@@ -7357,6 +7404,54 @@
       "title": "Proportion of population who believe decision-making is inclusive and responsive, by sex, age, disability and population group"
     },
     {
+      "path": "covid-3/data.csv",
+      "name": "covid-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Proportion of children missing vaccinations",
+                "Proportion of households that could not buy medicine",
+                "Proportion of households that needed healthcare and were able to access it"
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Unit Measure",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Percent"
+              ]
+            },
+            "title": "Unit Measure"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Year"
+          }
+        ]
+      },
+      "title": "Health impact of COVID-19"
+    },
+    {
       "path": "2-4-1/data.csv",
       "name": "2-4-1",
       "profile": "tabular-data-resource",
@@ -7693,101 +7788,6 @@
       "title": "Progress towards sustainable forest management"
     },
     {
-      "path": "12-5-1/data.csv",
-      "name": "12-5-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          }
-        ]
-      },
-      "title": "National recycling rate, tons of material recycled"
-    },
-    {
-      "path": "13-1-2/data.csv",
-      "name": "13-1-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          }
-        ]
-      },
-      "title": "Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015–2030"
-    },
-    {
-      "path": "covid-2/data.csv",
-      "name": "covid-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Proportion of Household not able to buy at least one staple food - rice, maize, yam and casava",
-                "Proportion of Households with children under 15 years eating fewer meals than usual"
-              ]
-            },
-            "title": "Series"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Percent"
-              ]
-            },
-            "title": "Units"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "string",
-            "title": "Year"
-          }
-        ]
-      },
-      "title": "covid-2"
-    },
-    {
       "path": "covid-4/data.csv",
       "name": "covid-4",
       "profile": "tabular-data-resource",
@@ -7834,11 +7834,11 @@
           }
         ]
       },
-      "title": "covid-4"
+      "title": "Indications of recovery relating to SDG Goal 4"
     },
     {
-      "path": "covid-3/data.csv",
-      "name": "covid-3",
+      "path": "12-5-1/data.csv",
+      "name": "12-5-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -7847,29 +7847,29 @@
       "schema": {
         "fields": [
           {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Proportion of children missing vaccinations",
-                "Proportion of households that could not buy medicine",
-                "Proportion of households that needed healthcare and were able to access it"
-              ]
-            },
-            "title": "Series"
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
           },
           {
-            "name": "Unit Measure",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Percent"
-              ]
-            },
-            "title": "Unit Measure"
-          },
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          }
+        ]
+      },
+      "title": "National recycling rate, tons of material recycled"
+    },
+    {
+      "path": "13-1-2/data.csv",
+      "name": "13-1-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
           {
             "name": "Value",
             "type": "number",
@@ -7877,12 +7877,12 @@
           },
           {
             "name": "Year",
-            "type": "string",
+            "type": "number",
             "title": "Year"
           }
         ]
       },
-      "title": "covid-3"
+      "title": "Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015–2030"
     }
   ]
 }
