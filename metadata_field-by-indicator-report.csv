@@ -7,7 +7,7 @@ Indicator,Reporting status,UN designated tier,UN custodian agency,Non-statistica
 #1-4-2,complete,Tier II,World Bank (WB),,True,,Percent,bar
 #1-5-1,complete,Tier II,United Nations International Strategy for Disaster Reduction (UNISDR),,,,"Per 100,000 population",line
 #1-5-2,notstarted,Tier II,United Nations International Strategy for Disaster Reduction (UNISDR),,,,,line
-#1-5-3,notstarted,Tier II,United Nations International Strategy for Disaster Reduction (UNISDR),,,,,line
+#1-5-3,complete,Tier II,United Nations International Strategy for Disaster Reduction (UNISDR),True,,,,line
 #1-5-4,notstarted,Tier II,United Nations International Strategy for Disaster Reduction (UNISDR),,,,,line
 #1-a-1,complete,Tier I,Organisation for Economic Co-operation and Development (OECD),,,,,bar
 #1-a-2,complete,Tier II,UNESCO Institute for Statistics (UNESCO-UIS),,,,Percent,line
@@ -38,9 +38,9 @@ Indicator,Reporting status,UN designated tier,UN custodian agency,Non-statistica
 #11-7-1,notstarted,Tier II,United Nations Human Settlements Programme (UN-Habitat),,,,,line
 #11-7-2,notstarted,Tier II,United Nations Office on Drugs and Crime (UNODC),,,,,line
 #11-a-1,notstarted,Tier I,United Nations Human Settlements Programme (UN-Habitat)  The United Nations Population Fund - UNFPA,,,,,line
-#11-b-1,notstarted,Tier II,United Nations International Strategy for Disaster Reduction (UNISDR),,,,,line
+#11-b-1,complete,Tier II,United Nations International Strategy for Disaster Reduction (UNISDR),True,,,,line
 #11-b-2,notstarted,Tier II,United Nations International Strategy for Disaster Reduction (UNISDR),,,,,line
-#12-1-1,notstarted,Tier II,UN Environment (UNEP),,,,,line
+#12-1-1,complete,Tier II,UN Environment (UNEP),True,,,,line
 #12-2-1,notstarted,Tier II,United Nations Environment Programme (UNEP),,,,,line
 #12-2-2,notstarted,Tier I,United Nations Environment Programme (UNEP),,,,,line
 #12-3-1,complete,Tier II,"Food and Agriculture Organization (FAO), UN Environment (UNEP)",,,,Percent,line
@@ -69,7 +69,7 @@ Indicator,Reporting status,UN designated tier,UN custodian agency,Non-statistica
 #14-6-1,complete,Tier I,Food and Agriculture Organization (FAO),,,,Band,bar
 #14-7-1,notstarted,Tier I,"Food and Agriculture Organization (FAO), UN Environment (UNEP)-World Conservation Monitoring Centre (WCMC)",,,,,line
 #14-a-1,notstarted,Tier II,"Intergovernmental Oceanographic Commission of United Nations Educational, Scientific and Cultural Organization",,,,,line
-#14-b-1,notstarted,Tier I,Food and Agriculture Organization (FAO),,,,,line
+#14-b-1,complete,Tier I,Food and Agriculture Organization (FAO),True,,,,line
 #14-c-1,complete,Tier II,"Division for Ocean Affairs and the Law of the Sea (UN-DOALOS), Food and Agriculture Organization (FAO), UN Environment (UNEP), International Labour Organization (ILO), other UN-Oceans agencies",True,,,,line
 #15-1-1,complete,Tier I,Food and Agriculture Organization (FAO),,,,Percent,line
 #15-1-2,notstarted,Tier I,"UN Environment (UNEP)-World Conservation Monitoring Centre (WCMC), UN Environment (UNEP)",,,,,line
