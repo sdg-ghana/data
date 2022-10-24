@@ -246,3 +246,6 @@ Indicator,Reporting status,UN designated tier,UN custodian agency,Non-statistica
 #9-a-1,notstarted,Tier I,Organisation for Economic Co-operation and Development (OECD),,,,,line
 #9-b-1,notstarted,Tier I,United Nations Industrial Development Organization (UNIDO),,,,,line
 #9-c-1,complete,Tier I,International Telecommunication Union (ITU),,,,Percent,line
+#covid-2,complete,,,,,,,line
+#covid-3,complete,,,,,,,line
+#covid-4,complete,,,,,,,line

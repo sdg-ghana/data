@@ -7071,6 +7071,138 @@
         ]
       },
       "title": "global_indicators.13-1-2-title"
+    },
+    {
+      "path": "covid-2/data.csv",
+      "name": "covid-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Proportion of Household not able to buy at least one staple food - rice, maize, yam and casava",
+                "Proportion of Households with children under 15 years eating fewer meals than usual",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percent",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "covid-2"
+    },
+    {
+      "path": "covid-4/data.csv",
+      "name": "covid-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Children likely to go back to school after mobility restrictions are lifted - Primary/JHS",
+                "Children likely to go back to school after mobility restrictions are lifted - Senior Secondary",
+                "Children engaged in any type of learning activity - Primary/JHS",
+                "Children engaged in any type of learning activity - Secondary",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Unit Measure",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percent",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "covid-4"
+    },
+    {
+      "path": "covid-3/data.csv",
+      "name": "covid-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Proportion of households that could not buy medicine",
+                "Proportion of households that needed healthcare and were able to access it",
+                "Proportion of children missing vaccinations",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Unit Measure",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percent",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "covid-3"
     }
   ]
 }

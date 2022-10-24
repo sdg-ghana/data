@@ -7739,6 +7739,150 @@
         ]
       },
       "title": "Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015–2030"
+    },
+    {
+      "path": "covid-2/data.csv",
+      "name": "covid-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Proportion of Household not able to buy at least one staple food - rice, maize, yam and casava",
+                "Proportion of Households with children under 15 years eating fewer meals than usual"
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Percent"
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Year"
+          }
+        ]
+      },
+      "title": "covid-2"
+    },
+    {
+      "path": "covid-4/data.csv",
+      "name": "covid-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Children engaged in any type of learning activity - Primary/JHS",
+                "Children engaged in any type of learning activity - Secondary",
+                "Children likely to go back to school after mobility restrictions are lifted - Primary/JHS",
+                "Children likely to go back to school after mobility restrictions are lifted - Senior Secondary"
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Unit Measure",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Percent"
+              ]
+            },
+            "title": "Unit Measure"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Year"
+          }
+        ]
+      },
+      "title": "covid-4"
+    },
+    {
+      "path": "covid-3/data.csv",
+      "name": "covid-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Proportion of children missing vaccinations",
+                "Proportion of households that could not buy medicine",
+                "Proportion of households that needed healthcare and were able to access it"
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Unit Measure",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Percent"
+              ]
+            },
+            "title": "Unit Measure"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Year"
+          }
+        ]
+      },
+      "title": "covid-3"
     }
   ]
 }
