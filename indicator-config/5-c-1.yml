@@ -2,7 +2,7 @@
 computation_units: ''
 copyright: ''
 data_footnote: ''
-data_non_statistical: false
+data_non_statistical: true
 data_notice_class: ''
 data_notice_heading: ''
 data_notice_text: ''
@@ -31,7 +31,12 @@ national_geographical_coverage: ''
 page_content: ''
 permalink: ''
 precision: []
-reporting_status: notstarted
+reporting_status: complete
 sort: ''
 standalone: false
 tags: []
+page_content: >- 
+  **Relevant Ghanaian policies**
+
+
+  [National Gender Policy, 2015](https://www.ilo.org/dyn/natlex/docs/ELECTRONIC/103987/126660/F-515436150/GHA103987.pdf) has a policy goal of mainstreaming gender equality and women’s empowerment concerns into the national development process in order to improve the social, legal, civic, political, economic and cultural conditions of the people of Ghana; particularly women and men, boys and girls in an appreciable manner and as required by national and international frameworks.

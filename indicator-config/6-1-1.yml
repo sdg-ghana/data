@@ -27,7 +27,6 @@ un_designated_tier: Tier II
 un_custodian_agency: World Health Organisation (WHO), United Nations Children's Fund (UNICEFF)
 goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-06-01-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 224 KB)
-
 national_geographical_coverage: ''
 page_content: ''
 permalink: ''
@@ -37,16 +36,16 @@ sort: ''
 standalone: false
 tags: []
 source_active_1: true
-source_organisation_1: World Bank
-source_periodicity_1: Annual
-source_earliest_available_1: 2004
-source_geographical_coverage_1: Ghana
-source_url_1: https://data.worldbank.org/indicator/SI.POV.DDAY?locations=GB
-source_url_text_1: Poverty headcount ratio at $1.90 a day (2011 PPP) (% of population)
-source_release_date_1: 28/05/2020
-source_next_release_1: TBA
-source_statistical_classification_1: Non-official
-source_contact_1: Research@WorldBank.org
+source_organisation_1: WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene 
+source_periodicity_1: Biennial
+source_earliest_available_1: 2000
+source_geographical_coverage_1: ''
+source_url_1: https://washdata.org/data/household#!/table?geo0=country&geo1=GHA
+source_url_text_1: WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene 
+source_release_date_1: 01/07/2021
+source_next_release_1: 01/07/2023
+source_statistical_classification_1: Official international
+source_contact_1: info@washdata.org
 source_active_2: false
 source_active_3: false
 source_active_4: false

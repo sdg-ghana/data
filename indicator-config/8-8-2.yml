@@ -2,7 +2,7 @@
 computation_units: ''
 copyright: ''
 data_footnote: ''
-data_non_statistical: false
+data_non_statistical: true
 data_notice_class: ''
 data_notice_heading: ''
 data_notice_text: ''
@@ -31,7 +31,12 @@ national_geographical_coverage: ''
 page_content: ''
 permalink: ''
 precision: []
-reporting_status: notstarted
+reporting_status: complete
 sort: ''
 standalone: false
 tags: []
+page_content: >- 
+  **Relevant Ghanaian policies**
+
+
+  - The [Labour Act, 2003 (Act 651)](https://www.ilo.org/dyn/natlex/docs/SERIAL/66955/63431/F1429852156/GHA66955.pdf) regulates employment and labour issues in Ghana. This Act consolidates all laws relating to labour, employers, trade unions and industrial relations and introduces provisions to reflect ratified ILO Conventions.

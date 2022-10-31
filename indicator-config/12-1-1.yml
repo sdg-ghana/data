@@ -2,7 +2,7 @@
 computation_units: ''
 copyright: ''
 data_footnote: ''
-data_non_statistical: false
+data_non_statistical: true
 data_notice_class: ''
 data_notice_heading: ''
 data_notice_text: ''
@@ -31,7 +31,12 @@ national_geographical_coverage: ''
 page_content: ''
 permalink: ''
 precision: []
-reporting_status: notstarted
+reporting_status: complete
 sort: ''
 standalone: false
 tags: []
+page_content: >- 
+  **Relevant Ghanaian policies**
+
+
+  - [EPA National Programme on Sustainable Consumption and Production (SCD) for Ghana](https://wedocs.unep.org/bitstream/handle/20.500.11822/9535/Ghana_SDAP_final_report_volume1.pdf?sequence=3&isAllowed=y) - The aim of this document is to ensure the production and consumption of goods and services that meet basic needs and improve quality of life, while reducing the use of natural resources, harmful materials, and emissions of waste and pollutants over the life cycle, in order to avoid endangering the needs of future generations.

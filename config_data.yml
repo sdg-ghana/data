@@ -54,6 +54,9 @@ inputs:
     path_pattern: meta/*-*.docm
   - class: InputYamlMeta
     path_pattern: indicator-config/*-*.yml
+  - class: InputCsvData
+    # This describes the data files, relative to the "src_dir" indicated above.
+    path_pattern: data/*-*.csv    
 
 # Metadata Schema
 # This inputs multiple metadata schema to control which metadata tabs
@@ -61,9 +64,9 @@ inputs:
 schema:
   - class: SchemaInputOpenSdg
     schema_path: _prose.yml
-  - class: SchemaInputSdmxMsd
-    schema_path: SDG_MSD.xml
-    scope: national
+#  - class: SchemaInputSdmxMsd
+#    schema_path: SDG_MSD.xml
+#    scope: national
 
 # Translations
 # ------------
@@ -86,8 +89,8 @@ translations:
   - class: TranslationInputSdmx
     source: 'GSS_DSD.xml'
   # This pulls in translations from an MSD
-  - class: TranslationInputSdmxMsd
-    source: SDG_MSD.xml
+ # - class: TranslationInputSdmxMsd
+ #   source: SDG_MSD.xml
 
 # Reporting status extra fields
 # -----------------------------
@@ -143,3 +146,20 @@ docs_translate_disaggregations: true
 # normally considered "disaggregation".
 # docs_extra_disaggregations: ['Units', 'Series']
 
+docs_metadata_fields:
+    - key: reporting_status
+      label: Reporting status
+    - key: un_designated_tier
+      label: UN designated tier
+    - key: un_custodian_agency
+      label: UN custodian agency
+    - key: data_non_statistical
+      label: Non-statistical
+    - key: data_show_map
+      label: Show map
+    - key: national_geographical_coverage
+      label: Geographical coverage
+    - key: computation_units
+      label: Units
+    - key: graph_type
+      label: Graph type
