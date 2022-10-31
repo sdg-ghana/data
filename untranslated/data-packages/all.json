@@ -5481,7 +5481,7 @@
             "type": "string"
           },
           {
-            "name": "Series",
+            "name": "series",
             "type": "string",
             "constraints": {
               "enum": [
@@ -5492,7 +5492,7 @@
             }
           },
           {
-            "name": "Unit Measure",
+            "name": "units",
             "type": "string",
             "constraints": {
               "enum": [
