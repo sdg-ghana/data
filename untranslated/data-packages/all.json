@@ -1976,6 +1976,54 @@
       "title": "global_indicators.3-c-1-title"
     },
     {
+      "path": "3-d-1/data.csv",
+      "name": "3-d-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "SERIES",
+            "type": "string"
+          },
+          {
+            "name": "COMPOSITE_BREAKDOWN",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "IHR_01_N",
+                "IHR_02_N",
+                "IHR_03_N",
+                "IHR_04_N",
+                "IHR_05_N",
+                "IHR_06_N",
+                "IHR_07_N",
+                "IHR_08_N",
+                "IHR_09_N",
+                "IHR_10_N",
+                "IHR_11_N",
+                "IHR_12_N",
+                "IHR_13_N",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "global_indicators.3-d-1-title"
+    },
+    {
       "path": "14-1-1/data.csv",
       "name": "14-1-1",
       "profile": "tabular-data-resource",
@@ -2052,8 +2100,31 @@
             "type": "string"
           },
           {
-            "name": "SERIES",
-            "type": "string"
+            "name": "COMPOSITE_BREAKDOWN",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_L_GH_140501_02",
+                "_L_GH_140501_03",
+                "_L_GH_140501_04",
+                "_L_GH_140501_05",
+                "_L_GH_140501_06",
+                "_L_GH_140501_07",
+                "_L_GH_140501_08",
+                "_L_GH_140501_09",
+                "_L_GH_140501_10",
+                "_L_GH_140501_11",
+                "_L_GH_140501_12",
+                "_L_GH_140501_13",
+                "_L_GH_140501_14",
+                "_L_GH_140501_15",
+                "_L_GH_140501_16",
+                "_L_GH_140501_17",
+                "_L_GH_140501_18",
+                "_L_GH_140501_19",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
@@ -4454,28 +4525,6 @@
         ]
       },
       "title": "global_indicators.2-5-2-title"
-    },
-    {
-      "path": "3-d-1/data.csv",
-      "name": "3-d-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.3-d-1-title"
     },
     {
       "path": "10-7-2/data.csv",
