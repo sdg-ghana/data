@@ -319,6 +319,11 @@ prose:
             label: References and Documentation
             translation_key: metadata_fields.OTHER_DOC
             scope: national
+      - name: "other_info"
+        field:
+            element: text
+            label: "Other information"
+            scope: national            
       ######### Last updated dates #########
       - name: "national_data_updated_date"
         field:
