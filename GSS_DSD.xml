@@ -3,7 +3,7 @@
   <message:Header>
     <message:ID>IDREF1</message:ID>
     <message:Test>false</message:Test>
-    <message:Prepared>2022-10-21T15:39:16.0615161+00:00</message:Prepared>
+    <message:Prepared>2022-10-31T22:20:08.829487+00:00</message:Prepared>
     <message:Sender id="Unknown" />
     <message:Receiver id="Unknown" />
   </message:Header>
@@ -3373,6 +3373,130 @@
           <common:Name xml:lang="en">Other Public Institutions</common:Name>
           <common:Description xml:lang="en">Other Public Institutions</common:Description>
         </structure:Code>
+        <structure:Code id="_L_GH_140501_02">
+          <common:Name xml:lang="en">Food provision (OHI goal)</common:Name>
+          <common:Description xml:lang="en">Food provision (OHI goal)</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_140501_03">
+          <common:Name xml:lang="en">Wild caught Fisheries(OHI sub-goal)</common:Name>
+          <common:Description xml:lang="en">Wild caught Fisheries(OHI sub-goal)</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_140501_04">
+          <common:Name xml:lang="en">Mariculture (OHI sub-goal)</common:Name>
+          <common:Description xml:lang="en">Mariculture (OHI sub-goal)</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_140501_05">
+          <common:Name xml:lang="en">Artisanal fishing opportunities (OHI goal)</common:Name>
+          <common:Description xml:lang="en">Artisanal fishing opportunities (OHI goal)</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_140501_06">
+          <common:Name xml:lang="en">Natural products (OHI goal)</common:Name>
+          <common:Description xml:lang="en">Natural products (OHI goal)</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_140501_07">
+          <common:Name xml:lang="en">Carbon storage (OHI goal)</common:Name>
+          <common:Description xml:lang="en">Carbon storage (OHI goal)</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_140501_08">
+          <common:Name xml:lang="en">Coastal protection (OHI goal)</common:Name>
+          <common:Description xml:lang="en">Coastal protection (OHI goal)</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_140501_09">
+          <common:Name xml:lang="en">Livelihoods &amp; economies (OHI goal)</common:Name>
+          <common:Description xml:lang="en">Livelihoods &amp; economies (OHI goal)</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_140501_10">
+          <common:Name xml:lang="en">Livelihoods (OHI sub-goal)</common:Name>
+          <common:Description xml:lang="en">Livelihoods (OHI sub-goal)</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_140501_11">
+          <common:Name xml:lang="en">Economies (OHI sub-goal)</common:Name>
+          <common:Description xml:lang="en">Economies (OHI sub-goal)</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_140501_12">
+          <common:Name xml:lang="en">Tourism &amp; recreation (OHI goal)</common:Name>
+          <common:Description xml:lang="en">Tourism &amp; recreation (OHI goal)</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_140501_13">
+          <common:Name xml:lang="en">Sense of place (OHI goal)</common:Name>
+          <common:Description xml:lang="en">Sense of place (OHI goal)</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_140501_14">
+          <common:Name xml:lang="en">Iconic species (OHI sub-goal)</common:Name>
+          <common:Description xml:lang="en">Iconic species (OHI sub-goal)</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_140501_15">
+          <common:Name xml:lang="en">Lasting special places (OHI sub-goal)</common:Name>
+          <common:Description xml:lang="en">Lasting special places (OHI sub-goal)</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_140501_16">
+          <common:Name xml:lang="en">Clean water (OHI goal)</common:Name>
+          <common:Description xml:lang="en">Clean water (OHI goal)</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_140501_17">
+          <common:Name xml:lang="en">Biodiversity (OHI goal)</common:Name>
+          <common:Description xml:lang="en">Biodiversity (OHI goal)</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_140501_18">
+          <common:Name xml:lang="en">Habitat (OHI sub-goal)</common:Name>
+          <common:Description xml:lang="en">Habitat (OHI sub-goal)</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_140501_19">
+          <common:Name xml:lang="en">Species condition (OHI sub-goal)</common:Name>
+          <common:Description xml:lang="en">Species condition (OHI sub-goal)</common:Description>
+        </structure:Code>
+        <structure:Code id="IHR_01_N">
+          <common:Name xml:lang="en">Legislation�and financing</common:Name>
+          <common:Description xml:lang="en">IHR Capacity: Legislation�and financing</common:Description>
+        </structure:Code>
+        <structure:Code id="IHR_02_N">
+          <common:Name xml:lang="en">IHR�Coordination and National Focal Point�Functions</common:Name>
+          <common:Description xml:lang="en">IHR Capacity: IHR�Coordination and National Focal Point�Functions</common:Description>
+        </structure:Code>
+        <structure:Code id="IHR_03_N">
+          <common:Name xml:lang="en">Zoonotic events and the Human-Animal Health Interface</common:Name>
+          <common:Description xml:lang="en">IHR Capacity: Zoonotic events and the Human-Animal Health Interface</common:Description>
+        </structure:Code>
+        <structure:Code id="IHR_04_N">
+          <common:Name xml:lang="en">Food safety</common:Name>
+          <common:Description xml:lang="en">IHR Capacity: Food safety</common:Description>
+        </structure:Code>
+        <structure:Code id="IHR_05_N">
+          <common:Name xml:lang="en">Laboratory</common:Name>
+          <common:Description xml:lang="en">IHR Capacity: Laboratory</common:Description>
+        </structure:Code>
+        <structure:Code id="IHR_06_N">
+          <common:Name xml:lang="en">Surveillance</common:Name>
+          <common:Description xml:lang="en">IHR Capacity: Surveillance</common:Description>
+        </structure:Code>
+        <structure:Code id="IHR_07_N">
+          <common:Name xml:lang="en">Human resources</common:Name>
+          <common:Description xml:lang="en">IHR Capacity: Human resources</common:Description>
+        </structure:Code>
+        <structure:Code id="IHR_08_N">
+          <common:Name xml:lang="en">National Health Emergency Framework</common:Name>
+          <common:Description xml:lang="en">IHR Capacity: National Health Emergency Framework</common:Description>
+        </structure:Code>
+        <structure:Code id="IHR_09_N">
+          <common:Name xml:lang="en">Health Service Provision</common:Name>
+          <common:Description xml:lang="en">IHR Capacity: Health Service Provision</common:Description>
+        </structure:Code>
+        <structure:Code id="IHR_10_N">
+          <common:Name xml:lang="en">Risk communication</common:Name>
+          <common:Description xml:lang="en">IHR Capacity: Risk communication</common:Description>
+        </structure:Code>
+        <structure:Code id="IHR_11_N">
+          <common:Name xml:lang="en">Points of entry</common:Name>
+          <common:Description xml:lang="en">IHR Capacity: Points of entry</common:Description>
+        </structure:Code>
+        <structure:Code id="IHR_12_N">
+          <common:Name xml:lang="en">Chemical events</common:Name>
+          <common:Description xml:lang="en">IHR Capacity: Chemical events</common:Description>
+        </structure:Code>
+        <structure:Code id="IHR_13_N">
+          <common:Name xml:lang="en">Radiation�emergencies</common:Name>
+          <common:Description xml:lang="en">IHR Capacity: Radiation�emergencies</common:Description>
+        </structure:Code>
       </structure:Codelist>
       <structure:Codelist id="CL_CUST_BREAKDOWN" agencyID="GSS" version="1.0" isFinal="true">
         <common:Name xml:lang="en">GSS SDG custom breakdown code list</common:Name>
@@ -3788,6 +3912,7 @@
             </common:Annotation>
             <common:Annotation id="@SDMX">
               <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3050</common:AnnotationText>
             </common:Annotation>
             <common:Annotation>
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
@@ -3815,6 +3940,7 @@
             </common:Annotation>
             <common:Annotation id="@SDMX">
               <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3050</common:AnnotationText>
             </common:Annotation>
             <common:Annotation>
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
@@ -4632,6 +4758,34 @@
           </common:Annotations>
           <common:Name xml:lang="en">Air transport, international passengers carried</common:Name>
           <common:Description xml:lang="en">Air transport, international passengers carried</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_090102_03">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">9.1.2</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C090102</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Passenger and freight volumes, by mode of transport</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3160</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Number of containers by marine transport</common:Name>
+          <common:Description xml:lang="en">Number of containers by marine transport</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_040101_01">
           <common:Annotations>
@@ -24085,6 +24239,14 @@
         <structure:Code id="_L_GH_MCEDI">
           <common:Name xml:lang="en">Million Ghana Cedis</common:Name>
           <common:Description xml:lang="en">Million Ghana Cedis</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_MT">
+          <common:Name xml:lang="en">million tonnes</common:Name>
+          <common:Description xml:lang="en">million tonnes</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_T">
+          <common:Name xml:lang="en">Tonnes</common:Name>
+          <common:Description xml:lang="en">Tonnes</common:Description>
         </structure:Code>
       </structure:Codelist>
       <structure:Codelist id="CL_ACTIVITY" agencyID="IAEG-SDGs" version="1.1" isFinal="true">
