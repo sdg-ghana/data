@@ -1,4 +1,4 @@
-﻿composite_breakdown_label: ''
+﻿composite_breakdown_label: OHI Goal/subgoal
 computation_units: Score
 copyright: ''
 data_footnote: ''
@@ -7,11 +7,7 @@ data_notice_class: ''
 data_notice_heading: ''
 data_notice_text: ''
 data_show_map: false
-data_start_values:
-  - field: series
-    value: Ocean Health Index
-  - field: unit
-    value: Score   
+data_start_values: ''
 embedded_feature_footer: ''
 embedded_feature_html: ''
 embedded_feature_tab_title: ''
@@ -22,7 +18,9 @@ graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
 graph_title: global_indicators.14-5-1-title
-graph_titles: []
+graph_titles:
+  - series: Ocean Health Index
+    title: Ocean Health Index
 graph_type: line
 indicator_name: global_indicators.14-5-1-title
 target_name: global_targets.14-5-title
@@ -40,16 +38,16 @@ sort: ''
 standalone: false
 tags: []
 source_active_1: true
-source_organisation_1: World Bank
+source_organisation_1: Ocean Health Index
 source_periodicity_1: Annual
 source_earliest_available_1: 2004
 source_geographical_coverage_1: Ghana
-source_url_1: https://data.worldbank.org/indicator/SI.POV.DDAY?locations=GB
-source_url_text_1: Poverty headcount ratio at $1.90 a day (2011 PPP) (% of population)
-source_release_date_1: 28/05/2020
+source_url_1: https://oceanhealthindex.org/global-scores/
+source_url_text_1: The global Ocean Health Index
+source_release_date_1: ''
 source_next_release_1: TBA
 source_statistical_classification_1: Non-official
-source_contact_1: Research@WorldBank.org
+source_contact_1: clawson@nceas.ucsb.edu
 source_active_2: false
 source_active_3: false
 source_active_4: false
