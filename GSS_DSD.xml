@@ -3,7 +3,7 @@
   <message:Header>
     <message:ID>IDREF1</message:ID>
     <message:Test>false</message:Test>
-    <message:Prepared>2022-10-31T22:20:08.829487+00:00</message:Prepared>
+    <message:Prepared>2022-11-01T00:29:52.9418162+00:00</message:Prepared>
     <message:Sender id="Unknown" />
     <message:Receiver id="Unknown" />
   </message:Header>
@@ -3446,11 +3446,11 @@
           <common:Description xml:lang="en">Species condition (OHI sub-goal)</common:Description>
         </structure:Code>
         <structure:Code id="IHR_01_N">
-          <common:Name xml:lang="en">Legislation�and financing</common:Name>
+          <common:Name xml:lang="en">Legislation and financing</common:Name>
           <common:Description xml:lang="en">IHR Capacity: Legislation�and financing</common:Description>
         </structure:Code>
         <structure:Code id="IHR_02_N">
-          <common:Name xml:lang="en">IHR�Coordination and National Focal Point�Functions</common:Name>
+          <common:Name xml:lang="en">IHR Coordination and National Focal Point Functions</common:Name>
           <common:Description xml:lang="en">IHR Capacity: IHR�Coordination and National Focal Point�Functions</common:Description>
         </structure:Code>
         <structure:Code id="IHR_03_N">
@@ -3494,7 +3494,7 @@
           <common:Description xml:lang="en">IHR Capacity: Chemical events</common:Description>
         </structure:Code>
         <structure:Code id="IHR_13_N">
-          <common:Name xml:lang="en">Radiation�emergencies</common:Name>
+          <common:Name xml:lang="en">Radiation emergencies</common:Name>
           <common:Description xml:lang="en">IHR Capacity: Radiation�emergencies</common:Description>
         </structure:Code>
       </structure:Codelist>
