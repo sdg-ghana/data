@@ -16,8 +16,8 @@
             "constraints": {
               "enum": [
                 "",
-                "Legislation�and financing",
-                "IHR�Coordination and National Focal Point�Functions",
+                "Legislation and financing",
+                "IHR Coordination and National Focal Point Functions",
                 "Zoonotic events and the Human-Animal Health Interface",
                 "Food safety",
                 "Laboratory",
@@ -28,7 +28,7 @@
                 "Risk communication",
                 "Points of entry",
                 "Chemical events",
-                "Radiation�emergencies"
+                "Radiation emergencies"
               ]
             },
             "title": "Composite breakdown"
