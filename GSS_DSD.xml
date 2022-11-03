@@ -3,7 +3,7 @@
   <message:Header>
     <message:ID>IDREF1</message:ID>
     <message:Test>false</message:Test>
-    <message:Prepared>2022-11-01T00:29:52.9418162+00:00</message:Prepared>
+    <message:Prepared>2022-11-03T16:46:31.5987068+00:00</message:Prepared>
     <message:Sender id="Unknown" />
     <message:Receiver id="Unknown" />
   </message:Header>
@@ -4622,7 +4622,7 @@
             </common:Annotation>
           </common:Annotations>
           <common:Name xml:lang="en">Cash transfer coverage of extreme poor households under Livelihood Empowerment Against Poverty (LEAP) programme</common:Name>
-          <common:Description xml:lang="en">Cash transfer coverage of extreme poor households under Livelihood Empowerment Against Poverty (LEAP) programme</common:Description>
+          <common:Description xml:lang="en">Cash transfer coverage of extremely poor households under Livelihood Empowerment Against Poverty (LEAP) programme</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_010301_02">
           <common:Annotations>
