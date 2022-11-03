@@ -39,7 +39,7 @@ standalone: false
 tags: []
 source_active_1: true
 source_organisation_1: Ghana Statistical Service (GSS)
-source_periodicity_1: Annual
+source_periodicity_1:
 source_earliest_available_1: 2017
 source_geographical_coverage_1: Ghana
 source_url_1: https://www.statsghana.gov.gh/gssmain/fileUpload/pressrelease/Multidimensional%20Poverty%20Ghana_Report.pdf
@@ -48,7 +48,17 @@ source_release_date_1: May 2020
 source_next_release_1: TBA
 source_statistical_classification_1: Official
 source_contact_1: info@statsghana.gov.gh
-source_active_2: false
+source_active_2: true
+source_organisation_2: National Development Planning Committee (NDPC)
+source_periodicity_2: 
+source_earliest_available_2: 2017
+source_geographical_coverage_2: Ghana
+source_url_2: https://www.unicef.org/ghana/media/2676/file/Multi-Dimensional%20Child%20Poverty%20Report.pdf
+source_url_text_2: Multidimensional Child Poverty Report, Ghana 2020
+source_release_date_2: January 2020
+source_next_release_2: TBA
+source_statistical_classification_2: Official
+source_contact_2: info@ndpc.gov.gh 
 source_active_3: false
 source_active_4: false
 source_active_5: false
