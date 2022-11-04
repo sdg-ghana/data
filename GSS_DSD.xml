@@ -3,7 +3,7 @@
   <message:Header>
     <message:ID>IDREF1</message:ID>
     <message:Test>false</message:Test>
-    <message:Prepared>2022-11-04T09:20:23.6122631+00:00</message:Prepared>
+    <message:Prepared>2022-11-04T09:44:54.0404041+00:00</message:Prepared>
     <message:Sender id="Unknown" />
     <message:Receiver id="Unknown" />
   </message:Header>
@@ -24129,8 +24129,8 @@
           <common:Description xml:lang="en">Per million population</common:Description>
         </structure:Code>
         <structure:Code id="PT">
-          <common:Name xml:lang="en">Percent</common:Name>
-          <common:Description xml:lang="en">Percent</common:Description>
+          <common:Name xml:lang="en">Percentage (%)</common:Name>
+          <common:Description xml:lang="en">Percentage (%)</common:Description>
         </structure:Code>
         <structure:Code id="PROB">
           <common:Name xml:lang="en">Probability</common:Name>
