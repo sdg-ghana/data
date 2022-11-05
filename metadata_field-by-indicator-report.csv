@@ -108,7 +108,7 @@ Indicator,Reporting status,UN designated tier,UN custodian agency,Non-statistica
 #16-8-1,notstarted,Tier I,United Nations Department of Economic and Social Affairs (DESA)/Financing for Development Office (FFDO),,,,,line
 #16-9-1,complete,Tier I,"United Nations Statistics Division (UNSD), United Nations Children's Fund (UNICEFF)",,,,Percent,bar
 #16-a-1,complete,Tier I,Office of the United Nations High Commissioner for Human Rights (OHCHR),,,,,line
-#16-b-1,complete,Tier II,Office of the United Nations High Commissioner for Human Rights (OHCHR),,,,Percent,bar
+#16-b-1,complete,Tier II,Office of the United Nations High Commissioner for Human Rights (OHCHR),,,,Percentage (%),bar
 #17-1-1,complete,Tier I,International Monetary Fund (IMF),,,,Percent,line
 #17-1-2,complete,Tier I,International Monetary Fund (IMF),,,,Percent,line
 #17-10-1,notstarted,Tier I,"World Trade Organization (WTO), The International Trade Centre (ITC), United Nations Conference on Trade and Development (UNCTAD)",,,,,line
