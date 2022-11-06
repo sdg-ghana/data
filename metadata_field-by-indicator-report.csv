@@ -224,7 +224,7 @@ Indicator,Reporting status,UN designated tier,UN custodian agency,Non-statistica
 #8-10-1,complete,Tier I,International Monetary Fund (IMF),,,,"Per 100,000 population",line
 #8-10-2,complete,Tier I,World Bank (WB),,,,Million mobile money accounts,line
 #8-2-1,notstarted,Tier I,International Labour Organization (ILO),,,,,line
-#8-3-1,complete,Tier II,International Labour Organization (ILO),,,,Percent,line
+#8-3-1,complete,Tier II,International Labour Organization (ILO),,,,Percentage (%),line
 #8-4-1,notstarted,Tier II,United Nations Environment Programme (UNEP),,,,,line
 #8-4-2,notstarted,Tier I,United Nations Environment Programme (UNEP),,,,,line
 #8-5-1,complete,Tier II,International Labour Organization (ILO),,,,Ghana Cedi,line
@@ -239,7 +239,7 @@ Indicator,Reporting status,UN designated tier,UN custodian agency,Non-statistica
 #9-1-1,notstarted,Tier II,World Bank (WB),,,,,line
 #9-1-2,complete,Tier I,International Civil Aviation Organization (ICAO),,,,,line
 #9-2-1,complete,Tier I,United Nations Industrial Development Organization (UNIDO),,,,,line
-#9-2-2,complete,Tier I,United Nations Industrial Development Organization (UNIDO),,,,Percent,line
+#9-2-2,complete,Tier I,United Nations Industrial Development Organization (UNIDO),,,,Percentage (%),line
 #9-3-1,notstarted,Tier II,United Nations Industrial Development Organization (UNIDO),,,,,line
 #9-3-2,notstarted,Tier I,"United Nations Industrial Development Organization (UNIDO), World Bank (WB)",,,,,line
 #9-4-1,complete,Tier I,"International Energy Agency (IEA), United Nations Industrial Development Organization (UNIDO)",,,,kg CO2 equivalent per constant 2010 GDP $,line
