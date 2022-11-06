@@ -201,7 +201,7 @@ Indicator,Reporting status,UN designated tier,UN custodian agency,Non-statistica
 #5-6-2,complete,Tier II,United Nations Population Fund UNFPA,True,,,,line
 #5-a-1,complete,Tier II,"United Nations Entity for Gender Equality and the Empowerment of Women (UN Women), United Nations Statistics Division (UNSD), Food and Agriculture Organization of the United Nations (FAO)",,,,Percent,bar
 #5-a-2,notstarted,Tier II,Food and Agriculture Organization (FAO),,,,,line
-#5-b-1,complete,Tier II,International Telecommunication Union (ITU),,,,Percent,bar
+#5-b-1,complete,Tier II,International Telecommunication Union (ITU),,,,Percentage (%),bar
 #5-c-1,complete,Tier II,"UN Women, Organisation for Economic Co-operation and Development (OECD)",True,,,,line
 #6-1-1,complete,Tier II,"World Health Organisation (WHO), United Nations Children's Fund (UNICEFF)",,,,Percentage (%),line
 #6-2-1,complete,Tier II,"World Health Organisation (WHO), United Nations Children's Fund (UNICEFF)",,,,Percent,bar
@@ -239,7 +239,7 @@ Indicator,Reporting status,UN designated tier,UN custodian agency,Non-statistica
 #9-1-1,notstarted,Tier II,World Bank (WB),,,,,line
 #9-1-2,complete,Tier I,International Civil Aviation Organization (ICAO),,,,,line
 #9-2-1,complete,Tier I,United Nations Industrial Development Organization (UNIDO),,,,,line
-#9-2-2,complete,Tier I,United Nations Industrial Development Organization (UNIDO),,,,Percent,line
+#9-2-2,complete,Tier I,United Nations Industrial Development Organization (UNIDO),,,,Percentage (%),line
 #9-3-1,notstarted,Tier II,United Nations Industrial Development Organization (UNIDO),,,,,line
 #9-3-2,notstarted,Tier I,"United Nations Industrial Development Organization (UNIDO), World Bank (WB)",,,,,line
 #9-4-1,complete,Tier I,"International Energy Agency (IEA), United Nations Industrial Development Organization (UNIDO)",,,,kg CO2 equivalent per constant 2010 GDP $,line
