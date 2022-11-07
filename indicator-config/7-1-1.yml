@@ -19,9 +19,7 @@ graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
 graph_title: global_indicators.7-1-1-title
-graph_titles:
-  - series: Proportion of household with access to electricity [7.1.1]
-    title: Proportion of household with access to electricity [7.1.1]
+graph_titles: []
 graph_type: line
 indicator_name: global_indicators.7-1-1-title
 target_name: global_targets.7-1-title
@@ -49,7 +47,17 @@ source_release_date_1: ''
 source_next_release_1: TBA
 source_statistical_classification_1: Official
 source_contact_1: statistics@energycom.gov.gh
-source_active_2: false
+source_active_2: true
+source_organisation_2: Ghana Statistical Service (GSS)
+source_periodicity_2: 
+source_earliest_available_2: 1999
+source_geographical_coverage_2: Ghana
+source_url_2: https://www2.statsghana.gov.gh/nada/index.php/catalog#_r=1664470556419&collection=&country=&dtype=&from=1960&page=1&ps=&sid=&sk=glss&sort_by=rank&sort_order=desc&to=2015&topic=&view=s&vk=
+source_url_text_2: Ghana Living Standard Survey
+source_release_date_2: ''
+source_next_release_2: TBA
+source_statistical_classification_2: Official
+source_contact_2: info@statsghana.gov.gh
 source_active_3: false
 source_active_4: false
 source_active_5: false
