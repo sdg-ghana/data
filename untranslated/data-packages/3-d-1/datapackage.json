@@ -16,14 +16,7 @@
           },
           {
             "name": "SERIES",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "SH_IHR_CAPPRD",
-                "SH_IHR_CAPS",
-                ""
-              ]
-            }
+            "type": "string"
           },
           {
             "name": "COMPOSITE_BREAKDOWN",

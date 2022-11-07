@@ -30,25 +30,11 @@
           {
             "name": "SERIES",
             "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Human rights complains (16.a.1)",
-                "Human rights cases, by type (16.a.1)"
-              ]
-            },
             "title": "SDG Series"
           },
           {
             "name": "UNIT_MEASURE",
             "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Number",
-                "Percentage (%)"
-              ]
-            },
             "title": "Unit of measure"
           },
           {

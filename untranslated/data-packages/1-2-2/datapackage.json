@@ -16,14 +16,7 @@
           },
           {
             "name": "SERIES",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_L_GH_010202_01",
-                "SD_MDP_MUHC",
-                ""
-              ]
-            }
+            "type": "string"
           },
           {
             "name": "REF_AREA",

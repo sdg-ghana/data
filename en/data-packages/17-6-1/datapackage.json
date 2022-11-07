@@ -13,25 +13,11 @@
           {
             "name": "SERIES",
             "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Fixed broadband subscriptions per 100 inhabitants [17.6.1]",
-                "Households access to fixed internet service"
-              ]
-            },
             "title": "SDG Series"
           },
           {
             "name": "UNIT_MEASURE",
             "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Per 100 population",
-                "Percentage (%)"
-              ]
-            },
             "title": "Unit of measure"
           },
           {

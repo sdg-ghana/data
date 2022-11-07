@@ -16,14 +16,7 @@
           },
           {
             "name": "SERIES",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_L_GH_070301_01",
-                "_L_GH_070301_02",
-                ""
-              ]
-            }
+            "type": "string"
           },
           {
             "name": "Value",

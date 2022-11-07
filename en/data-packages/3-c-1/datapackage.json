@@ -13,13 +13,6 @@
           {
             "name": "SERIES",
             "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Doctor to population ratio",
-                "Nurse to population ratio"
-              ]
-            },
             "title": "SDG Series"
           },
           {

@@ -16,15 +16,7 @@
           },
           {
             "name": "SERIES",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "SG_GEN_PARL",
-                "SG_GEN_LOCGELS",
-                "_L_GH_050501_01",
-                ""
-              ]
-            }
+            "type": "string"
           },
           {
             "name": "Value",

@@ -40,26 +40,11 @@
           {
             "name": "SERIES",
             "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Proportion of teachers who have received at least the minimum organized teacher training (e.g. pedagogical training) pre-service or in-service required for teaching at the relevant level in a given country [4.c.1]",
-                "Pupil-trained teacher ratio by academic year at the basic level",
-                "Comparison of Pupil-trained teacher ratio by year at the basic level"
-              ]
-            },
             "title": "SDG Series"
           },
           {
             "name": "UNIT_MEASURE",
             "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Percentage (%)",
-                "Ratio"
-              ]
-            },
             "title": "Unit of measure"
           },
           {

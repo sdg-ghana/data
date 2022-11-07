@@ -16,14 +16,7 @@
           },
           {
             "name": "SERIES",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "SP_LGL_LNDDOC",
-                "SP_LGL_LNDSEC",
-                ""
-              ]
-            }
+            "type": "string"
           },
           {
             "name": "REF_AREA",

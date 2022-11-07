@@ -16,25 +16,11 @@
           },
           {
             "name": "SERIES",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "NV_IND_MANF",
-                "NV_IND_MANFPC",
-                ""
-              ]
-            }
+            "type": "string"
           },
           {
             "name": "UNIT_MEASURE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "PT",
-                "_L_GH_CEDI",
-                ""
-              ]
-            }
+            "type": "string"
           },
           {
             "name": "Value",

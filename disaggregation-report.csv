@@ -6,7 +6,5 @@ DISABILITY_STATUS,Disability status,1,6
 EDUCATION_LEV,Education level,5,10
 PRODUCT,Type of product,2,16
 REF_AREA,Reference area,17,29
-SERIES,SDG Series,40,123
 SEX,Sex,22,2
-UNIT_MEASURE,Unit of measure,13,12
 URBANISATION,Degree of urbanisation,27,2

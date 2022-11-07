@@ -16,14 +16,7 @@
           },
           {
             "name": "SERIES",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "IT_MOB_OWN",
-                "_L_GH_050b01_01",
-                ""
-              ]
-            }
+            "type": "string"
           },
           {
             "name": "SEX",

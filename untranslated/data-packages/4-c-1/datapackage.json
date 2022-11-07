@@ -16,15 +16,7 @@
           },
           {
             "name": "SERIES",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_L_GH_040c01_01",
-                "_L_GH_040c01_02",
-                "SE_TRA_GRDL",
-                ""
-              ]
-            }
+            "type": "string"
           },
           {
             "name": "EDUCATION_LEV",
@@ -53,14 +45,7 @@
           },
           {
             "name": "UNIT_MEASURE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "RO",
-                "PT",
-                ""
-              ]
-            }
+            "type": "string"
           },
           {
             "name": "Value",

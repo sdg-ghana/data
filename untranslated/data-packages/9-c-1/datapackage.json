@@ -16,15 +16,7 @@
           },
           {
             "name": "SERIES",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "IT_MOB_2GNTWK",
-                "IT_MOB_3GNTWK",
-                "IT_MOB_4GNTWK",
-                ""
-              ]
-            }
+            "type": "string"
           },
           {
             "name": "Value",

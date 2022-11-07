@@ -13,24 +13,11 @@
           {
             "name": "SERIES",
             "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Proportion of households that reported reduced income",
-                "Proportion of households that reported reduced income from their non-farm businesses"
-              ]
-            },
             "title": "SDG Series"
           },
           {
             "name": "UNIT_MEASURE",
             "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Percent"
-              ]
-            },
             "title": "Unit of measure"
           },
           {

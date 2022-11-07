@@ -16,16 +16,7 @@
           },
           {
             "name": "SERIES",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "VC_VAW_PHYV",
-                "VC_VAW_PSYV",
-                "VC_VAW_SEXV",
-                "_L_GH_050201",
-                ""
-              ]
-            }
+            "type": "string"
           },
           {
             "name": "SEX",
@@ -53,14 +44,7 @@
           },
           {
             "name": "UNIT_MEASURE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "PT",
-                "NUMBER",
-                ""
-              ]
-            }
+            "type": "string"
           },
           {
             "name": "Value",

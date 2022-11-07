@@ -16,14 +16,7 @@
           },
           {
             "name": "SERIES",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_L_GH_070101_01",
-                "EG_ACS_ELEC",
-                ""
-              ]
-            }
+            "type": "string"
           },
           {
             "name": "REF_AREA",

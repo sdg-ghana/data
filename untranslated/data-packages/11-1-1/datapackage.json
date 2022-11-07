@@ -16,25 +16,11 @@
           },
           {
             "name": "SERIES",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "EN_LND_SLUM",
-                "EN_LND_SLUMN",
-                ""
-              ]
-            }
+            "type": "string"
           },
           {
             "name": "UNIT_MEASURE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "PT",
-                "NUMBER",
-                ""
-              ]
-            }
+            "type": "string"
           },
           {
             "name": "Value",

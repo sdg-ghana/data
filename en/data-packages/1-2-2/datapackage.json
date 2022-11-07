@@ -60,13 +60,6 @@
           {
             "name": "SERIES",
             "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Proportion of population living in multidimensional poverty [1.2.2]",
-                "Proportion of children 0-17 years who are deprived in various poverty dimension [1.2.2]"
-              ]
-            },
             "title": "SDG Series"
           },
           {

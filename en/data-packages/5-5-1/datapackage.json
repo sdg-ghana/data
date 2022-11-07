@@ -13,14 +13,6 @@
           {
             "name": "SERIES",
             "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Proportion of elected seats held by women in deliberative bodies of local government [5.5.1]",
-                "Proportion of seats held by women in national parliaments (% of total number of seats) [5.5.1]",
-                "Proportion of women among Metropolitan, Municipal, and District Chief Executives (MMDCES)"
-              ]
-            },
             "title": "SDG Series"
           },
           {

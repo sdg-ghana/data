@@ -16,16 +16,7 @@
           },
           {
             "name": "SERIES",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "SE_ACS_ELECT",
-                "SE_ACS_H2O",
-                "_L_GH_040a01_01",
-                "_L_GH_040a01_02",
-                ""
-              ]
-            }
+            "type": "string"
           },
           {
             "name": "COMPOSITE_BREAKDOWN",

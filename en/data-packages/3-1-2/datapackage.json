@@ -51,15 +51,6 @@
           {
             "name": "SERIES",
             "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Proportion of births attended by skilled health personnel [3.1.2]",
-                "Homes deliveries by region and locality type",
-                "Type of care received during Health facility delivery",
-                "Type of care received during Home delivery"
-              ]
-            },
             "title": "SDG Series"
           },
           {

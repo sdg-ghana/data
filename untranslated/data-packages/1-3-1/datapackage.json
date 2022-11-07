@@ -16,27 +16,11 @@
           },
           {
             "name": "SERIES",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_L_GH_010301_01",
-                "_L_GH_010301_02",
-                "_L_GH_010301_03",
-                "_L_GH_010301_04",
-                ""
-              ]
-            }
+            "type": "string"
           },
           {
             "name": "UNIT_MEASURE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "NUMBER",
-                "PT",
-                ""
-              ]
-            }
+            "type": "string"
           },
           {
             "name": "Value",

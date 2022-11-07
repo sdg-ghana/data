@@ -16,15 +16,7 @@
           },
           {
             "name": "SERIES",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "SN_STA_OVWGT",
-                "SH_STA_WAST",
-                "_L_GH_020202",
-                ""
-              ]
-            }
+            "type": "string"
           },
           {
             "name": "Value",

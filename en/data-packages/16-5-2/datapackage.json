@@ -13,25 +13,11 @@
           {
             "name": "SERIES",
             "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Corruption Perception Index score",
-                "Corruption Perception Index Rank"
-              ]
-            },
             "title": "SDG Series"
           },
           {
             "name": "UNIT_MEASURE",
             "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Score",
-                "Rank"
-              ]
-            },
             "title": "Unit of measure"
           },
           {

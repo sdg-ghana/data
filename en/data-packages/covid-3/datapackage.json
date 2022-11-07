@@ -13,25 +13,11 @@
           {
             "name": "SERIES",
             "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Proportion of children missing vaccinations",
-                "Proportion of households that could not buy medicine",
-                "Proportion of households that needed healthcare and were able to access it"
-              ]
-            },
             "title": "SDG Series"
           },
           {
             "name": "UNIT_MEASURE",
             "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Percent"
-              ]
-            },
             "title": "Unit of measure"
           },
           {

@@ -16,26 +16,11 @@
           },
           {
             "name": "SERIES",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "AG_PRD_ORTIND",
-                "AG_XPD_AGSGB",
-                "AG_PRD_AGVAS",
-                ""
-              ]
-            }
+            "type": "string"
           },
           {
             "name": "UNIT_MEASURE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "IX",
-                "PT",
-                ""
-              ]
-            }
+            "type": "string"
           },
           {
             "name": "Value",

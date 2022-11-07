@@ -16,14 +16,7 @@
           },
           {
             "name": "SERIES",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_L_GH_080501_01",
-                "SL_EMP_EARN",
-                ""
-              ]
-            }
+            "type": "string"
           },
           {
             "name": "SEX",
