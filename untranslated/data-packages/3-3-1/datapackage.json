@@ -16,11 +16,25 @@
           },
           {
             "name": "SERIES",
-            "type": "string"
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "SH_HIV_INCD",
+                "_L_GH_030301",
+                ""
+              ]
+            }
           },
           {
             "name": "UNIT_MEASURE",
-            "type": "string"
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "PER_1000_UNINFECTED_POP",
+                "NUMBER",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

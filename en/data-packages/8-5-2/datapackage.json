@@ -40,6 +40,13 @@
           {
             "name": "SERIES",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Unemployment rate [8.5.2]",
+                "Unemployment rate, by disability [8.5.2]"
+              ]
+            },
             "title": "SDG Series"
           },
           {

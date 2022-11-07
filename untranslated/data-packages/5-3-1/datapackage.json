@@ -16,7 +16,14 @@
           },
           {
             "name": "SERIES",
-            "type": "string"
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "SP_DYN_MRBF15",
+                "SP_DYN_MRBF18",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

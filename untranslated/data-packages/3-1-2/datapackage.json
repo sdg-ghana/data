@@ -16,7 +16,16 @@
           },
           {
             "name": "SERIES",
-            "type": "string"
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "SH_STA_BRTC",
+                "_L_GH_030102_01",
+                "_L_GH_030102_02",
+                "_L_GH_030102_03",
+                ""
+              ]
+            }
           },
           {
             "name": "REF_AREA",

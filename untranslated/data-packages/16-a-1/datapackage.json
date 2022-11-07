@@ -16,7 +16,14 @@
           },
           {
             "name": "SERIES",
-            "type": "string"
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_L_GH_160a01_01",
+                "_L_GH_160a01_02",
+                ""
+              ]
+            }
           },
           {
             "name": "COMPOSITE_BREAKDOWN",
@@ -36,7 +43,14 @@
           },
           {
             "name": "UNIT_MEASURE",
-            "type": "string"
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "PT",
+                "NUMBER",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

@@ -13,6 +13,13 @@
           {
             "name": "SERIES",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Proportion of individuals who own a mobile telephone [5.b.1]",
+                "Proportion of individuals who use a mobile telephone [5.b.1]"
+              ]
+            },
             "title": "SDG Series"
           },
           {

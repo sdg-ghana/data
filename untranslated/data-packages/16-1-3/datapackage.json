@@ -16,7 +16,17 @@
           },
           {
             "name": "SERIES",
-            "type": "string"
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "VC_VOV_PHYL",
+                "VC_VOV_SEXL",
+                "_L_GH_160103_01",
+                "_L_GH_160103_02",
+                "_L_GH_160103_03",
+                ""
+              ]
+            }
           },
           {
             "name": "SEX",

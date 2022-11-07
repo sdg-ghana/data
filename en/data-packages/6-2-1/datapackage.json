@@ -29,6 +29,14 @@
           {
             "name": "SERIES",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Proportion of population using safely managed sanitation services [6.2.1]",
+                "Type of toilet facility used by households by locality type",
+                "Proportion of population using handwashing facility with soap and water"
+              ]
+            },
             "title": "SDG Series"
           },
           {

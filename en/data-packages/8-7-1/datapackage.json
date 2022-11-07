@@ -13,6 +13,13 @@
           {
             "name": "SERIES",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Percentage of children engaged in child labour",
+                "Percentage of children engaged in hazardous forms of child labour"
+              ]
+            },
             "title": "SDG Series"
           },
           {

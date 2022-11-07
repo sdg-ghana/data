@@ -16,7 +16,14 @@
           },
           {
             "name": "SERIES",
-            "type": "string"
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "SL_TLF_UEMDIS",
+                "SL_TLF_UEM",
+                ""
+              ]
+            }
           },
           {
             "name": "SEX",

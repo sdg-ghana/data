@@ -1,0 +1,13 @@
+Value,en,Disaggregation combinations using this value,Number of indicators
+_L_GH_CEDI,Ghana Cedi,1,1
+_L_GH_MCEDI,Million Ghana Cedis,48,1
+_L_GH_RANK,Rank,1,1
+_L_MT,million tonnes,1,1
+_L_T,Tonnes,4,1
+IX,Index,1,1
+NUMBER,Number,34,7
+PER_1000_UNINFECTED_POP,"Per 1,000 uninfected population",1,1
+PER_100_POP,Per 100 population,1,1
+PT,Percentage (%),36,10
+RO,Ratio,12,1
+SCORE,Score,1,1

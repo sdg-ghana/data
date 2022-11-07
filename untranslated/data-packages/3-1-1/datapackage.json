@@ -16,7 +16,15 @@
           },
           {
             "name": "SERIES",
-            "type": "string"
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_L_GH_030101_01",
+                "_L_GH_030101_02",
+                "_L_GH_030101_03",
+                ""
+              ]
+            }
           },
           {
             "name": "REF_AREA",

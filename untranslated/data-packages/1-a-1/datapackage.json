@@ -16,7 +16,22 @@
           },
           {
             "name": "SERIES",
-            "type": "string"
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_L_GH_010a01_01",
+                "_L_GH_010a01_04",
+                "_L_GH_010a01_05",
+                "_L_GH_010a01_06",
+                "_L_GH_010a01_07",
+                "_L_GH_010a01_08",
+                "_L_GH_010a01_09",
+                "_L_GH_010a01_10",
+                "_L_GH_010a01_02",
+                "_L_GH_010a01_03",
+                ""
+              ]
+            }
           },
           {
             "name": "COMPOSITE_BREAKDOWN",
@@ -34,7 +49,14 @@
           },
           {
             "name": "UNIT_MEASURE",
-            "type": "string"
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "PT",
+                "_L_GH_MCEDI",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

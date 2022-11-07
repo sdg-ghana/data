@@ -16,11 +16,26 @@
           },
           {
             "name": "SERIES",
-            "type": "string"
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Children likely to go back to school after mobility restrictions are lifted - Primary/JHS",
+                "Children likely to go back to school after mobility restrictions are lifted - Senior Secondary",
+                "Children engaged in any type of learning activity - Primary/JHS",
+                "Children engaged in any type of learning activity - Secondary",
+                ""
+              ]
+            }
           },
           {
             "name": "UNIT_MEASURE",
-            "type": "string"
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percent",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

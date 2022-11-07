@@ -13,6 +13,13 @@
           {
             "name": "SERIES",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Average hourly earnings [8.5.1]",
+                "Average monthly earnings [8.5.1]"
+              ]
+            },
             "title": "SDG Series"
           },
           {

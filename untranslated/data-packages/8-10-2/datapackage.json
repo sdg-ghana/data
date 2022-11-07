@@ -16,7 +16,14 @@
           },
           {
             "name": "SERIES",
-            "type": "string"
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_L_GH_081002_01",
+                "_L_GH_081002_02",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

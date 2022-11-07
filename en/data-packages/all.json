@@ -101,11 +101,29 @@
           {
             "name": "SERIES",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Freight volume (tonne kilometres) [9.1.2]",
+                "Passenger volume (passenger kilometres) [9.1.2]",
+                "Air transport, domestic passengers carried",
+                "Air transport, international passengers carried",
+                "Number of containers by marine transport"
+              ]
+            },
             "title": "SDG Series"
           },
           {
             "name": "UNIT_MEASURE",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Number",
+                "million tonnes",
+                "Tonnes"
+              ]
+            },
             "title": "Unit of measure"
           },
           {
@@ -135,11 +153,25 @@
           {
             "name": "SERIES",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Manufacturing value added as a proportion of GDP [9.2.1]",
+                "Manufacturing value added per capita [9.2.1]"
+              ]
+            },
             "title": "SDG Series"
           },
           {
             "name": "UNIT_MEASURE",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Percentage (%)",
+                "Ghana Cedi"
+              ]
+            },
             "title": "Unit of measure"
           },
           {
@@ -309,6 +341,14 @@
           {
             "name": "SERIES",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Proportion of population covered by at least a 2G mobile network [9.c.1]",
+                "Proportion of population covered by at least a 3G mobile network [9.c.1]",
+                "Proportion of population covered by at least a 4G mobile network [9.c.1]"
+              ]
+            },
             "title": "SDG Series"
           },
           {
@@ -562,6 +602,13 @@
           {
             "name": "SERIES",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Prevalence of moderate or severe food insecurity in the population [2.1.2]",
+                "Prevalence of severe food insecurity in the population [2.1.2]"
+              ]
+            },
             "title": "SDG Series"
           },
           {
@@ -662,6 +709,14 @@
           {
             "name": "SERIES",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Proportion of children moderately or severely wasted [2.2.2]",
+                "Proportion of children moderately or severely overweight [2.2.2]",
+                "Proportion of children underweight"
+              ]
+            },
             "title": "SDG Series"
           },
           {
@@ -691,11 +746,26 @@
           {
             "name": "SERIES",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Agriculture value added share of GDP [2.a.1]",
+                "Agriculture orientation index for government expenditures [2.a.1]",
+                "Agriculture share of Government Expenditure [2.a.1]"
+              ]
+            },
             "title": "SDG Series"
           },
           {
             "name": "UNIT_MEASURE",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Index",
+                "Percentage (%)"
+              ]
+            },
             "title": "Unit of measure"
           },
           {
@@ -764,6 +834,15 @@
           {
             "name": "SERIES",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Proportion of ever-partnered women and girls subjected to physical violence by a current or former intimate partner in the previous 12 months [5.2.1]",
+                "Proportion of ever-partnered women and girls subjected to psychological violence by a current or former intimate partner in the previous 12 months [5.2.1]",
+                "Proportion of ever-partnered women and girls subjected to sexual violence by a current or former intimate partner in the previous 12 months [5.2.1]",
+                "Reported cases of domestic violence"
+              ]
+            },
             "title": "SDG Series"
           },
           {
@@ -780,6 +859,13 @@
           {
             "name": "UNIT_MEASURE",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Number",
+                "Percentage (%)"
+              ]
+            },
             "title": "Unit of measure"
           },
           {
@@ -809,6 +895,13 @@
           {
             "name": "SERIES",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Proportion of women aged 20-24 years who were married or in a union before age 15 [5.3.1]",
+                "Proportion of women aged 20-24 years who were married or in a union before age 18 [5.3.1]"
+              ]
+            },
             "title": "SDG Series"
           },
           {
@@ -922,6 +1015,14 @@
           {
             "name": "SERIES",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Proportion of elected seats held by women in deliberative bodies of local government [5.5.1]",
+                "Proportion of seats held by women in national parliaments (% of total number of seats) [5.5.1]",
+                "Proportion of women among Metropolitan, Municipal, and District Chief Executives (MMDCES)"
+              ]
+            },
             "title": "SDG Series"
           },
           {
@@ -1001,6 +1102,13 @@
           {
             "name": "SERIES",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Proportion of individuals who own a mobile telephone [5.b.1]",
+                "Proportion of individuals who use a mobile telephone [5.b.1]"
+              ]
+            },
             "title": "SDG Series"
           },
           {
@@ -1145,6 +1253,13 @@
           {
             "name": "SERIES",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Average hourly earnings [8.5.1]",
+                "Average monthly earnings [8.5.1]"
+              ]
+            },
             "title": "SDG Series"
           },
           {
@@ -1213,6 +1328,13 @@
           {
             "name": "SERIES",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Unemployment rate [8.5.2]",
+                "Unemployment rate, by disability [8.5.2]"
+              ]
+            },
             "title": "SDG Series"
           },
           {
@@ -1302,6 +1424,13 @@
           {
             "name": "SERIES",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Percentage of children engaged in child labour",
+                "Percentage of children engaged in hazardous forms of child labour"
+              ]
+            },
             "title": "SDG Series"
           },
           {
@@ -1355,6 +1484,13 @@
           {
             "name": "SERIES",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Contribution of hotel and restaurant sub-sector to GDP",
+                "Growth rate of hotel and restaurant sub-sector"
+              ]
+            },
             "title": "SDG Series"
           },
           {
@@ -1384,6 +1520,13 @@
           {
             "name": "SERIES",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Number of automated teller machines (ATMs) per 100,000 adults [8.10.1]",
+                "Number of commercial bank branches per 100,000 adults [8.10.1]"
+              ]
+            },
             "title": "SDG Series"
           },
           {
@@ -1413,6 +1556,13 @@
           {
             "name": "SERIES",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Number of registered mobile money accounts",
+                "Number of active mobile money accounts"
+              ]
+            },
             "title": "SDG Series"
           },
           {
@@ -1490,6 +1640,13 @@
           {
             "name": "SERIES",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Foreign direct investment (FDI) inflows as a proportion of Gross National Income [17.3.1]",
+                "Official Development Assistance (ODA) inflows as a percentage of national budget"
+              ]
+            },
             "title": "SDG Series"
           },
           {
@@ -1567,11 +1724,25 @@
           {
             "name": "SERIES",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Fixed broadband subscriptions per 100 inhabitants [17.6.1]",
+                "Households access to fixed internet service"
+              ]
+            },
             "title": "SDG Series"
           },
           {
             "name": "UNIT_MEASURE",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Per 100 population",
+                "Percentage (%)"
+              ]
+            },
             "title": "Unit of measure"
           },
           {
@@ -1775,6 +1946,14 @@
           {
             "name": "SERIES",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Survey-based Maternal mortality ratio [3.1.1]",
+                "Census-based Maternal mortality ratio [3.1.1]",
+                "Institutional maternal mortality ratio"
+              ]
+            },
             "title": "SDG Series"
           },
           {
@@ -1842,6 +2021,15 @@
           {
             "name": "SERIES",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Proportion of births attended by skilled health personnel [3.1.2]",
+                "Homes deliveries by region and locality type",
+                "Type of care received during Health facility delivery",
+                "Type of care received during Home delivery"
+              ]
+            },
             "title": "SDG Series"
           },
           {
@@ -1931,11 +2119,25 @@
           {
             "name": "SERIES",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Number of new HIV infections per 1,000 uninfected population [3.3.1]",
+                "Number of new HIV infections [3.3.1]"
+              ]
+            },
             "title": "SDG Series"
           },
           {
             "name": "UNIT_MEASURE",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Number",
+                "Per 1,000 uninfected population"
+              ]
+            },
             "title": "Unit of measure"
           },
           {
@@ -2152,6 +2354,13 @@
           {
             "name": "SERIES",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Doctor to population ratio",
+                "Nurse to population ratio"
+              ]
+            },
             "title": "SDG Series"
           },
           {
@@ -2204,6 +2413,13 @@
           {
             "name": "SERIES",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Average of 13 International Health Regulations (IHR) core capacities [3.d.1]",
+                "International Health Regulations (IHR) capacity, by type of IHR capacity [3.d.1]"
+              ]
+            },
             "title": "SDG Series"
           },
           {
@@ -2428,6 +2644,14 @@
           {
             "name": "SERIES",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Proportion of population using safely managed sanitation services [6.2.1]",
+                "Type of toilet facility used by households by locality type",
+                "Proportion of population using handwashing facility with soap and water"
+              ]
+            },
             "title": "SDG Series"
           },
           {
@@ -2619,6 +2843,15 @@
           {
             "name": "SERIES",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Proportion of pupils in primary 4 and primary 6 that achieved minimum proficiency in Mathematics and English (Percent)",
+                "Children who demonstrated foundational literacy and numeracy by locality type (Percent)",
+                "Foundational literacy and numeracy skills of students in P4, P6 and JHS by sex, (Percent)",
+                "Proportion of pupils in JHS that passed Mathematics and English (Percent)"
+              ]
+            },
             "title": "SDG Series"
           },
           {
@@ -2708,6 +2941,15 @@
           {
             "name": "SERIES",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Proportion of children who are developmentally on track in literacy-numeracy",
+                "Proportion of children who are developmentally on track in physical development",
+                "Proportion of children who are developmentally on track in social-emotional development",
+                "Proportion of children who are developmentally on track in learning"
+              ]
+            },
             "title": "SDG Series"
           },
           {
@@ -2848,6 +3090,23 @@
           {
             "name": "SERIES",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Number of Technical and Vocational Institutions",
+                "Number of Public Technical and Vocational Institutions",
+                "Number of Private Technical and Vocational Institutions",
+                "Enrolment in Technical and Vocational Institutions",
+                "Enrolment in Public Technical and Vocational Institutions",
+                "Enrolment in Private Technical and Vocational Institutions",
+                "Number of Senior High Technical Schools with TVET Programmes",
+                "Enrolment in TVET Programmes in Private Senior High Technical Schools as a share of total enrolment",
+                "Enrolment in TVET Programmes in Senior High Technical Schools",
+                "Number of Classes for National Functional Literacy Programme",
+                "Enrolment for National Functional Literacy Programme",
+                "Percentage of Female share in Enrolment for National Functional Literacy Programme"
+              ]
+            },
             "title": "SDG Series"
           },
           {
@@ -2865,6 +3124,13 @@
           {
             "name": "UNIT_MEASURE",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Number",
+                "Percentage (%)"
+              ]
+            },
             "title": "Unit of measure"
           },
           {
@@ -3030,6 +3296,15 @@
           {
             "name": "SERIES",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Proportion of schools with access to electricity [4.a.1]",
+                "Proportion of schools with access to basic drinking water [4.a.1]",
+                "Proportion of schools with access to toilet facilities",
+                "Proportion of schools with access to urinals"
+              ]
+            },
             "title": "SDG Series"
           },
           {
@@ -3086,11 +3361,26 @@
           {
             "name": "SERIES",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Proportion of teachers who have received at least the minimum organized teacher training (e.g. pedagogical training) pre-service or in-service required for teaching at the relevant level in a given country [4.c.1]",
+                "Pupil-trained teacher ratio by academic year at the basic level",
+                "Comparison of Pupil-trained teacher ratio by year at the basic level"
+              ]
+            },
             "title": "SDG Series"
           },
           {
             "name": "UNIT_MEASURE",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Percentage (%)",
+                "Ratio"
+              ]
+            },
             "title": "Unit of measure"
           },
           {
@@ -3161,6 +3451,13 @@
           {
             "name": "SERIES",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Proportion of population with access to electricity [7.1.1]",
+                "Proportion of household with access to electricity [7.1.1]"
+              ]
+            },
             "title": "SDG Series"
           },
           {
@@ -3293,6 +3590,13 @@
           {
             "name": "SERIES",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Energy intensity measured in terms of total energy supply and GDP, PPP (constant 2017 international $)",
+                "Energy intensity measured in terms of final energy consumption and GDP, PPP (constant 2017 international $)"
+              ]
+            },
             "title": "SDG Series"
           },
           {
@@ -3370,6 +3674,16 @@
           {
             "name": "SERIES",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Proportion of population subjected to physical violence in the previous 12 months [16.1.3]",
+                "Proportion of population subjected to sexual violence in the previous 12 months [16.1.3]",
+                "Proportion of population subjected to psycological violence in the previous 12 months [16.1.3]",
+                "Proportion of population subjected to social violence in the previous 12 months [16.1.3]",
+                "Proportion of population subjected to economic violence in the previous 12 months [16.1.3]"
+              ]
+            },
             "title": "SDG Series"
           },
           {
@@ -3580,11 +3894,25 @@
           {
             "name": "SERIES",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Corruption Perception Index score",
+                "Corruption Perception Index Rank"
+              ]
+            },
             "title": "SDG Series"
           },
           {
             "name": "UNIT_MEASURE",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Score",
+                "Rank"
+              ]
+            },
             "title": "Unit of measure"
           },
           {
@@ -3679,11 +4007,25 @@
           {
             "name": "SERIES",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Human rights complains (16.a.1)",
+                "Human rights cases, by type (16.a.1)"
+              ]
+            },
             "title": "SDG Series"
           },
           {
             "name": "UNIT_MEASURE",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Number",
+                "Percentage (%)"
+              ]
+            },
             "title": "Unit of measure"
           },
           {
@@ -3839,11 +4181,25 @@
           {
             "name": "SERIES",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Proportion of urban population living in slums [11.1.1]",
+                "Urban population living in slums (number) [11.1.1]"
+              ]
+            },
             "title": "SDG Series"
           },
           {
             "name": "UNIT_MEASURE",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Number",
+                "Percentage (%)"
+              ]
+            },
             "title": "Unit of measure"
           },
           {
@@ -4149,6 +4505,13 @@
           {
             "name": "SERIES",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Proportion of population living in multidimensional poverty [1.2.2]",
+                "Proportion of children 0-17 years who are deprived in various poverty dimension [1.2.2]"
+              ]
+            },
             "title": "SDG Series"
           },
           {
@@ -4190,11 +4553,27 @@
           {
             "name": "SERIES",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Cash transfer coverage of extremely poor households under Livelihood Empowerment Against Poverty (LEAP) programme",
+                "Proportion of basic school students under Ghana School Feeding Programme (GSFP)",
+                "Total Beneficiaries of Free Senior High School Programme (FSHSP)",
+                "Proportion with access to affordable healthcare under National Health Insurance Scheme (NHIS)"
+              ]
+            },
             "title": "SDG Series"
           },
           {
             "name": "UNIT_MEASURE",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Number",
+                "Percentage (%)"
+              ]
+            },
             "title": "Unit of measure"
           },
           {
@@ -4255,6 +4634,13 @@
           {
             "name": "SERIES",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Proportion of people with legally recognized documentation of their rights to land out of total adult population [1.4.2]",
+                "Proportion of people who perceive their rights to land as secure out of total adult population [1.4.2]"
+              ]
+            },
             "title": "SDG Series"
           },
           {
@@ -4347,11 +4733,33 @@
           {
             "name": "SERIES",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Official development assistance grants as percentage of GNI [1.a.1]",
+                "Total Budget Allocation towards SDG1 (No Poverty) for MDAs/MMDAs (in million Ghana Cedi)",
+                "Percentage share of Budget Allocation towards SDG1 (No Poverty) for MDAs/MMDAs",
+                "Budget Allocation towards Extreme poverty (in million Ghana Cedi)",
+                "Budget Allocation towards reducing poverty proportion of men, women and children by at least half (in million Ghana Cedi)",
+                "Budget Allocation towards Social dimension (in million Ghana Cedi)",
+                "Budget Allocation towards Equal rights to basic services (in million Ghana Cedi)",
+                "Budget Allocation towards Building resilience of the poor and vulnerable (in million Ghana Cedi)",
+                "Budget Allocation towards Mobilisation of resources (in million Ghana Cedi)",
+                "Budget Allocation towards Pro-poor and Gender (in million Ghana Cedi)"
+              ]
+            },
             "title": "SDG Series"
           },
           {
             "name": "UNIT_MEASURE",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Percentage (%)",
+                "Million Ghana Cedis"
+              ]
+            },
             "title": "Unit of measure"
           },
           {
@@ -4381,6 +4789,13 @@
           {
             "name": "SERIES",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Proportion of total government spending on essential services, education [1.a.2]",
+                "Proportion of total government spending on health [1.a.2]"
+              ]
+            },
             "title": "SDG Series"
           },
           {
@@ -5970,11 +6385,24 @@
           {
             "name": "SERIES",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Proportion of Household not able to buy at least one staple food - rice, maize, yam and casava",
+                "Proportion of Households with children under 15 years eating fewer meals than usual"
+              ]
+            },
             "title": "SDG Series"
           },
           {
             "name": "UNIT_MEASURE",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Percent"
+              ]
+            },
             "title": "Unit of measure"
           },
           {
@@ -6124,11 +6552,24 @@
           {
             "name": "SERIES",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Proportion of households that reported reduced income",
+                "Proportion of households that reported reduced income from their non-farm businesses"
+              ]
+            },
             "title": "SDG Series"
           },
           {
             "name": "UNIT_MEASURE",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Percent"
+              ]
+            },
             "title": "Unit of measure"
           },
           {
@@ -7646,11 +8087,25 @@
           {
             "name": "SERIES",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Proportion of children missing vaccinations",
+                "Proportion of households that could not buy medicine",
+                "Proportion of households that needed healthcare and were able to access it"
+              ]
+            },
             "title": "SDG Series"
           },
           {
             "name": "UNIT_MEASURE",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Percent"
+              ]
+            },
             "title": "Unit of measure"
           },
           {
@@ -7920,11 +8375,26 @@
           {
             "name": "SERIES",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Children engaged in any type of learning activity - Primary/JHS",
+                "Children engaged in any type of learning activity - Secondary",
+                "Children likely to go back to school after mobility restrictions are lifted - Primary/JHS",
+                "Children likely to go back to school after mobility restrictions are lifted - Senior Secondary"
+              ]
+            },
             "title": "SDG Series"
           },
           {
             "name": "UNIT_MEASURE",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Percent"
+              ]
+            },
             "title": "Unit of measure"
           },
           {

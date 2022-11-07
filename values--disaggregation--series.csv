@@ -1,0 +1,124 @@
+Value,en,Disaggregation combinations using this value,Number of indicators
+_L_GH_010202_01,Proportion of children 0-17 years who are deprived in various poverty dimension [1.2.2],8,1
+_L_GH_010301_01,Cash transfer coverage of extremely poor households under Livelihood Empowerment Against Poverty (LEAP) programme,1,1
+_L_GH_010301_02,Proportion of basic school students under Ghana School Feeding Programme (GSFP),1,1
+_L_GH_010301_03,Total Beneficiaries of Free Senior High School Programme (FSHSP),1,1
+_L_GH_010301_04,Proportion with access to affordable healthcare under National Health Insurance Scheme (NHIS),1,1
+_L_GH_010a01_01,Official development assistance grants as percentage of GNI [1.a.1],1,1
+_L_GH_010a01_02,Total Budget Allocation towards SDG1 (No Poverty) for MDAs/MMDAs (in million Ghana Cedi),6,1
+_L_GH_010a01_03,Percentage share of Budget Allocation towards SDG1 (No Poverty) for MDAs/MMDAs,6,1
+_L_GH_010a01_04,Budget Allocation towards Extreme poverty (in million Ghana Cedi),6,1
+_L_GH_010a01_05,"Budget Allocation towards reducing poverty proportion of men, women and children by at least half (in million Ghana Cedi)",6,1
+_L_GH_010a01_06,Budget Allocation towards Social dimension (in million Ghana Cedi),6,1
+_L_GH_010a01_07,Budget Allocation towards Equal rights to basic services (in million Ghana Cedi),6,1
+_L_GH_010a01_08,Budget Allocation towards Building resilience of the poor and vulnerable (in million Ghana Cedi),6,1
+_L_GH_010a01_09,Budget Allocation towards Mobilisation of resources (in million Ghana Cedi),6,1
+_L_GH_010a01_10,Budget Allocation towards Pro-poor and Gender (in million Ghana Cedi),6,1
+_L_GH_020202,Proportion of children underweight,1,1
+_L_GH_030101_01,Survey-based Maternal mortality ratio [3.1.1],1,1
+_L_GH_030101_02,Census-based Maternal mortality ratio [3.1.1],1,1
+_L_GH_030101_03,Institutional maternal mortality ratio,11,1
+_L_GH_030102_01,Homes deliveries by region and locality type,22,1
+_L_GH_030102_02,Type of care received during Health facility delivery,3,1
+_L_GH_030102_03,Type of care received during Home delivery,3,1
+_L_GH_030301,Number of new HIV infections [3.3.1],1,1
+_L_GH_030c01_01,Doctor to population ratio,1,1
+_L_GH_030c01_02,Nurse to population ratio,1,1
+_L_GH_040101_01,Proportion of pupils in primary 4 and primary 6 that achieved minimum proficiency in Mathematics and English (Percent),12,1
+_L_GH_040101_02,Children who demonstrated foundational literacy and numeracy by locality type (Percent),18,1
+_L_GH_040101_03,"Foundational literacy and numeracy skills of students in P4, P6 and JHS by sex, (Percent)",18,1
+_L_GH_040101_04,Proportion of pupils in JHS that passed Mathematics and English (Percent),6,1
+_L_GH_040201_01,Proportion of children who are developmentally on track in literacy-numeracy,3,1
+_L_GH_040201_02,Proportion of children who are developmentally on track in physical development,3,1
+_L_GH_040201_03,Proportion of children who are developmentally on track in social-emotional development,3,1
+_L_GH_040201_04,Proportion of children who are developmentally on track in learning,3,1
+_L_GH_040301_1a,Number of Technical and Vocational Institutions,1,1
+_L_GH_040301_1b,Number of Public Technical and Vocational Institutions,3,1
+_L_GH_040301_1c,Number of Private Technical and Vocational Institutions,1,1
+_L_GH_040301_2a,Enrolment in Technical and Vocational Institutions,1,1
+_L_GH_040301_2b,Enrolment in Public Technical and Vocational Institutions,3,1
+_L_GH_040301_2c,Enrolment in Private Technical and Vocational Institutions,1,1
+_L_GH_040301_3a,Number of Senior High Technical Schools with TVET Programmes,3,1
+_L_GH_040301_3b,Enrolment in TVET Programmes in Private Senior High Technical Schools as a share of total enrolment,1,1
+_L_GH_040301_3c,Enrolment in TVET Programmes in Senior High Technical Schools,3,1
+_L_GH_040301_4a,Number of Classes for National Functional Literacy Programme,1,1
+_L_GH_040301_4b,Enrolment for National Functional Literacy Programme,3,1
+_L_GH_040301_4c,Percentage of Female share in Enrolment for National Functional Literacy Programme,1,1
+_L_GH_040a01_01,Proportion of schools with access to toilet facilities,2,1
+_L_GH_040a01_02,Proportion of schools with access to urinals,2,1
+_L_GH_040c01_01,Pupil-trained teacher ratio by academic year at the basic level,2,1
+_L_GH_040c01_02,Comparison of Pupil-trained teacher ratio by year at the basic level,10,1
+_L_GH_050201,Reported cases of domestic violence,1,1
+_L_GH_050501_01,"Proportion of women among Metropolitan, Municipal, and District Chief Executives (MMDCES)",1,1
+_L_GH_050b01_01,Proportion of individuals who use a mobile telephone [5.b.1],5,1
+_L_GH_060201_01,Type of toilet facility used by households by locality type,12,1
+_L_GH_060201_02,Proportion of population using handwashing facility with soap and water,1,1
+_L_GH_070101_01,Proportion of household with access to electricity [7.1.1],3,1
+_L_GH_070301_01,"Energy intensity measured in terms of total energy supply and GDP, PPP (constant 2017 international $)",1,1
+_L_GH_070301_02,"Energy intensity measured in terms of final energy consumption and GDP, PPP (constant 2017 international $)",1,1
+_L_GH_080501_01,Average monthly earnings [8.5.1],3,1
+_L_GH_080701_01,Percentage of children engaged in child labour,5,1
+_L_GH_080701_02,Percentage of children engaged in hazardous forms of child labour,5,1
+_L_GH_080901_01,Contribution of hotel and restaurant sub-sector to GDP,1,1
+_L_GH_080901_02,Growth rate of hotel and restaurant sub-sector,1,1
+_L_GH_081002_01,Number of registered mobile money accounts,1,1
+_L_GH_081002_02,Number of active mobile money accounts,1,1
+_L_GH_090102_01,"Air transport, domestic passengers carried",1,1
+_L_GH_090102_02,"Air transport, international passengers carried",1,1
+_L_GH_090102_03,Number of containers by marine transport,1,1
+_L_GH_160103_01,Proportion of population subjected to psycological violence in the previous 12 months [16.1.3],2,1
+_L_GH_160103_02,Proportion of population subjected to social violence in the previous 12 months [16.1.3],2,1
+_L_GH_160103_03,Proportion of population subjected to economic violence in the previous 12 months [16.1.3],2,1
+_L_GH_160502_01,Corruption Perception Index score,1,1
+_L_GH_160502_02,Corruption Perception Index Rank,1,1
+_L_GH_160a01_01,Human rights complains (16.a.1),2,1
+_L_GH_160a01_02,"Human rights cases, by type (16.a.1)",5,1
+_L_GH_170301_01,Foreign direct investment (FDI) inflows as a proportion of Gross National Income [17.3.1],1,1
+_L_GH_170301_02,Official Development Assistance (ODA) inflows as a percentage of national budget,1,1
+_L_GH_170601,Households access to fixed internet service,3,1
+AG_PRD_AGVAS,Agriculture value added share of GDP [2.a.1],1,1
+AG_PRD_FIESMS,Prevalence of moderate or severe food insecurity in the population [2.1.2],13,1
+AG_PRD_FIESS,Prevalence of severe food insecurity in the population [2.1.2],13,1
+AG_PRD_ORTIND,Agriculture orientation index for government expenditures [2.a.1],1,1
+AG_XPD_AGSGB,Agriculture share of Government Expenditure [2.a.1],1,1
+EG_ACS_ELEC,Proportion of population with access to electricity [7.1.1],61,1
+EN_LND_SLUM,Proportion of urban population living in slums [11.1.1],1,1
+EN_LND_SLUMN,Urban population living in slums (number) [11.1.1],1,1
+FB_ATM_TOTL,"Number of automated teller machines (ATMs) per 100,000 adults [8.10.1]",1,1
+FB_CBK_BRCH,"Number of commercial bank branches per 100,000 adults [8.10.1]",1,1
+IS_RDP_FRGVOL,Freight volume (tonne kilometres) [9.1.2],4,1
+IS_RDP_PFVOL,Passenger volume (passenger kilometres) [9.1.2],2,1
+IT_MOB_2GNTWK,Proportion of population covered by at least a 2G mobile network [9.c.1],1,1
+IT_MOB_3GNTWK,Proportion of population covered by at least a 3G mobile network [9.c.1],1,1
+IT_MOB_4GNTWK,Proportion of population covered by at least a 4G mobile network [9.c.1],1,1
+IT_MOB_OWN,Proportion of individuals who own a mobile telephone [5.b.1],5,1
+IT_NET_BBND,Fixed broadband subscriptions per 100 inhabitants [17.6.1],1,1
+NV_IND_MANF,Manufacturing value added as a proportion of GDP [9.2.1],1,1
+NV_IND_MANFPC,Manufacturing value added per capita [9.2.1],1,1
+SD_MDP_MUHC,Proportion of population living in multidimensional poverty [1.2.2],6,1
+SD_XPD_ESED,"Proportion of total government spending on essential services, education [1.a.2]",1,1
+SE_ACS_ELECT,Proportion of schools with access to electricity [4.a.1],2,1
+SE_ACS_H2O,Proportion of schools with access to basic drinking water [4.a.1],2,1
+SE_TRA_GRDL,Proportion of teachers who have received at least the minimum organized teacher training (e.g. pedagogical training) pre-service or in-service required for teaching at the relevant level in a given country [4.c.1],10,1
+SG_GEN_LOCGELS,Proportion of elected seats held by women in deliberative bodies of local government [5.5.1],1,1
+SG_GEN_PARL,Proportion of seats held by women in national parliaments (% of total number of seats) [5.5.1],1,1
+SG_XPD_HLTH,Proportion of total government spending on health [1.a.2],1,1
+SH_HIV_INCD,"Number of new HIV infections per 1,000 uninfected population [3.3.1]",1,1
+SH_IHR_CAPPRD,Average of 13 International Health Regulations (IHR) core capacities [3.d.1],1,1
+SH_IHR_CAPS,"International Health Regulations (IHR) capacity, by type of IHR capacity [3.d.1]",13,1
+SH_SAN_SAFE,Proportion of population using safely managed sanitation services [6.2.1],3,1
+SH_STA_BRTC,Proportion of births attended by skilled health personnel [3.1.2],11,1
+SH_STA_WAST,Proportion of children moderately or severely wasted [2.2.2],1,1
+SL_EMP_EARN,Average hourly earnings [8.5.1],3,1
+SL_TLF_UEM,Unemployment rate [8.5.2],14,1
+SL_TLF_UEMDIS,"Unemployment rate, by disability [8.5.2]",6,1
+SN_STA_OVWGT,Proportion of children moderately or severely overweight [2.2.2],1,1
+SP_DYN_MRBF15,Proportion of women aged 20-24 years who were married or in a union before age 15 [5.3.1],1,1
+SP_DYN_MRBF18,Proportion of women aged 20-24 years who were married or in a union before age 18 [5.3.1],1,1
+SP_LGL_LNDDOC,Proportion of people with legally recognized documentation of their rights to land out of total adult population [1.4.2],153,1
+SP_LGL_LNDSEC,Proportion of people who perceive their rights to land as secure out of total adult population [1.4.2],153,1
+VC_VAW_PHYV,Proportion of ever-partnered women and girls subjected to physical violence by a current or former intimate partner in the previous 12 months [5.2.1],1,1
+VC_VAW_PSYV,Proportion of ever-partnered women and girls subjected to psychological violence by a current or former intimate partner in the previous 12 months [5.2.1],2,1
+VC_VAW_SEXV,Proportion of ever-partnered women and girls subjected to sexual violence by a current or former intimate partner in the previous 12 months [5.2.1],3,1
+VC_VOV_PHYL,Proportion of population subjected to physical violence in the previous 12 months [16.1.3],2,1
+VC_VOV_SEXL,Proportion of population subjected to sexual violence in the previous 12 months [16.1.3],2,1

@@ -16,11 +16,25 @@
           },
           {
             "name": "SERIES",
-            "type": "string"
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_L_GH_160502_01",
+                "_L_GH_160502_02",
+                ""
+              ]
+            }
           },
           {
             "name": "UNIT_MEASURE",
-            "type": "string"
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "SCORE",
+                "_L_GH_RANK",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

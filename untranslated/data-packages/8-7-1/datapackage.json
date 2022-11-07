@@ -16,7 +16,14 @@
           },
           {
             "name": "SERIES",
-            "type": "string"
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_L_GH_080701_01",
+                "_L_GH_080701_02",
+                ""
+              ]
+            }
           },
           {
             "name": "SEX",

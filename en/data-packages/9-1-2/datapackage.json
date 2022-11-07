@@ -27,11 +27,29 @@
           {
             "name": "SERIES",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Freight volume (tonne kilometres) [9.1.2]",
+                "Passenger volume (passenger kilometres) [9.1.2]",
+                "Air transport, domestic passengers carried",
+                "Air transport, international passengers carried",
+                "Number of containers by marine transport"
+              ]
+            },
             "title": "SDG Series"
           },
           {
             "name": "UNIT_MEASURE",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Number",
+                "million tonnes",
+                "Tonnes"
+              ]
+            },
             "title": "Unit of measure"
           },
           {
