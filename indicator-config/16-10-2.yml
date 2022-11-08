@@ -34,9 +34,15 @@ precision: []
 reporting_status: complete
 sort: ''
 standalone: false
-tags: []
+tags:
+  - Non-statistical
 page_content: >- 
   ### Relevant Ghanaian policies
 
 
   The [Right to Information Act (ACT 989)](https://mofep.gov.gh/rti/introduction) which was passed in 2019, promotes transparency and accountability by empowering people to access information on central and local governments as well as non-governmental organizations, which are publicly funded.
+  
+  
+  The availability and utilization of information and data is a vital component in efforts to achieve sustainable development. 
+  Ghana joined the [open data government partnership](https://www.opengovpartnership.org/open-data/) in 2011 before passing the Right to Information (RTI) bill, which identified open data as a focus area in order to achieve transparent and accountable governance and create a community of data suppliers and users. 
+  The RTI's passing is a positive development that will strengthen the nation's open data movement.
