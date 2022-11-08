@@ -38,23 +38,23 @@ tags: []
 source_active_1: true
 source_organisation_1: Ghana Statistical Service
 source_periodicity_1: Annual
-source_earliest_available_1: 2007
+source_earliest_available_1: 2010
 source_geographical_coverage_1: Ghana
 source_url_1: https://www.statsghana.gov.gh/gssmain/fileUpload/pressrelease/For%20website.pdf
 source_url_text_1: Ghana Maternal Health Survey
-source_release_date_1: 2017
-source_next_release_1: TBA
+source_release_date_1: ''
+source_next_release_1: ''
 source_statistical_classification_1: Official
 source_contact_1: info@statsghana.gov.gh
 source_active_2: true
 source_organisation_2: Ghana Health Service
 source_periodicity_2: Annual
-source_earliest_available_2: 2007
+source_earliest_available_2: 2010
 source_geographical_coverage_2: Ghana
 source_url_2: https://www.moh.gov.gh/facts-figures/
 source_url_text_2: Ghana Health Service, The Health Sector in Ghana - Facts and Figures
-source_release_date_2: 2021
-source_next_release_2: TBA
+source_release_date_2: ''
+source_next_release_2: ''
 source_statistical_classification_2: Official
 source_contact_2: info@ghs.gov.gh
 source_active_3: false
