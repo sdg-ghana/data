@@ -214,7 +214,7 @@ Indicator,Reporting status,UN designated tier,UN custodian agency,Non-statistica
 #6-6-1,notstarted,Tier I,"UN Environment (UNEP), Ramsar",,,,,line
 #6-a-1,notstarted,Tier I,"World Health Organization (WHO), United Nations Environment Programme (UNEP), Organisation for Economic Co-operation and Development (OECD)",,,,,line
 #6-b-1,notstarted,Tier I,"World Health Organisation (WHO), UN Environment (UNEP), Organisation for Economic Co-operation and Development (OECD)",,,,,line
-#7-1-1,complete,Tier I,World Bank (WB),,,,Percent,line
+#7-1-1,complete,Tier I,World Bank (WB),,True,,Percent,line
 #7-1-2,complete,Tier I,"International Trade Centre (ITC), United Nations Conference on Trade and Development (UNCTAD), The World Trade Organization (WTO)",,,,Percent,line
 #7-2-1,complete,Tier I,"International Energy Agency (IEA), United Nations Statistics Division (UNSD), United Nations' inter-agency mechanism on energy (UN Energy) and the SE4ALL Global Tracking Framework Consortium",,,,Percent,line
 #7-3-1,complete,Tier I,International Energy Agency (IEA) and United Nations Statistics Division (UNSD).,,,,TOE/million US$,line
