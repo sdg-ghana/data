@@ -1,5 +1,5 @@
 ﻿composite_breakdown_label: ''
-computation_units: Percent
+computation_units: Percentage (%)
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -40,7 +40,7 @@ tags: []
 source_active_1: true
 source_organisation_1: World Bank
 source_periodicity_1: Annual
-source_earliest_available_1: 2004
+source_earliest_available_1: 2013
 source_geographical_coverage_1: Ghana
 source_url_1: https://data.worldbank.org/indicator/SI.POV.DDAY?locations=GB
 source_url_text_1: Poverty headcount ratio at $1.90 a day (2011 PPP) (% of population)
