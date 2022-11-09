@@ -20,7 +20,7 @@ graph_stacked_disaggregation: ''
 graph_title: global_indicators.2-a-2-title
 graph_titles:
   - series: Total official flows (official development assistance plus other official flows) to the agriculture sector
-    title: Percentage of total foreign direct investment that flows into agriculture sector
+    title: Percentage of total foreign direct investment that flows into the agriculture sector
 graph_type: line
 indicator_name: global_indicators.2-a-2-title
 target_name: global_targets.2-a-title
