@@ -34,7 +34,8 @@ precision: []
 reporting_status: complete
 sort: ''
 standalone: false
-tags: []
+tags: 
+  - Non-statistical
 page_content: >- 
   **Relevant Ghanaian policies on nationally determined contributions, long-term strategies, national adaptation plans, strategies as reported in adaptation communications and national communications.**
 
