@@ -34,7 +34,8 @@ precision: []
 reporting_status: complete
 sort: ''
 standalone: false
-tags: []
+tags: 
+  - Non-statistical
 page_content: >- 
   **Relevant Ghanaian  legal/regulatory/policy/institutional frameworks which recognize and protect access rights for small-scale fisheries**
 
