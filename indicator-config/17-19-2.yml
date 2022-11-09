@@ -29,7 +29,8 @@ precision: []
 reporting_status: complete
 sort: ''
 standalone: false
-tags: []
+tags: 
+  - Non-statistical
 source_active_1: true
 source_organisation_1: Ghana Statistical Service
 source_periodicity_1: Annual
