@@ -34,7 +34,8 @@ precision: []
 reporting_status: complete
 sort: ''
 standalone: false
-tags: []
+tags: 
+  - Non-statistical
 page_content: >- 
   #### **Ghana has made significant progress in the ratification of international treaties and agreements in relation to the conservation and sustainable use of the oceans and their resources.** 
    
