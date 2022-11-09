@@ -34,4 +34,5 @@ precision: []
 reporting_status: notstarted
 sort: ''
 standalone: false
-tags: []
+tags: 
+  - Non-statistical
