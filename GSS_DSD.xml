@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <message:Structure xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:structure="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
   <message:Header>
-    <message:ID>IDREF2</message:ID>
+    <message:ID>IDREF1</message:ID>
     <message:Test>false</message:Test>
-    <message:Prepared>2022-11-08T16:16:54.3965288+00:00</message:Prepared>
+    <message:Prepared>2022-11-10T12:22:56.47614+00:00</message:Prepared>
     <message:Sender id="Unknown" />
     <message:Receiver id="Unknown" />
   </message:Header>
@@ -4811,8 +4811,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Proportion of pupils in primary 4 and primary 6 that achieved minimum proficiency in Mathematics and English (Percent)</common:Name>
-          <common:Description xml:lang="en">Proportion of pupils in primary 4 and primary 6 that achieved minimum proficiency in Mathematics and English (Percent)</common:Description>
+          <common:Name xml:lang="en">2.Proportion of pupils in primary 4 and primary 6 that achieved minimum proficiency in Mathematics and English (Percent)</common:Name>
+          <common:Description xml:lang="en">2.Proportion of pupils in primary 4 and primary 6 that achieved minimum proficiency in Mathematics and English (Percent)</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_040101_02">
           <common:Annotations>
@@ -4838,8 +4838,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Children who demonstrated foundational literacy and numeracy by locality type (Percent)</common:Name>
-          <common:Description xml:lang="en">Children who demonstrated foundational literacy and numeracy by locality type (Percent)</common:Description>
+          <common:Name xml:lang="en">3.Children who demonstrated foundational literacy and numeracy by locality type (Percent)</common:Name>
+          <common:Description xml:lang="en">3.Children who demonstrated foundational literacy and numeracy by locality type (Percent)</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_040101_03">
           <common:Annotations>
@@ -4865,8 +4865,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Foundational literacy and numeracy skills of students in P4, P6 and JHS by sex, (Percent)</common:Name>
-          <common:Description xml:lang="en">Foundational literacy and numeracy skills of students in P4, P6 and JHS by sex, (Percent)</common:Description>
+          <common:Name xml:lang="en">4.Foundational literacy and numeracy skills of students in P4, P6 and JHS by sex, (Percent)</common:Name>
+          <common:Description xml:lang="en">4.Foundational literacy and numeracy skills of students in P4, P6 and JHS by sex, (Percent)</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_040101_04">
           <common:Annotations>
@@ -4892,8 +4892,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Proportion of pupils in JHS that passed Mathematics and English (Percent)</common:Name>
-          <common:Description xml:lang="en">Proportion of pupils in JHS that passed Mathematics and English (Percent)</common:Description>
+          <common:Name xml:lang="en">1.Proportion of pupils in JHS that passed Mathematics and English (Percent)</common:Name>
+          <common:Description xml:lang="en">1.Proportion of pupils in JHS that passed Mathematics and English (Percent)</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_060101_01">
           <common:Annotations>
@@ -6158,8 +6158,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Survey-based Maternal mortality ratio [3.1.1]</common:Name>
-          <common:Description xml:lang="en">Survey-based Maternal mortality ratio [3.1.1]</common:Description>
+          <common:Name xml:lang="en">2.Survey-based Maternal mortality ratio [3.1.1]</common:Name>
+          <common:Description xml:lang="en">2.Survey-based Maternal mortality ratio [3.1.1]</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_030101_02">
           <common:Annotations>
@@ -6185,8 +6185,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Census-based Maternal mortality ratio [3.1.1]</common:Name>
-          <common:Description xml:lang="en">Census-based Maternal mortality ratio [3.1.1]</common:Description>
+          <common:Name xml:lang="en">3.Census-based Maternal mortality ratio [3.1.1]</common:Name>
+          <common:Description xml:lang="en">3.Census-based Maternal mortality ratio [3.1.1]</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_030101_03">
           <common:Annotations>
@@ -6212,8 +6212,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Institutional maternal mortality ratio</common:Name>
-          <common:Description xml:lang="en">Institutional maternal mortality ratio</common:Description>
+          <common:Name xml:lang="en">1.Institutional maternal mortality ratio</common:Name>
+          <common:Description xml:lang="en">1.Institutional maternal mortality ratio</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_030301">
           <common:Annotations>
@@ -6401,8 +6401,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Homes deliveries by region and locality type</common:Name>
-          <common:Description xml:lang="en">Homes deliveries by region and locality type</common:Description>
+          <common:Name xml:lang="en">2.Homes deliveries by region and locality type</common:Name>
+          <common:Description xml:lang="en">2.Homes deliveries by region and locality type</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_030102_02">
           <common:Annotations>
@@ -6428,8 +6428,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Type of care received during Health facility delivery</common:Name>
-          <common:Description xml:lang="en">Type of care received during Health facility delivery</common:Description>
+          <common:Name xml:lang="en">3.Type of care received during Health facility delivery</common:Name>
+          <common:Description xml:lang="en">3.Type of care received during Health facility delivery</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_030102_03">
           <common:Annotations>
@@ -6455,8 +6455,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Type of care received during Home delivery</common:Name>
-          <common:Description xml:lang="en">Type of care received during Home delivery</common:Description>
+          <common:Name xml:lang="en">4.Type of care received during Home delivery</common:Name>
+          <common:Description xml:lang="en">4.Type of care received during Home delivery</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_010a01_01">
           <common:Annotations>
@@ -10646,8 +10646,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Proportion of births attended by skilled health personnel [3.1.2]</common:Name>
-          <common:Description xml:lang="en">Proportion of births attended by skilled health personnel [3.1.2]</common:Description>
+          <common:Name xml:lang="en">1.Proportion of births attended by skilled health personnel [3.1.2]</common:Name>
+          <common:Description xml:lang="en">1.Proportion of births attended by skilled health personnel [3.1.2]</common:Description>
         </structure:Code>
         <structure:Code id="SH_DYN_IMRT">
           <common:Annotations>
