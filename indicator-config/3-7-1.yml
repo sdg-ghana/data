@@ -37,7 +37,7 @@ standalone: false
 tags: []
 source_active_1: true
 source_organisation_1: Ghana Statistical Service (GSS)
-source_periodicity_1: Annual
+source_periodicity_1: ''
 source_earliest_available_1: 1998
 source_geographical_coverage_1: Ghana
 source_url_1: https://dhsprogram.com/Publications/Publication-Search.cfm?ctry_id=14&country=Ghana
