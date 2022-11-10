@@ -1,5 +1,5 @@
 ﻿composite_breakdown_label: ''
-computation_units: Percent
+computation_units: Percentage(%)
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -38,12 +38,12 @@ sort: ''
 standalone: false
 tags: []
 source_active_1: true
-source_organisation_1: Ghana Statistical Service
-source_periodicity_1: 10 years
+source_organisation_1: Ghana Statistical Service (GSS)
+source_periodicity_1: Decennial
 source_earliest_available_1: ''
 source_geographical_coverage_1: Ghana
-source_url_1: http://www.statsghana.gov.gh/gssmain/fileUpload/pressrelease/2021%20PHC%20General%20Report%20Vol%203D_Literacy%20and%20Education.pdf
-source_url_text_1: 2021 PHC General Report Vol 3D
+source_url_1: https://www.statsghana.gov.gh/gssmain/fileUpload/pressrelease/2021%20PHC%20General%20Report%20Vol%203D_Literacy%20and%20Education.pdf
+source_url_text_1: 2021 PHC General Report Vol 3D Literacy and Education
 source_release_date_1: ''
 source_next_release_1: TBA
 source_statistical_classification_1: Official
