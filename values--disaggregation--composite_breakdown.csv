@@ -33,7 +33,6 @@ _L_GH_DP,Development Partner,9,1
 _L_GH_ECOSOCCULRIGHTS,"Economic, Social and Cultural Rights",1,1
 _L_GH_ECOWAS,ECOWAS countries,3,1
 _L_GH_ENERGY,Energy,1,1
-_L_GH_ENGLISH,English,9,1
 _L_GH_EUROPE,Europe,3,1
 _L_GH_GOG,Government of Ghana,9,1
 _L_GH_GOVOFF,Government Officials,1,1
@@ -104,8 +103,4 @@ MOT_IWW,Mode of transport: Inland waterway transport,2,1
 MOT_RAI,Mode of Transport: Rail,2,1
 MOT_SEA,Mode of Transport: Maritime,2,1
 OTHER_PUBLIC,Other Public Institutions,2,1
-SKILL_LTRCY,Skill: Functional literacy,9,1
-SKILL_MATH,Skill: Mathematics,9,1
-SKILL_NMRCY,Skill: Functional numeracy,18,1
-SKILL_READ,Skill: Reading,9,1
 TG,TOGO,1,1
