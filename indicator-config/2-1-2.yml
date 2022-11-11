@@ -1,5 +1,5 @@
 ﻿composite_breakdown_label: ''
-computation_units: Percent
+computation_units: Percentage (%)
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -37,12 +37,12 @@ sort: ''
 standalone: false
 tags: []
 source_active_1: true
-source_organisation_1: Ghana Statistical Service
+source_organisation_1: Ghana Statistical Service (GSS)
 source_periodicity_1: 
 source_earliest_available_1: 2017
 source_geographical_coverage_1: Ghana
 source_url_1: https://www2.statsghana.gov.gh/nada/index.php/catalog#_r=1664470556419&collection=&country=&dtype=&from=1960&page=1&ps=&sid=&sk=glss&sort_by=rank&sort_order=desc&to=2015&topic=&view=s&vk=
-source_url_text_1: Ghana Living Standard Survey
+source_url_text_1: Ghana Living Standards Survey
 source_release_date_1: 02/10/2018
 source_next_release_1: TBA
 source_statistical_classification_1: Official

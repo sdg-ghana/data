@@ -1,8 +1,8 @@
-﻿composite_breakdown_label: ''
-computation_units: ''
+﻿composite_breakdown_label: IHR core capacity
+computation_units: Percentage (%)
 copyright: ''
 data_footnote: ''
-data_non_statistical: true
+data_non_statistical: false
 data_notice_class: ''
 data_notice_heading: ''
 data_notice_text: ''
@@ -35,7 +35,24 @@ reporting_status: complete
 sort: ''
 standalone: false
 tags: []
-page_content: >- 
+source_active_1: true
+source_organisation_1: World Health Organisation (WHO)
+source_periodicity_1: Annual
+source_earliest_available_1: 2018
+source_geographical_coverage_1: ''
+source_url_1: https://extranet.who.int/e-spar/#capacity-score
+source_url_text_1: IHR score per capacity
+source_release_date_1: ''
+source_next_release_1: TBC
+source_statistical_classification_1: Non-Official
+source_contact_1: ihrmonitoring@who.int
+source_other_info_1: To download Ghana's tables, use the above link and go to IHR Score per Capacity, select “AFRO” and “Ghana” then year. Then press “All scores details.
+source_active_2: false
+source_active_3: false
+source_active_4: false
+source_active_5: false
+source_active_6: false
+other_info: >-
   Ghana is a party to the [International Health Regulation (IHR)](https://www.who.int/health-topics/international-health-regulations) designed to help protect all States from the international spread of diseases.
   Some achievements under the IHR include:
 

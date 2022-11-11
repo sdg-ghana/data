@@ -36,14 +36,14 @@ sort: ''
 standalone: false
 tags: []
 source_active_1: true
-source_organisation_1: Ghana Statistical Service
+source_organisation_1: Ghana Statistical Service (GSS)
 source_periodicity_1: Annual
 source_earliest_available_1: 2016
 source_geographical_coverage_1: Ghana
 source_url_1: https://www.statsghana.gov.gh/Economics.php?category=NTgwNjExMjQ4LjI4Mw==/webstats/67q2s8ro6q
 source_url_text_1: National Accounts
-source_release_date_1: 2022
-source_next_release_1: TBA
+source_release_date_1: ''
+source_next_release_1: ''
 source_statistical_classification_1: Non-official
 source_contact_1: info@statsghana.gov.gh
 source_active_2: false

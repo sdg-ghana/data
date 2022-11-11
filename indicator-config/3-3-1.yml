@@ -36,15 +36,15 @@ sort: ''
 standalone: false
 tags: []
 source_active_1: true
-source_organisation_1: Ghana Aids Commission
-source_periodicity_1: Annual
-source_earliest_available_1: 2019
+source_organisation_1: Ghana Aids Commission (GAC)
+source_periodicity_1: ''
+source_earliest_available_1: 2016
 source_geographical_coverage_1: Ghana
-source_url_1: https://www.ghanaids.gov.gh/pages/fact-sheets-reports
-source_url_text_1: National HIV Estimates and Projection
-source_release_date_1: 2019
-source_next_release_1: TBA
-source_statistical_classification_1: Non-official
+source_url_1: https://www.ghanaids.gov.gh/mcadmin/Uploads/2019%20National%20and%20Sub-National%20Estimates%20and%20Projections%20Dissemination%2021.07.2020.pdf
+source_url_text_1: National HIV Estimates and Projections
+source_release_date_1: ''
+source_next_release_1: ''
+source_statistical_classification_1: Official
 source_contact_1: info@ghanaids.gov.gh
 source_active_2: false
 source_active_3: false

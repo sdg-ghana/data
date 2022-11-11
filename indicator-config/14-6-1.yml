@@ -36,16 +36,16 @@ sort: ''
 standalone: false
 tags: []
 source_active_1: true
-source_organisation_1: World Bank
-source_periodicity_1: Annual
-source_earliest_available_1: 2004
+source_organisation_1: Food and Agriculture Organization (FAO)
+source_periodicity_1: ''
+source_earliest_available_1: 2018
 source_geographical_coverage_1: Ghana
-source_url_1: https://data.worldbank.org/indicator/SI.POV.DDAY?locations=GB
-source_url_text_1: Poverty headcount ratio at $1.90 a day (2011 PPP) (% of population)
-source_release_date_1: 28/05/2020
+source_url_1: https://www.fao.org/fileadmin/user_upload/faoweb/statistics/SDG/April_2022/14.6.1_Progress_in_implementation_of_international_instruments_aiming_to_combat_IUU_fishing.xlsx
+source_url_text_1: Progress in the degree of implementation of instruments to combat IUU fishing, 2018–2022
+source_release_date_1: ''
 source_next_release_1: TBA
-source_statistical_classification_1: Non-official
-source_contact_1: Research@WorldBank.org
+source_statistical_classification_1: Official international
+source_contact_1: FAO-HQ@fao.org
 source_active_2: false
 source_active_3: false
 source_active_4: false

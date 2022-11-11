@@ -1,5 +1,5 @@
 ﻿composite_breakdown_label: ''
-computation_units: Percent
+computation_units: Percentage (%)
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -36,17 +36,27 @@ sort: ''
 standalone: false
 tags: []
 source_active_1: true
-source_organisation_1: World Bank
+source_organisation_1: Ghana Statistical Service (GSS)
 source_periodicity_1: Annual
-source_earliest_available_1: 2004
+source_earliest_available_1: 2011
 source_geographical_coverage_1: Ghana
-source_url_1: https://data.worldbank.org/indicator/SI.POV.DDAY?locations=GB
-source_url_text_1: Poverty headcount ratio at $1.90 a day (2011 PPP) (% of population)
-source_release_date_1: 28/05/2020
-source_next_release_1: TBA
-source_statistical_classification_1: Non-official
-source_contact_1: Research@WorldBank.org
-source_active_2: false
+source_url_1: https://www2.statsghana.gov.gh/nada/index.php/catalog/88
+source_url_text_1: Multiple Indicator Cluster Survey (MICS), 2011
+source_release_date_1: ''
+source_next_release_1: ''
+source_statistical_classification_1: Official
+source_contact_1: info@statsghana.gov.gh
+source_active_2: true
+source_organisation_2: Ghana Statistical Service (GSS)
+source_periodicity_2: Annual
+source_earliest_available_2: ''
+source_geographical_coverage_2: Ghana
+source_url_2: https://www.statsghana.gov.gh/gssmain/fileUpload/pressrelease/MICS%20SFR%20final_compressed.pdf
+source_url_text_2: Multiple Indicator Cluster Survey, 2018
+source_release_date_2: ''
+source_next_release_2: ''
+source_statistical_classification_2: Official
+source_contact_2: info@statsghana.gov.gh
 source_active_3: false
 source_active_4: false
 source_active_5: false

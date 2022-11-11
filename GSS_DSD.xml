@@ -3,7 +3,7 @@
   <message:Header>
     <message:ID>IDREF1</message:ID>
     <message:Test>false</message:Test>
-    <message:Prepared>2022-10-21T15:39:16.0615161+00:00</message:Prepared>
+    <message:Prepared>2022-11-10T12:22:56.47614+00:00</message:Prepared>
     <message:Sender id="Unknown" />
     <message:Receiver id="Unknown" />
   </message:Header>
@@ -3373,6 +3373,130 @@
           <common:Name xml:lang="en">Other Public Institutions</common:Name>
           <common:Description xml:lang="en">Other Public Institutions</common:Description>
         </structure:Code>
+        <structure:Code id="_L_GH_140501_02">
+          <common:Name xml:lang="en">Food provision (OHI goal)</common:Name>
+          <common:Description xml:lang="en">Food provision (OHI goal)</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_140501_03">
+          <common:Name xml:lang="en">Wild caught Fisheries(OHI sub-goal)</common:Name>
+          <common:Description xml:lang="en">Wild caught Fisheries(OHI sub-goal)</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_140501_04">
+          <common:Name xml:lang="en">Mariculture (OHI sub-goal)</common:Name>
+          <common:Description xml:lang="en">Mariculture (OHI sub-goal)</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_140501_05">
+          <common:Name xml:lang="en">Artisanal fishing opportunities (OHI goal)</common:Name>
+          <common:Description xml:lang="en">Artisanal fishing opportunities (OHI goal)</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_140501_06">
+          <common:Name xml:lang="en">Natural products (OHI goal)</common:Name>
+          <common:Description xml:lang="en">Natural products (OHI goal)</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_140501_07">
+          <common:Name xml:lang="en">Carbon storage (OHI goal)</common:Name>
+          <common:Description xml:lang="en">Carbon storage (OHI goal)</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_140501_08">
+          <common:Name xml:lang="en">Coastal protection (OHI goal)</common:Name>
+          <common:Description xml:lang="en">Coastal protection (OHI goal)</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_140501_09">
+          <common:Name xml:lang="en">Livelihoods &amp; economies (OHI goal)</common:Name>
+          <common:Description xml:lang="en">Livelihoods &amp; economies (OHI goal)</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_140501_10">
+          <common:Name xml:lang="en">Livelihoods (OHI sub-goal)</common:Name>
+          <common:Description xml:lang="en">Livelihoods (OHI sub-goal)</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_140501_11">
+          <common:Name xml:lang="en">Economies (OHI sub-goal)</common:Name>
+          <common:Description xml:lang="en">Economies (OHI sub-goal)</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_140501_12">
+          <common:Name xml:lang="en">Tourism &amp; recreation (OHI goal)</common:Name>
+          <common:Description xml:lang="en">Tourism &amp; recreation (OHI goal)</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_140501_13">
+          <common:Name xml:lang="en">Sense of place (OHI goal)</common:Name>
+          <common:Description xml:lang="en">Sense of place (OHI goal)</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_140501_14">
+          <common:Name xml:lang="en">Iconic species (OHI sub-goal)</common:Name>
+          <common:Description xml:lang="en">Iconic species (OHI sub-goal)</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_140501_15">
+          <common:Name xml:lang="en">Lasting special places (OHI sub-goal)</common:Name>
+          <common:Description xml:lang="en">Lasting special places (OHI sub-goal)</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_140501_16">
+          <common:Name xml:lang="en">Clean water (OHI goal)</common:Name>
+          <common:Description xml:lang="en">Clean water (OHI goal)</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_140501_17">
+          <common:Name xml:lang="en">Biodiversity (OHI goal)</common:Name>
+          <common:Description xml:lang="en">Biodiversity (OHI goal)</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_140501_18">
+          <common:Name xml:lang="en">Habitat (OHI sub-goal)</common:Name>
+          <common:Description xml:lang="en">Habitat (OHI sub-goal)</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_GH_140501_19">
+          <common:Name xml:lang="en">Species condition (OHI sub-goal)</common:Name>
+          <common:Description xml:lang="en">Species condition (OHI sub-goal)</common:Description>
+        </structure:Code>
+        <structure:Code id="IHR_01_N">
+          <common:Name xml:lang="en">Legislation and financing</common:Name>
+          <common:Description xml:lang="en">IHR Capacity: Legislation�and financing</common:Description>
+        </structure:Code>
+        <structure:Code id="IHR_02_N">
+          <common:Name xml:lang="en">IHR Coordination and National Focal Point Functions</common:Name>
+          <common:Description xml:lang="en">IHR Capacity: IHR�Coordination and National Focal Point�Functions</common:Description>
+        </structure:Code>
+        <structure:Code id="IHR_03_N">
+          <common:Name xml:lang="en">Zoonotic events and the Human-Animal Health Interface</common:Name>
+          <common:Description xml:lang="en">IHR Capacity: Zoonotic events and the Human-Animal Health Interface</common:Description>
+        </structure:Code>
+        <structure:Code id="IHR_04_N">
+          <common:Name xml:lang="en">Food safety</common:Name>
+          <common:Description xml:lang="en">IHR Capacity: Food safety</common:Description>
+        </structure:Code>
+        <structure:Code id="IHR_05_N">
+          <common:Name xml:lang="en">Laboratory</common:Name>
+          <common:Description xml:lang="en">IHR Capacity: Laboratory</common:Description>
+        </structure:Code>
+        <structure:Code id="IHR_06_N">
+          <common:Name xml:lang="en">Surveillance</common:Name>
+          <common:Description xml:lang="en">IHR Capacity: Surveillance</common:Description>
+        </structure:Code>
+        <structure:Code id="IHR_07_N">
+          <common:Name xml:lang="en">Human resources</common:Name>
+          <common:Description xml:lang="en">IHR Capacity: Human resources</common:Description>
+        </structure:Code>
+        <structure:Code id="IHR_08_N">
+          <common:Name xml:lang="en">National Health Emergency Framework</common:Name>
+          <common:Description xml:lang="en">IHR Capacity: National Health Emergency Framework</common:Description>
+        </structure:Code>
+        <structure:Code id="IHR_09_N">
+          <common:Name xml:lang="en">Health Service Provision</common:Name>
+          <common:Description xml:lang="en">IHR Capacity: Health Service Provision</common:Description>
+        </structure:Code>
+        <structure:Code id="IHR_10_N">
+          <common:Name xml:lang="en">Risk communication</common:Name>
+          <common:Description xml:lang="en">IHR Capacity: Risk communication</common:Description>
+        </structure:Code>
+        <structure:Code id="IHR_11_N">
+          <common:Name xml:lang="en">Points of entry</common:Name>
+          <common:Description xml:lang="en">IHR Capacity: Points of entry</common:Description>
+        </structure:Code>
+        <structure:Code id="IHR_12_N">
+          <common:Name xml:lang="en">Chemical events</common:Name>
+          <common:Description xml:lang="en">IHR Capacity: Chemical events</common:Description>
+        </structure:Code>
+        <structure:Code id="IHR_13_N">
+          <common:Name xml:lang="en">Radiation emergencies</common:Name>
+          <common:Description xml:lang="en">IHR Capacity: Radiation�emergencies</common:Description>
+        </structure:Code>
       </structure:Codelist>
       <structure:Codelist id="CL_CUST_BREAKDOWN" agencyID="GSS" version="1.0" isFinal="true">
         <common:Name xml:lang="en">GSS SDG custom breakdown code list</common:Name>
@@ -3788,6 +3912,7 @@
             </common:Annotation>
             <common:Annotation id="@SDMX">
               <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3050</common:AnnotationText>
             </common:Annotation>
             <common:Annotation>
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
@@ -3815,6 +3940,7 @@
             </common:Annotation>
             <common:Annotation id="@SDMX">
               <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3050</common:AnnotationText>
             </common:Annotation>
             <common:Annotation>
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
@@ -4090,8 +4216,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Percentage of total foreign direct investment that flows into agriculture sector</common:Name>
-          <common:Description xml:lang="en">Percentage of total foreign direct investment that flows into agriculture sector</common:Description>
+          <common:Name xml:lang="en">Percentage of total foreign direct investment that flows into the agriculture sector</common:Name>
+          <common:Description xml:lang="en">Percentage of total foreign direct investment that flows into the agriculture sector</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_120a01_01">
           <common:Annotations>
@@ -4495,8 +4621,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Cash transfer coverage of extreme poor households under Livelihood Empowerment Against Poverty (LEAP) programme</common:Name>
-          <common:Description xml:lang="en">Cash transfer coverage of extreme poor households under Livelihood Empowerment Against Poverty (LEAP) programme</common:Description>
+          <common:Name xml:lang="en">Cash transfer coverage of extremely poor households under Livelihood Empowerment Against Poverty (LEAP) programme</common:Name>
+          <common:Description xml:lang="en">Cash transfer coverage of extremely poor households under Livelihood Empowerment Against Poverty (LEAP) programme</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_010301_02">
           <common:Annotations>
@@ -4633,6 +4759,34 @@
           <common:Name xml:lang="en">Air transport, international passengers carried</common:Name>
           <common:Description xml:lang="en">Air transport, international passengers carried</common:Description>
         </structure:Code>
+        <structure:Code id="_L_GH_090102_03">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationTitle>Indicator</common:AnnotationTitle>
+              <common:AnnotationType>Indicator</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">9.1.2</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorCode</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorCode</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">C090102</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>IndicatorTitle</common:AnnotationTitle>
+              <common:AnnotationType>IndicatorTitle</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">Passenger and freight volumes, by mode of transport</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3160</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationType>RetiredSeries</common:AnnotationType>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Number of containers by marine transport</common:Name>
+          <common:Description xml:lang="en">Number of containers by marine transport</common:Description>
+        </structure:Code>
         <structure:Code id="_L_GH_040101_01">
           <common:Annotations>
             <common:Annotation>
@@ -4657,8 +4811,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Proportion of pupils in primary 4 and primary 6 that achieved minimum proficiency in Mathematics and English (Percent)</common:Name>
-          <common:Description xml:lang="en">Proportion of pupils in primary 4 and primary 6 that achieved minimum proficiency in Mathematics and English (Percent)</common:Description>
+          <common:Name xml:lang="en">2.Proportion of pupils in primary 4 and primary 6 that achieved minimum proficiency in Mathematics and English (Percent)</common:Name>
+          <common:Description xml:lang="en">2.Proportion of pupils in primary 4 and primary 6 that achieved minimum proficiency in Mathematics and English (Percent)</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_040101_02">
           <common:Annotations>
@@ -4684,8 +4838,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Children who demonstrated foundational literacy and numeracy by locality type (Percent)</common:Name>
-          <common:Description xml:lang="en">Children who demonstrated foundational literacy and numeracy by locality type (Percent)</common:Description>
+          <common:Name xml:lang="en">3.Children who demonstrated foundational literacy and numeracy by locality type (Percent)</common:Name>
+          <common:Description xml:lang="en">3.Children who demonstrated foundational literacy and numeracy by locality type (Percent)</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_040101_03">
           <common:Annotations>
@@ -4711,8 +4865,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Foundational literacy and numeracy skills of students in P4, P6 and JHS by sex, (Percent)</common:Name>
-          <common:Description xml:lang="en">Foundational literacy and numeracy skills of students in P4, P6 and JHS by sex, (Percent)</common:Description>
+          <common:Name xml:lang="en">4.Foundational literacy and numeracy skills of students in P4, P6 and JHS by sex, (Percent)</common:Name>
+          <common:Description xml:lang="en">4.Foundational literacy and numeracy skills of students in P4, P6 and JHS by sex, (Percent)</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_040101_04">
           <common:Annotations>
@@ -4738,8 +4892,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Proportion of pupils in JHS that passed Mathematics and English (Percent)</common:Name>
-          <common:Description xml:lang="en">Proportion of pupils in JHS that passed Mathematics and English (Percent)</common:Description>
+          <common:Name xml:lang="en">1.Proportion of pupils in JHS that passed Mathematics and English (Percent)</common:Name>
+          <common:Description xml:lang="en">1.Proportion of pupils in JHS that passed Mathematics and English (Percent)</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_060101_01">
           <common:Annotations>
@@ -6004,8 +6158,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Survey-based Maternal mortality ratio [3.1.1]</common:Name>
-          <common:Description xml:lang="en">Survey-based Maternal mortality ratio [3.1.1]</common:Description>
+          <common:Name xml:lang="en">2.Survey-based Maternal mortality ratio [3.1.1]</common:Name>
+          <common:Description xml:lang="en">2.Survey-based Maternal mortality ratio [3.1.1]</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_030101_02">
           <common:Annotations>
@@ -6031,8 +6185,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Census-based Maternal mortality ratio [3.1.1]</common:Name>
-          <common:Description xml:lang="en">Census-based Maternal mortality ratio [3.1.1]</common:Description>
+          <common:Name xml:lang="en">3.Census-based Maternal mortality ratio [3.1.1]</common:Name>
+          <common:Description xml:lang="en">3.Census-based Maternal mortality ratio [3.1.1]</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_030101_03">
           <common:Annotations>
@@ -6058,8 +6212,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Institutional maternal mortality ratio</common:Name>
-          <common:Description xml:lang="en">Institutional maternal mortality ratio</common:Description>
+          <common:Name xml:lang="en">1.Institutional maternal mortality ratio</common:Name>
+          <common:Description xml:lang="en">1.Institutional maternal mortality ratio</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_030301">
           <common:Annotations>
@@ -6247,8 +6401,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Homes deliveries by region and locality type</common:Name>
-          <common:Description xml:lang="en">Homes deliveries by region and locality type</common:Description>
+          <common:Name xml:lang="en">2.Homes deliveries by region and locality type</common:Name>
+          <common:Description xml:lang="en">2.Homes deliveries by region and locality type</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_030102_02">
           <common:Annotations>
@@ -6274,8 +6428,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Type of care received during Health facility delivery</common:Name>
-          <common:Description xml:lang="en">Type of care received during Health facility delivery</common:Description>
+          <common:Name xml:lang="en">3.Type of care received during Health facility delivery</common:Name>
+          <common:Description xml:lang="en">3.Type of care received during Health facility delivery</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_030102_03">
           <common:Annotations>
@@ -6301,8 +6455,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Type of care received during Home delivery</common:Name>
-          <common:Description xml:lang="en">Type of care received during Home delivery</common:Description>
+          <common:Name xml:lang="en">4.Type of care received during Home delivery</common:Name>
+          <common:Description xml:lang="en">4.Type of care received during Home delivery</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_010a01_01">
           <common:Annotations>
@@ -10492,8 +10646,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Proportion of births attended by skilled health personnel [3.1.2]</common:Name>
-          <common:Description xml:lang="en">Proportion of births attended by skilled health personnel [3.1.2]</common:Description>
+          <common:Name xml:lang="en">1.Proportion of births attended by skilled health personnel [3.1.2]</common:Name>
+          <common:Description xml:lang="en">1.Proportion of births attended by skilled health personnel [3.1.2]</common:Description>
         </structure:Code>
         <structure:Code id="SH_DYN_IMRT">
           <common:Annotations>
@@ -23975,8 +24129,8 @@
           <common:Description xml:lang="en">Per million population</common:Description>
         </structure:Code>
         <structure:Code id="PT">
-          <common:Name xml:lang="en">Percent</common:Name>
-          <common:Description xml:lang="en">Percent</common:Description>
+          <common:Name xml:lang="en">Percentage (%)</common:Name>
+          <common:Description xml:lang="en">Percentage (%)</common:Description>
         </structure:Code>
         <structure:Code id="PROB">
           <common:Name xml:lang="en">Probability</common:Name>
@@ -24085,6 +24239,14 @@
         <structure:Code id="_L_GH_MCEDI">
           <common:Name xml:lang="en">Million Ghana Cedis</common:Name>
           <common:Description xml:lang="en">Million Ghana Cedis</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_MT">
+          <common:Name xml:lang="en">million tonnes</common:Name>
+          <common:Description xml:lang="en">million tonnes</common:Description>
+        </structure:Code>
+        <structure:Code id="_L_T">
+          <common:Name xml:lang="en">Tonnes</common:Name>
+          <common:Description xml:lang="en">Tonnes</common:Description>
         </structure:Code>
       </structure:Codelist>
       <structure:Codelist id="CL_ACTIVITY" agencyID="IAEG-SDGs" version="1.1" isFinal="true">

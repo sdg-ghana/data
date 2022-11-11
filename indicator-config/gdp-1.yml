@@ -17,11 +17,11 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.1-2-2-title
+graph_title: Sectoral contributions to GDP
 graph_titles: []
 graph_type: line
-indicator_name: global_indicators.1-2-2-title
-indicator_number: 1.2.2
+indicator_name: Sectoral contributions to GDP
+indicator_number: gdp-1
 national_geographical_coverage: ''
 page_content: ''
 permalink: ''
