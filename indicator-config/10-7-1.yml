@@ -1,5 +1,5 @@
 ﻿composite_breakdown_label: Country of Destination
-computation_units: Percent
+computation_units: Percentage (%)
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -51,3 +51,7 @@ source_active_3: false
 source_active_4: false
 source_active_5: false
 source_active_6: false
+other_info: >-
+  Three years reference period preceding the date of the survey should be revised especially when conducting the survey in the country of origin.
+  It is recommended that the survey be conducted during festive seasons when most migrants have returned to their countries of origin to have better estimates.
+  Different sample approaches should be adopted to get a large sample size since one approach may not work given the elusive nature of the target population.
