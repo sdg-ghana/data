@@ -19,7 +19,7 @@ Indicator,Reporting status,UN designated tier,UN custodian agency,Non-statistica
 #10-4-2,notstarted,Tier II,The World Bank Group,,,,,line
 #10-5-1,notstarted,Tier I,International Monetary Fund (IMF),,,,,line
 #10-6-1,notstarted,Tier I,United Nations Department of Economic and Social Affairs (DESA) / Financing for Development Office (FFDO),,,,,line
-#10-7-1,complete,Tier II,"International Labour Organization (ILO), World Bank (WB)",,,,Percent,bar
+#10-7-1,complete,Tier II,"International Labour Organization (ILO), World Bank (WB)",,,,Percentage (%),bar
 #10-7-2,complete,Tier II,"United Nations Department of Economic and Social Affairs (DESA), International Organization for Migration (IOM)",True,,,,line
 #10-7-3,notstarted,Tier I,International Organization for Migration,,,,,line
 #10-7-4,complete,Tier I,UN High Commissioner for Refugees (UNHCR),,,,"Per 100,000 population",line
