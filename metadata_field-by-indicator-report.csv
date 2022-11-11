@@ -226,7 +226,7 @@ Indicator,Reporting status,UN designated tier,UN custodian agency,Non-statistica
 #8-4-1,notstarted,Tier II,United Nations Environment Programme (UNEP),,,,,line
 #8-4-2,notstarted,Tier I,United Nations Environment Programme (UNEP),,,,,line
 #8-5-1,complete,Tier II,International Labour Organization (ILO),,,,Ghana Cedi,line
-#8-5-2,complete,Tier I,International Labour Organization (ILO),,,,Percent,line
+#8-5-2,complete,Tier I,International Labour Organization (ILO),,,,Percentage (%),line
 #8-6-1,complete,Tier I,International Labour Organization (ILO),,,,Percent,line
 #8-7-1,complete,Tier II,"International Labour Organization (ILO), United Nations Children's Fund (UNICEFF)",,,,Percent,line
 #8-8-1,notstarted,Tier II,International Labour Organization (ILO),,,,,line
