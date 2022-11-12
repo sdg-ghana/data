@@ -29,19 +29,16 @@ _L_GH_CURSE,Curse,1,1
 _L_GH_DEFILE,Defilement,1,1
 _L_GH_DEVELOPMENT,LEARNING AND DEVELOPMENT,1,1
 _L_GH_DISCRIMINATED,Discriminated against,22,2
-_L_GH_DP,Development Partner,9,1
 _L_GH_ECOSOCCULRIGHTS,"Economic, Social and Cultural Rights",1,1
 _L_GH_ECOWAS,ECOWAS countries,3,1
 _L_GH_ENERGY,Energy,1,1
 _L_GH_EUROPE,Europe,3,1
-_L_GH_GOG,Government of Ghana,9,1
 _L_GH_GOVOFF,Government Officials,1,1
 _L_GH_ground,Thrown into the ground/street/outside,3,1
 _L_GH_gutter,Flows or thrown into drains/gutter,3,1
 _L_GH_HEALTH,HEALTH,1,1
 _L_GH_HOUSING,HOUSING,1,1
 _L_GH_ICT,ICT,1,1
-_L_GH_IGF,Internally Generated Funds,9,1
 _L_GH_INDUPRO,Industrial Processes and Product Use,1,1
 _L_GH_INDUSTRY,Industry,1,1
 _L_GH_JUGMAG,Judges ad Magistrates,1,1
@@ -56,7 +53,6 @@ _L_GH_NOT_DISCRIMINATED,Not Discriminated against,22,2
 _L_GH_NUTRITION,NUTRITION,1,1
 _L_GH_OCEANIA,Oceania,2,1
 _L_GH_OTHER_AFRICA,Other African Countries,3,1
-_L_GH_OTHER_FUNDS,Other Fund,9,1
 _L_GH_PARTIAL,Partial,3,1
 _L_GH_PIT_LATRINE,Pit Latrine,2,1
 _L_GH_POLICE,Police,1,1
@@ -73,7 +69,6 @@ _L_GH_Sewerage,Through the sewerage system,3,1
 _L_GH_SEX_HER,Sexual Harassment,1,1
 _L_GH_SKILLED_CARE,Skilled Care,2,1
 _L_GH_Soakaway,Through drainage into a pit (soakaway),3,1
-_L_GH_STATUTORY,Statutory,9,1
 _L_GH_TotHuRiCom,Total Human Rights Complaints,1,1
 _L_GH_TotRes,Total Resolved,1,1
 _L_GH_UNSKILLED_CARE,Unskilled Care,2,1
