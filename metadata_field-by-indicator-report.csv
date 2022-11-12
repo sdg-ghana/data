@@ -184,7 +184,7 @@ Indicator,Reporting status,UN designated tier,UN custodian agency,Non-statistica
 #4-5-1,complete,Tier I/II depending on indice,"United Nations Educational, Scientific and Cultural Organization (UNESCO)",,,,Index,line
 #4-6-1,complete,Tier II,United Nations Education and Scientific Cultural Organisation - Institute of Statistics (UNESCO-UIS),,,,Percentage(%),bar
 #4-7-1,notstarted,Tier II,"United Nations Educational, Scientific and Cultural Organization - Institute for Statistics (UNESCO-UIS)",,,,,line
-#4-a-1,complete,Tier II,"United Nations Educational, Scientific and Cultural Organization - Institute for Statistics (UNESCO-UIS)",,,,Percent,line
+#4-a-1,complete,Tier II,"United Nations Educational, Scientific and Cultural Organization - Institute for Statistics (UNESCO-UIS)",,,,Percentage (%),line
 #4-b-1,notstarted,Tier I,Organisation for Economic Co-operation and Development (OECD),,,,,line
 #4-c-1,complete,Tier II,United Nations Education and Scientific Cultural Organisation - Institute for Statistics (UNESCO-UIS),,,,,line
 #5-1-1,complete,Tier II,"UN Women, World Bank (WB), Organisation for Economic Co-operation and Development (OECD)",True,,,,line
