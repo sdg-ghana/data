@@ -231,7 +231,7 @@ Indicator,Reporting status,UN designated tier,UN custodian agency,Non-statistica
 #8-7-1,complete,Tier II,"International Labour Organization (ILO), United Nations Children's Fund (UNICEFF)",,,,Percentage (%),bar
 #8-8-1,notstarted,Tier II,International Labour Organization (ILO),,,,,line
 #8-8-2,complete,Tier II,International Labour Organization (ILO),True,,,,line
-#8-9-1,complete,Tier II,World Tourism Organization (UNTWO),,,,Percent,line
+#8-9-1,complete,Tier II,World Tourism Organization (UNTWO),,,,Percentage (%),line
 #8-a-1,notstarted,Tier I,Organisation for Economic Co-operation and Development (OECD),,,,,line
 #8-b-1,complete,Tier II,International Labour Organization (ILO),True,,,,line
 #9-1-1,notstarted,Tier II,World Bank (WB),,,,,line
