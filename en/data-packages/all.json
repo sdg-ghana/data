@@ -3170,11 +3170,6 @@
             "title": "Reference area"
           },
           {
-            "name": "SERIES",
-            "type": "string",
-            "title": "SDG Series"
-          },
-          {
             "name": "URBANISATION",
             "type": "string",
             "constraints": {
