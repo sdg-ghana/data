@@ -36,7 +36,7 @@ sort: ''
 standalone: false
 tags:
   - Proxy
-source_active_1: true
+source_active_1: false
 source_organisation_1: Ministry of Finance and Economic Planning
 source_periodicity_1: Annual
 source_earliest_available_1: ''
