@@ -33,7 +33,7 @@ Indicator,Reporting status,UN designated tier,UN custodian agency,Non-statistica
 #11-4-1,notstarted,Tier II,"United Nations Educational, Scientific and Cultural Organization (UNESCO)",,,,,line
 #11-5-1,complete,Tier II,United Nations Office for Disaster Reduction (UNISDR),,,,"Per 100,000 population",line
 #11-5-2,notstarted,Tier II,United Nations International Strategy for Disaster Reduction (UNISDR),,,,,line
-#11-6-1,complete,Tier II,"United Nations Human Settlements Programme (UN-Habitat), United Nations Statistics Division (UNSD)",,,,Percent,line
+#11-6-1,complete,Tier II,"United Nations Human Settlements Programme (UN-Habitat), United Nations Statistics Division (UNSD)",,,,Percentage (%),line
 #11-6-2,complete,Tier I,World Health Organization (WHO),,,,µg/m³,bar
 #11-7-1,notstarted,Tier II,United Nations Human Settlements Programme (UN-Habitat),,,,,line
 #11-7-2,notstarted,Tier II,United Nations Office on Drugs and Crime (UNODC),,,,,line
