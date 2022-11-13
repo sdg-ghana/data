@@ -196,7 +196,7 @@ Indicator,Reporting status,UN designated tier,UN custodian agency,Non-statistica
 #5-5-1,complete,Tier I,"Inter-Parliamentary Union (IPU), UN Women",,,,Percentage (%),bar
 #5-5-2,notstarted,Tier I,International Labour Organization (ILO),,,,,line
 #5-6-1,notstarted,Tier II,United Nations Population Fund UNFPA,,,,,line
-#5-6-2,complete,Tier II,United Nations Population Fund UNFPA,True,,,,line
+#5-6-2,complete,Tier II,United Nations Population Fund (UNFPA),True,,,,line
 #5-a-1,complete,Tier II,"United Nations Entity for Gender Equality and the Empowerment of Women (UN Women), United Nations Statistics Division (UNSD), Food and Agriculture Organization of the United Nations (FAO)",,,,Percentage (%),bar
 #5-a-2,notstarted,Tier II,Food and Agriculture Organization (FAO),,,,,line
 #5-b-1,complete,Tier II,International Telecommunication Union (ITU),,,,Percentage (%),bar
