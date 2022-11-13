@@ -1597,31 +1597,8 @@
             "type": "string"
           },
           {
-            "name": "REF_AREA",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "06_o",
-                "07_o",
-                "02_o",
-                "05_o",
-                "03_o",
-                "08_o",
-                "09_o",
-                "10_o",
-                "04_o",
-                "01_o",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "GeoCode",
-            "type": "string"
-          },
-          {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       },
@@ -1642,10 +1619,6 @@
             "type": "string"
           },
           {
-            "name": "SERIES",
-            "type": "string"
-          },
-          {
             "name": "REF_AREA",
             "type": "string",
             "constraints": {
@@ -1660,29 +1633,6 @@
                 "03_o",
                 "02_o",
                 "01_o",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "URBANISATION",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "U",
-                "R",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "COMPOSITE_BREAKDOWN",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_L_GH_SKILLED_CARE",
-                "_L_GH_UNSKILLED_CARE",
-                "_L_GH_NO_CARE",
                 ""
               ]
             }
