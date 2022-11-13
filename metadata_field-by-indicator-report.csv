@@ -43,7 +43,7 @@ Indicator,Reporting status,UN designated tier,UN custodian agency,Non-statistica
 #12-1-1,complete,Tier II,UN Environment (UNEP),True,,,,line
 #12-2-1,notstarted,Tier II,United Nations Environment Programme (UNEP),,,,,line
 #12-2-2,notstarted,Tier I,United Nations Environment Programme (UNEP),,,,,line
-#12-3-1,complete,Tier II,"Food and Agriculture Organization (FAO), UN Environment (UNEP)",,,,Percent,line
+#12-3-1,complete,Tier II,"Food and Agriculture Organization (FAO), UN Environment (UNEP)",,,,Percentage (%),line
 #12-4-1,notstarted,Tier I,UN Environment (UNEP),,,,,line
 #12-4-2,notstarted,Tier II,"United Nations Statistics Division (UNSD), UN Environment (UNEP)",,,,,line
 #12-5-1,notstarted,Tier II,"United Nations Statistics Division (UNSD), UN Environment (UNEP)",,,,,line
