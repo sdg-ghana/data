@@ -37,7 +37,7 @@ sort: ''
 standalone: false
 tags: []
 source_active_1: true
-source_organisation_1: Energy Commission
+source_organisation_1: Energy Commission (EC)
 source_periodicity_1: Annual
 source_earliest_available_1: ''
 source_geographical_coverage_1: Ghana
@@ -53,7 +53,7 @@ source_periodicity_2: ''
 source_earliest_available_2: ''
 source_geographical_coverage_2: Ghana
 source_url_2: https://www2.statsghana.gov.gh/nada/index.php/catalog#_r=1664470556419&collection=&country=&dtype=&from=1960&page=1&ps=&sid=&sk=glss&sort_by=rank&sort_order=desc&to=2015&topic=&view=s&vk=
-source_url_text_2: Ghana Living Standard Survey
+source_url_text_2: Ghana Living Standards Survey
 source_release_date_2: ''
 source_next_release_2: ''
 source_statistical_classification_2: Official
