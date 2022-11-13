@@ -1,5 +1,5 @@
 ﻿composite_breakdown_label: ''
-computation_units: Percent
+computation_units: Percentage (%)
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -36,16 +36,16 @@ sort: ''
 standalone: false
 tags: []
 source_active_1: true
-source_organisation_1: World Bank
-source_periodicity_1: Annual
-source_earliest_available_1: 2004
+source_organisation_1: Institute of Development Studies (IDS), Ghana Statistical Services (GSS) and Associates (2016)
+source_periodicity_1: ''
+source_earliest_available_1: ''
 source_geographical_coverage_1: Ghana
-source_url_1: https://data.worldbank.org/indicator/SI.POV.DDAY?locations=GB
-source_url_text_1: Poverty headcount ratio at $1.90 a day (2011 PPP) (% of population)
-source_release_date_1: 28/05/2020
+source_url_1: https://www2.statsghana.gov.gh/docfiles/publications/DV_Ghana_Report_FINAL.pdf
+source_url_text_1: Domestic Violence in Ghana - Incidence, Attitudes, Determinants and Consequences
+source_release_date_1: ''
 source_next_release_1: TBA
-source_statistical_classification_1: Non-official
-source_contact_1: Research@WorldBank.org
+source_statistical_classification_1: Official
+source_contact_1: ids@ids.ac.uk
 source_active_2: false
 source_active_3: false
 source_active_4: false

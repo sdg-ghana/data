@@ -36,17 +36,27 @@ sort: ''
 standalone: false
 tags: []
 source_active_1: true
-source_organisation_1: Bank of Ghana
-source_periodicity_1: Annual
+source_organisation_1: Bank of Ghana (BoG)
+source_periodicity_1: ''
 source_earliest_available_1: 2017
 source_geographical_coverage_1: Ghana
-source_url_1: https://www.bog.gov.gh/downloads/payment-systems-downloads-page/
-source_url_text_1:  BoG Payment Systems Oversight Annual Report
+source_url_1: https://www.bog.gov.gh/wp-content/uploads/2019/10/Payment-Systems-Annual-Report-2018-Final-Version_PUBLICATION.pdf
+source_url_text_1:  Bank of Ghana (BoG) Payment Systems Oversight Annual Report, 2018
 source_release_date_1: ''
-source_next_release_1: TBA
+source_next_release_1: ''
 source_statistical_classification_1: Official
 source_contact_1: bogsecretary@bog.gov.gh
-source_active_2: false
+source_active_2: true
+source_organisation_2: Bank of Ghana (BoG)
+source_periodicity_2: ''
+source_earliest_available_2: ''
+source_geographical_coverage_2: Ghana
+source_url_2: https://www.bog.gov.gh/monetary-policy/summary-of-economic-and-financial-data/
+source_url_text_2:  Bank of Ghana (BoG) Economic and Financial Data, 2021
+source_release_date_2: ''
+source_next_release_2: ''
+source_statistical_classification_2: Official
+source_contact_2: bogsecretary@bog.gov.gh
 source_active_3: false
 source_active_4: false
 source_active_5: false

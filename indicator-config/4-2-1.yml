@@ -1,5 +1,5 @@
 ﻿composite_breakdown_label: ''
-computation_units: Percent
+computation_units: Percentage (%)
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
@@ -44,7 +44,7 @@ source_url_1: https://www.statsghana.gov.gh/gssmain/fileUpload/pressrelease/MICS
 source_url_text_1: Ghana Multiple Indicator Cluster Survey, 2018
 source_release_date_1: ''
 source_next_release_1: ''
-source_statistical_classification_1: Non-official
+source_statistical_classification_1: Official
 source_contact_1: info@statsghana.gov.gh
 source_active_2: true
 source_organisation_2: Ghana Statistical Service (GSS)
@@ -55,7 +55,7 @@ source_url_2: https://www2.statsghana.gov.gh/nada/index.php/catalog/88
 source_url_text_2: Ghana Multiple Indicator Cluster Survey, 2011
 source_release_date_2: ''
 source_next_release_2: ''
-source_statistical_classification_2: Non-official
+source_statistical_classification_2: Official
 source_contact_2: info@statsghana.gov.gh
 source_active_3: false
 source_active_4: false

@@ -25,7 +25,7 @@ target_name: global_targets.4-1-title
 indicator_number: '4.1.2'
 un_designated_tier: Tier I
 un_custodian_agency: UNESCO Institute for Statistics
-goal_meta_link: Metadata-04-01-02.pdf (un.org)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/?Text=&Goal=4&Target=4.1
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata 4.1.2
 national_geographical_coverage: ''
 page_content: ''
@@ -36,17 +36,27 @@ sort: ''
 standalone: false
 tags: []
 source_active_1: true
-source_organisation_1: Ministry of Education
-source_periodicity_1: Annual
+source_organisation_1: Ministry of Education (MoE)
+source_periodicity_1: ''
 source_earliest_available_1: ''
 source_geographical_coverage_1: ''
 source_url_1: https://moe.gov.gh/emis/
-source_url_text_1: EMIS Data Centre, Ministry of Education
+source_url_text_1: EMIS Data Centre, Ministry of Education (MoE)
 source_release_date_1: ''
-source_next_release_1: TBA
+source_next_release_1: ''
 source_statistical_classification_1: Official
 source_contact_1: pro@moe.gov.gh
-source_active_2: false
+source_active_2: true
+source_organisation_2: Ministry of Education
+source_periodicity_2: ''
+source_earliest_available_2: ''
+source_geographical_coverage_2: ''
+source_url_2: https://www.globalpartnership.org/sites/default/files/2019-05-education-sector-medium-term-development-plan_2018-2021.pdf
+source_url_text_2: Education sector Medium-Term development Plan 2018–2021
+source_release_date_2: ''
+source_next_release_2: ''
+source_statistical_classification_2: Official
+source_contact_2: pro@moe.gov.gh
 source_active_3: false
 source_active_4: false
 source_active_5: false

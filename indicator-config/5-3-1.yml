@@ -37,7 +37,7 @@ standalone: false
 tags: []
 source_active_1: true
 source_organisation_1: Ghana Statistical Service (GSS)
-source_periodicity_1: Annual
+source_periodicity_1: ''
 source_earliest_available_1: 2011
 source_geographical_coverage_1: Ghana
 source_url_1: https://www2.statsghana.gov.gh/nada/index.php/catalog/88
@@ -48,7 +48,7 @@ source_statistical_classification_1: Official
 source_contact_1: info@statsghana.gov.gh
 source_active_2: true
 source_organisation_2: Ghana Statistical Service (GSS)
-source_periodicity_2: Annual
+source_periodicity_2: ''
 source_earliest_available_2: ''
 source_geographical_coverage_2: Ghana
 source_url_2: https://www.statsghana.gov.gh/gssmain/fileUpload/pressrelease/MICS%20SFR%20final_compressed.pdf

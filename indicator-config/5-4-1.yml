@@ -20,7 +20,7 @@ expected_disaggregations:
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.5-4-1-title
+graph_title: Average time spent on unpaid domestic and care work, by sex, age and location
 graph_titles: []
 graph_type: bar
 indicator_name: global_indicators.5-4-1-title
@@ -37,7 +37,8 @@ precision: []
 reporting_status: complete
 sort: ''
 standalone: false
-tags: []
+tags: 
+  Proxy
 source_active_1: true
 source_organisation_1: Ghana Statistical Service (GSS)
 source_periodicity_1: ''

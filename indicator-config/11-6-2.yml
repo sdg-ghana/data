@@ -38,14 +38,14 @@ sort: ''
 standalone: false
 tags: []
 source_active_1: true
-source_organisation_1: Environmental Protection Agency
-source_periodicity_1: Annual
+source_organisation_1: Environmental Protection Agency (EPA)
+source_periodicity_1: ''
 source_earliest_available_1: 2016
 source_geographical_coverage_1: Ghana
 source_url_1: http://www.epa.gov.gh/epa/publications/environmental-quality
 source_url_text_1: Environmental Protection Agency
 source_release_date_1: ''
-source_next_release_1: TBA
+source_next_release_1: ''
 source_statistical_classification_1: Official
 source_contact_1: info@epa.gov.gh
 source_active_2: false

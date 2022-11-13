@@ -32,12 +32,12 @@ national_geographical_coverage: Ghana
 page_content: ''
 permalink: ''
 precision: []
-reporting_status: complete
+reporting_status: notstarted
 sort: ''
 standalone: false
 tags:
   - Proxy
-source_active_1: true
+source_active_1: false
 source_organisation_1: Ghana Education Service (GES)
 source_periodicity_1: Biennial
 source_earliest_available_1: ''
