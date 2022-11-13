@@ -15,7 +15,7 @@ Indicator,Reporting status,UN designated tier,UN custodian agency,Non-statistica
 #10-1-1,complete,Tier II,World Bank (WB),,,,Percentage (%),line
 #10-2-1,notstarted,Tier II,"United Nations Children's Fund (UNICEF), World Bank (WB)",,,,,line
 #10-3-1,complete,Tier II,Office of the United Nations High Commissioner for Human Rights (OHCHR),,,,Percentage (%),bar
-#10-4-1,complete,Tier II,International Labour Organization (ILO),,,,Percent,line
+#10-4-1,complete,Tier II,International Labour Organization (ILO),,,,Percentage (%),line
 #10-4-2,notstarted,Tier II,The World Bank Group,,,,,line
 #10-5-1,notstarted,Tier I,International Monetary Fund (IMF),,,,,line
 #10-6-1,notstarted,Tier I,United Nations Department of Economic and Social Affairs (DESA) / Financing for Development Office (FFDO),,,,,line
