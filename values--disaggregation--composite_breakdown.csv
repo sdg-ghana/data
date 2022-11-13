@@ -21,7 +21,6 @@ _L_GH_AGRIC,Agriculture,1,1
 _L_GH_AGRICFOREST,"Agriculture, Forestry, and Other Land Use",1,1
 _L_GH_AMERICA,America,3,1
 _L_GH_ASIA,Asia,3,1
-_L_GH_BUCKET,Bucket/Pan,2,1
 _L_GH_CHILDRIGHTS,Children Rights,1,1
 _L_GH_CIVPOLRIGHTS,Civil and Political Rights,1,1
 _L_GH_COMPDOC,Complete Document,3,1
@@ -42,25 +41,21 @@ _L_GH_ICT,ICT,1,1
 _L_GH_INDUPRO,Industrial Processes and Product Use,1,1
 _L_GH_INDUSTRY,Industry,1,1
 _L_GH_JUGMAG,Judges ad Magistrates,1,1
-_L_GH_KVIP,Kumasi Ventilated Improved Pit (KVIP),2,1
 _L_GH_MIDDLEEAST,Middle East/Gulf Cooperation Council countries,3,1
 _L_GH_NE_W_FOLU,National Emissions with FOLU,1,1
 _L_GH_NE_WO_FOLU,National Emissions without FOLU,1,1
-_L_GH_NO_FACILITY,No facility (bush/beach/field),2,1
 _L_GH_NODOC,No Document,3,1
 _L_GH_NOT_DISCRIMINATED,Not Discriminated against,22,2
 _L_GH_NUTRITION,NUTRITION,1,1
 _L_GH_OCEANIA,Oceania,2,1
 _L_GH_OTHER_AFRICA,Other African Countries,3,1
 _L_GH_PARTIAL,Partial,3,1
-_L_GH_PIT_LATRINE,Pit Latrine,2,1
 _L_GH_POLICE,Police,1,1
 _L_GH_PRIVATE,Private,13,3
 _L_GH_PROCESS,Now Processing,3,1
 _L_GH_PRORIGHTS,Property Rights,1,1
 _L_GH_PROTECTION,SOCIAL PROTECTION,1,1
 _L_GH_PUBLIC,Public,10,3
-_L_GH_PUBLIC_TOILET,Public Toilet,2,1
 _L_GH_RAPE_SED,Rape/Seduction,1,1
 _L_GH_SANITATION,SANITATION,1,1
 _L_GH_SERVICES,Services,1,1
@@ -72,7 +67,6 @@ _L_GH_TotRes,Total Resolved,1,1
 _L_GH_VERB_ASS,Verbal assault,1,1
 _L_GH_WASTE,Waste,1,1
 _L_GH_WATER,WATER,1,1
-_L_GH_WC,Water Closet (WC),2,1
 _L_GH_WORIGHTS,Women Rights,1,1
 CI,COTE D'IVOIRE,1,1
 GES,Ghana Education Service,2,1
