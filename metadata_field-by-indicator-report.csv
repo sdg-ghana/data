@@ -245,4 +245,4 @@ Indicator,Reporting status,UN designated tier,UN custodian agency,Non-statistica
 #9-5-2,notstarted,Tier I,"United Nations Educational, Scientific and Cultural Organization (UNESCO)",,,,,line
 #9-a-1,notstarted,Tier I,Organisation for Economic Co-operation and Development (OECD),,,,,line
 #9-b-1,notstarted,Tier I,United Nations Industrial Development Organization (UNIDO),,,,,line
-#9-c-1,complete,Tier I,International Telecommunication Union (ITU),,,,Percent,line
+#9-c-1,complete,Tier I,International Telecommunication Union (ITU),,,,Percentage (%),line
