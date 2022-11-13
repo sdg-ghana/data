@@ -37,15 +37,15 @@ standalone: false
 tags: []
 source_active_1: true
 source_organisation_1: National Disaster Management Organisation (NADMO)
-source_periodicity_1: Annual
+source_periodicity_1: ''
 source_earliest_available_1: 2017
 source_geographical_coverage_1: Ghana
-source_url_1: 
-source_url_text_1: 
-source_release_date_1: 
+source_url_1: https://ndpc.gov.gh/media/VNR_2022_Report_c5cXm4Q.pdf
+source_url_text_1: Ghana’s Voluntary National Review Report (VNR), 2022
+source_release_date_1: ''
 source_next_release_1: TBA
-source_statistical_classification_1: Non-official
-source_contact_1: Research@WorldBank.org
+source_statistical_classification_1: Official
+source_contact_1: info@ndpc.gov.gh
 source_active_2: false
 source_active_3: false
 source_active_4: false
