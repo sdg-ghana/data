@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <message:Structure xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:structure="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
   <message:Header>
-    <message:ID>IDREF2</message:ID>
+    <message:ID>IDREF1</message:ID>
     <message:Test>false</message:Test>
-    <message:Prepared>2022-11-12T15:40:44.9665043+00:00</message:Prepared>
+    <message:Prepared>2022-11-14T19:23:46.8063975+00:00</message:Prepared>
     <message:Sender id="Unknown" />
     <message:Receiver id="Unknown" />
   </message:Header>
@@ -6158,8 +6158,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">2.Survey-based Maternal mortality ratio [3.1.1]</common:Name>
-          <common:Description xml:lang="en">2.Survey-based Maternal mortality ratio [3.1.1]</common:Description>
+          <common:Name xml:lang="en">Survey-based Maternal mortality ratio [3.1.1]</common:Name>
+          <common:Description xml:lang="en">Survey-based Maternal mortality ratio [3.1.1]</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_030101_02">
           <common:Annotations>
@@ -6185,8 +6185,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">3.Census-based Maternal mortality ratio [3.1.1]</common:Name>
-          <common:Description xml:lang="en">3.Census-based Maternal mortality ratio [3.1.1]</common:Description>
+          <common:Name xml:lang="en">Census-based Maternal mortality ratio [3.1.1]</common:Name>
+          <common:Description xml:lang="en">Census-based Maternal mortality ratio [3.1.1]</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_030101_03">
           <common:Annotations>
@@ -6212,8 +6212,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">1.Institutional maternal mortality ratio</common:Name>
-          <common:Description xml:lang="en">1.Institutional maternal mortality ratio</common:Description>
+          <common:Name xml:lang="en">Institutional maternal mortality ratio</common:Name>
+          <common:Description xml:lang="en">Institutional maternal mortality ratio</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_030301">
           <common:Annotations>
@@ -6401,8 +6401,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">2.Homes deliveries by region and locality type</common:Name>
-          <common:Description xml:lang="en">2.Homes deliveries by region and locality type</common:Description>
+          <common:Name xml:lang="en">Homes deliveries by region and locality type</common:Name>
+          <common:Description xml:lang="en">Homes deliveries by region and locality type</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_030102_02">
           <common:Annotations>
@@ -6428,8 +6428,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">3.Type of care received during Health facility delivery</common:Name>
-          <common:Description xml:lang="en">3.Type of care received during Health facility delivery</common:Description>
+          <common:Name xml:lang="en">Type of care received during Health facility delivery</common:Name>
+          <common:Description xml:lang="en">Type of care received during Health facility delivery</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_030102_03">
           <common:Annotations>
@@ -6455,8 +6455,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">4.Type of care received during Home delivery</common:Name>
-          <common:Description xml:lang="en">4.Type of care received during Home delivery</common:Description>
+          <common:Name xml:lang="en">Type of care received during Home delivery</common:Name>
+          <common:Description xml:lang="en">Type of care received during Home delivery</common:Description>
         </structure:Code>
         <structure:Code id="_L_GH_010a01_01">
           <common:Annotations>
@@ -10646,8 +10646,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">1.Proportion of births attended by skilled health personnel [3.1.2]</common:Name>
-          <common:Description xml:lang="en">1.Proportion of births attended by skilled health personnel [3.1.2]</common:Description>
+          <common:Name xml:lang="en">Proportion of births attended by skilled health personnel [3.1.2]</common:Name>
+          <common:Description xml:lang="en">Proportion of births attended by skilled health personnel [3.1.2]</common:Description>
         </structure:Code>
         <structure:Code id="SH_DYN_IMRT">
           <common:Annotations>
@@ -10842,8 +10842,8 @@
               <common:AnnotationType>RetiredSeries</common:AnnotationType>
             </common:Annotation>
           </common:Annotations>
-          <common:Name xml:lang="en">Number of new HIV infections per 1,000 uninfected population [3.3.1]</common:Name>
-          <common:Description xml:lang="en">Number of new HIV infections per 1,000 uninfected population [3.3.1]</common:Description>
+          <common:Name xml:lang="en">Rate of new HIV infections per 1,000 uninfected population [3.3.1]</common:Name>
+          <common:Description xml:lang="en">Rate of new HIV infections per 1,000 uninfected population [3.3.1]</common:Description>
         </structure:Code>
         <structure:Code id="SH_TBS_INCD">
           <common:Annotations>
