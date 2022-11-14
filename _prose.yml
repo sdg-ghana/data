@@ -109,6 +109,11 @@ prose:
             label: Indicator
             translation_key: metadata_fields.SDG_INDICATOR
             scope: national
+      - name: "indicator_available"
+        field:
+            element: text
+            label: "Indicator available"
+            scope: national            
       - name: SDG_SERIES_DESCR
         field:
             element: text
