@@ -241,7 +241,7 @@ Indicator,Reporting status,UN designated tier,UN custodian agency,Non-statistica
 #9-3-1,notstarted,Tier II,United Nations Industrial Development Organization (UNIDO),,,,,line
 #9-3-2,notstarted,Tier I,"United Nations Industrial Development Organization (UNIDO), World Bank (WB)",,,,,line
 #9-4-1,complete,Tier I,"International Energy Agency (IEA), United Nations Industrial Development Organization (UNIDO)",,,,kg CO2 equivalent per constant 2010 GDP $,line
-#9-5-1,complete,Tier I,"United Nations Educational, Scientific and Cultural Organization (UNESCO)",,,,Percentage (%),line
+#9-5-1,complete,Tier I,"United Nations Educational, Scientific and Cultural Organization (UNESCO)",,,,Percent,line
 #9-5-2,notstarted,Tier I,"United Nations Educational, Scientific and Cultural Organization (UNESCO)",,,,,line
 #9-a-1,notstarted,Tier I,Organisation for Economic Co-operation and Development (OECD),,,,,line
 #9-b-1,notstarted,Tier I,United Nations Industrial Development Organization (UNIDO),,,,,line
