@@ -7,4 +7,4 @@ EDUCATION_LEV,Education level,4,8
 PRODUCT,Type of product,2,16
 REF_AREA,Reference area,16,29
 SEX,Sex,20,2
-URBANISATION,Degree of urbanisation,25,2
+URBANISATION,Degree of urbanisation,24,2
