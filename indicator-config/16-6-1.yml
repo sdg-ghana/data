@@ -17,7 +17,7 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: Primary government expenditures as a proportion of origingal approved budget
+graph_title: Primary government expenditures as a proportion of original approved budget
 graph_titles: []
 graph_type: line
 indicator_name: global_indicators.16-6-1-title
