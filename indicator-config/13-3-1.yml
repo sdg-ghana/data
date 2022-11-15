@@ -27,6 +27,7 @@ un_designated_tier: Tier III
 un_custodian_agency: United Nations Framework Convention on Climate Change (UNFCCC), United Nations Educational, Scientific and Cultural Organization - Institute for Statistics (UNESCO-UIS)
 goal_meta_link: https://unstats.un.org/sdgs/tierIII-indicators/files/Tier3-13-03-01.pdf
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 4.0 MB)
+national_indicator_available: Relevant Ghanaian policies on the integration of mitigation, adaptation, impact reduction and early warning into primary, secondary and tertiary curricula
 national_geographical_coverage: ''
 page_content: ''
 permalink: ''
@@ -34,10 +35,11 @@ precision: []
 reporting_status: complete
 sort: ''
 standalone: false
-tags: 
+tags:
+  - Proxy
   - Non-statistical
 page_content: >- 
-  **Relevant Ghanaian policies on the integration of mitigation, adaptation, impact reduction and early warning into primary, secondary and tertiary curricula**
+  **Relevant Ghanaian policies to support and enhance climate action.**
 
  
   - [National Climate Change Policy (NCCP)](https://www.climate-laws.org/geographies/ghana/policies/national-climate-change-policy-nccp#:~:text=The%20NCCP%27s%20emphasis%20is%20on,dedicated%20climate%20change%20research%20centre.) -  has been developed to provide a clear pathway to deal with emerging climate change-related challenges.

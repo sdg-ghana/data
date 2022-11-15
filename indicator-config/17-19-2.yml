@@ -22,6 +22,7 @@ graph_titles: []
 graph_type: line
 indicator_name: global_indicators.17-19-2-title
 indicator_number: '17.19.2'
+national_indicator_available: (a) Census taking in Ghana
 national_geographical_coverage: ''
 page_content: ''
 permalink: ''
@@ -31,7 +32,7 @@ sort: ''
 standalone: false
 tags: 
   - Non-statistical
-source_active_1: true
+source_active_1: false
 source_organisation_1: Ghana Statistical Service
 source_periodicity_1: Annual
 source_earliest_available_1: 1891
@@ -55,16 +56,7 @@ un_custodian_agency: United Nations Statistics Division (UNSD), Department of Ec
 goal_meta_link: https://unstats.un.org/sdgs/metadata/?Text=&Goal=17&Target=17.19
 goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 469 KB)
 page_content: >- 
-  **Census taking in Ghana**
+  **(a) Census taking in Ghana**
 
   
-  Population Censuses have been conducted in Ghana at approximately ten-year intervals since 1891.
-
- 
-  Ghana has conducted six population Censuses after independence – 2021 was the last. 
-
-
-  The last three Censuses (2000, 2010 and 2021) combined Population and Housing in one operation. 
-
-
-  The last Census conducted in 2021 recorded a total population of 30.8 million. [read more...](https://statsghana.gov.gh/censusurvey.php?category=MTcxNTQ0MjMyNC40NzI1/webstats/0pn45p0sp4)
+  Ghana conducted three post-independence Population Censuses in 1960, 1970 and 1984. Ghana then conducted Population and Housing Censuses in 2000, 2010 and 2021. [read more...](https://statsghana.gov.gh/censusurvey.php?category=MTcxNTQ0MjMyNC40NzI1/webstats/0pn45p0sp4)
