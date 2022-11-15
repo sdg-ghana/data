@@ -34,7 +34,8 @@ precision: []
 reporting_status: complete
 sort: ''
 standalone: false
-tags: []
+tags: 
+  -Proxy
 source_active_1: true
 source_organisation_1: Ministry of Food and Agriculture (MoFA)
 source_periodicity_1: Annual
