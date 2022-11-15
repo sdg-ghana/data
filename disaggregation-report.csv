@@ -5,6 +5,6 @@ COMPOSITE_BREAKDOWN,Composite breakdown,17,88
 DISABILITY_STATUS,Disability status,1,6
 EDUCATION_LEV,Education level,4,8
 PRODUCT,Type of product,2,16
-REF_AREA,Reference area,16,29
-SEX,Sex,20,2
-URBANISATION,Degree of urbanisation,24,2
+REF_AREA,Reference area,15,29
+SEX,Sex,19,2
+URBANISATION,Degree of urbanisation,23,2
