@@ -49,7 +49,7 @@ inputs:
       - REPORTING_TYPE
     drop_singleton_dimensions: true
     dsd: 'GSS_DSD.xml'
-    import_translation_keys: true
+    import_codes: true
   - class: InputWordMeta
     path_pattern: meta/*-*.docm
   - class: InputYamlMeta
@@ -106,22 +106,22 @@ reporting_status_extra_fields: []
 # below and adjust if you would like to use the Open SDG mapping functionality.
 # Note that the GeoJSON files can either be remote (as in the example below) or
 # local, relative to the src_dir specified above.
-# map_layers:
-#  - geojson_file: geojsons/GHANA_10_REGIONS_simplified.geojson
-#    name_property: Name_en
-#    id_property: REGIONID
-#    output_subfolder: regions_10
-#    filename_prefix: indicator_
-#  - geojson_file: geojsons/GHANA_16_REGIONS_simplified.geojson
-#    name_property: Name_en
-#    id_property: REGIONID
-#    output_subfolder: regions_16
-#    filename_prefix: indicator_
-#  - geojson_file: geojsons/GHANA_272_DISTRICTS_simplified.geojson
-#    name_property: Name_en
-#    id_property: DISTRICTID
-#    output_subfolder: district_272
-#    filename_prefix: indicator_
+map_layers:
+  - geojson_file: geojsons/GHANA_10_REGIONS_simplified.geojson
+    name_property: Name_en
+    id_property: REGIONID
+    output_subfolder: regions_10
+    filename_prefix: indicator_
+  - geojson_file: geojsons/GHANA_16_REGIONS_simplified.geojson
+    name_property: Name_en
+    id_property: REGIONID
+    output_subfolder: regions_16
+    filename_prefix: indicator_
+  - geojson_file: geojsons/GHANA_272_DISTRICTS_simplified.geojson
+    name_property: Name_en
+    id_property: DISTRICTID
+    output_subfolder: district_272
+    filename_prefix: indicator_
   
 
 
@@ -136,7 +136,7 @@ docs_branding: SDG data build documentation
 docs_intro: This is a list of examples of endpoints and output that are
   available on this service. Click each of the links below for more information
   on the available output.
-# This can be uncommented and updated so allow links to your indicator pages.
+# This can be uncommented and updated to allow links to your indicator pages.
 # The URL here should have [id] instead of the indicator ID.
 docs_indicator_url: https://my-github-org/my-site-repository/[id]
 # This can be uncommented to show translation columns in the disaggregation report.
