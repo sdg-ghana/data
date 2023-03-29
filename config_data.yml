@@ -49,7 +49,7 @@ inputs:
       - REPORTING_TYPE
     drop_singleton_dimensions: true
     dsd: 'GSS_DSD.xml'
-    import_translation_keys: true
+    import_codes: true
   - class: InputWordMeta
     path_pattern: meta/*-*.docm
   - class: InputYamlMeta
