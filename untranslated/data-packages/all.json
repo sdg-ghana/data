@@ -17,17 +17,17 @@
             "type": "integer"
           },
           {
-            "name": "Type of product",
+            "name": "PRODUCT",
             "type": "string",
             "constraints": {
               "enum": [
-                "Maize",
-                "Rice",
-                "Sorghum",
-                "Cassava",
-                "Yam",
-                "Fish(Marine)",
-                "Fish(Artisanal)",
+                "CPC2_1_112",
+                "CPC2_1_113",
+                "CPC2_1_114",
+                "_L_GH_Cassava",
+                "_L_GH_Yam",
+                "_L_GH_Fish_Marine",
+                "_L_GH_Fish_Artisanal",
                 ""
               ]
             }
@@ -99,26 +99,16 @@
             "type": "integer"
           },
           {
-            "name": "SDG Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Proportion of population subjected to physical violence in the previous 12 months [16.1.3]",
-                "Proportion of population subjected to sexual violence in the previous 12 months [16.1.3]",
-                "Proportion of population subjected to psycological violence in the previous 12 months [16.1.3]",
-                "Proportion of population subjected to social violence in the previous 12 months [16.1.3]",
-                "Proportion of population subjected to economic violence in the previous 12 months [16.1.3]",
-                ""
-              ]
-            }
+            "name": "SERIES",
+            "type": "string"
           },
           {
-            "name": "Sex",
+            "name": "SEX",
             "type": "string",
             "constraints": {
               "enum": [
-                "Female",
-                "Male",
+                "F",
+                "M",
                 ""
               ]
             }
@@ -146,23 +136,23 @@
             "type": "integer"
           },
           {
-            "name": "Sex",
+            "name": "SEX",
             "type": "string",
             "constraints": {
               "enum": [
-                "Female",
-                "Male",
+                "F",
+                "M",
                 ""
               ]
             }
           },
           {
-            "name": "Degree of urbanisation",
+            "name": "URBANISATION",
             "type": "string",
             "constraints": {
               "enum": [
-                "Rural",
-                "Urban",
+                "R",
+                "U",
                 ""
               ]
             }
@@ -190,12 +180,12 @@
             "type": "integer"
           },
           {
-            "name": "Degree of urbanisation",
+            "name": "URBANISATION",
             "type": "string",
             "constraints": {
               "enum": [
-                "Urban",
-                "Rural",
+                "U",
+                "R",
                 ""
               ]
             }
@@ -267,13 +257,13 @@
             "type": "integer"
           },
           {
-            "name": "Composite breakdown",
+            "name": "COMPOSITE_BREAKDOWN",
             "type": "string",
             "constraints": {
               "enum": [
-                "Police",
-                "Government Officials",
-                "Judges ad Magistrates",
+                "_L_GH_POLICE",
+                "_L_GH_GOVOFF",
+                "_L_GH_JUGMAG",
                 ""
               ]
             }
@@ -301,26 +291,12 @@
             "type": "integer"
           },
           {
-            "name": "SDG Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Corruption Perception Index score",
-                "Corruption Perception Index Rank",
-                ""
-              ]
-            }
+            "name": "SERIES",
+            "type": "string"
           },
           {
-            "name": "Unit of measure",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Score",
-                "Rank",
-                ""
-              ]
-            }
+            "name": "UNIT_MEASURE",
+            "type": "string"
           },
           {
             "name": "Value",
@@ -389,42 +365,28 @@
             "type": "integer"
           },
           {
-            "name": "SDG Series",
+            "name": "SERIES",
+            "type": "string"
+          },
+          {
+            "name": "COMPOSITE_BREAKDOWN",
             "type": "string",
             "constraints": {
               "enum": [
-                "Human rights complains (16.a.1)",
-                "Human rights cases, by type (16.a.1)",
+                "_L_GH_TotHuRiCom",
+                "_L_GH_TotRes",
+                "_L_GH_CHILDRIGHTS",
+                "_L_GH_ECOSOCCULRIGHTS",
+                "_L_GH_PRORIGHTS",
+                "_L_GH_WORIGHTS",
+                "_L_GH_CIVPOLRIGHTS",
                 ""
               ]
             }
           },
           {
-            "name": "Composite breakdown",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Total Human Rights Complaints",
-                "Total Resolved",
-                "Children Rights",
-                "Economic, Social and Cultural Rights",
-                "Property Rights",
-                "Women Rights",
-                "Civil and Political Rights",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Unit of measure",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Percentage (%)",
-                "Number",
-                ""
-              ]
-            }
+            "name": "UNIT_MEASURE",
+            "type": "string"
           },
           {
             "name": "Value",
@@ -449,34 +411,38 @@
             "type": "integer"
           },
           {
-            "name": "Reference area",
+            "name": "REF_AREA",
             "type": "string",
             "constraints": {
               "enum": [
-                "Western",
-                "Central",
-                "Greater Accra",
-                "Volta",
-                "Eastern",
-                "Ashanti",
-                "Brong Ahafo",
-                "Northern",
-                "Upper East",
-                "Upper West",
+                "01_o",
+                "02_o",
+                "03_o",
+                "04_o",
+                "05_o",
+                "06_o",
+                "07_o",
+                "08_o",
+                "09_o",
+                "10_o",
                 ""
               ]
             }
           },
           {
-            "name": "Composite breakdown",
+            "name": "COMPOSITE_BREAKDOWN",
             "type": "string",
             "constraints": {
               "enum": [
-                "Discriminated against",
-                "Not Discriminated against",
+                "_L_GH_DISCRIMINATED",
+                "_L_GH_NOT_DISCRIMINATED",
                 ""
               ]
             }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",
@@ -501,12 +467,12 @@
             "type": "integer"
           },
           {
-            "name": "Degree of urbanisation",
+            "name": "URBANISATION",
             "type": "string",
             "constraints": {
               "enum": [
-                "Rural",
-                "Urban",
+                "R",
+                "U",
                 ""
               ]
             }
@@ -534,23 +500,16 @@
             "type": "integer"
           },
           {
-            "name": "SDG Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Proportion of population using safely managed sanitation services [6.2.1]",
-                "Proportion of population using handwashing facility with soap and water",
-                ""
-              ]
-            }
+            "name": "SERIES",
+            "type": "string"
           },
           {
-            "name": "Degree of urbanisation",
+            "name": "URBANISATION",
             "type": "string",
             "constraints": {
               "enum": [
-                "Rural",
-                "Urban",
+                "R",
+                "U",
                 ""
               ]
             }
@@ -578,25 +537,25 @@
             "type": "integer"
           },
           {
-            "name": "Degree of urbanisation",
+            "name": "URBANISATION",
             "type": "string",
             "constraints": {
               "enum": [
-                "Urban",
-                "Rural",
+                "U",
+                "R",
                 ""
               ]
             }
           },
           {
-            "name": "Composite breakdown",
+            "name": "COMPOSITE_BREAKDOWN",
             "type": "string",
             "constraints": {
               "enum": [
-                "Through the sewerage system",
-                "Through drainage into a pit (soakaway)",
-                "Flows or thrown into drains/gutter",
-                "Thrown into the ground/street/outside",
+                "_L_GH_Sewerage",
+                "_L_GH_Soakaway",
+                "_L_GH_gutter",
+                "_L_GH_ground",
                 ""
               ]
             }
@@ -690,27 +649,19 @@
             "type": "integer"
           },
           {
-            "name": "SDG Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Proportion of ever-partnered women and girls subjected to physical violence by a current or former intimate partner in the previous 12 months [5.2.1]",
-                "Proportion of ever-partnered women and girls subjected to psychological violence by a current or former intimate partner in the previous 12 months [5.2.1]",
-                "Proportion of ever-partnered women and girls subjected to sexual violence by a current or former intimate partner in the previous 12 months [5.2.1]",
-                ""
-              ]
-            }
+            "name": "SERIES",
+            "type": "string"
           },
           {
-            "name": "Composite breakdown",
+            "name": "COMPOSITE_BREAKDOWN",
             "type": "string",
             "constraints": {
               "enum": [
-                "Verbal assault",
-                "Curse",
-                "Rape/Seduction",
-                "Defilement",
-                "Sexual Harassment",
+                "_L_GH_VERB_ASS",
+                "_L_GH_CURSE",
+                "_L_GH_RAPE_SED",
+                "_L_GH_DEFILE",
+                "_L_GH_SEX_HER",
                 ""
               ]
             }
@@ -738,15 +689,8 @@
             "type": "integer"
           },
           {
-            "name": "SDG Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Proportion of women aged 20-24 years who were married or in a union before age 15 [5.3.1]",
-                "Proportion of women aged 20-24 years who were married or in a union before age 18 [5.3.1]",
-                ""
-              ]
-            }
+            "name": "SERIES",
+            "type": "string"
           },
           {
             "name": "Value",
@@ -771,12 +715,12 @@
             "type": "integer"
           },
           {
-            "name": "Degree of urbanisation",
+            "name": "URBANISATION",
             "type": "string",
             "constraints": {
               "enum": [
-                "Urban",
-                "Rural",
+                "U",
+                "R",
                 ""
               ]
             }
@@ -804,23 +748,23 @@
             "type": "integer"
           },
           {
-            "name": "Sex",
+            "name": "SEX",
             "type": "string",
             "constraints": {
               "enum": [
-                "Male",
-                "Female",
+                "M",
+                "F",
                 ""
               ]
             }
           },
           {
-            "name": "Degree of urbanisation",
+            "name": "URBANISATION",
             "type": "string",
             "constraints": {
               "enum": [
-                "Urban",
-                "Rural",
+                "U",
+                "R",
                 ""
               ]
             }
@@ -848,16 +792,8 @@
             "type": "integer"
           },
           {
-            "name": "SDG Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Proportion of seats held by women in national parliaments (% of total number of seats) [5.5.1]",
-                "Proportion of elected seats held by women in deliberative bodies of local government [5.5.1]",
-                "Proportion of women among Metropolitan, Municipal, and District Chief Executives (MMDCES)",
-                ""
-              ]
-            }
+            "name": "SERIES",
+            "type": "string"
           },
           {
             "name": "Value",
@@ -882,25 +818,25 @@
             "type": "integer"
           },
           {
-            "name": "Sex",
+            "name": "SEX",
             "type": "string",
             "constraints": {
               "enum": [
-                "Male",
-                "Female",
+                "M",
+                "F",
                 ""
               ]
             }
           },
           {
-            "name": "Composite breakdown",
+            "name": "COMPOSITE_BREAKDOWN",
             "type": "string",
             "constraints": {
               "enum": [
-                "No Document",
-                "Complete Document",
-                "Partial",
-                "Now Processing",
+                "_L_GH_NODOC",
+                "_L_GH_COMPDOC",
+                "_L_GH_PARTIAL",
+                "_L_GH_PROCESS",
                 ""
               ]
             }
@@ -928,34 +864,27 @@
             "type": "integer"
           },
           {
-            "name": "SDG Series",
+            "name": "SERIES",
+            "type": "string"
+          },
+          {
+            "name": "SEX",
             "type": "string",
             "constraints": {
               "enum": [
-                "Proportion of individuals who own a mobile telephone [5.b.1]",
-                "Proportion of individuals who use a mobile telephone [5.b.1]",
+                "M",
+                "F",
                 ""
               ]
             }
           },
           {
-            "name": "Sex",
+            "name": "URBANISATION",
             "type": "string",
             "constraints": {
               "enum": [
-                "Male",
-                "Female",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Degree of urbanisation",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Urban",
-                "Rural",
+                "U",
+                "R",
                 ""
               ]
             }
@@ -983,45 +912,49 @@
             "type": "integer"
           },
           {
-            "name": "Reference area",
+            "name": "REF_AREA",
             "type": "string",
             "constraints": {
               "enum": [
-                "Western",
-                "Central",
-                "Greater Accra",
-                "Volta",
-                "Eastern",
-                "Ashanti",
-                "Brong Ahafo",
-                "Northern",
-                "Upper East",
-                "Upper West",
+                "01_o",
+                "02_o",
+                "03_o",
+                "04_o",
+                "05_o",
+                "06_o",
+                "07_o",
+                "08_o",
+                "09_o",
+                "10_o",
                 ""
               ]
             }
           },
           {
-            "name": "Sex",
+            "name": "SEX",
             "type": "string",
             "constraints": {
               "enum": [
-                "Male",
-                "Female",
+                "M",
+                "F",
                 ""
               ]
             }
           },
           {
-            "name": "Degree of urbanisation",
+            "name": "URBANISATION",
             "type": "string",
             "constraints": {
               "enum": [
-                "Rural",
-                "Urban",
+                "R",
+                "U",
                 ""
               ]
             }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",
@@ -1046,42 +979,42 @@
             "type": "integer"
           },
           {
-            "name": "Reference area",
+            "name": "REF_AREA",
             "type": "string",
             "constraints": {
               "enum": [
-                "Upper West",
-                "Upper East",
-                "Northern",
-                "Brong Ahafo",
-                "Ashanti",
-                "Eastern",
-                "Volta",
-                "Greater Accra",
-                "Central",
-                "Western",
+                "10_o",
+                "09_o",
+                "08_o",
+                "07_o",
+                "06_o",
+                "05_o",
+                "04_o",
+                "03_o",
+                "02_o",
+                "01_o",
                 ""
               ]
             }
           },
           {
-            "name": "Sex",
+            "name": "SEX",
             "type": "string",
             "constraints": {
               "enum": [
-                "Male",
-                "Female",
+                "M",
+                "F",
                 ""
               ]
             }
           },
           {
-            "name": "Degree of urbanisation",
+            "name": "URBANISATION",
             "type": "string",
             "constraints": {
               "enum": [
-                "Rural",
-                "Urban",
+                "R",
+                "U",
                 ""
               ]
             }
@@ -1095,6 +1028,10 @@
                 ""
               ]
             }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",
@@ -1119,65 +1056,62 @@
             "type": "integer"
           },
           {
-            "name": "SDG Series",
+            "name": "SERIES",
+            "type": "string"
+          },
+          {
+            "name": "REF_AREA",
             "type": "string",
             "constraints": {
               "enum": [
-                "Proportion of children 0-17 years who are deprived in various poverty dimension [1.2.2]",
-                "Proportion of population living in multidimensional poverty [1.2.2]",
+                "_L_GH_Coastal",
+                "_L_GH_Forest",
+                "_L_GH_Savannah",
                 ""
               ]
             }
           },
           {
-            "name": "Reference area",
+            "name": "AGE",
             "type": "string",
             "constraints": {
               "enum": [
-                "Coastal Zone",
-                "Forest Zone",
-                "Savannah Zone",
+                "Y0T17",
                 ""
               ]
             }
           },
           {
-            "name": "Age",
+            "name": "URBANISATION",
             "type": "string",
             "constraints": {
               "enum": [
-                "under 18 years old",
+                "R",
+                "U",
                 ""
               ]
             }
           },
           {
-            "name": "Degree of urbanisation",
+            "name": "COMPOSITE_BREAKDOWN",
             "type": "string",
             "constraints": {
               "enum": [
-                "Rural",
-                "Urban",
+                "_L_GH_ICT",
+                "_L_GH_HOUSING",
+                "_L_GH_SANITATION",
+                "_L_GH_WATER",
+                "_L_GH_PROTECTION",
+                "_L_GH_DEVELOPMENT",
+                "_L_GH_HEALTH",
+                "_L_GH_NUTRITION",
                 ""
               ]
             }
           },
           {
-            "name": "Composite breakdown",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "ICT",
-                "HOUSING",
-                "SANITATION",
-                "WATER",
-                "SOCIAL PROTECTION",
-                "LEARNING AND DEVELOPMENT",
-                "HEALTH",
-                "NUTRITION",
-                ""
-              ]
-            }
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",
@@ -1202,28 +1136,12 @@
             "type": "integer"
           },
           {
-            "name": "SDG Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Cash transfer coverage of extremely poor households under Livelihood Empowerment Against Poverty (LEAP) programme",
-                "Proportion of basic school students under Ghana School Feeding Programme (GSFP)",
-                "Total Beneficiaries of Free Senior High School Programme (FSHSP)",
-                "Proportion with access to affordable healthcare under National Health Insurance Scheme (NHIS)",
-                ""
-              ]
-            }
+            "name": "SERIES",
+            "type": "string"
           },
           {
-            "name": "Unit of measure",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Number",
-                "Percentage (%)",
-                ""
-              ]
-            }
+            "name": "UNIT_MEASURE",
+            "type": "string"
           },
           {
             "name": "Value",
@@ -1248,62 +1166,59 @@
             "type": "integer"
           },
           {
-            "name": "SDG Series",
+            "name": "SERIES",
+            "type": "string"
+          },
+          {
+            "name": "REF_AREA",
             "type": "string",
             "constraints": {
               "enum": [
-                "Proportion of people with legally recognized documentation of their rights to land out of total adult population [1.4.2]",
-                "Proportion of people who perceive their rights to land as secure out of total adult population [1.4.2]",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
                 ""
               ]
             }
           },
           {
-            "name": "Reference area",
+            "name": "SEX",
             "type": "string",
             "constraints": {
               "enum": [
-                "Western",
-                "Central",
-                "Greater Accra",
-                "Volta",
-                "Eastern",
-                "Ashanti",
-                "Western North",
-                "Ahafo",
-                "Bono",
-                "Bono East",
-                "Oti",
-                "Northern",
-                "Savannah",
-                "North East",
-                "Upper East",
-                "Upper West",
+                "M",
+                "F",
                 ""
               ]
             }
           },
           {
-            "name": "Sex",
+            "name": "URBANISATION",
             "type": "string",
             "constraints": {
               "enum": [
-                "Male",
-                "Female",
+                "U",
+                "R",
                 ""
               ]
             }
           },
           {
-            "name": "Degree of urbanisation",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Urban",
-                "Rural",
-                ""
-              ]
-            }
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",
@@ -1350,48 +1265,26 @@
             "type": "integer"
           },
           {
-            "name": "SDG Series",
+            "name": "SERIES",
+            "type": "string"
+          },
+          {
+            "name": "COMPOSITE_BREAKDOWN",
             "type": "string",
             "constraints": {
               "enum": [
-                "Official development assistance grants as percentage of GNI [1.a.1]",
-                "Budget Allocation towards Extreme poverty (in million Ghana Cedi)",
-                "Budget Allocation towards reducing poverty proportion of men, women and children by at least half (in million Ghana Cedi)",
-                "Budget Allocation towards Social dimension (in million Ghana Cedi)",
-                "Budget Allocation towards Equal rights to basic services (in million Ghana Cedi)",
-                "Budget Allocation towards Building resilience of the poor and vulnerable (in million Ghana Cedi)",
-                "Budget Allocation towards Mobilisation of resources (in million Ghana Cedi)",
-                "Budget Allocation towards Pro-poor and Gender (in million Ghana Cedi)",
-                "Total Budget Allocation towards SDG1 (No Poverty) for MDAs/MMDAs (in million Ghana Cedi)",
-                "Percentage share of Budget Allocation towards SDG1 (No Poverty) for MDAs/MMDAs",
+                "_L_GH_GOG",
+                "_L_GH_IGF",
+                "_L_GH_OTHER_FUNDS",
+                "_L_GH_STATUTORY",
+                "_L_GH_DP",
                 ""
               ]
             }
           },
           {
-            "name": "Composite breakdown",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Government of Ghana",
-                "Internally Generated Funds",
-                "Other Fund",
-                "Statutory",
-                "Development Partner",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Unit of measure",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Percentage (%)",
-                "Million Ghana Cedis",
-                ""
-              ]
-            }
+            "name": "UNIT_MEASURE",
+            "type": "string"
           },
           {
             "name": "Value",
@@ -1416,15 +1309,8 @@
             "type": "integer"
           },
           {
-            "name": "SDG Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Proportion of total government spending on health [1.a.2]",
-                "Proportion of total government spending on essential services, education [1.a.2]",
-                ""
-              ]
-            }
+            "name": "SERIES",
+            "type": "string"
           },
           {
             "name": "Value",
@@ -1471,45 +1357,42 @@
             "type": "integer"
           },
           {
-            "name": "SDG Series",
+            "name": "SERIES",
+            "type": "string"
+          },
+          {
+            "name": "REF_AREA",
             "type": "string",
             "constraints": {
               "enum": [
-                "Prevalence of moderate or severe food insecurity in the population [2.1.2]",
-                "Prevalence of severe food insecurity in the population [2.1.2]",
+                "03_o",
+                "06_o",
+                "07_o",
+                "04_o",
+                "05_o",
+                "01_o",
+                "02_o",
+                "10_o",
+                "08_o",
+                "09_o",
                 ""
               ]
             }
           },
           {
-            "name": "Reference area",
+            "name": "URBANISATION",
             "type": "string",
             "constraints": {
               "enum": [
-                "Greater Accra",
-                "Ashanti",
-                "Brong Ahafo",
-                "Volta",
-                "Eastern",
-                "Western",
-                "Central",
-                "Upper West",
-                "Northern",
-                "Upper East",
+                "R",
+                "U",
                 ""
               ]
             }
           },
           {
-            "name": "Degree of urbanisation",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Rural",
-                "Urban",
-                ""
-              ]
-            }
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",
@@ -1534,23 +1417,23 @@
             "type": "integer"
           },
           {
-            "name": "Sex",
+            "name": "SEX",
             "type": "string",
             "constraints": {
               "enum": [
-                "Male",
-                "Female",
+                "M",
+                "F",
                 ""
               ]
             }
           },
           {
-            "name": "Degree of urbanisation",
+            "name": "URBANISATION",
             "type": "string",
             "constraints": {
               "enum": [
-                "Urban",
-                "Rural",
+                "U",
+                "R",
                 ""
               ]
             }
@@ -1588,16 +1471,8 @@
             "type": "integer"
           },
           {
-            "name": "SDG Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Proportion of children moderately or severely overweight [2.2.2]",
-                "Proportion of children moderately or severely wasted [2.2.2]",
-                "Proportion of children underweight",
-                ""
-              ]
-            }
+            "name": "SERIES",
+            "type": "string"
           },
           {
             "name": "COMMENT_OBS",
@@ -1632,27 +1507,12 @@
             "type": "integer"
           },
           {
-            "name": "SDG Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Agriculture orientation index for government expenditures [2.a.1]",
-                "Agriculture share of Government Expenditure [2.a.1]",
-                "Agriculture value added share of GDP [2.a.1]",
-                ""
-              ]
-            }
+            "name": "SERIES",
+            "type": "string"
           },
           {
-            "name": "Unit of measure",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Index",
-                "Percentage (%)",
-                ""
-              ]
-            }
+            "name": "UNIT_MEASURE",
+            "type": "string"
           },
           {
             "name": "Value",
@@ -1699,62 +1559,53 @@
             "type": "integer"
           },
           {
-            "name": "SDG Series",
+            "name": "SERIES",
+            "type": "string"
+          },
+          {
+            "name": "SEX",
             "type": "string",
             "constraints": {
               "enum": [
-                "2.Proportion of pupils in primary 4 and primary 6 that achieved minimum proficiency in Mathematics and English (Percent)",
-                "3.Children who demonstrated foundational literacy and numeracy by locality type (Percent)",
-                "4.Foundational literacy and numeracy skills of students in P4, P6 and JHS by sex, (Percent)",
-                "1.Proportion of pupils in JHS that passed Mathematics and English (Percent)",
+                "M",
+                "F",
                 ""
               ]
             }
           },
           {
-            "name": "Sex",
+            "name": "URBANISATION",
             "type": "string",
             "constraints": {
               "enum": [
-                "Male",
-                "Female",
+                "U",
+                "R",
                 ""
               ]
             }
           },
           {
-            "name": "Degree of urbanisation",
+            "name": "EDUCATION_LEV",
             "type": "string",
             "constraints": {
               "enum": [
-                "Urban",
-                "Rural",
+                "_L_GH_Primary_4",
+                "_L_GH_Primary_6",
+                "_L_GH_JHS",
                 ""
               ]
             }
           },
           {
-            "name": "Education level",
+            "name": "COMPOSITE_BREAKDOWN",
             "type": "string",
             "constraints": {
               "enum": [
-                "Primary 4",
-                "Primary 6",
-                "Junior High School (JHS)",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Composite breakdown",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Skill: Mathematics",
-                "English",
-                "Skill: Reading",
-                "Skill: Functional numeracy",
-                "Skill: Functional literacy",
+                "SKILL_MATH",
+                "_L_GH_ENGLISH",
+                "SKILL_READ",
+                "SKILL_NMRCY",
+                "SKILL_LTRCY",
                 ""
               ]
             }
@@ -1782,12 +1633,12 @@
             "type": "integer"
           },
           {
-            "name": "Education level",
+            "name": "EDUCATION_LEV",
             "type": "string",
             "constraints": {
               "enum": [
-                "Primary education",
-                "Junior High School (JHS)",
+                "ISCED11_10",
+                "_L_GH_JHS",
                 ""
               ]
             }
@@ -1815,25 +1666,16 @@
             "type": "integer"
           },
           {
-            "name": "SDG Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Proportion of children who are developmentally on track in literacy-numeracy",
-                "Proportion of children who are developmentally on track in physical development",
-                "Proportion of children who are developmentally on track in social-emotional development",
-                "Proportion of children who are developmentally on track in learning",
-                ""
-              ]
-            }
+            "name": "SERIES",
+            "type": "string"
           },
           {
-            "name": "Degree of urbanisation",
+            "name": "URBANISATION",
             "type": "string",
             "constraints": {
               "enum": [
-                "Urban",
-                "Rural",
+                "U",
+                "R",
                 ""
               ]
             }
@@ -1861,45 +1703,49 @@
             "type": "integer"
           },
           {
-            "name": "Reference area",
+            "name": "REF_AREA",
             "type": "string",
             "constraints": {
               "enum": [
-                "Western",
-                "Central",
-                "Greater Accra",
-                "Volta",
-                "Eastern",
-                "Ashanti",
-                "Brong Ahafo",
-                "Northern",
-                "Upper East",
-                "Upper West",
+                "01_o",
+                "02_o",
+                "03_o",
+                "04_o",
+                "05_o",
+                "06_o",
+                "07_o",
+                "08_o",
+                "09_o",
+                "10_o",
                 ""
               ]
             }
           },
           {
-            "name": "Sex",
+            "name": "SEX",
             "type": "string",
             "constraints": {
               "enum": [
-                "Male",
-                "Female",
+                "M",
+                "F",
                 ""
               ]
             }
           },
           {
-            "name": "Degree of urbanisation",
+            "name": "URBANISATION",
             "type": "string",
             "constraints": {
               "enum": [
-                "Urban",
-                "Rural",
+                "U",
+                "R",
                 ""
               ]
             }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",
@@ -1924,71 +1770,47 @@
             "type": "integer"
           },
           {
-            "name": "SDG Series",
+            "name": "SERIES",
+            "type": "string"
+          },
+          {
+            "name": "SEX",
             "type": "string",
             "constraints": {
               "enum": [
-                "Number of Technical and Vocational Institutions",
-                "Number of Public Technical and Vocational Institutions",
-                "Number of Private Technical and Vocational Institutions",
-                "Enrolment in Technical and Vocational Institutions",
-                "Enrolment in Public Technical and Vocational Institutions",
-                "Enrolment in Private Technical and Vocational Institutions",
-                "Number of Senior High Technical Schools with TVET Programmes",
-                "Enrolment in TVET Programmes in Private Senior High Technical Schools as a share of total enrolment",
-                "Enrolment in TVET Programmes in Senior High Technical Schools",
-                "Number of Classes for National Functional Literacy Programme",
-                "Enrolment for National Functional Literacy Programme",
-                "Percentage of Female share in Enrolment for National Functional Literacy Programme",
+                "M",
+                "F",
                 ""
               ]
             }
           },
           {
-            "name": "Sex",
+            "name": "EDUCATION_LEV",
             "type": "string",
             "constraints": {
               "enum": [
-                "Male",
-                "Female",
+                "ISCED11_25_35_45",
+                "_L_GH_SecTech",
                 ""
               ]
             }
           },
           {
-            "name": "Education level",
+            "name": "COMPOSITE_BREAKDOWN",
             "type": "string",
             "constraints": {
               "enum": [
-                "Vocational secondary education",
-                "Senior High Technical School",
+                "GES",
+                "OTHER_PUBLIC",
+                "_L_GH_PRIVATE",
+                "_L_GH_PUBLIC",
                 ""
               ]
             }
           },
           {
-            "name": "Composite breakdown",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Ghana Education Service",
-                "Other Public Institutions",
-                "Private",
-                "Public",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Unit of measure",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Number",
-                "Percentage (%)",
-                ""
-              ]
-            }
+            "name": "UNIT_MEASURE",
+            "type": "string"
           },
           {
             "name": "Value",
@@ -2013,36 +1835,40 @@
             "type": "integer"
           },
           {
-            "name": "Reference area",
+            "name": "REF_AREA",
             "type": "string",
             "constraints": {
               "enum": [
-                "Upper West",
-                "Upper East",
-                "Central",
-                "Volta",
-                "Ashanti",
-                "Eastern",
-                "Greater Accra",
-                "Brong Ahafo",
-                "Northern",
-                "Western",
+                "10_o",
+                "09_o",
+                "02_o",
+                "04_o",
+                "06_o",
+                "05_o",
+                "03_o",
+                "07_o",
+                "08_o",
+                "01_o",
                 ""
               ]
             }
           },
           {
-            "name": "Education level",
+            "name": "EDUCATION_LEV",
             "type": "string",
             "constraints": {
               "enum": [
-                "Pre-primary education",
-                "Primary education",
-                "Junior High School (JHS)",
-                "Senior High School (SHS)",
+                "ISCED11_02",
+                "ISCED11_1",
+                "_L_GH_JHS",
+                "_L_GH_SHS",
                 ""
               ]
             }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",
@@ -2067,35 +1893,35 @@
             "type": "integer"
           },
           {
-            "name": "Sex",
+            "name": "SEX",
             "type": "string",
             "constraints": {
               "enum": [
-                "Female",
-                "Male",
+                "F",
+                "M",
                 ""
               ]
             }
           },
           {
-            "name": "Age",
+            "name": "AGE",
             "type": "string",
             "constraints": {
               "enum": [
-                "6 years old and over",
-                "11 years old and over",
-                "15 years old and over",
+                "Y_GE6",
+                "_L_GH_Y_GE11",
+                "Y_GE15",
                 ""
               ]
             }
           },
           {
-            "name": "Degree of urbanisation",
+            "name": "URBANISATION",
             "type": "string",
             "constraints": {
               "enum": [
-                "Rural",
-                "Urban",
+                "R",
+                "U",
                 ""
               ]
             }
@@ -2123,25 +1949,16 @@
             "type": "integer"
           },
           {
-            "name": "SDG Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Proportion of schools with access to electricity [4.a.1]",
-                "Proportion of schools with access to basic drinking water [4.a.1]",
-                "Proportion of schools with access to toilet facilities",
-                "Proportion of schools with access to urinals",
-                ""
-              ]
-            }
+            "name": "SERIES",
+            "type": "string"
           },
           {
-            "name": "Composite breakdown",
+            "name": "COMPOSITE_BREAKDOWN",
             "type": "string",
             "constraints": {
               "enum": [
-                "Public",
-                "Private",
+                "_L_GH_PUBLIC",
+                "_L_GH_PRIVATE",
                 ""
               ]
             }
@@ -2169,26 +1986,26 @@
             "type": "integer"
           },
           {
-            "name": "Education level",
+            "name": "EDUCATION_LEV",
             "type": "string",
             "constraints": {
               "enum": [
-                "Early childhood education",
-                "Pre-primary education",
-                "Primary education",
-                "Junior High School (JHS)",
-                "Senior High School (SHS)",
+                "ISCED11_0",
+                "ISCED11_02",
+                "ISCED11_1",
+                "_L_GH_JHS",
+                "_L_GH_SHS",
                 ""
               ]
             }
           },
           {
-            "name": "Composite breakdown",
+            "name": "COMPOSITE_BREAKDOWN",
             "type": "string",
             "constraints": {
               "enum": [
-                "Public",
-                "Private",
+                "_L_GH_PUBLIC",
+                "_L_GH_PRIVATE",
                 ""
               ]
             }
@@ -2304,40 +2121,44 @@
             "type": "integer"
           },
           {
-            "name": "Reference area",
+            "name": "REF_AREA",
             "type": "string",
             "constraints": {
               "enum": [
-                "Western",
-                "Central",
-                "Greater Accra",
-                "Volta",
-                "Eastern",
-                "Ashanti",
-                "Western North",
-                "Ahafo",
-                "Bono",
-                "Bono East",
-                "Oti",
-                "Northern",
-                "Savannah",
-                "North East",
-                "Upper East",
-                "Upper West",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
                 ""
               ]
             }
           },
           {
-            "name": "Sex",
+            "name": "SEX",
             "type": "string",
             "constraints": {
               "enum": [
-                "Male",
-                "Female",
+                "M",
+                "F",
                 ""
               ]
             }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",
@@ -2362,12 +2183,12 @@
             "type": "integer"
           },
           {
-            "name": "Sex",
+            "name": "SEX",
             "type": "string",
             "constraints": {
               "enum": [
-                "Male",
-                "Female",
+                "M",
+                "F",
                 ""
               ]
             }
@@ -2395,48 +2216,48 @@
             "type": "integer"
           },
           {
-            "name": "Sex",
+            "name": "SEX",
             "type": "string",
             "constraints": {
               "enum": [
-                "Male",
-                "Female",
+                "M",
+                "F",
                 ""
               ]
             }
           },
           {
-            "name": "Age",
+            "name": "AGE",
             "type": "string",
             "constraints": {
               "enum": [
-                "15 to 24 years old",
+                "Y15T24",
                 ""
               ]
             }
           },
           {
-            "name": "Degree of urbanisation",
+            "name": "URBANISATION",
             "type": "string",
             "constraints": {
               "enum": [
-                "Urban",
-                "Rural",
+                "U",
+                "R",
                 ""
               ]
             }
           },
           {
-            "name": "Disability status",
+            "name": "DISABILITY_STATUS",
             "type": "string",
             "constraints": {
               "enum": [
-                "Persons with speech disability",
-                "Persons with sight disability",
-                "Persons with physical disability",
-                "Persons with intellectual disability",
-                "Persons with hearing disability",
-                "Persons with emotional disability",
+                "_L_GH_SPEECH",
+                "_L_GH_SIGHT",
+                "_L_GH_PHYSICAL",
+                "_L_GH_INTELLECTUAL",
+                "_L_GH_HEARING",
+                "_L_GH_EMOTIONAL",
                 ""
               ]
             }
@@ -2464,12 +2285,12 @@
             "type": "integer"
           },
           {
-            "name": "Sex",
+            "name": "SEX",
             "type": "string",
             "constraints": {
               "enum": [
-                "Male",
-                "Female",
+                "M",
+                "F",
                 ""
               ]
             }
@@ -2497,34 +2318,27 @@
             "type": "integer"
           },
           {
-            "name": "SDG Series",
+            "name": "SERIES",
+            "type": "string"
+          },
+          {
+            "name": "SEX",
             "type": "string",
             "constraints": {
               "enum": [
-                "Percentage of children engaged in child labour",
-                "Percentage of children engaged in hazardous forms of child labour",
+                "M",
+                "F",
                 ""
               ]
             }
           },
           {
-            "name": "Sex",
+            "name": "URBANISATION",
             "type": "string",
             "constraints": {
               "enum": [
-                "Male",
-                "Female",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Degree of urbanisation",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Urban",
-                "Rural",
+                "U",
+                "R",
                 ""
               ]
             }
@@ -2552,15 +2366,8 @@
             "type": "integer"
           },
           {
-            "name": "SDG Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Contribution of hotel and restaurant sub-sector to GDP",
-                "Growth rate of hotel and restaurant sub-sector",
-                ""
-              ]
-            }
+            "name": "SERIES",
+            "type": "string"
           },
           {
             "name": "Value",
@@ -2585,15 +2392,8 @@
             "type": "integer"
           },
           {
-            "name": "SDG Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Number of automated teller machines (ATMs) per 100,000 adults [8.10.1]",
-                "Number of commercial bank branches per 100,000 adults [8.10.1]",
-                ""
-              ]
-            }
+            "name": "SERIES",
+            "type": "string"
           },
           {
             "name": "Value",
@@ -2618,15 +2418,8 @@
             "type": "integer"
           },
           {
-            "name": "SDG Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Number of registered mobile money accounts",
-                "Number of active mobile money accounts",
-                ""
-              ]
-            }
+            "name": "SERIES",
+            "type": "string"
           },
           {
             "name": "Value",
@@ -2673,34 +2466,38 @@
             "type": "integer"
           },
           {
-            "name": "Reference area",
+            "name": "REF_AREA",
             "type": "string",
             "constraints": {
               "enum": [
-                "Western",
-                "Central",
-                "Greater Accra",
-                "Volta",
-                "Eastern",
-                "Ashanti",
-                "Brong Ahafo",
-                "Northern",
-                "Upper East",
-                "Upper West",
+                "01_o",
+                "02_o",
+                "03_o",
+                "04_o",
+                "05_o",
+                "06_o",
+                "07_o",
+                "08_o",
+                "09_o",
+                "10_o",
                 ""
               ]
             }
           },
           {
-            "name": "Composite breakdown",
+            "name": "COMPOSITE_BREAKDOWN",
             "type": "string",
             "constraints": {
               "enum": [
-                "Discriminated against",
-                "Not Discriminated against",
+                "_L_GH_DISCRIMINATED",
+                "_L_GH_NOT_DISCRIMINATED",
                 ""
               ]
             }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",
@@ -2747,28 +2544,28 @@
             "type": "integer"
           },
           {
-            "name": "Sex",
+            "name": "SEX",
             "type": "string",
             "constraints": {
               "enum": [
-                "Male",
-                "Female",
+                "M",
+                "F",
                 ""
               ]
             }
           },
           {
-            "name": "Composite breakdown",
+            "name": "COMPOSITE_BREAKDOWN",
             "type": "string",
             "constraints": {
               "enum": [
-                "ECOWAS countries",
-                "Other African Countries",
-                "Europe",
-                "Middle East/Gulf Cooperation Council countries",
-                "Asia",
-                "America",
-                "Oceania",
+                "_L_GH_ECOWAS",
+                "_L_GH_OTHER_AFRICA",
+                "_L_GH_EUROPE",
+                "_L_GH_MIDDLEEAST",
+                "_L_GH_ASIA",
+                "_L_GH_AMERICA",
+                "_L_GH_OCEANIA",
                 ""
               ]
             }
@@ -2796,13 +2593,13 @@
             "type": "integer"
           },
           {
-            "name": "Composite breakdown",
+            "name": "COMPOSITE_BREAKDOWN",
             "type": "string",
             "constraints": {
               "enum": [
-                "COTE D'IVOIRE",
-                "TOGO",
-                "LIBERIA",
+                "CI",
+                "TG",
+                "LR",
                 ""
               ]
             }
@@ -2830,15 +2627,8 @@
             "type": "integer"
           },
           {
-            "name": "SDG Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Survey-based Maternal mortality ratio [3.1.1]",
-                "Census-based Maternal mortality ratio [3.1.1]",
-                ""
-              ]
-            }
+            "name": "SERIES",
+            "type": "string"
           },
           {
             "name": "Value",
@@ -2863,23 +2653,27 @@
             "type": "integer"
           },
           {
-            "name": "Reference area",
+            "name": "REF_AREA",
             "type": "string",
             "constraints": {
               "enum": [
-                "Upper West",
-                "Upper East",
-                "Northern",
-                "Brong Ahafo",
-                "Ashanti",
-                "Eastern",
-                "Volta",
-                "Greater Accra",
-                "Central",
-                "Western",
+                "10_o",
+                "09_o",
+                "08_o",
+                "07_o",
+                "06_o",
+                "05_o",
+                "04_o",
+                "03_o",
+                "02_o",
+                "01_o",
                 ""
               ]
             }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",
@@ -2948,26 +2742,12 @@
             "type": "integer"
           },
           {
-            "name": "SDG Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Rate of new HIV infections per 1,000 uninfected population [3.3.1]",
-                "Number of new HIV infections [3.3.1]",
-                ""
-              ]
-            }
+            "name": "SERIES",
+            "type": "string"
           },
           {
-            "name": "Unit of measure",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Per 1,000 uninfected population",
-                "Number",
-                ""
-              ]
-            }
+            "name": "UNIT_MEASURE",
+            "type": "string"
           },
           {
             "name": "Value",
@@ -3036,40 +2816,44 @@
             "type": "integer"
           },
           {
-            "name": "Reference area",
+            "name": "REF_AREA",
             "type": "string",
             "constraints": {
               "enum": [
-                "Western",
-                "Central",
-                "Greater Accra",
-                "Volta",
-                "Eastern",
-                "Ashanti",
-                "Western North",
-                "Ahafo",
-                "Bono",
-                "Bono East",
-                "Oti",
-                "Northern",
-                "Savannah",
-                "North East",
-                "Upper East",
-                "Upper West",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
                 ""
               ]
             }
           },
           {
-            "name": "Degree of urbanisation",
+            "name": "URBANISATION",
             "type": "string",
             "constraints": {
               "enum": [
-                "Urban",
-                "Rural",
+                "U",
+                "R",
                 ""
               ]
             }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",
@@ -3160,15 +2944,8 @@
             "type": "integer"
           },
           {
-            "name": "SDG Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Doctor to population ratio",
-                "Nurse to population ratio",
-                ""
-              ]
-            }
+            "name": "SERIES",
+            "type": "string"
           },
           {
             "name": "Value",
@@ -3193,34 +2970,27 @@
             "type": "integer"
           },
           {
-            "name": "SDG Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Average of 13 International Health Regulations (IHR) core capacities [3.d.1]",
-                "International Health Regulations (IHR) capacity, by type of IHR capacity [3.d.1]",
-                ""
-              ]
-            }
+            "name": "SERIES",
+            "type": "string"
           },
           {
-            "name": "Composite breakdown",
+            "name": "COMPOSITE_BREAKDOWN",
             "type": "string",
             "constraints": {
               "enum": [
-                "Legislation and financing",
-                "IHR Coordination and National Focal Point Functions",
-                "Zoonotic events and the Human-Animal Health Interface",
-                "Food safety",
-                "Laboratory",
-                "Surveillance",
-                "Human resources",
-                "National Health Emergency Framework",
-                "Health Service Provision",
-                "Risk communication",
-                "Points of entry",
-                "Chemical events",
-                "Radiation emergencies",
+                "IHR_01_N",
+                "IHR_02_N",
+                "IHR_03_N",
+                "IHR_04_N",
+                "IHR_05_N",
+                "IHR_06_N",
+                "IHR_07_N",
+                "IHR_08_N",
+                "IHR_09_N",
+                "IHR_10_N",
+                "IHR_11_N",
+                "IHR_12_N",
+                "IHR_13_N",
                 ""
               ]
             }
@@ -3248,26 +3018,12 @@
             "type": "integer"
           },
           {
-            "name": "SDG Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Proportion of urban population living in slums [11.1.1]",
-                "Urban population living in slums (number) [11.1.1]",
-                ""
-              ]
-            }
+            "name": "SERIES",
+            "type": "string"
           },
           {
-            "name": "Unit of measure",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Percentage (%)",
-                "Number",
-                ""
-              ]
-            }
+            "name": "UNIT_MEASURE",
+            "type": "string"
           },
           {
             "name": "Value",
@@ -3380,16 +3136,16 @@
             "type": "integer"
           },
           {
-            "name": "Composite breakdown",
+            "name": "COMPOSITE_BREAKDOWN",
             "type": "string",
             "constraints": {
               "enum": [
-                "National Emissions with FOLU",
-                "National Emissions without FOLU",
-                "Energy",
-                "Industrial Processes and Product Use",
-                "Agriculture, Forestry, and Other Land Use",
-                "Waste",
+                "_L_GH_NE_W_FOLU",
+                "_L_GH_NE_WO_FOLU",
+                "_L_GH_ENERGY",
+                "_L_GH_INDUPRO",
+                "_L_GH_AGRICFOREST",
+                "_L_GH_WASTE",
                 ""
               ]
             }
@@ -3439,19 +3195,19 @@
             "type": "integer"
           },
           {
-            "name": "Type of product",
+            "name": "PRODUCT",
             "type": "string",
             "constraints": {
               "enum": [
-                "Round sardinella",
-                "Flat sardinella",
-                "Chub mackerel",
-                "European anchovy",
-                "Burritto",
-                "Red Pandora",
-                "Cassava fish",
-                "Red Mullet",
-                "Angola dentex",
+                "_L_GH_ROUSAR",
+                "_L_GH_FLATSAR",
+                "_L_GH_CHUBMACK",
+                "_L_GH_EUROANC",
+                "_L_GH_BURRITTO",
+                "_L_GH_REDPAN",
+                "_L_GH_CASFISH",
+                "_L_GH_REDMUL",
+                "_L_GH_ANGDEN",
                 ""
               ]
             }
@@ -3479,28 +3235,28 @@
             "type": "integer"
           },
           {
-            "name": "Composite breakdown",
+            "name": "COMPOSITE_BREAKDOWN",
             "type": "string",
             "constraints": {
               "enum": [
-                "Food provision (OHI goal)",
-                "Wild caught Fisheries(OHI sub-goal)",
-                "Mariculture (OHI sub-goal)",
-                "Artisanal fishing opportunities (OHI goal)",
-                "Natural products (OHI goal)",
-                "Carbon storage (OHI goal)",
-                "Coastal protection (OHI goal)",
-                "Livelihoods & economies (OHI goal)",
-                "Livelihoods (OHI sub-goal)",
-                "Economies (OHI sub-goal)",
-                "Tourism & recreation (OHI goal)",
-                "Sense of place (OHI goal)",
-                "Iconic species (OHI sub-goal)",
-                "Lasting special places (OHI sub-goal)",
-                "Clean water (OHI goal)",
-                "Biodiversity (OHI goal)",
-                "Habitat (OHI sub-goal)",
-                "Species condition (OHI sub-goal)",
+                "_L_GH_140501_02",
+                "_L_GH_140501_03",
+                "_L_GH_140501_04",
+                "_L_GH_140501_05",
+                "_L_GH_140501_06",
+                "_L_GH_140501_07",
+                "_L_GH_140501_08",
+                "_L_GH_140501_09",
+                "_L_GH_140501_10",
+                "_L_GH_140501_11",
+                "_L_GH_140501_12",
+                "_L_GH_140501_13",
+                "_L_GH_140501_14",
+                "_L_GH_140501_15",
+                "_L_GH_140501_16",
+                "_L_GH_140501_17",
+                "_L_GH_140501_18",
+                "_L_GH_140501_19",
                 ""
               ]
             }
@@ -3550,43 +3306,25 @@
             "type": "integer"
           },
           {
-            "name": "SDG Series",
+            "name": "SERIES",
+            "type": "string"
+          },
+          {
+            "name": "COMPOSITE_BREAKDOWN",
             "type": "string",
             "constraints": {
               "enum": [
-                "Air transport, domestic passengers carried",
-                "Air transport, international passengers carried",
-                "Freight volume (tonne kilometres) [9.1.2]",
-                "Passenger volume (passenger kilometres) [9.1.2]",
-                "Number of containers by marine transport",
+                "MOT_AIR",
+                "MOT_RAI",
+                "MOT_SEA",
+                "MOT_IWW",
                 ""
               ]
             }
           },
           {
-            "name": "Composite breakdown",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Mode of Transport: Air",
-                "Mode of Transport: Rail",
-                "Mode of Transport: Maritime",
-                "Mode of transport: Inland waterway transport",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Unit of measure",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Number",
-                "Tonnes",
-                "million tonnes",
-                ""
-              ]
-            }
+            "name": "UNIT_MEASURE",
+            "type": "string"
           },
           {
             "name": "Value",
@@ -3611,26 +3349,12 @@
             "type": "integer"
           },
           {
-            "name": "SDG Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Manufacturing value added as a proportion of GDP [9.2.1]",
-                "Manufacturing value added per capita [9.2.1]",
-                ""
-              ]
-            }
+            "name": "SERIES",
+            "type": "string"
           },
           {
-            "name": "Unit of measure",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Percentage (%)",
-                "Ghana Cedi",
-                ""
-              ]
-            }
+            "name": "UNIT_MEASURE",
+            "type": "string"
           },
           {
             "name": "Value",
@@ -3655,51 +3379,55 @@
             "type": "integer"
           },
           {
-            "name": "Reference area",
+            "name": "REF_AREA",
             "type": "string",
             "constraints": {
               "enum": [
-                "Western",
-                "Central",
-                "Greater Accra",
-                "Volta",
-                "Eastern",
-                "Ashanti",
-                "Western North",
-                "Ahafo",
-                "Bono",
-                "Bono East",
-                "Oti",
-                "Northern",
-                "Savannah",
-                "North East",
-                "Upper East",
-                "Upper West",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
                 ""
               ]
             }
           },
           {
-            "name": "Sex",
+            "name": "SEX",
             "type": "string",
             "constraints": {
               "enum": [
-                "Male",
-                "Female",
+                "M",
+                "F",
                 ""
               ]
             }
           },
           {
-            "name": "Degree of urbanisation",
+            "name": "URBANISATION",
             "type": "string",
             "constraints": {
               "enum": [
-                "Urban",
-                "Rural",
+                "U",
+                "R",
                 ""
               ]
             }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",
@@ -3724,13 +3452,13 @@
             "type": "integer"
           },
           {
-            "name": "Composite breakdown",
+            "name": "COMPOSITE_BREAKDOWN",
             "type": "string",
             "constraints": {
               "enum": [
-                "Agriculture",
-                "Industry",
-                "Services",
+                "_L_GH_AGRIC",
+                "_L_GH_INDUSTRY",
+                "_L_GH_SERVICES",
                 ""
               ]
             }
@@ -3780,16 +3508,8 @@
             "type": "integer"
           },
           {
-            "name": "SDG Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Proportion of population covered by at least a 2G mobile network [9.c.1]",
-                "Proportion of population covered by at least a 3G mobile network [9.c.1]",
-                "Proportion of population covered by at least a 4G mobile network [9.c.1]",
-                ""
-              ]
-            }
+            "name": "SERIES",
+            "type": "string"
           },
           {
             "name": "Value",
@@ -3814,41 +3534,54 @@
             "type": "integer"
           },
           {
-            "name": "Reference area",
+            "name": "REF_AREA",
             "type": "string",
             "constraints": {
               "enum": [
-                "Western",
-                "Central",
-                "Greater Accra",
-                "Volta",
-                "Eastern",
-                "Ashanti",
-                "Brong Ahafo",
-                "Northern",
-                "Upper East",
-                "Upper West",
-                "Western North",
-                "Ahafo",
-                "Bono",
-                "Bono East",
-                "Oti",
-                "Savannah",
-                "North East",
+                "01_o",
+                "02_o",
+                "03_o",
+                "04_o",
+                "05_o",
+                "06_o",
+                "07_o",
+                "08_o",
+                "09_o",
+                "10_o",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
                 ""
               ]
             }
           },
           {
-            "name": "Degree of urbanisation",
+            "name": "URBANISATION",
             "type": "string",
             "constraints": {
               "enum": [
-                "Urban",
-                "Rural",
+                "U",
+                "R",
                 ""
               ]
             }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",
@@ -3873,40 +3606,44 @@
             "type": "integer"
           },
           {
-            "name": "Reference area",
+            "name": "REF_AREA",
             "type": "string",
             "constraints": {
               "enum": [
-                "Western",
-                "Central",
-                "Greater Accra",
-                "Volta",
-                "Eastern",
-                "Ashanti",
-                "Western North",
-                "Ahafo",
-                "Bono",
-                "Bono East",
-                "Oti",
-                "Northern",
-                "Savannah",
-                "North East",
-                "Upper East",
-                "Upper West",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
                 ""
               ]
             }
           },
           {
-            "name": "Degree of urbanisation",
+            "name": "URBANISATION",
             "type": "string",
             "constraints": {
               "enum": [
-                "Urban",
-                "Rural",
+                "U",
+                "R",
                 ""
               ]
             }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",
@@ -3953,15 +3690,8 @@
             "type": "integer"
           },
           {
-            "name": "SDG Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Energy intensity measured in terms of total energy supply and GDP, PPP (constant 2017 international $)",
-                "Energy intensity measured in terms of final energy consumption and GDP, PPP (constant 2017 international $)",
-                ""
-              ]
-            }
+            "name": "SERIES",
+            "type": "string"
           },
           {
             "name": "Value",
@@ -4052,15 +3782,8 @@
             "type": "integer"
           },
           {
-            "name": "SDG Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Foreign direct investment (FDI) inflows as a proportion of Gross National Income [17.3.1]",
-                "Official Development Assistance (ODA) inflows as a percentage of national budget",
-                ""
-              ]
-            }
+            "name": "SERIES",
+            "type": "string"
           },
           {
             "name": "Value",
@@ -4129,37 +3852,23 @@
             "type": "integer"
           },
           {
-            "name": "SDG Series",
+            "name": "SERIES",
+            "type": "string"
+          },
+          {
+            "name": "URBANISATION",
             "type": "string",
             "constraints": {
               "enum": [
-                "Households access to fixed internet service",
-                "Fixed broadband subscriptions per 100 inhabitants [17.6.1]",
+                "U",
+                "R",
                 ""
               ]
             }
           },
           {
-            "name": "Degree of urbanisation",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Urban",
-                "Rural",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Unit of measure",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Percentage (%)",
-                "Per 100 population",
-                ""
-              ]
-            }
+            "name": "UNIT_MEASURE",
+            "type": "string"
           },
           {
             "name": "Value",
@@ -4184,45 +3893,49 @@
             "type": "integer"
           },
           {
-            "name": "Reference area",
+            "name": "REF_AREA",
             "type": "string",
             "constraints": {
               "enum": [
-                "Western",
-                "Central",
-                "Greater Accra",
-                "Volta",
-                "Eastern",
-                "Ashanti",
-                "Brong Ahafo",
-                "Northern",
-                "Upper East",
-                "Upper West",
+                "01_o",
+                "02_o",
+                "03_o",
+                "04_o",
+                "05_o",
+                "06_o",
+                "07_o",
+                "08_o",
+                "09_o",
+                "10_o",
                 ""
               ]
             }
           },
           {
-            "name": "Sex",
+            "name": "SEX",
             "type": "string",
             "constraints": {
               "enum": [
-                "Male",
-                "Female",
+                "M",
+                "F",
                 ""
               ]
             }
           },
           {
-            "name": "Degree of urbanisation",
+            "name": "URBANISATION",
             "type": "string",
             "constraints": {
               "enum": [
-                "Rural",
-                "Urban",
+                "R",
+                "U",
                 ""
               ]
             }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",
