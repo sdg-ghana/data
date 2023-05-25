@@ -54,6 +54,9 @@ jobs:
         BRANCH: gh-pages
         FOLDER: _site
         CLEAN: true
+    - name: Waiting 4 minutes for live data deployment
+      run: |
+        sleep 240
     - name: Rebuild live site
       run: |
         curl -L \
