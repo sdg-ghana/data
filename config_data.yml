@@ -106,22 +106,22 @@ reporting_status_extra_fields: []
 # below and adjust if you would like to use the Open SDG mapping functionality.
 # Note that the GeoJSON files can either be remote (as in the example below) or
 # local, relative to the src_dir specified above.
-# map_layers:
-#   - geojson_file: geojsons/GHANA_10_REGIONS_simplified.geojson
-#     name_property: Name_en
-#     id_property: REGIONID
-#     output_subfolder: regions_10
-#     filename_prefix: indicator_
-#   - geojson_file: geojsons/GHANA_16_REGIONS_simplified.geojson
-#     name_property: Name_en
-#     id_property: REGIONID
-#     output_subfolder: regions_16
-#     filename_prefix: indicator_
-#   - geojson_file: geojsons/GHANA_272_DISTRICTS_simplified.geojson
-#     name_property: Name_en
-#     id_property: DISTRICTID
-#     output_subfolder: district_272
-#     filename_prefix: indicator_
+map_layers:
+  - geojson_file: geojsons/GHANA_10_REGIONS_simplified.geojson
+    name_property: Name_en
+    id_property: REGIONID
+    output_subfolder: regions_10
+    filename_prefix: indicator_
+  - geojson_file: geojsons/GHANA_16_REGIONS_simplified.geojson
+    name_property: Name_en
+    id_property: REGIONID
+    output_subfolder: regions_16
+    filename_prefix: indicator_
+  - geojson_file: geojsons/GHANA_272_DISTRICTS_simplified.geojson
+    name_property: Name_en
+    id_property: DISTRICTID
+    output_subfolder: district_272
+    filename_prefix: indicator_
   
 
 
