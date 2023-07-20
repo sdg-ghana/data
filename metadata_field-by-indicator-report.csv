@@ -157,7 +157,7 @@ Indicator,Reporting status,UN designated tier,UN custodian agency,Non-statistica
 #3-3-4,notstarted,Tier I,World Health Organisation (WHO),,,,,line
 #3-3-5,notstarted,Tier I,World Health Organisation (WHO),,,,,line
 #3-4-1,notstarted,Tier I,World Health Organisation (WHO),,,,,line
-#3-4-2,complete,Tier I,World Health Organisation (WHO),,,,"Per 100,000 population",bar
+#3-4-2,complete,Tier I,World Health Organisation (WHO),,True,,"Per 100,000 population",bar
 #3-5-1,notstarted,Tier II,"World Health Organisation (WHO), United Nations Office on Drugs and Crime (UNODC)",,,,,line
 #3-5-2,notstarted,Tier I,World Health Organisation (WHO),,,,,line
 #3-6-1,complete,Tier I,World Health Organisation (WHO),,,,"Per 100,000 population",line
