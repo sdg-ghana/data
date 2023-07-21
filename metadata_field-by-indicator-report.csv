@@ -10,7 +10,7 @@ Indicator,Reporting status,UN designated tier,UN custodian agency,Non-statistica
 #1-5-3,complete,Tier II,United Nations International Strategy for Disaster Reduction (UNISDR),True,,,,line
 #1-5-4,notstarted,Tier II,United Nations International Strategy for Disaster Reduction (UNISDR),,,,,line
 #1-a-1,complete,Tier I,Organisation for Economic Co-operation and Development (OECD),,,,,bar
-#1-a-2,notstarted,Tier II,UNESCO Institute for Statistics (UNESCO-UIS),,,,Percentage (%),line
+#1-a-2,complete,Tier II,UNESCO Institute for Statistics (UNESCO-UIS),,,,Percentage (%),line
 #1-b-1,complete,Tier II,United Nations Children’s Fund (UNICEF),,,,Percentage (%),line
 #10-1-1,complete,Tier II,World Bank (WB),,,,Percentage (%),line
 #10-2-1,notstarted,Tier II,"United Nations Children's Fund (UNICEF), World Bank (WB)",,,,,line
