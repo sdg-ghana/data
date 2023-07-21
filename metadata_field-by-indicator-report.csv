@@ -108,7 +108,7 @@ Indicator,Reporting status,UN designated tier,UN custodian agency,Non-statistica
 #16-8-1,notstarted,Tier I,United Nations Department of Economic and Social Affairs (DESA)/Financing for Development Office (FFDO),,,,,line
 #16-9-1,complete,Tier I,"United Nations Statistics Division (UNSD), United Nations Children's Fund (UNICEFF)",,,,Percentage (%),bar
 #16-a-1,complete,Tier I,Office of the United Nations High Commissioner for Human Rights (OHCHR),,,,,line
-#16-b-1,complete,Tier II,Office of the United Nations High Commissioner for Human Rights (OHCHR),,,,Percentage (%),bar
+#16-b-1,complete,Tier II,Office of the United Nations High Commissioner for Human Rights (OHCHR),,True,,Percentage (%),bar
 #17-1-1,complete,Tier I,International Monetary Fund (IMF),,,,Percentage (%),line
 #17-1-2,complete,Tier I,International Monetary Fund (IMF),,,,Percentage (%),line
 #17-10-1,notstarted,Tier I,"World Trade Organization (WTO), The International Trade Centre (ITC), United Nations Conference on Trade and Development (UNCTAD)",,,,,line
@@ -212,8 +212,8 @@ Indicator,Reporting status,UN designated tier,UN custodian agency,Non-statistica
 #6-6-1,notstarted,Tier I,"UN Environment (UNEP), Ramsar",,,,,line
 #6-a-1,notstarted,Tier I,"World Health Organization (WHO), United Nations Environment Programme (UNEP), Organisation for Economic Co-operation and Development (OECD)",,,,,line
 #6-b-1,notstarted,Tier I,"World Health Organisation (WHO), UN Environment (UNEP), Organisation for Economic Co-operation and Development (OECD)",,,,,line
-#7-1-1,complete,Tier I,World Bank (WB),,,,Percentage (%),line
-#7-1-2,complete,Tier I,"International Trade Centre (ITC), United Nations Conference on Trade and Development (UNCTAD), The World Trade Organization (WTO)",,,,Percentage (%),line
+#7-1-1,complete,Tier I,World Bank (WB),,True,,Percentage (%),line
+#7-1-2,complete,Tier I,"International Trade Centre (ITC), United Nations Conference on Trade and Development (UNCTAD), The World Trade Organization (WTO)",,True,,Percentage (%),line
 #7-2-1,complete,Tier I,"International Energy Agency (IEA), United Nations Statistics Division (UNSD), United Nations' inter-agency mechanism on energy (UN Energy) and the SE4ALL Global Tracking Framework Consortium",,,,Percentage (%),line
 #7-3-1,complete,Tier I,International Energy Agency (IEA) and United Nations Statistics Division (UNSD).,,,,TOE/million US$,line
 #7-a-1,notstarted,Tier I,Organisation for Economic Co-operation and Development (OECD) and International Renewable Energy Agency (IRENA),,,,,line
