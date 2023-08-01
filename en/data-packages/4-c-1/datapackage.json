@@ -16,6 +16,11 @@
             "title": "Year"
           },
           {
+            "name": "SERIES",
+            "type": "string",
+            "title": "SDG Series"
+          },
+          {
             "name": "EDUCATION_LEV",
             "type": "string",
             "constraints": {
@@ -23,8 +28,8 @@
                 "Early childhood education",
                 "Pre-primary education",
                 "Primary education",
-                "Junior High School (JHS)",
-                "Senior High School (SHS)",
+                "Lower secondary education",
+                "Upper secondary education",
                 ""
               ]
             },
@@ -41,6 +46,11 @@
               ]
             },
             "title": "Composite breakdown"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Unit of measure"
           },
           {
             "name": "Value",

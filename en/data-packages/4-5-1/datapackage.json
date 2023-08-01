@@ -42,8 +42,8 @@
               "enum": [
                 "Pre-primary education",
                 "Primary education",
-                "Junior High School (JHS)",
-                "Senior High School (SHS)",
+                "Lower secondary education",
+                "Upper secondary education",
                 ""
               ]
             },

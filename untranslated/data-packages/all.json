@@ -2744,7 +2744,7 @@
               "enum": [
                 "_L_GH_Primary_4",
                 "_L_GH_Primary_6",
-                "_L_GH_JHS",
+                "ISCED11_2",
                 ""
               ]
             }
@@ -2791,7 +2791,7 @@
             "constraints": {
               "enum": [
                 "ISCED11_10",
-                "_L_GH_JHS",
+                "ISCED11_2",
                 ""
               ]
             }
@@ -2856,51 +2856,6 @@
             "type": "integer"
           },
           {
-            "name": "REF_AREA",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "01_o",
-                "02_o",
-                "03_o",
-                "04_o",
-                "05_o",
-                "06_o",
-                "07_o",
-                "08_o",
-                "09_o",
-                "10_o",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "M",
-                "F",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "URBANISATION",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "U",
-                "R",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "GeoCode",
-            "type": "string"
-          },
-          {
             "name": "Value",
             "type": "number"
           }
@@ -2942,8 +2897,19 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "ISCED11_35",
                 "ISCED11_25_35_45",
-                "_L_GH_SecTech",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "CUST_BREAKDOWN",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "GES",
+                "OTHER_PUBLIC",
                 ""
               ]
             }
@@ -2953,10 +2919,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "GES",
-                "OTHER_PUBLIC",
-                "_L_GH_PRIVATE",
                 "_L_GH_PUBLIC",
+                "_L_GH_PRIVATE",
                 ""
               ]
             }
@@ -3013,8 +2977,8 @@
               "enum": [
                 "ISCED11_02",
                 "ISCED11_1",
-                "_L_GH_JHS",
-                "_L_GH_SHS",
+                "ISCED11_2",
+                "ISCED11_3",
                 ""
               ]
             }
@@ -3139,6 +3103,10 @@
             "type": "integer"
           },
           {
+            "name": "SERIES",
+            "type": "string"
+          },
+          {
             "name": "EDUCATION_LEV",
             "type": "string",
             "constraints": {
@@ -3146,8 +3114,8 @@
                 "ISCED11_0",
                 "ISCED11_02",
                 "ISCED11_1",
-                "_L_GH_JHS",
-                "_L_GH_SHS",
+                "ISCED11_2",
+                "ISCED11_3",
                 ""
               ]
             }
@@ -3162,6 +3130,10 @@
                 ""
               ]
             }
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
           },
           {
             "name": "Value",

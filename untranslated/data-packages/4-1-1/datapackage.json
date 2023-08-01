@@ -47,7 +47,7 @@
               "enum": [
                 "_L_GH_Primary_4",
                 "_L_GH_Primary_6",
-                "_L_GH_JHS",
+                "ISCED11_2",
                 ""
               ]
             }

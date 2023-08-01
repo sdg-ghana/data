@@ -37,22 +37,32 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Upper secondary vocational education",
                 "Vocational secondary education",
-                "Senior High Technical School",
                 ""
               ]
             },
             "title": "Education level"
           },
           {
+            "name": "CUST_BREAKDOWN",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "GES",
+                "Other public",
+                ""
+              ]
+            },
+            "title": "Custom Breakdown"
+          },
+          {
             "name": "COMPOSITE_BREAKDOWN",
             "type": "string",
             "constraints": {
               "enum": [
-                "Ghana Education Service",
-                "Other Public Institutions",
-                "Private",
                 "Public",
+                "Private",
                 ""
               ]
             },

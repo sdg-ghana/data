@@ -15,6 +15,10 @@
             "type": "integer"
           },
           {
+            "name": "SERIES",
+            "type": "string"
+          },
+          {
             "name": "EDUCATION_LEV",
             "type": "string",
             "constraints": {
@@ -22,8 +26,8 @@
                 "ISCED11_0",
                 "ISCED11_02",
                 "ISCED11_1",
-                "_L_GH_JHS",
-                "_L_GH_SHS",
+                "ISCED11_2",
+                "ISCED11_3",
                 ""
               ]
             }
@@ -38,6 +42,10 @@
                 ""
               ]
             }
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
           },
           {
             "name": "Value",

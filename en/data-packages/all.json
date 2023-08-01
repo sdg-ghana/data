@@ -3002,7 +3002,7 @@
               "enum": [
                 "Primary 4",
                 "Primary 6",
-                "Junior High School (JHS)",
+                "Lower secondary education",
                 ""
               ]
             },
@@ -3053,7 +3053,7 @@
             "constraints": {
               "enum": [
                 "Primary education",
-                "Junior High School (JHS)",
+                "Lower secondary education",
                 ""
               ]
             },
@@ -3125,55 +3125,6 @@
             "title": "Year"
           },
           {
-            "name": "REF_AREA",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Western",
-                "Central",
-                "Greater Accra",
-                "Volta",
-                "Eastern",
-                "Ashanti",
-                "Brong Ahafo",
-                "Northern",
-                "Upper East",
-                "Upper West",
-                ""
-              ]
-            },
-            "title": "Reference area"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Male",
-                "Female",
-                ""
-              ]
-            },
-            "title": "Sex"
-          },
-          {
-            "name": "URBANISATION",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Urban",
-                "Rural",
-                ""
-              ]
-            },
-            "title": "Degree of urbanisation"
-          },
-          {
-            "name": "GeoCode",
-            "type": "string",
-            "title": "GeoCode"
-          },
-          {
             "name": "Value",
             "type": "number",
             "title": "Value"
@@ -3219,22 +3170,32 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Upper secondary vocational education",
                 "Vocational secondary education",
-                "Senior High Technical School",
                 ""
               ]
             },
             "title": "Education level"
           },
           {
+            "name": "CUST_BREAKDOWN",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "GES",
+                "Other public",
+                ""
+              ]
+            },
+            "title": "Custom Breakdown"
+          },
+          {
             "name": "COMPOSITE_BREAKDOWN",
             "type": "string",
             "constraints": {
               "enum": [
-                "Ghana Education Service",
-                "Other Public Institutions",
-                "Private",
                 "Public",
+                "Private",
                 ""
               ]
             },
@@ -3296,8 +3257,8 @@
               "enum": [
                 "Pre-primary education",
                 "Primary education",
-                "Junior High School (JHS)",
-                "Senior High School (SHS)",
+                "Lower secondary education",
+                "Upper secondary education",
                 ""
               ]
             },
@@ -3435,6 +3396,11 @@
             "title": "Year"
           },
           {
+            "name": "SERIES",
+            "type": "string",
+            "title": "SDG Series"
+          },
+          {
             "name": "EDUCATION_LEV",
             "type": "string",
             "constraints": {
@@ -3442,8 +3408,8 @@
                 "Early childhood education",
                 "Pre-primary education",
                 "Primary education",
-                "Junior High School (JHS)",
-                "Senior High School (SHS)",
+                "Lower secondary education",
+                "Upper secondary education",
                 ""
               ]
             },
@@ -3460,6 +3426,11 @@
               ]
             },
             "title": "Composite breakdown"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Unit of measure"
           },
           {
             "name": "Value",

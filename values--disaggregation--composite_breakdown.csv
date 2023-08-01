@@ -56,11 +56,11 @@ _L_GH_OTHER_AFRICA,Other African Countries,3,1
 _L_GH_OTHER_FUNDS,Other Fund,9,1
 _L_GH_PARTIAL,Partial,3,1
 _L_GH_POLICE,Police,1,1
-_L_GH_PRIVATE,Private,13,3
+_L_GH_PRIVATE,Private,19,3
 _L_GH_PROCESS,Now Processing,3,1
 _L_GH_PRORIGHTS,Property Rights,1,1
 _L_GH_PROTECTION,SOCIAL PROTECTION,1,1
-_L_GH_PUBLIC,Public,10,3
+_L_GH_PUBLIC,Public,22,3
 _L_GH_RAPE_SED,Rape/Seduction,1,1
 _L_GH_SANITATION,SANITATION,1,1
 _L_GH_SERVICES,Services,1,1
@@ -74,7 +74,6 @@ _L_GH_VERB_ASS,Verbal assault,1,1
 _L_GH_WASTE,Waste,1,1
 _L_GH_WATER,WATER,1,1
 _L_GH_WORIGHTS,Women Rights,1,1
-GES,Ghana Education Service,2,1
 IHR_01_N,Legislation and financing,1,1
 IHR_02_N,IHR Coordination and National Focal Point Functions,1,1
 IHR_03_N,Zoonotic events and the Human-Animal Health Interface,1,1
@@ -92,7 +91,6 @@ MOT_AIR,Mode of Transport: Air,3,1
 MOT_IWW,Mode of transport: Inland waterway transport,2,1
 MOT_RAI,Mode of Transport: Rail,2,1
 MOT_SEA,Mode of Transport: Maritime,2,1
-OTHER_PUBLIC,Other Public Institutions,2,1
 SKILL_LTRCY,Skill: Functional literacy,9,1
 SKILL_MATH,Skill: Mathematics,9,1
 SKILL_NMRCY,Skill: Functional numeracy,18,1

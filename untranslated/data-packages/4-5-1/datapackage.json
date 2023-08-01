@@ -40,8 +40,8 @@
               "enum": [
                 "ISCED11_02",
                 "ISCED11_1",
-                "_L_GH_JHS",
-                "_L_GH_SHS",
+                "ISCED11_2",
+                "ISCED11_3",
                 ""
               ]
             }
