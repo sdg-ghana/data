@@ -6,7 +6,7 @@ data_non_statistical: false
 data_notice_class: ''
 data_notice_heading: ''
 data_notice_text: ''
-data_show_map: false
+data_show_map: true
 data_start_values: []
 embedded_feature_footer: ''
 embedded_feature_html: ''
@@ -47,7 +47,17 @@ source_release_date_1: ''
 source_next_release_1: TBA
 source_statistical_classification_1: Official
 source_contact_1: statistics@energycom.gov.gh
-source_active_2: false
+source_active_2: true
+source_organisation_2: Energy Commission
+source_periodicity_2: Annual
+source_earliest_available_2: ''
+source_geographical_coverage_2: Ghana
+source_url_2: http://www.energycom.gov.gh/planning/energy-statistics
+source_url_text_2: National Energy Statistics
+source_release_date_2: ''
+source_next_release_2: ''
+source_statistical_classification_2: Official
+source_contact_2: statistics@energycom.gov.gh
 source_active_3: false
 source_active_4: false
 source_active_5: false
